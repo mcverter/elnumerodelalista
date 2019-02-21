@@ -38,10 +38,10 @@
 </div>
 
 <script type="text/javascript">
-  var day_of_number = '15';
+  var day_of_number = '21';
   var month_of_number = '02';
   var year_of_number = '2019';
-  var list_number = 1975;
+  var list_number = 2008;
 
   /* We only care about date, not time. */
   var list_date = new Date(year_of_number + '-' + month_of_number + '-' + day_of_number + 'T12:00:00');
@@ -78,16 +78,16 @@
     daysAgoDiv.innerText = numDaysAgo();
   }
 
-  function reloadAfterHalfHour() {
-    var thirty_minutes = 30 * 60 * 1000;
+  function reloadAfterInterval() {
+    var interval =  60 * 1000;
     window.setTimeout(
       function(){location.reload(true)},
-      thirty_minutes);
+      interval);
   }
 
   window.onload = function() {
     populateDivs();
-    reloadAfterHalfHour();
+    reloadAfterInterval();
   }
 </script>
 <div style="text-align:center">
