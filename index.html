@@ -38,10 +38,10 @@
 </div>
 
 <script type="text/javascript">
-  var day_of_number = '16';
+  var day_of_number = '18';
   var month_of_number = '03';
   var year_of_number = '2019';
-  var list_number = 2168;
+  var list_number = 2178;
 
   /* We only care about date, not time. */
   var list_date = new Date(year_of_number + '-' + month_of_number + '-' + day_of_number + 'T12:00:00');
@@ -79,10 +79,14 @@
   }
 
   function reloadAfterInterval() {
-    var interval =  60 * 1000;
-    window.setTimeout(
-      function(){location.reload(true)},
-      interval);
+      var interval =  3 * 1000;
+      window.setTimeout(
+	  function(){
+	      if (dateFns.differenceInCalendarDays(
+		  new Date(), list_date) !== 0) {
+		  location.reload(true)
+	      }
+	  }, interval);
   }
 
   window.onload = function() {
