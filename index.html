@@ -1,70 +1,70 @@
 <html>
 <head>
-<script type="text/javascript" src="./date-fns_v1.3.0.js"></script>
-<script type="text/javascript">
-var list_number = 2462;
-var day_of_number = '04';
-var month_of_number = '05';
-var year_of_number = '2019';
+    <script type="text/javascript" src="./date-fns_v1.3.0.js"></script>
+    <script type="text/javascript">
+      var list_number = 2462;
+      var day_of_number = '04';
+      var month_of_number = '05';
+      var year_of_number = '2019';
 
 
-  /* We only care about date, not time. */
-  var list_date = new Date(year_of_number + '-' + month_of_number + '-' + day_of_number + 'T12:00:00');
-  var today = new Date(); //new Date().toJSON().slice(0,10) + 'T12:00:00');
+      /* We only care about date, not time. */
+      var list_date = new Date(year_of_number + '-' + month_of_number + '-' + day_of_number + 'T12:00:00');
+      var today = new Date(); //new Date().toJSON().slice(0,10) + 'T12:00:00');
 
-  function inSpanish(date) {
-    return date.toLocaleDateString('es-MX', {
-        weekday: 'long',
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric'
+      function inSpanish(date) {
+        return date.toLocaleDateString('es-MX', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+          }
+        )
       }
-    )
-  }
 
-  function numDaysAgo() {
-    var days_difference = dateFns.differenceInCalendarDays(new Date(), list_date);
-    if (days_difference === 0) {
-      return "(hoy)";
-    } else if (days_difference === 1) {
-      return "(ayer)";
-    } else {
-      return "(hace " + days_difference + "dias)";
-    }
-  }
+      function numDaysAgo() {
+        var days_difference = dateFns.differenceInCalendarDays(new Date(), list_date);
+        if (days_difference === 0) {
+          return "(hoy)";
+        } else if (days_difference === 1) {
+          return "(ayer)";
+        } else {
+          return "(hace " + days_difference + "dias)";
+        }
+      }
 
-  function populateDivs() {
-    var listDayDiv = document.getElementById("list-day");
-    var listNumberDiv = document.getElementById("list-number");
-    var daysAgoDiv = document.getElementById("days-ago");
+      function populateDivs() {
+        var listDayDiv = document.getElementById("list-day");
+        var listNumberDiv = document.getElementById("list-number");
+        var daysAgoDiv = document.getElementById("days-ago");
 
-    listDayDiv.innerText = inSpanish(list_date);
-    listNumberDiv.innerText = list_number.toString();
-    daysAgoDiv.innerText = numDaysAgo();
-  }
+        listDayDiv.innerText = inSpanish(list_date);
+        listNumberDiv.innerText = list_number.toString();
+        daysAgoDiv.innerText = numDaysAgo();
+      }
 
-  function reloadAfterInterval() {
-      var interval =  3 * 1000;
-      window.setTimeout(
-	  function(){
-	      if (dateFns.differenceInCalendarDays(
-		  new Date(), list_date) !== 0) {
-		  location.reload(true)
-	      }
-	  }, interval);
-  }
-</script>
+      function reloadAfterInterval() {
+        var interval =  3 * 1000;
+        window.setTimeout(
+          function(){
+            if (dateFns.differenceInCalendarDays(
+                new Date(), list_date) !== 0) {
+              location.reload(true)
+            }
+          }, interval);
+      }
+    </script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139213214-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139213214-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'UA-139213214-1');
-</script>
-<style>
+      gtag('config', 'UA-139213214-1');
+    </script>
+    <style>
         #days-ago {
             font-size: 125%;
             font-style: italic;
@@ -107,37 +107,41 @@ var year_of_number = '2019';
   }
 
 </script>
+
+
 <div style="text-align:center">
-<div>
-  <h3> Hecho por EL LIBRO LIBRE </h3>
-</div>
-<div>
-  <div>ESCRIBIME</div>
-  <div>
+    <h2><a href="faq.html">MAS INFORMACION</a></h2>
+
     <div>
-      <a href="mailto:roadrunner@waste.org">
-	<img src="../writing/magon/roadrunnerAtWaste.JPG"/>
-      </a>
+        <h3> Hecho por EL LIBRO LIBRE </h3>
     </div>
     <div>
-      <a href="mailto:roadrunner@waste.org">
-	roadrunner AT waste DOT org
-      </a>
+        <div>ESCRIBIME</div>
+        <div>
+            <div>
+                <a href="mailto:roadrunner@waste.org">
+                    <img src="../writing/magon/roadrunnerAtWaste.JPG"/>
+                </a>
+            </div>
+            <div>
+                <a href="mailto:roadrunner@waste.org">
+                    roadrunner AT waste DOT org
+                </a>
+            </div>
+            <div>
+                <a href="tel:16467057784" class="social-icon whatsapp">+1 646 705 7784
+                </a>
+                <p> Por favor, no llamame.  Solo mandame mensajes de texto.
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h3> NOTICIA LEGAL </H3>
+            No estoy afiliado con ningun gobierno.<br />
+            No estoy afiliado con ningun ONG tampoco. <br />
+            Asi es un proyecto independiente y el creador tomo toda responsilidad por eso.
+        </div>
     </div>
-    <div>
-      <a href="tel:16467057784" class="social-icon whatsapp">+1 646 705 7784
-      </a>
-      <p> Por favor, no llamame.  Solo mandame mensajes de texto.
-    </div>
-  </div>
-  <hr>
-  <div>
-    <h3> NOTICIA LEGAL </H3>
-  No estoy afiliado con ningun gobierno.<br />
-  No estoy afiliado con ningun ONG tampoco. <br />
-  Asi es un proyecto independiente y el creador tomo toda responsilidad por eso.
-  </div>
-</div>
 </div>
 </body>
 </html>
