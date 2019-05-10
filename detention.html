@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detention</title>
+</head>
+<body>
+
+<h1>BUSCAS ALGUIEN?</h1>
+<div>
+    Es posible tu amigo es detenido. <br />
+    Por favor, llenar la forma abajo con este imformacion
+    <ul>
+        <li> Nombre </li>
+        <li> Apellido </li>
+        <li> Fecha de Nacimiento </li>
+    </ul>
+</div>
+
+<form action="mailto:avenagratis@gmail.com" method="post" enctype="text/plain">
+    <div>
+        <label for="firstname"> Nombre
+            <input id="firstname" name="firstname" required />
+        </label>
+    </div>
+    <div>
+        <label for="lastname"> Apellido
+            <input id="lastname" name="lastname" required />
+        </label>
+    </div>
+    <div>
+        <label for="dob"> Fecha de Nacimiento
+            <input type="date" name="dob" id="dob" required />
+        </label>
+    </div>
+
+    <input type="submit" value="enviar esta información" />
+</form>
+</body>
+</html>
