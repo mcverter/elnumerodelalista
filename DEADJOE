@@ -1,0 +1,15 @@
+
+*** These modified files were found in JOE when it aborted on Sat May 18 13:01:28 2019
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+/home/roadrunner/public_html/elnumerodelalista/.git/MERGE_MSG
+
+*** File '/home/roadrunner/public_html/elnumerodelalista/.git/MERGE_MSG'
+Merge branch 'master' of github.com:mcverter/elnumerodelalista
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#:
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
