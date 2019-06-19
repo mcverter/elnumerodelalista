@@ -1,3 +1,35 @@
+function INTERNATIONAL_DIV_TRANSLATIONS(div, language) {
+  debugger;
+  switch (div) {
+    case "el_numero_es":
+      switch (language) {
+        case "en":
+          return "THE NUMBER IS";
+        case "fr":
+          return "LE NOMBRE EST";
+        case "ht":
+          return "NIMEWO A SE";
+        default:
+          return "EL NUMERO ES";
+      }
+
+    case "el_numero_de_la_lista":
+      switch (language) {
+        case "en":
+          return "THE LIST NUMBER";
+        case "fr":
+          return "LE NOMBRE DE LA LISTE";
+        case "ht":
+          return "NIMEWO LIS LA";
+        default:
+          return "EL NUMERO DE LA LISTA";
+      }
+
+
+  }
+}
+
+
 function hoy(language) {
   switch (language) {
     case "en":
@@ -43,16 +75,9 @@ function xDaysAgo(language, x) {
   }
 }
 
-function el_numero_es(language) {
-  switch (language) {
-    case "en":
-      return "THE NUMBER IS";
-    case "fr":
-      return "LE NOMBRE EST";
-    case "ht":
-      return "NIMEWO A SE";
-    default:
-      return "EL NUMERO ES";
-  }
+function divToInternational(divName, language) {
+  debugger;
+  var divElement = document.getElementById(divName);
+  divElement.innerText = INTERNATIONAL_DIV_TRANSLATIONS(divName, language)
+  ;
 }
-

@@ -119,19 +119,21 @@
 
 </head>
 <body>
-<h1 style="text-align:center"> EL NUMERO DE LA LISTA </h1>
+<h1 style="text-align:center" id="el_numero_de_la_lista"> EL NUMERO DE LA LISTA </h1>
 <div id="main-container">
     <div class="interstitial"> SOBRE </div>
     <div id="date-div">
         <div id="list-day"></div>
         <div id="days-ago"></div>
     </div>
-    <div class="interstitial">EL NUMERO ES</div>
+    <div class="interstitial" id="el_numero_es">EL NUMERO ES</div>
     <div id="list-number"></div>
 </div>
 
 <script>
   window.onload = function() {
+    divToInternational("el_numero_es", language)
+    divToInternational("el_numero_de_la_lista", language)
     populateDivs();
     reloadAfterInterval();
   }
