@@ -1,5 +1,40 @@
+function QUESTION_TO_INTERNATIONAL(questionName, language) {
+/*  "qWhatList",
+    "qHowList",
+    "qWhatList",
+    "qHowList",
+    "qWaitTime",
+    "qQuantity",
+    "qCrossing",
+    "qWhatAsylum",
+    "qCFI",
+    "qMano",
+    "qPostCFI",
+    "qWhatHielera",
+    "qWhatDetencion",
+    "qDetencionPrep",
+    "qMyContact",
+    "qLeviticus",
+    "qACAB",
+    "qBusquedas",
+    "qMutualAid"
+*/
+}
+
 function INTERNATIONAL_DIV_TRANSLATIONS(div, language) {
   switch (div) {
+    case "mas_informacion":
+      switch (language) {
+        case "en":
+          return "MORE INFORMATION";
+        case "fr":
+          return "PLUS D'INFORMATION";
+        case "ht":
+          return "PLIS ENFOMASYON";
+        default:
+          return "MAS INFORMACION";
+      }
+
     case "sobre":
       switch (language) {
         case "en":
@@ -35,11 +70,8 @@ function INTERNATIONAL_DIV_TRANSLATIONS(div, language) {
         default:
           return "EL NUMERO DE LA LISTA";
       }
-
-
   }
 }
-
 
 function hoy(language) {
   switch (language) {
@@ -86,7 +118,15 @@ function xDaysAgo(language, x) {
   }
 }
 
+function questionToInternational(questionName, language) {
+  debugger;
+  var divElement = document.getElementById(questionName);
+  var qAndA = QUESTION_DIV_TRANSLATIONS(questionName, language);
+  divElement.getElementsByTagName("dd")[0].innerHTML = qAndA[0];
+  divElement.getElementsByTagName("dt")[0].innerHTML = qAndA[1];
+
+}
 function divToInternational(divName, language) {
   var divElement = document.getElementById(divName);
-  divElement.innerText = INTERNATIONAL_DIV_TRANSLATIONS(divName, language);
+  divElement.innerHTML = INTERNATIONAL_DIV_TRANSLATIONS(divName, language);
 }

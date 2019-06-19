@@ -142,9 +142,41 @@
 <script>
     /* MAIN */
   window.onload = function () {
-    divToInternational("el_numero_es", language)
-    divToInternational("el_numero_de_la_lista", language)
-    divToInternational("sobre", language)
+    var divs_to_translate = [
+      "el_numero_es",
+      "el_numero_de_la_lista",
+      "sobre",
+      "mas_informacion"
+    ];
+    for (var i=0; i<divs_to_translate.length; i++){
+      divToInternational(divs_to_translate[i], language);
+    }
+
+    var questions_to_translate = [
+/*      "qWhatList",
+      "qHowList",
+      "qWhatList",
+      "qHowList",
+      "qWaitTime",
+      "qQuantity",
+      "qCrossing",
+      "qWhatAsylum",
+      "qCFI",
+      "qMano",
+      "qPostCFI",
+      "qWhatHielera",
+      "qWhatDetencion",
+      "qDetencionPrep",
+      "qMyContact",
+      "qLeviticus",
+      "qACAB",
+      "qBusquedas",
+      "qMutualAid"
+  */  ];
+    for (var i=0; i<questions_to_translate.length; i++){
+      questionToInternational(questions_to_translate[i], language);
+    }
+
     populateDivs();
     reloadAfterInterval();
   }
@@ -153,7 +185,7 @@
 
 
 <div>
-    <h1 style="text-align: center"> MAS INFORMACION</h1>
+    <h1 style="text-align: center" id="mas_informacion"> MAS INFORMACION</h1>
     <dl id="qWhatList" name="qWhatList">
         <dt>Que es la lista?</dt>
         <dd>La lista es un sistema inmoral y racista que los Estados Unidos utilizan para limitar el numero de personas
