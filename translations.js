@@ -76,7 +76,6 @@ function xDaysAgo(language, x) {
 }
 
 function divToInternational(divName, language) {
-  debugger;
   var divElement = document.getElementById(divName);
   divElement.innerText = INTERNATIONAL_DIV_TRANSLATIONS(divName, language)
   ;
