@@ -1,6 +1,17 @@
 function INTERNATIONAL_DIV_TRANSLATIONS(div, language) {
-  debugger;
   switch (div) {
+    case "sobre":
+      switch (language) {
+        case "en":
+          return "ON";
+        case "fr":
+          return "SUR";
+        case "ht":
+          return "SOU";
+        default:
+          return "SOBRE";
+      }
+
     case "el_numero_es":
       switch (language) {
         case "en":
@@ -77,6 +88,5 @@ function xDaysAgo(language, x) {
 
 function divToInternational(divName, language) {
   var divElement = document.getElementById(divName);
-  divElement.innerText = INTERNATIONAL_DIV_TRANSLATIONS(divName, language)
-  ;
+  divElement.innerText = INTERNATIONAL_DIV_TRANSLATIONS(divName, language);
 }

@@ -15,7 +15,7 @@
       var today = new Date(); //new Date().toJSON().slice(0,10) + 'T12:00:00');
 
       function inSpanish(date) {
-        return date.toLocaleDateString('es-MX', {
+        return date.toLocaleDateString(language, {
             weekday: 'long',
             year: 'numeric',
             month: 'long',
@@ -130,7 +130,7 @@
 <body>
 <h1 style="text-align:center" id="el_numero_de_la_lista"> EL NUMERO DE LA LISTA </h1>
 <div id="main-container">
-    <div class="interstitial"> SOBRE</div>
+    <div class="interstitial" id="sobre"> SOBRE</div>
     <div id="date-div">
         <div id="list-day"></div>
         <div id="days-ago"></div>
@@ -140,9 +140,11 @@
 </div>
 
 <script>
+    /* MAIN */
   window.onload = function () {
     divToInternational("el_numero_es", language)
     divToInternational("el_numero_de_la_lista", language)
+    divToInternational("sobre", language)
     populateDivs();
     reloadAfterInterval();
   }
