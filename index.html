@@ -1,12 +1,14 @@
 <html>
 <head>
     <script type="text/javascript" src="./date-fns_v1.3.0.js"></script>
+    <script type="text/javascript" src="translations.js"></script>
     <script type="text/javascript">
       var list_number = 2669;
       var day_of_number = '19';
       var month_of_number = '06';
       var year_of_number = '2019';
 
+      var language = window.navigator.language.substring(0,2).toLowerCase();
 
       /* We only care about date, not time. */
       var list_date = new Date(year_of_number + '-' + month_of_number + '-' + day_of_number + 'T12:00:00');
@@ -25,9 +27,9 @@
       function numDaysAgo() {
         var days_difference = dateFns.differenceInCalendarDays(new Date(), list_date);
         if (days_difference === 0) {
-          return "(hoy)";
+          return `(${hoy(language)})`;
         } else if (days_difference === 1) {
-          return "(ayer)";
+          return `(${ayer(language)})`;
         } else {
           return "(hace " + days_difference + "dias)";
         }
