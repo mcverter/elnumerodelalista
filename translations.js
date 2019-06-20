@@ -237,19 +237,100 @@ De plus, dans chaque cellule, ils ont environ 10 à 15 personnes au maximum. Que
     ]
   },
   "qDetencionPrep": {
-    "en": [],
-    "ht": [],
-    "fr": []
+    "en": [
+      `How can I prepare for the cooler and the detention?`,
+      `Write the phone numbers and addresses and all the important things about your arm <br/>
+             Write it with a SHARPIE pen. It is very easy to wash a normal pen from your body.`
+    ],
+    "ht": [
+      "Kouman mwen ka prepare pou pi fre a ak detansyon an?",
+      `Ekri nimewo telefòn yo ak adrès yo ak tout bagay sa yo enpòtan sou bra ou <br/>
+             Ekri l ak yon plim SHARPIE. Li trè fasil pou lave yon plim nòmal nan kò w`
+    ],
+    "fr": [
+      `Comment puis-je me préparer pour la chambre froide et la détention?`,
+      `Ecrivez les numéros de téléphone et adresses ainsi que toutes les informations importantes concernant votre bras<br/>
+      Ecris-le avec un stylo SHARPIE. Il est très facile de laver un stylo normal de votre corps.`
+    ]
   },
   "qMyContact": {
-    "en": [],
-    "ht": [],
-    "fr": []
+    "en": [
+      `I do not have any number or address. Who can I call or write for help when I'm detained? `,
+      ` <h1>Me</h1> <br/>
+            Mitchell Verter <br/>
+            +1 646 705 7784 <br/>
+
+            <address>
+                Mitchell Verter <br/>
+                654 East San Ysidro Blvd <br/>
+                PMB 187 <br/>
+                San Ysidro, CA 92173
+            </address>
+            <br/>
+            Write it with a SHARPIE pen. It is very easy to wash a normal pen from your body.
+`
+    ],
+    "ht": [
+      `Mwen pa gen okenn nimewo oswa adrès. Ki moun mwen ka rele oswa ekri pou èd lè mwen arete? `,
+      `<h1> Mwen </h1> <br/>
+Mitchell Verter <br/>
++1 646 705 7784 <br/>
+
+<address>
+Mitchell Vast <br/>
+654 East San Ysidro Blvd <br/>
+PMB 187 <br/>
+San Ysidro, CA 92173
+</address>
+<br/>
+Ekri l ak yon plim SHARPIE. Li trè fasil pou lave yon plim nòmal nan kò w.
+`
+    ],
+    "fr": [
+      `Je n'ai ni numéro ni adresse. Qui puis-je appeler ou demander de l'aide lorsque je suis détenu? `,
+      `<h1> Moi </ h1> <br/>
+Mitchell Verter <br/>
++1 646 705 7784 <br/>
+
+<address>
+Mitchell Verter <br/>
+654 East San Ysidro Blvd <br/>
+PMB 187 <br/>
+San Ysidro, CA 92173
+</address>
+<br/>
+Ecris-le avec un stylo SHARPIE. Il est très facile de laver un stylo normal de votre corps.
+`
+    ]
   },
   "qLeviticus": {
-    "en": [],
-    "ht": [],
-    "fr": []
+    "en": [
+      `What do The Bible think about this process? `,
+      `<blockquote>
+When a foreigner lives with you in your land, you must not oppress him. <br/>
+You must regard the foreigner who lives with you as the native-born among you. You are to love him as yourself, for you were foreigners in the land of Egypt.
+            </blockquote>
+            <cite> Leviticus 19: 33-34 </cite>
+ `
+    ],
+    "ht": [
+      `Kisa Bib la panse sou pwosesis sa a? `,
+      `<blockquote>
+Si yon moun lòt nasyon rete ak nou nan peyi nou an, nou p'ap gen pitye pou li. <br/>
+Se pou nou konsidere moun lòt nasyon yo tou ki ta viv lakay nou, menm jan ak nou. Se pou ou renmen l 'tankou ou menm, paske ou te etranje nan peyi Lejip la.
+</blockquote>
+<cite> Levitik 19: 33-34 </cite>
+`
+    ],
+    "fr": [
+      `Que pense la Bible de ce processus? `,
+      `<Blockquote>
+Lorsqu'un étranger habite avec vous dans votre pays, vous ne devez pas l'opprimer. <br/>
+Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. Vous devez l'aimer comme vous-même, car vous étiez étrangers au pays d'Égypte.
+</blockquote>
+<cite> Lévitique 19: 33-34 </cite>
+`
+    ]
   },
   "qACAB": {
     "en": [],
@@ -341,11 +422,37 @@ Cumplimiento </em> </li>
   "qWhatDetencion": [
     `Que es la detencion de <em>US Immigration and Customs Enforcement</em>`,
     `Es una prision. Es muy feo. Estoy consiguiendo descripciones ...`,
-
   ],
-  "qDetencionPrep": [],
-  "qMyContact": [],
-  "qLeviticus": [],
+  "qDetencionPrep": [
+    `How can I prepare for the cooler and the detention?`,
+    `Write the phone numbers and addresses and all the important things about your arm <br/>
+             Write it with a SHARPIE pen. It is very easy to wash a normal pen from your body.`
+  ],
+  "qMyContact": [
+    `No tengo ningún número ni dirección. ¿A quién puedo llamar o escribir para pedir ayuda cuando estoy detenido? `
+      `<h1> Yo </h1> <br/>
+Mitchell Verter <br/>
++1 646 705 7784 <br/>
+
+<dirección>
+Mitchell Verter <br/>
+654 East San Ysidro Blvd <br/>
+PMB 187 <br/>
+San Ysidro, CA 92173
+</address>
+<br/>
+Escríbelo con un bolígrafo SHARPIE. Es muy fácil lavar una pluma normal de tu cuerpo.
+`
+  ],
+  "qLeviticus": [
+`¿Qué piensa la Biblia sobre este proceso? `,
+`<blockquote>
+    Cuando un extranjero vive contigo en tu tierra, no debes oprimirlo. <br/>
+    Debe considerar al extranjero que vive con usted como el nativo entre ustedes. Debes amarlo como a ti mismo, porque eras extranjero en la tierra de Egipto.
+  </blockquote>
+  <cite> Leviticus 19: 33-34 </cite>
+  `
+  ],
   "qACAB": [],
   "qBusquedas": [],
   "qMutualAid": []
