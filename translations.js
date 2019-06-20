@@ -4,6 +4,10 @@ var questions_to_international = {
       "What is the list?",
       "The list is an immoral and racist system that the United States uses to limit the number of people who can enter the country."
     ],
+    "ru": [
+      "Что такое список?",
+      "Этот список является аморальной и расистской системой, которую Соединенные Штаты используют для ограничения числа людей, которые могут въехать в страну"
+    ],
     "ht": [
       "Ki sa ki lis la?",
       "Lis la se yon sistèm imoral ak rasis ke Etazini sèvi ak limite kantite moun ki ka antre nan peyi a."
@@ -19,6 +23,12 @@ var questions_to_international = {
       `You go to chaparral from 7 in the morning until 9 in the morning to get a number <br/>
 You wait for your number<br/>
 When your number is called, you can go to the other side`
+    ],
+    "ru": [
+      `Как работает список?`,
+      `Вы идете в Чапараль с 7 утра до 9 утра, чтобы получить номер <br/>
+Вы ждете своего номера <br/>
+Когда ваш номер набирается, вы можете перейти на другую сторону`
     ],
     "ht": [`Kijan lis la travay?`,
       `Ou ale nan chaparral depi 7 a nan maten jiska 9 nan maten pou jwenn yon nimewo <br/>
@@ -36,6 +46,10 @@ Lorsque votre numéro est appelé, vous pouvez aller de l'autre côté`
       "How much time do I have to wait?",
       "A lot. One month?  Two months?  Three?"
     ],
+    "ru": [
+      "Сколько времени мне ждать?",
+      "Много. Один месяц? Два месяца? Три?"
+    ],
     "ht": [
       `Konbyen tan m ap oblije tann?`,
       `Anpil. Yon mwa? De mwa? Twa? `
@@ -49,6 +63,10 @@ Lorsque votre numéro est appelé, vous pouvez aller de l'autre côté`
     "en": [
       `How many numbers are called each day?`,
       `It's different every day. Some days a lot. Some days a little.  Some days none`
+    ],
+    "ru": [
+      "Сколько номеров вызывается каждый день?",
+      "Каждый день все по-другому. Несколько дней много. Несколько дней мало. Несколько дней нет"
     ],
     "ht": [
       `Konbyen nimewo yo rele chak jou?`,
@@ -64,6 +82,11 @@ Lorsque votre numéro est appelé, vous pouvez aller de l'autre côté`
       `What will happen after I cross to the other side?`,
       `The American authorities will interrogate you about your asylum case. This is called "The Credible Fear Interview "<br/>
 It is possible that you will be put in a detention facility`
+    ],
+    "ru": [
+      "Что будет после того, как я перейду на другую сторону?",
+      `Американские власти допросят вас по поводу вашего дела о предоставлении убежища. Это называется «Интервью с достоверным страхом» <br/>
+Возможно, вас поместят в следственный изолятор.`
     ],
     "ht": [
       `Kisa ki pral rive apre mwen fin travèse lòt bò lanmè a?`,
@@ -81,6 +104,11 @@ Il est possible que vous soyez placé dans un centre de détention`
       `What is asylum?`,
       `The right of asylum is an international right of human rights, which can be enjoyed by any
      person outside his country of origin in case of persecution (<a href="https://en.wikipedia.org/wiki/Right_of_asylum">Wikipedia</a>) `
+    ],
+    "ru": [
+      `Что такое убежище?`,
+      `Право на убежище является международным правом прав человека, которым могут пользоваться любые
+лицо за пределами страны его происхождения в случае преследования (<a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B0%D0%B2%D0%BE_%D1%83%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B0"> Википедия </a>) `
     ],
     "ht": [
       'Kisa azil la ye?',
@@ -100,6 +128,11 @@ Il est possible que vous soyez placé dans un centre de détention`
 United States? Why can  you not stay in your own country? What is your fear? <br/>
 In this interview, you must explain that you are afraid to return to your country. This fear is real. This fear is credible`
     ],
+    "ru": [
+`Что такое «Интервью за Достоверный Страх?»`,
+`Американские власти спросят вас: «Ну, сэр, почему вы хотите войти в
+Соединенные Штаты? Почему вы не можете остаться в своей стране? Что ты боишься?» <br/>
+  В этом интервью вы должны объяснить, что боитесь вернуться в свою страну. Этот страх настоящий. Этот страх заслуживает доверия`    ],
     "ht": [
       `Ki sa ki se "Entèvyou pou moun ki te pè nan kredib?" `,
       `Otorite Ameriken yo pral mande ou: "Oke, mesye, poukisa ou vle antre nan la
@@ -121,6 +154,14 @@ WHO did it? <br/>
 WHY did he do it? <br/>
 Did you go to the POLICE? <br/>
 Is there ANOTHER part of your country where you can live?`
+    ],
+    "ru": [
+      `Каковы важные части интервью`,
+      `Что случилось? <br/>
+Кто это сделал? <br/>
+ПОЧЕМУ он это сделал? <br/>
+Вы ходили в полицию? <br/>
+Есть ли другая часть вашей страны, где вы можете жить?`
     ],
     "ht": [
       'Ki pati enpòtan nan entèvyou a?',
@@ -151,6 +192,18 @@ After that there are two possibilities in most cases
     <li> In most cases, the others to a detention of <em> US Immigration and Customs
       Enforcement </em> </li>
     </ul> `
+    ],
+    "ru": [
+      "Что будет, если все пойдет хорошо с моим интервью?",
+      `Есть несколько возможностей <br/>
+Все попадают под стражу <em> Таможенного и пограничного патруля США </em>. Это называется <strong>
+кулер </strong> <br/>
+После этого в большинстве случаев есть две возможности
+<UL>
+<li> В большинстве случаев освобождаются семьи с несовершеннолетними детьми </li>
+<li> В большинстве случаев остальные находятся под стражей иммиграционной и таможенной службы США.
+Правоприменение </em> </li>
+</ul> `
     ],
     "ht": [
       `Kisa ki pral rive si tout bagay mache byen ak entèvyou mwen an? `,
@@ -192,6 +245,22 @@ Application </em> </li>
    4 meters long by 3 meters of hancho.
 </blockquote> `
     ],
+    "ru": [
+      `Что такое <strong> кулер </strong> Таможенного и <em> пограничного патруля США? </EM> `,
+      `Кулер очень уродливый. <br/>
+Это тюрьма. <br/>
+Описание:
+<BLOCKQUOTE>
+Это холодное место, где вы не можете спать, потому что свет включен в течение 24 часов
+Намеренно вы потеряете представление о времени, в теории есть место, где
+люди получают еду, еда ужасна, холодно. <br/>
+Вы спите (пытаетесь уснуть) на полу или на металлических скамейках, где вряд ли кто-то может спать. <br/>
+Вы должны пить переработанную воду из туалетов, которая вредна для вашего желудка. <br/>
+Когда вы используете ванные комнаты, вы должны делать это на глазах у других. <br/>
+Также в каждой камере их максимум от 10 до 15 человек. Это в небольшом пространстве, как в
+4 метра в длину и 3 метра Ханчо.
+</blockquote> `
+    ],
     "ht": [
       `Ki sa ki <strong> pi fre </strong> nan <em> US Ladwàn ak Patwouy Border? </em> `,
       `Pi fre a se trè lèd. <br/>
@@ -227,6 +296,10 @@ De plus, dans chaque cellule, ils ont environ 10 à 15 personnes au maximum. Que
       `What is the detention of <em> US Immigration and Customs Enforcement </em> `,
       `It's a prison. It is very ugly. I'm getting descriptions ...`
     ],
+    "ru": [
+      `Что такое задержание <em> Управления иммиграции и таможни США </em>`,
+      `Это тюрьма. Это очень некрасиво. Я получаю описания ... `
+    ],
     "ht": [
       `Ki sa ki se detansyon an nan <em> US Imigrasyon ak Ladwàn Ranfòsman </em>`,
       `Se yon prizon. Li trè lèd. Mwen resevwa deskripsyon ...`
@@ -238,6 +311,11 @@ De plus, dans chaque cellule, ils ont environ 10 à 15 personnes au maximum. Que
   },
   "qDetencionPrep": {
     "en": [
+      `How can I prepare for the cooler and the detention?`,
+      `Write the phone numbers and addresses and all the important things about your arm <br/>
+             Write it with a SHARPIE pen. It is very easy to wash a normal pen from your body.`
+    ],
+    "ru": [
       `How can I prepare for the cooler and the detention?`,
       `Write the phone numbers and addresses and all the important things about your arm <br/>
              Write it with a SHARPIE pen. It is very easy to wash a normal pen from your body.`
@@ -268,6 +346,22 @@ De plus, dans chaque cellule, ils ont environ 10 à 15 personnes au maximum. Que
             </address>
             <br/>
             Write it with a SHARPIE pen. It is very easy to wash a normal pen from your body.
+`
+    ],
+    "ru": [
+      `У меня нет ни номера, ни адреса. Кому я могу позвонить или написать о помощи, когда меня задержат? `,
+      `<h1> Я </h1> <br/>
+Митчелл Вертер <br/>
++1 646 705 7784 <br/>
+
+           <address>
+                Mitchell Verter <br/>
+                654 East San Ysidro Blvd <br/>
+                PMB 187 <br/>
+                San Ysidro, CA 92173
+            </address>
+ <br/>
+Напишите это с ручкой SHARPIE. Очень легко вымыть нормальную ручку из своего тела.
 `
     ],
     "ht": [
@@ -313,6 +407,15 @@ You must regard the foreigner who lives with you as the native-born among you. Y
             <cite> Leviticus 19: 33-34 </cite>
  `
     ],
+    "ru": [
+      `Что Библия думает об этом процессе? `,
+       `<BLOCKQUOTE>
+    Когда иностранец живет с вами на вашей земле, вы не должны угнетать его. <br/>
+    Вы должны рассматривать иностранца, который живет с вами, как родного среди вас. Вы должны любить его как самого себя, потому что вы были иностранцами на земле Египетской.
+  </BLOCKQUOTE>
+  <cite> Левит 19: 33–34 </cite>
+  `
+    ],
     "ht": [
       `Kisa Bib la panse sou pwosesis sa a? `,
       `<blockquote>
@@ -335,7 +438,7 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
   "qACAB": {
     "en": [
       `What do the anarchists think about this process?`,
-        `
+      `
          <blockquote>
  This is already more than enough for a social revolution of an economic and anti-authoritarian nature; but
  there is more. In Mexico live about four million Indians, who until twenty or twenty-five years ago lived
@@ -358,9 +461,34 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
             </cite>
 `
     ],
+    "ru": [
+      `Что анархисты думают об этом процессе?`,
+      `
+<BLOCKQUOTE>
+ Этого уже более чем достаточно для социальной революции экономического и антиавторитарного характера; но
+ есть больше В Мексике живут около четырех миллионов индейцев, которые до двадцати или двадцати пяти лет назад жили
+ в сообществах, владеющих совместно землями, водами и лесами. Взаимная поддержка была правилом в
+ те общины, в которых Орган ощущался только тогда, когда агент по сбору ренты
+ к его периодическому появлению или когда сельские прибыли в поисках людей, чтобы заставить их войти
+ силой в армию. В этих общинах не было ни судей, ни мэров, ни тюремщиков, ни каких-либо
+ моли этого класса. Каждый имеет право на землю, на воду для орошения, на лес для
+ дрова и дрова для постройки хижин. Плуги ходили из рук в руки, а также хомуты
+ быков Каждая семья работала над расширением земли, которая была рассчитана как достаточная для производства
+ необходимо, и работа по прополке и выращиванию урожая была сделана совместно, собрав все
+ Сообщество, сегодня, чтобы поднять урожай Педро, завтра, чтобы поднять Хуана, и так далее.
+ Чтобы создать хижину, все члены сообщества отправляются на работу.
+</BLOCKQUOTE>
+<cite>
+<a href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
+ Рикардо Флорес Магон, <em> народ Мексики склонен к анархо-коммунизму </em> <br/>
+ Регенерация, число 53, 2 сентября 1911 г.
+</a>
+</cite>
+`
+    ],
     "ht": [
       `Ki sa anarchis yo panse sou pwosesis sa a?`,
-        `
+      `
          <blockquote>
  Sa a se deja plis pase ase pou yon revolisyon sosyal nan yon nati ekonomik ak anti-otoritè; men
  Gen plis. Nan Meksik ap viv sou kat milyon Endyen, ki moun ki jiska ven oswa ven-senk ane de sa te viv
@@ -385,7 +513,7 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
     ],
     "fr": [
       `Que pensent les anarchistes de ce processus?`,
-        `
+      `
          <blockquote>
  C'est déjà plus que suffisant pour une révolution sociale de nature économique et anti-autoritaire; mais
  il y a plus. Au Mexique vivent environ quatre millions d'Indiens, qui vivaient jusqu'à il y a vingt ou vingt-cinq ans
@@ -444,6 +572,23 @@ Tanpri, itilize paj sa a pou kòmanse yon rechèch: <br/>
 <strong> <a href="detention.html"> rechèch PAJ </a> </strong>
 `
     ],
+    "ru": [
+      `
+Мой друг или родственник уже въехал в Соединенные Штаты. Где она сейчас?
+`,
+      `
+Возможно, ее задержали в Соединенных Штатах. <br/>
+Сразу после того, как человек пересекает границу, они уходят в гиелера Они остаются там до двух недель. Нет возможности получить информацию о них. <br />
+
+После этого они могут попасть под стражу ДВС. <br/>
+Вот официальная страница для их поиска: <br/>
+<a href="https://locator.ice.gov/odls"> Система обнаружения задержанных в Интернете - ICE </a> <br/>
+Это очень сложно использовать. ICE - расистская, фашистская организация. Они не заботятся о людях <br/>
+Я тоже пытаюсь искать людей, но это очень сложно <br>
+Пожалуйста, используйте эту страницу, чтобы начать поиск: <br/>
+<strong> <a href="detention.html"> ПОИСК СТРАНИЦЫ </a> </strong>
+`
+    ],
     "fr": [
       `
 Mon ami ou un parent est déjà passé aux États-Unis. Où est-elle en ce moment?
@@ -458,7 +603,7 @@ Voici la page officielle de recherche pour eux: <br/>
 C'est très difficile à utiliser. ICE est une organisation raciste et fasciste. Ils ne se soucient pas des êtres humains <br/>
 J'essaie aussi de rechercher des personnes, mais c'est très difficile. <br>
 Utilisez cette page pour lancer une recherche: <br/>
-<strong> <a href="detention.html"> PAGE DE RECHERCHE </a> </ strong>
+<strong> <a href="detention.html"> PAGE DE RECHERCHE </a> </strong>
 `
     ]
   },
@@ -467,6 +612,12 @@ Utilisez cette page pour lancer une recherche: <br/>
       `Why do I make this website? `,
       `
  Because I'm an anarchist, who believes in <a href="https://en.wikipedia.org/wiki/Mutual_aid_(organization_theory)" target="_blank"> mutual aid </a>
+`
+    ],
+    "ru": [
+      `Почему я делаю этот сайт? `,
+      `
+  Потому что я анархист, который верит в <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B7%D0%B0%D0%B8%D0%BC%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C" target="_blank"> взаимную помощь </a>
 `
     ],
     "ht": [
@@ -541,7 +692,7 @@ Cumplimiento </em> </li>
   ],
   "qWhatHielera": [
     `Que es <strong>la hielera</strong> de <em>US Customs and Border Patrol?</em>`,
-  `La hielera es muy feo. <br/>
+    `La hielera es muy feo. <br/>
     Es un carcel. <br/>
     Una descripcion:
 <blockquote>
@@ -554,7 +705,7 @@ Cumplimiento </em> </li>
   Ademas en cada celda tienen alrededor de 10 a 15 personas como maximo. Eso en un espacio pequeno como en
   4 metros de largo por 3 metros de hancho.
 </blockquote>`
-],
+  ],
   "qWhatDetencion": [
     `Que es la detencion de <em>US Immigration and Customs Enforcement</em>`,
     `Es una prision. Es muy feo. Estoy consiguiendo descripciones ...`,
@@ -566,11 +717,11 @@ Cumplimiento </em> </li>
   ],
   "qMyContact": [
     `No tengo ningún número ni dirección. ¿A quién puedo llamar o escribir para pedir ayuda cuando estoy detenido? `,
-      `<h2> Yo </h2> <br/>
+    `<h2> Yo </h2> <br/>
 Mitchell Verter <br/>
 +1 646 705 7784 <br/>
 
-<dirección>
+<address>
 Mitchell Verter <br/>
 654 East San Ysidro Blvd <br/>
 PMB 187 <br/>
@@ -581,8 +732,8 @@ Escríbelo con un bolígrafo SHARPIE. Es muy fácil lavar una pluma normal de tu
 `
   ],
   "qLeviticus": [
-`¿Qué piensa la Biblia sobre este proceso? `,
-`<blockquote>
+    `¿Qué piensa la Biblia sobre este proceso? `,
+    `<blockquote>
     Cuando un extranjero vive contigo en tu tierra, no debes oprimirlo. <br/>
     Debe considerar al extranjero que vive con usted como el nativo entre ustedes. Debes amarlo como a ti mismo, porque eras extranjero en la tierra de Egipto.
   </blockquote>
@@ -618,7 +769,7 @@ Escríbelo con un bolígrafo SHARPIE. Es muy fácil lavar una pluma normal de tu
     `
 Mi amigo o familiar ya cruzó a los Estados Unidos. ¿Dónde está ella ahora?
 `,
-      `
+    `
 Posiblemente, ella está detenida en los Estados Unidos <br/>
 Justo después de que una persona cruza la frontera entran en la hielera. Se quedan allí hasta dos semanas. No hay manera de obtener información sobre ellos. <br />
 
@@ -633,7 +784,7 @@ Por favor, use esta página para iniciar una búsqueda: <br/>
   ],
   "qMutualAid": [
     `¿Por qué hago este sitio web? `,
-      `
+    `
   Porque soy un anarquista, que cree en <a href="https://es.wikipedia.org/wiki/Apoyo_mutuo" target="_blank"> apoyo mutuo </a>
 `
   ]
