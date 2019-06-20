@@ -95,19 +95,19 @@ Il est possible que vous soyez placé dans un centre de détention`
   },
   "qCFI": {
     "en": [
-      `What is" La Credible Fear Interview? `,
+      `What is "The Credible Fear Interview? `,
       `The American authorities are going to ask you: "Well, sir, why do you want to enter the 
 United States? Why can  you not stay in your own country? What is your fear? <br/>
 In this interview, you must explain that you are afraid to return to your country. This fear is real. This fear is credible`
     ],
     "ht": [
-      `Ki sa ki se "La Credible entèvyou pè?" `,
+      `Ki sa ki se "Entèvyou pou moun ki te pè nan kredib?" `,
       `Otorite Ameriken yo pral mande ou: "Oke, mesye, poukisa ou vle antre nan la
 Etazini? Poukisa ou pa ka rete nan pwòp peyi ou? Ki sa ki gen krentif pou ou a? <br/>
   Nan entèvyou sa a, ou dwe eksplike ke ou pè retounen nan peyi ou. Sa a pè se reyèl. Sa a pè se kredib`
     ],
     "fr": [
-      `Qu'est-ce que "La Credible Fear Interview?"`,
+      `Qu'est-ce que "L'interview de la peur crédible?"`,
       `Les autorités américaines vont vous demander:" Eh bien, monsieur, pourquoi voulez-vous entrer dans le
 États Unis? Pourquoi ne pouvez-vous pas rester dans votre propre pays? Quelle est ta peur? <br/>
   Dans cette interview, vous devez expliquer que vous avez peur de retourner dans votre pays. Cette peur est réelle. Cette crainte est crédible`
@@ -288,7 +288,7 @@ Ekri l ak yon plim SHARPIE. Li trè fasil pou lave yon plim nòmal nan kò w.
     ],
     "fr": [
       `Je n'ai ni numéro ni adresse. Qui puis-je appeler ou demander de l'aide lorsque je suis détenu? `,
-      `<h1> Moi </ h1> <br/>
+      `<h2> Moi </h2> <br/>
 Mitchell Verter <br/>
 +1 646 705 7784 <br/>
 
@@ -337,23 +337,23 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
       `What do the anarchists think about this process?`,
         `
          <blockquote>
-                This is already more than enough for a social revolution of an economic and anti-authoritarian nature; but
-                there is more. In Mexico live about four million Indians, who until twenty or twenty-five years ago lived
-                in communities, owning in common the lands, waters and forests. Mutual support was the rule in
-                those communities, in which the Authority was only felt when the agent of the collection of rents
-                towards its periodic appearance or when the rural ones arrived in search of men to make them enter
-                by force to the Army. In these communities there were no judges, or mayors, or jailers, or any
-                moth of that class. Everyone had the right to land, to water for irrigation, to the forest for
-                firewood and wood to build huts. The plows walked from hand to hand, as well as the yokes
-                of oxen. Each family worked the extension of land that was calculated to be sufficient to produce
-                necessary, and the work of weeding and raising the crops was done in common, gathering all the
-                community, today, to raise Pedro's harvest, tomorrow to raise Juan's, and so on.
-                To make a hut, all the members of the community put to work.
+ This is already more than enough for a social revolution of an economic and anti-authoritarian nature; but
+ there is more. In Mexico live about four million Indians, who until twenty or twenty-five years ago lived
+ in communities, owning in common the lands, waters and forests. Mutual support was the rule in
+ those communities, in which the Authority was only felt when the agent of the collection of rents
+ towards its periodic appearance or when the rural ones arrived in search of men to make them enter
+ by force to the Army. In these communities there were no judges, or mayors, or jailers, or any
+ moth of that class. Everyone had the right to land, to water for irrigation, to the forest for
+ firewood and wood to build huts. The plows walked from hand to hand, as well as the yokes
+ of oxen. Each family worked the extension of land that was calculated to be sufficient to produce
+ necessary, and the work of weeding and raising the crops was done in common, gathering all the
+ community, today, to raise Pedro's harvest, tomorrow to raise Juan's, and so on.
+ To make a hut, all the members of the community put to work.
             </blockquote>
             <cite>
 <a href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
-                Ricardo Flores Magon, <em> The Mexican people are apt for anarcho-communism </em> <br/>
-                Regeneration, num. 53, September 2, 1911.
+ Ricardo Flores Magon, <em> The Mexican people are apt for anarcho-communism </em> <br/>
+ Regeneration, num. 53, September 2, 1911.
 </a>
             </cite>
 `
@@ -362,23 +362,23 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
       `Ki sa anarchis yo panse sou pwosesis sa a?`,
         `
          <blockquote>
-                Sa a se deja plis pase ase pou yon revolisyon sosyal nan yon nati ekonomik ak anti-otoritè; men
-                Gen plis. Nan Meksik ap viv sou kat milyon Endyen, ki moun ki jiska ven oswa ven-senk ane de sa te viv
-                nan kominote yo, posede an komen tè ​​yo, dlo yo ak forè yo. Sipòte mityèl te règ la nan
-                kominote sa yo, nan ki Otorite a te sèlman te santi lè ajan an nan koleksyon an nan pri lwaye
-                nan direksyon pou aparans peryodik li yo oswa lè moun ki nan zòn riral yo te rive nan rechèch nan moun fè yo antre nan
-                pa fòs nan lame a. Nan kominote sa yo pa te gen okenn jij, oswa majistra, oswa prizonye, ​​oswa nenpòt ki
-                manman nan klas sa. Tout moun te gen dwa pou fè tè, dlo pou irigasyon, pou forè a
-                bwa dife ak bwa yo bati kabin yo. Chaje yo soti nan men nan men, menm jan tou jouk yo
-                nan bèf. Chak fanmi te travay pou ekstansyon peyi ki te kalkile ase pou pwodwi
-                nesesè, ak travay la nan sarkle ak ogmante rekòt yo te fè an komen, ranmase tout la
-                kominote a, jodi a, ogmante rekòt Pedro a, demen ogmante a Juan la, ak sou sa.
-                Pou fè yon jacal, tout manm kominote a te travay.
+ Sa a se deja plis pase ase pou yon revolisyon sosyal nan yon nati ekonomik ak anti-otoritè; men
+ Gen plis. Nan Meksik ap viv sou kat milyon Endyen, ki moun ki jiska ven oswa ven-senk ane de sa te viv
+ nan kominote yo, posede an komen tè ​​yo, dlo yo ak forè yo. Sipòte mityèl te règ la nan
+ kominote sa yo, nan ki Otorite a te sèlman te santi lè ajan an nan koleksyon an nan pri lwaye
+ nan direksyon pou aparans peryodik li yo oswa lè moun ki nan zòn riral yo te rive nan rechèch nan moun fè yo antre nan
+ pa fòs nan lame a. Nan kominote sa yo pa te gen okenn jij, oswa majistra, oswa prizonye, ​​oswa nenpòt ki
+ manman nan klas sa. Tout moun te gen dwa pou fè tè, dlo pou irigasyon, pou forè a
+ bwa dife ak bwa yo bati kabin yo. Chaje yo soti nan men nan men, menm jan tou jouk yo
+ nan bèf. Chak fanmi te travay pou ekstansyon peyi ki te kalkile ase pou pwodwi
+ nesesè, ak travay la nan sarkle ak ogmante rekòt yo te fè an komen, ranmase tout la
+ kominote a, jodi a, ogmante rekòt Pedro a, demen ogmante a Juan la, ak sou sa.
+ Pou fè yon jacal, tout manm kominote a te travay.
             </blockquote>
             <cite>
 <a href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
-                Ricardo Flores Magon, <em> Moun Meksiken yo jis pou anarcho-kominis </em> <br/>
-                Rejenerasyon, Num. 53 septanm 2, 1911.
+ Ricardo Flores Magon, <em> Moun Meksiken yo jis pou anarcho-kominis </em> <br/>
+ Rejenerasyon, Num. 53 septanm 2, 1911.
 </a>
             </cite>
 `
@@ -387,37 +387,101 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
       `Que pensent les anarchistes de ce processus?`,
         `
          <blockquote>
-                C'est déjà plus que suffisant pour une révolution sociale de nature économique et anti-autoritaire; mais
-                il y a plus. Au Mexique vivent environ quatre millions d'Indiens, qui vivaient jusqu'à il y a vingt ou vingt-cinq ans
-                dans les communautés, possédant en commun les terres, les eaux et les forêts. Le soutien mutuel était la règle dans
-                ces communautés, dans lesquelles l’Autorité n’a été ressentie que lorsque l’agent de perception des loyers
-                vers son apparition périodique ou quand les ruraux sont arrivés à la recherche d'hommes pour les faire entrer
-                par la force à l'armée. Dans ces communautés, il n’y avait ni juge, ni maire, ni gardien de prison, ni aucun
-                papillon de cette classe. Tout le monde avait le droit de terre, d’eau pour l’irrigation, de forêt pour
-                bois de chauffage et bois pour construire des cabanes. Les charrues marchaient de main en main, ainsi que les jougs
-                de bœufs. Chaque famille travaillait sur l’extension de la terre qui était jugée suffisante pour produire
-                nécessaire, et le travail de désherbage et d’élevage a été effectué en commun, réunissant tous les
-                la communauté, aujourd’hui, pour élever la récolte de Pedro, demain pour élever celle de Juan, et ainsi de suite.
-                Pour faire un jacal, tous les membres de la communauté se mettent au travail.
+ C'est déjà plus que suffisant pour une révolution sociale de nature économique et anti-autoritaire; mais
+ il y a plus. Au Mexique vivent environ quatre millions d'Indiens, qui vivaient jusqu'à il y a vingt ou vingt-cinq ans
+ dans les communautés, possédant en commun les terres, les eaux et les forêts. Le soutien mutuel était la règle dans
+ ces communautés, dans lesquelles l’Autorité n’a été ressentie que lorsque l’agent de perception des loyers
+ vers son apparition périodique ou quand les ruraux sont arrivés à la recherche d'hommes pour les faire entrer
+ par la force à l'armée. Dans ces communautés, il n’y avait ni juge, ni maire, ni gardien de prison, ni aucun
+ papillon de cette classe. Tout le monde avait le droit de terre, d’eau pour l’irrigation, de forêt pour
+ bois de chauffage et bois pour construire des cabanes. Les charrues marchaient de main en main, ainsi que les jougs
+ de bœufs. Chaque famille travaillait sur l’extension de la terre qui était jugée suffisante pour produire
+ nécessaire, et le travail de désherbage et d’élevage a été effectué en commun, réunissant tous les
+ la communauté, aujourd’hui, pour élever la récolte de Pedro, demain pour élever celle de Juan, et ainsi de suite.
+ Pour faire un jacal, tous les membres de la communauté se mettent au travail.
             </blockquote>
             <cite>
 <a href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
-                Ricardo Flores Magon, <em> Le peuple mexicain est enclin à l'anarcho-communisme </em> <br/>
-                Régénération, num. 53, 2 septembre 1911.
+ Ricardo Flores Magon, <em> Le peuple mexicain est enclin à l'anarcho-communisme </em> <br/>
+ Régénération, num. 53, 2 septembre 1911.
 </a>
             </cite>
 `
     ]
   },
   "qBusquedas": {
-    "en": [],
-    "ht": [],
-    "fr": []
+    "en": [
+      `
+            My friend or relative already crossed into the United States. Where is she right now?
+`,
+      `
+            Possibly, she is being detained in the United States <br/>
+Right after a person crosses the border they go into the hielera.  They stay there for as long as two weeks.  There is no way to get information about them.<br />
+
+After this, they might go into ICE detention<br/>
+Here is the official page for search for them: <br/>
+<a href="https://locator.ice.gov/odls">Online Detainee Locator System - ICE</a><br/>
+It is very hard to use.  ICE is a racist, fascist organization.  They do not care about human beings<br/>
+I am trying to search for people too, but it is very difficult<br>
+            Please, use this page to start a search: <br/>
+            <strong> <a href="detention.html"> SEARCH PAGE </a> </strong> 
+`
+    ],
+    "ht": [
+      `
+Zanmi mwen oswa fanmi mwen deja janbe nan Etazini yo. Kote li ye kounye a?
+`,
+      `
+Li posib, li se ke yo te arete nan peyi Etazini <br/>
+Dwa apre yon moun kwaze fwontyè a yo ale nan Hielera la. Yo rete la pou lontan de semèn. Pa gen okenn fason pou jwenn enfòmasyon sou yo. <br />
+
+Apre sa, yo ka ale nan detansyon ICE la
+Isit la se paj ofisyèl la pou rechèch pou yo: <br/>
+<a href="https://locator.ice.gov/odls"> Sistèm Lokalizasyon Lokal Detenab - ICE </a> <br/>
+Li trè difisil pou itilize. ICE se yon rasis, òganizasyon fachis. Yo pa pran swen sou èt imen <br/>
+Mwen ap eseye pou chèche moun tou, men li trè difisil <br>
+Tanpri, itilize paj sa a pou kòmanse yon rechèch: <br/>
+<strong> <a href="detention.html"> rechèch PAJ </a> </strong>
+`
+    ],
+    "fr": [
+      `
+Mon ami ou un parent est déjà passé aux États-Unis. Où est-elle en ce moment?
+`,
+      `
+Elle est peut-être détenue aux États-Unis. <br/>
+Dès qu'une personne traverse la frontière, elle entre dans la hielera. Ils y restent jusqu'à deux semaines. Il n'y a aucun moyen d'obtenir des informations à leur sujet. <br />
+
+Après cela, ils pourraient être placés en détention par ICE <br/>
+Voici la page officielle de recherche pour eux: <br/>
+<a href="https://locator.ice.gov/odls"> Système de localisation de détenus en ligne - ICE </a> <br/>
+C'est très difficile à utiliser. ICE est une organisation raciste et fasciste. Ils ne se soucient pas des êtres humains <br/>
+J'essaie aussi de rechercher des personnes, mais c'est très difficile. <br>
+Utilisez cette page pour lancer une recherche: <br/>
+<strong> <a href="detention.html"> PAGE DE RECHERCHE </a> </ strong>
+`
+    ]
   },
   "qMutualAid": {
-    "en": [],
-    "ht": [],
-    "fr": []
+    "en": [
+      `Why do I make this website? `,
+      `
+ Because I'm an anarchist, who believes in <a href="https://en.wikipedia.org/wiki/Mutual_aid_(organization_theory)" target="_blank"> mutual aid </a>
+`
+    ],
+    "ht": [
+      `Poukisa mwen fè sit entènèt sa a? `,
+      `
+  Paske mwen se yon anarchist, ki moun ki mete konfyans yo nan <a href="https://es.wikipedia.org/wiki/Apoyo_mutuo" target="_blank"> sipò mityèl </a><br/>
+<h2>MEN ANPIL CHAY PA LOU</h2>
+`
+    ],
+    "fr": [
+      `Pourquoi est-ce que je crée ce site? `,
+      `
+  Parce que je suis un anarchiste, je crois au <a href="https://fr.wikipedia.org/wiki/Entraide_(%C3%A9conomie_politique)" target="_blank"> l'entraide </a>.
+`
+    ]
   },
 };
 
@@ -502,7 +566,7 @@ Cumplimiento </em> </li>
   ],
   "qMyContact": [
     `No tengo ningún número ni dirección. ¿A quién puedo llamar o escribir para pedir ayuda cuando estoy detenido? `,
-      `<h1> Yo </h1> <br/>
+      `<h2> Yo </h2> <br/>
 Mitchell Verter <br/>
 +1 646 705 7784 <br/>
 
@@ -529,29 +593,50 @@ Escríbelo con un bolígrafo SHARPIE. Es muy fácil lavar una pluma normal de tu
     `Que piensan los anarquistas sobre todo esta proceso?`,
     `
          <blockquote>
-                Esto es ya mas que suficiente para una revolucion social de caracter economico y antiautoritario; pero
-                hay mas. En Mexico viven unos cuatro millones de indios, que hasta hace veinte o veinticinco anos vivian
-                en comunidades, poseyendo en comun las tierras, las aguas y los bosques. El apoyo mutuo era la regla en
-                esas comunidades, en las que la Autoridad solo era sentida cuando el agente de la recaudacion de rentas
-                hacia su aparicion periodica o cuando los rurales llegaban en busca de varones para hacerlos ingresar
-                por la fuerza al Ejercito. En estas comunidades no habia jueces, ni alcaldes, ni carceleros, ni ninguna
-                polilla de esa clase. Todos tenian derecho a la tierra, al agua para los regadios, al bosque para la
-                lena y a la madera para construir los jacales. Los arados andaban de mano en mano, asi como las yuntas
-                de bueyes. Cada familia labraba la extension de terreno que calculaba ser suficiente para producir lo
-                necesario, y el trabajo de escarda y de levantar las cosechas se hacia en comun, reuniendose toda la
-                comunidad, hoy, para levantar la cosecha de Pedro, manana para levantar la de Juan y asi sucesivamente.
-                Para fabricar un jacal, ponian manos a la obra todos los miembros de la comunidad.
+ Esto es ya mas que suficiente para una revolucion social de caracter economico y antiautoritario; pero
+ hay mas. En Mexico viven unos cuatro millones de indios, que hasta hace veinte o veinticinco anos vivian
+ en comunidades, poseyendo en comun las tierras, las aguas y los bosques. El apoyo mutuo era la regla en
+ esas comunidades, en las que la Autoridad solo era sentida cuando el agente de la recaudacion de rentas
+ hacia su aparicion periodica o cuando los rurales llegaban en busca de varones para hacerlos ingresar
+ por la fuerza al Ejercito. En estas comunidades no habia jueces, ni alcaldes, ni carceleros, ni ninguna
+ polilla de esa clase. Todos tenian derecho a la tierra, al agua para los regadios, al bosque para la
+ lena y a la madera para construir los jacales. Los arados andaban de mano en mano, asi como las yuntas
+ de bueyes. Cada familia labraba la extension de terreno que calculaba ser suficiente para producir lo
+ necesario, y el trabajo de escarda y de levantar las cosechas se hacia en comun, reuniendose toda la
+ comunidad, hoy, para levantar la cosecha de Pedro, manana para levantar la de Juan y asi sucesivamente.
+ Para fabricar un jacal, ponian manos a la obra todos los miembros de la comunidad.
             </blockquote>
             <cite>
 <a href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
-                Ricardo Flores Magon, <em>El pueblo mexicano es apto para el anarchocomunismo</em> <br/>
-                Regeneracion, num. 53, septiembre 2, 1911.
+ Ricardo Flores Magon, <em>El pueblo mexicano es apto para el anarchocomunismo</em> <br/>
+ Regeneracion, num. 53, septiembre 2, 1911.
 </a>
             </cite>
 `
   ],
-  "qBusquedas": [],
-  "qMutualAid": []
+  "qBusquedas": [
+    `
+Mi amigo o familiar ya cruzó a los Estados Unidos. ¿Dónde está ella ahora?
+`
+      `
+Posiblemente, ella está detenida en los Estados Unidos <br/>
+Justo después de que una persona cruza la frontera entran en la hielera. Se quedan allí hasta dos semanas. No hay manera de obtener información sobre ellos. <br />
+
+Después de esto, podrían ir a la detención de ICE <br/>
+Aquí está la página oficial para buscarlos: <br/>
+<a href="https://locator.ice.gov/odls"> Sistema de localización de detenidos en línea - ICE </a> <br/>
+Es muy difícil de usar. ICE es una organización racista, fascista. No les importan los seres humanos <br/>
+Estoy tratando de buscar personas también, pero es muy difícil <br>
+Por favor, use esta página para iniciar una búsqueda: <br/>
+<strong> <a href="detention.html"> BUSCAR PÁGINA </a> </strong>
+`
+  ],
+  "qMutualAid": [
+    `¿Por qué hago este sitio web? `
+      `
+  Porque soy un anarquista, que cree en <a href="https://es.wikipedia.org/wiki/Apoyo_mutuo" target="_blank"> apoyo mutuo </a>
+`
+  ]
 };
 
 function QUESTION_TO_INTERNATIONAL(questionName, language) {
