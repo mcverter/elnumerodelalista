@@ -333,9 +333,81 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
     ]
   },
   "qACAB": {
-    "en": [],
-    "ht": [],
-    "fr": []
+    "en": [
+      `What do the anarchists think about this process?`,
+        `
+         <blockquote>
+                This is already more than enough for a social revolution of an economic and anti-authoritarian nature; but
+                there is more. In Mexico live about four million Indians, who until twenty or twenty-five years ago lived
+                in communities, owning in common the lands, waters and forests. Mutual support was the rule in
+                those communities, in which the Authority was only felt when the agent of the collection of rents
+                towards its periodic appearance or when the rural ones arrived in search of men to make them enter
+                by force to the Army. In these communities there were no judges, or mayors, or jailers, or any
+                moth of that class. Everyone had the right to land, to water for irrigation, to the forest for
+                firewood and wood to build huts. The plows walked from hand to hand, as well as the yokes
+                of oxen. Each family worked the extension of land that was calculated to be sufficient to produce
+                necessary, and the work of weeding and raising the crops was done in common, gathering all the
+                community, today, to raise Pedro's harvest, tomorrow to raise Juan's, and so on.
+                To make a hut, all the members of the community put to work.
+            </blockquote>
+            <cite>
+<a href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
+                Ricardo Flores Magon, <em> The Mexican people are apt for anarcho-communism </em> <br/>
+                Regeneration, num. 53, September 2, 1911.
+</a>
+            </cite>
+`
+    ],
+    "ht": [
+      `Ki sa anarchis yo panse sou pwosesis sa a?`,
+        `
+         <blockquote>
+                Sa a se deja plis pase ase pou yon revolisyon sosyal nan yon nati ekonomik ak anti-otoritè; men
+                Gen plis. Nan Meksik ap viv sou kat milyon Endyen, ki moun ki jiska ven oswa ven-senk ane de sa te viv
+                nan kominote yo, posede an komen tè ​​yo, dlo yo ak forè yo. Sipòte mityèl te règ la nan
+                kominote sa yo, nan ki Otorite a te sèlman te santi lè ajan an nan koleksyon an nan pri lwaye
+                nan direksyon pou aparans peryodik li yo oswa lè moun ki nan zòn riral yo te rive nan rechèch nan moun fè yo antre nan
+                pa fòs nan lame a. Nan kominote sa yo pa te gen okenn jij, oswa majistra, oswa prizonye, ​​oswa nenpòt ki
+                manman nan klas sa. Tout moun te gen dwa pou fè tè, dlo pou irigasyon, pou forè a
+                bwa dife ak bwa yo bati kabin yo. Chaje yo soti nan men nan men, menm jan tou jouk yo
+                nan bèf. Chak fanmi te travay pou ekstansyon peyi ki te kalkile ase pou pwodwi
+                nesesè, ak travay la nan sarkle ak ogmante rekòt yo te fè an komen, ranmase tout la
+                kominote a, jodi a, ogmante rekòt Pedro a, demen ogmante a Juan la, ak sou sa.
+                Pou fè yon jacal, tout manm kominote a te travay.
+            </blockquote>
+            <cite>
+<a href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
+                Ricardo Flores Magon, <em> Moun Meksiken yo jis pou anarcho-kominis </em> <br/>
+                Rejenerasyon, Num. 53 septanm 2, 1911.
+</a>
+            </cite>
+`
+    ],
+    "fr": [
+      `Que pensent les anarchistes de ce processus?`,
+        `
+         <blockquote>
+                C'est déjà plus que suffisant pour une révolution sociale de nature économique et anti-autoritaire; mais
+                il y a plus. Au Mexique vivent environ quatre millions d'Indiens, qui vivaient jusqu'à il y a vingt ou vingt-cinq ans
+                dans les communautés, possédant en commun les terres, les eaux et les forêts. Le soutien mutuel était la règle dans
+                ces communautés, dans lesquelles l’Autorité n’a été ressentie que lorsque l’agent de perception des loyers
+                vers son apparition périodique ou quand les ruraux sont arrivés à la recherche d'hommes pour les faire entrer
+                par la force à l'armée. Dans ces communautés, il n’y avait ni juge, ni maire, ni gardien de prison, ni aucun
+                papillon de cette classe. Tout le monde avait le droit de terre, d’eau pour l’irrigation, de forêt pour
+                bois de chauffage et bois pour construire des cabanes. Les charrues marchaient de main en main, ainsi que les jougs
+                de bœufs. Chaque famille travaillait sur l’extension de la terre qui était jugée suffisante pour produire
+                nécessaire, et le travail de désherbage et d’élevage a été effectué en commun, réunissant tous les
+                la communauté, aujourd’hui, pour élever la récolte de Pedro, demain pour élever celle de Juan, et ainsi de suite.
+                Pour faire un jacal, tous les membres de la communauté se mettent au travail.
+            </blockquote>
+            <cite>
+<a href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
+                Ricardo Flores Magon, <em> Le peuple mexicain est enclin à l'anarcho-communisme </em> <br/>
+                Régénération, num. 53, 2 septembre 1911.
+</a>
+            </cite>
+`
+    ]
   },
   "qBusquedas": {
     "en": [],
@@ -453,7 +525,31 @@ Escríbelo con un bolígrafo SHARPIE. Es muy fácil lavar una pluma normal de tu
   <cite> Leviticus 19: 33-34 </cite>
   `
   ],
-  "qACAB": [],
+  "qACAB": [
+    `Que piensan los anarquistas sobre todo esta proceso?`,
+    `
+         <blockquote>
+                Esto es ya mas que suficiente para una revolucion social de caracter economico y antiautoritario; pero
+                hay mas. En Mexico viven unos cuatro millones de indios, que hasta hace veinte o veinticinco anos vivian
+                en comunidades, poseyendo en comun las tierras, las aguas y los bosques. El apoyo mutuo era la regla en
+                esas comunidades, en las que la Autoridad solo era sentida cuando el agente de la recaudacion de rentas
+                hacia su aparicion periodica o cuando los rurales llegaban en busca de varones para hacerlos ingresar
+                por la fuerza al Ejercito. En estas comunidades no habia jueces, ni alcaldes, ni carceleros, ni ninguna
+                polilla de esa clase. Todos tenian derecho a la tierra, al agua para los regadios, al bosque para la
+                lena y a la madera para construir los jacales. Los arados andaban de mano en mano, asi como las yuntas
+                de bueyes. Cada familia labraba la extension de terreno que calculaba ser suficiente para producir lo
+                necesario, y el trabajo de escarda y de levantar las cosechas se hacia en comun, reuniendose toda la
+                comunidad, hoy, para levantar la cosecha de Pedro, manana para levantar la de Juan y asi sucesivamente.
+                Para fabricar un jacal, ponian manos a la obra todos los miembros de la comunidad.
+            </blockquote>
+            <cite>
+<a href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
+                Ricardo Flores Magon, <em>El pueblo mexicano es apto para el anarchocomunismo</em> <br/>
+                Regeneracion, num. 53, septiembre 2, 1911.
+</a>
+            </cite>
+`
+  ],
   "qBusquedas": [],
   "qMutualAid": []
 };
