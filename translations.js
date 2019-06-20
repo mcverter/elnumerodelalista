@@ -89,7 +89,7 @@ Il est possible que vous soyez placé dans un centre de détention`
     ],
     "fr": [
       `Qu'est-ce que l'asile?`,
-        `Le droit d’asile est un droit international des droits de l’homme, qui peut être exercé par tout
+      `Le droit d’asile est un droit international des droits de l’homme, qui peut être exercé par tout
       personne extérieure à son pays d'origine en cas de persécution (<a href="https://fr.wikipedia.org/wiki/Droit_d%27asile">Wikipedia</a>)`
     ]
   },
@@ -140,19 +140,101 @@ Eske ou te ale nan POLIS la? <br/>
     ]
   },
   "qPostCFI": {
-    "en": [],
-    "ht": [],
-    "fr": []
+    "en": [
+      `What will happen if everything goes well with my interview?`,
+      `There are several possibilities <br/>
+Everyone goes into the detention of <em> US Customs and Border Patrol </em>. This is called <strong> the
+    cooler </strong> <br/>
+After that there are two possibilities in most cases
+    <ul>
+    <li> In most cases, families with children who are minors are released </li>
+    <li> In most cases, the others to a detention of <em> US Immigration and Customs
+      Enforcement </em> </li>
+    </ul> `
+    ],
+    "ht": [
+      `Kisa ki pral rive si tout bagay mache byen ak entèvyou mwen an? `,
+      `Gen plizyè posiblite <br/>
+Tout moun ale nan detansyon <em> US Ladwàn ak Patwouy Border </em>. Se sa yo rele <strong> la
+pi fre </strong> <br/>
+Apre sa, gen de posibilite nan pifò ka yo
+<ul>
+<li> Nan pifò ka yo, fanmi ki gen timoun ki minè yo lage </li>
+<li> Nan pifò ka yo, lòt moun yo nan yon detansyon nan <em> Imigrasyon US ak Ladwàn
+Ranfòsman </em> </li>
+</ul> `
+    ],
+    "fr": ["Que se passera-t-il si tout se passe bien avec mon entretien?",
+      `Il y a plusieurs possibilités <br/>
+Tout le monde entre en détention par la <em> patrouille des douanes et des frontières des États-Unis </em>. Ceci est appelé <strong> le
+glacière </strong> <br/>
+Après cela, il y a deux possibilités dans la plupart des cas
+<ul>
+<li> Dans la plupart des cas, les familles avec enfants mineurs sont libérées </li>
+<li> Dans la plupart des cas, les autres personnes placées en détention <em> dans Immigration et douanes américaines
+Application </em> </li>
+</ul> `]
   },
   "qWhatHielera": {
-    "en": [],
-    "ht": [],
-    "fr": []
+    "en": [
+      `What is <strong> the cooler </strong> of <em> US Customs and Border Patrol? </em>`,
+      `The cooler is very ugly. <br/>
+     It's a jail. <br/>
+     A description:
+<blockquote>
+   It is a cold place where you can not sleep because the light is on 24 hours during the time
+   Intentionally, you will lose the notion of time, there is a room that in theory is where
+   people receive food, food is horrible, it's cold. <br/>
+   You sleep (try to sleep) on the floor or on the metal benches where hardly anyone can sleep. <br/>
+   You must drink recycled water from toilets that is harmful to your stomach. <br/>
+   When you use the bathrooms you have to do it in front of others. <br/>
+   Also in each cell they have around 10 to 15 people at most. That in a small space as in
+   4 meters long by 3 meters of hancho.
+</blockquote> `
+    ],
+    "ht": [
+      `Ki sa ki <strong> pi fre </strong> nan <em> US Ladwàn ak Patwouy Border? </em> `,
+      `Pi fre a se trè lèd. <br/>
+Se yon prizon. <br/>
+Yon deskripsyon:
+<blockquote>
+Li se yon kote ki frèt kote ou pa ka dòmi paske limyè a se sou 24 èdtan pandan tan an
+Entansyonèlman, ou pral pèdi nosyon de tan, gen yon chanm ki nan teyori se kote
+moun resevwa manje, manje se terib, li frèt. <br/>
+Ou dòmi (eseye dòmi) sou planche a oswa sou bank metal yo kote diman nenpòt moun ka dòmi. <br/>
+Ou dwe bwè dlo resikle nan twalèt ki danjere nan vant ou. <br/>
+Lè ou itilize twalèt yo ou dwe fè l devan lòt moun. <br/>
+Epitou nan chak selil yo gen alantou 10 a 15 moun nan pi. Sa nan yon ti espas tankou nan
+4 mèt nan 3 mèt longè.
+</blockquote> `],
+    "fr": [`Quel est le <strong> refroidisseur </strong> de <em> la US Customs and Border Patrol? </em> `,
+      `La glacière est très moche. <br/>
+C'est une prison. <br/>
+Une description:
+<blockquote>
+C’est un endroit froid où vous ne pouvez pas dormir car la lumière est allumée 24 heures par jour.
+Intentionnellement, vous allez perdre la notion du temps, il y a une salle qui est en théorie où
+les gens reçoivent de la nourriture, la nourriture est horrible, il fait froid. <br/>
+Vous dormez (essayez de dormir) sur le sol ou sur des bancs métalliques où presque personne ne peut dormir. <br/>
+Vous devez boire de l'eau recyclée des toilettes qui soit nocive pour votre estomac. <br/>
+Lorsque vous utilisez les salles de bain, vous devez le faire devant les autres. <br/>
+De plus, dans chaque cellule, ils ont environ 10 à 15 personnes au maximum. Que dans un petit espace comme dans
+4 mètres de long par 3 mètres de hancho.
+</blockquote> `]
   },
   "qWhatDetencion": {
-    "en": [],
-    "ht": [],
-    "fr": []
+    "en": [
+      `What is the detention of <em> US Immigration and Customs Enforcement </em> `,
+      `It's a prison. It is very ugly. I'm getting descriptions ...`
+    ],
+    "ht": [
+      `Ki sa ki se detansyon an nan <em> US Imigrasyon ak Ladwàn Ranfòsman </em>`,
+      `Se yon prizon. Li trè lèd. Mwen resevwa deskripsyon ...`
+    ],
+    "fr": [
+      `Qu'est-ce que la détention de <em> l'immigration des États-Unis et de la police </em>`,
+      `C'est une prison. C'est très moche. Je reçois des descriptions ...`
+    ]
   },
   "qDetencionPrep": {
     "en": [],
@@ -229,19 +311,38 @@ Es posible que te pongan en un centro de detención`
 ¿Hay OTRA PARTE de tu país donde puedas vivir? `
   ],
   "qPostCFI": [
-    `Que va pasar si todo va bien con mi entrevista?`,
-    `Hay varias posibilidades<br/>
-Todos pasan por la detencion de <em>US Customs and Border Patrol</em>. Asi se llama <strong>la
-    hielera</strong><br/>
-Despues de eso hay dos posibilidades en la mayoria de casos
-    <ul>
-    <li>En la mayoria de casos, las familias con ninos que estan menores de edad se dejan libre</li>
-    <li>En la mayoria de casos, los otros van por una detencion de <em>US Immigration and Customs
-      Enforcement</em></li>
-    </ul>`
+    `¿Qué pasará si todo va bien con mi entrevista?`,
+    `Hay varias posibilidades <br/>
+Todos entran en la detención de <em> Aduanas y Patrulla Fronteriza de los Estados Unidos </em>. Esto se llama <strong> la
+enfriador </strong> <br/>
+Después de eso hay dos posibilidades en la mayoría de los casos.
+<ul>
+<li> En la mayoría de los casos, las familias con hijos menores de edad son liberadas </li>
+<li> En la mayoría de los casos, los demás están detenidos por <em> Inmigración y aduanas de EE. UU.
+Cumplimiento </em> </li>
+</ul> `
   ],
-  "qWhatHielera": [],
-  "qWhatDetencion": [],
+  "qWhatHielera": [
+    `Que es <strong>la hielera</strong> de <em>US Customs and Border Patrol?</em>`,
+  `La hielera es muy feo. <br/>
+    Es un carcel. <br/>
+    Una descripcion:
+<blockquote>
+  Es un lugar frio en el que no puedes dormir porque la luz esta encendida 24 horas durante el tiempo que
+  estes en dentencion perderas la nocion del tiempo, hay una habitacion que en teoria es donde las
+  personas reciben la comida, la comida es horrible, esta fria. <br/>
+  Duermes (intentas dormir) en el suelo o en las bancas metalicas donde dificilmente alguien puede dormir.<br/>
+  Debes beber agua reciclada de los sanitarios que es perjudicial para el estomago.<br/>
+  Cuando utilizas los banos tienes que hacerlo frente a los demas. <br/>
+  Ademas en cada celda tienen alrededor de 10 a 15 personas como maximo. Eso en un espacio pequeno como en
+  4 metros de largo por 3 metros de hancho.
+</blockquote>`
+],
+  "qWhatDetencion": [
+    `Que es la detencion de <em>US Immigration and Customs Enforcement</em>`,
+    `Es una prision. Es muy feo. Estoy consiguiendo descripciones ...`,
+
+  ],
   "qDetencionPrep": [],
   "qMyContact": [],
   "qLeviticus": [],
