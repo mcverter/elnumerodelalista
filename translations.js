@@ -429,7 +429,7 @@ Cumplimiento </em> </li>
              Write it with a SHARPIE pen. It is very easy to wash a normal pen from your body.`
   ],
   "qMyContact": [
-    `No tengo ningún número ni dirección. ¿A quién puedo llamar o escribir para pedir ayuda cuando estoy detenido? `
+    `No tengo ningún número ni dirección. ¿A quién puedo llamar o escribir para pedir ayuda cuando estoy detenido? `,
       `<h1> Yo </h1> <br/>
 Mitchell Verter <br/>
 +1 646 705 7784 <br/>
