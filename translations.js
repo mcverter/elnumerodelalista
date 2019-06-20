@@ -617,7 +617,7 @@ Escríbelo con un bolígrafo SHARPIE. Es muy fácil lavar una pluma normal de tu
   "qBusquedas": [
     `
 Mi amigo o familiar ya cruzó a los Estados Unidos. ¿Dónde está ella ahora?
-`
+`,
       `
 Posiblemente, ella está detenida en los Estados Unidos <br/>
 Justo después de que una persona cruza la frontera entran en la hielera. Se quedan allí hasta dos semanas. No hay manera de obtener información sobre ellos. <br />
@@ -632,7 +632,7 @@ Por favor, use esta página para iniciar una búsqueda: <br/>
 `
   ],
   "qMutualAid": [
-    `¿Por qué hago este sitio web? `
+    `¿Por qué hago este sitio web? `,
       `
   Porque soy un anarquista, que cree en <a href="https://es.wikipedia.org/wiki/Apoyo_mutuo" target="_blank"> apoyo mutuo </a>
 `
