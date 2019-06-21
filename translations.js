@@ -618,18 +618,7 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
       What do the anarchists think about this process?
       `, `
          <BLOCKQUOTE>
- This is already more than enough for a social revolution of an economic and anti-authoritarian nature; but
- there is more. In Mexico live about four million Indians, who until twenty or twenty-five years ago lived
- in communities, owning in common the lands, waters and forests. Mutual support was the rule in
- those communities, in which the Authority was only felt when the agent of the collection of rents
- towards its periodic appearance or when the rural ones arrived in search of men to make them enter
- by force to the Army. In these communities there were no judges, or mayors, or jailers, or any
- moth of that class. Everyone had the right to land, to water for irrigation, to the forest for
- firewood and wood to build huts. The plows walked from hand to hand, as well as the yokes
- of oxen. Each family worked the extension of land that was calculated to be sufficient to produce
- necessary, and the work of weeding and raising the crops was done in common, gathering all the
- community, today, to raise Pedro's harvest, tomorrow to raise Juan's, and so on.
- To make a hut, all the members of the community put to work.
+This in itself is enough for a social revolution which is economic in na¬ture and anti-authoritarian, but there is more. Four million Indians live in Mexico who, until twenty or twenty-five years ago, lived in communities possessing the lands, the waters, and the forests in common. Mutual aid was the rule in these communities, in which authority was felt only when the tax collcctor appeared periodically or when "recruiters" showed up in search of men to force into the army. In these communities there were no judges, mayors, jailers, in fact no bothersome people at all of this type. Everyone had the right to the land, to the water to irrigate it, to the forests for firewood, and to the wood from the forests for the construction of small houses.The plows passed from hand to hand, as did yokes of oxen. Each family worked as much land as they thought was sufficient to pro¬duce what was necessary, and the work of weeding and harvesting was done in common by the entire community—today, Pedro's harvest, tomorrow Juan s, and so on. Everyone in the community put their hands to the work when a house was to be raised.
             </BLOCKQUOTE>
             <cite>
 <A href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
@@ -705,7 +694,7 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
  nan bèf. Chak fanmi te travay pou ekstansyon peyi ki te kalkile ase pou pwodwi
  nesesè, ak travay la nan sarkle ak ogmante rekòt yo te fè an komen, ranmase tout la
  kominote a, jodi a, ogmante rekòt Pedro a, demen ogmante a Juan la, ak sou sa.
- Pou fè yon jacal, tout manm kominote a te travay.
+ Pou fè yon joupa, tout manm kominote a te travay.
             </BLOCKQUOTE>
             <cite>
 <A href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
@@ -730,7 +719,7 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
  de bœufs. Chaque famille travaillait sur l’extension de la terre qui était jugée suffisante pour produire
  nécessaire, et le travail de désherbage et d’élevage a été effectué en commun, réunissant tous les
  la communauté, aujourd’hui, pour élever la récolte de Pedro, demain pour élever celle de Juan, et ainsi de suite.
- Pour faire un jacal, tous les membres de la communauté se mettent au travail.
+ Pour faire une cabane, tous les membres de la communauté se mettent au travail.
             </BLOCKQUOTE>
             <cite>
 <A href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
