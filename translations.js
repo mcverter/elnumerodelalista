@@ -1,12 +1,15 @@
 var questions_to_international = {
   "qWhatList": {
     "en": [
-      "What is the list?",
-      "The list is an immoral and racist system that the United States uses to limit the number of people who can enter the country."
+      `
+      What is the list?
+      `, `
+      The list is an immoral and racist system that the United States uses to limit the number of people who can enter the country.
+      `
     ],
     "ar": [
       `ما هي القائمة؟`,
-       `القائمة نظام غير أخلاقي وعنصري تستخدمه الولايات المتحدة للحد من عدد الأشخاص الذين يمكنهم الدخول إلى البلاد."
+      `القائمة نظام غير أخلاقي وعنصري تستخدمه الولايات المتحدة للحد من عدد الأشخاص الذين يمكنهم الدخول إلى البلاد."
 `
     ],
     "ru": [
@@ -24,43 +27,48 @@ var questions_to_international = {
   },
   "qHowList": {
     "en": [
-      `How does the list work?`,
-      `You go to chaparral from 7 in the morning until 9 in the morning to get a number <br/>
-You wait for your number<br/>
-When your number is called, you can go to the other side`
+      `
+      How does the list work?
+      `, `
+You go to chaparral from 7 in the morning until 9 in the morning to get a number <BR/>
+You wait for your number<BR/>
+When your number is called, you can go to the other side
+`
     ],
     "ar": [
-    `كيف تعمل القائمة؟`,
-       `تذهب إلى chaparral من 7 في الصباح حتى 9 في الصباح للحصول على رقم <br/>
-  انتظر رقمك <br/>
+      `كيف تعمل القائمة؟`,
+      `تذهب إلى chaparral من 7 في الصباح حتى 9 في الصباح للحصول على رقم <BR/>
+  انتظر رقمك <BR/>
   عندما يتم استدعاء رقمك ، يمكنك الذهاب إلى الجانب الآخر
     `
     ],
     "ru": [
       `Как работает список?`,
-      `Вы идете в Чапараль с 7 утра до 9 утра, чтобы получить номер <br/>
-Вы ждете своего номера <br/>
+      `Вы идете в Чапараль с 7 утра до 9 утра, чтобы получить номер <BR/>
+Вы ждете своего номера <BR/>
 Когда ваш номер набирается, вы можете перейти на другую сторону`
     ],
     "ht": [`Kijan lis la travay?`,
-      `Ou ale nan chaparral depi 7 a nan maten jiska 9 nan maten pou jwenn yon nimewo <br/>
-      Ou rete tann pou nimewo ou <br/>
+      `Ou ale nan chaparral depi 7 a nan maten jiska 9 nan maten pou jwenn yon nimewo <BR/>
+      Ou rete tann pou nimewo ou <BR/>
       Lè yo rele nimewo ou, ou ka ale nan lòt bò a`],
     "fr": [
       `Comment fonctionne la liste?`,
-      `Vous allez à chaparral de 7 heures du matin à 9 heures du matin pour obtenir un numéro <br/>
-Vous attendez votre numéro <br/>
+      `Vous allez à chaparral de 7 heures du matin à 9 heures du matin pour obtenir un numéro <BR/>
+Vous attendez votre numéro <BR/>
 Lorsque votre numéro est appelé, vous pouvez aller de l'autre côté`
     ]
   },
   "qWaitTime": {
     "en": [
-      "How much time do I have to wait?",
-      "A lot. One month?  Two months?  Three?"
+      `How much time do I have to wait?
+      `, `
+      A lot. One month?  Two months?  Three?
+      `
     ],
     "ar": [
-    `كم من الوقت يجب علي الانتظار؟`
-    ,   `كثير. شهر واحد؟ شهرين؟ ثلاثة؟"
+      `كم من الوقت يجب علي الانتظار؟`
+      , `كثير. شهر واحد؟ شهرين؟ ثلاثة؟"
     `
     ],
     "ru": [
@@ -78,12 +86,15 @@ Lorsque votre numéro est appelé, vous pouvez aller de l'autre côté`
   },
   "qQuantity": {
     "en": [
-      `How many numbers are called each day?`,
-      `It's different every day. Some days a lot. Some days a little.  Some days none`
+      `
+      How many numbers are called each day?
+      `, `
+      It's different every day. Some days a lot. Some days a little.  Some days none
+      `
     ],
     "ar": [
-    `كم عدد الأرقام تسمى كل يوم؟`,
-       `الأمر مختلف كل يوم. بعض الأيام كثيرا. بعض الأيام قليلا. في بعض الأيام لا شيء`
+      `كم عدد الأرقام تسمى كل يوم؟`,
+      `الأمر مختلف كل يوم. بعض الأيام كثيرا. بعض الأيام قليلا. في بعض الأيام لا شيء`
     ],
     "ru": [
       "Сколько номеров вызывается каждый день?",
@@ -100,73 +111,82 @@ Lorsque votre numéro est appelé, vous pouvez aller de l'autre côté`
   },
   "qCrossing": {
     "en": [
-      `What will happen after I cross to the other side?`,
-      `The American authorities will interrogate you about your asylum case. This is called "The Credible Fear Interview "<br/>
-It is possible that you will be put in a detention facility`
+      `
+      What will happen after I cross to the other side?
+      `, `
+The American authorities will interrogate you about your asylum case. This is called "The Credible Fear Interview "<BR/>
+It is possible that you will be put in a detention facility
+`
     ],
     "ar": [
-    `ماذا سيحدث بعد عبوري إلى الجانب الآخر؟`,
-       `ستستجوبك السلطات الأمريكية بشأن قضية اللجوء الخاصة بك. وهذا ما يسمى "مقابلة الخوف الموثوق بها" <br/>
+      `ماذا سيحدث بعد عبوري إلى الجانب الآخر؟`,
+      `ستستجوبك السلطات الأمريكية بشأن قضية اللجوء الخاصة بك. وهذا ما يسمى "مقابلة الخوف الموثوق بها" <BR/>
 من الممكن أن يتم وضعك في مركز احتجاز
 `
     ],
     "ru": [
       "Что будет после того, как я перейду на другую сторону?",
-      `Американские власти допросят вас по поводу вашего дела о предоставлении убежища. Это называется «Интервью с достоверным страхом» <br/>
+      `Американские власти допросят вас по поводу вашего дела о предоставлении убежища. Это называется «Интервью с достоверным страхом» <BR/>
 Возможно, вас поместят в следственный изолятор.`
     ],
     "ht": [
       `Kisa ki pral rive apre mwen fin travèse lòt bò lanmè a?`,
-      `Otorite Ameriken yo pral entèwoje ou sou ka azil ou an. Yo rele sa a "Entèvyou pè kredib" <br/>
+      `Otorite Ameriken yo pral entèwoje ou sou ka azil ou an. Yo rele sa a "Entèvyou pè kredib" <BR/>
 Li posib ke ou pral mete nan yon sant detansyon`
     ],
     "fr": [
       `Que se passera-t-il après avoir traversé de l'autre côté?`,
-      `Les autorités américaines vous interrogeront sur votre cas d'asile. C’est ce qu’on appelle "L’interview sur la peur crédible" <br/>
+      `Les autorités américaines vous interrogeront sur votre cas d'asile. C’est ce qu’on appelle "L’interview sur la peur crédible" <BR/>
 Il est possible que vous soyez placé dans un centre de détention`
     ]
   },
   "qWhatAsylum": {
     "en": [
-      `What is asylum?`,
-      `The right of asylum is an international right of human rights, which can be enjoyed by any
-     person outside his country of origin in case of persecution (<a href="https://en.wikipedia.org/wiki/Right_of_asylum">Wikipedia</a>) `
+      `
+      What is asylum?
+      `, `
+The right of asylum is an international right of human rights, which can be enjoyed by any
+     person outside his country of origin in case of persecution (<A href="https://en.wikipedia.org/wiki/Right_of_asylum">Wikipedia</A>) 
+`
     ],
     "ar": [
       `
       ما هو اللجوء؟
-`,      
-`حق اللجوء هو حق دولي لحقوق الإنسان ، يمكن لأي شخص التمتع به
-شخص خارج بلده الأصلي في حالة الاضطهاد (<a href="https://en.wikipedia.org/wiki/Right_of_asylum"> ويكيبيديا </a>) `
-],
+`,
+      `حق اللجوء هو حق دولي لحقوق الإنسان ، يمكن لأي شخص التمتع به
+شخص خارج بلده الأصلي في حالة الاضطهاد (<A href="https://en.wikipedia.org/wiki/Right_of_asylum"> ويكيبيديا </A>) `
+    ],
     "ru": [
       `Что такое убежище?`,
       `Право на убежище является международным правом прав человека, которым могут пользоваться любые
-лицо за пределами страны его происхождения в случае преследования (<a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B0%D0%B2%D0%BE_%D1%83%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B0"> Википедия </a>) `
+лицо за пределами страны его происхождения в случае преследования (<A href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B0%D0%B2%D0%BE_%D1%83%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B0"> Википедия </A>) `
     ],
     "ht": [
       'Kisa azil la ye?',
       `Dwa azil la se yon dwa entènasyonal sou dwa moun, ki ka jwi nenpòt ki
-      moun ki pa nan peyi orijin li nan ka ta gen pèsekisyon (<a href="https://es.wikipedia.org/wiki/Derecho_de_asilo">Wikipedia</a>) `
+      moun ki pa nan peyi orijin li nan ka ta gen pèsekisyon (<A href="https://es.wikipedia.org/wiki/Derecho_de_asilo">Wikipedia</A>) `
     ],
     "fr": [
       `Qu'est-ce que l'asile?`,
       `Le droit d’asile est un droit international des droits de l’homme, qui peut être exercé par tout
-      personne extérieure à son pays d'origine en cas de persécution (<a href="https://fr.wikipedia.org/wiki/Droit_d%27asile">Wikipedia</a>)`
+      personne extérieure à son pays d'origine en cas de persécution (<A href="https://fr.wikipedia.org/wiki/Droit_d%27asile">Wikipedia</A>)`
     ]
   },
   "qCFI": {
     "en": [
-      `What is "The Credible Fear Interview? `,
-      `The American authorities are going to ask you: "Well, sir, why do you want to enter the 
-United States? Why can  you not stay in your own country? What is your fear? <br/>
-In this interview, you must explain that you are afraid to return to your country. This fear is real. This fear is credible`
+      `
+      What is "The Credible Fear Interview? 
+      `, `
+The American authorities are going to ask you: "Well, sir, why do you want to enter the 
+United States? Why can  you not stay in your own country? What is your fear? <BR/>
+In this interview, you must explain that you are afraid to return to your country. This fear is real. This fear is credible
+`
     ],
     "ar": [
-`
+      `
       ما هي "مقابلة الخوف الموثوق بها؟"
  `,
-        `السلطات الأمريكية سوف تسألك:" حسنًا ، سيدي ، لماذا تريد أن تدخل
+      `السلطات الأمريكية سوف تسألك:" حسنًا ، سيدي ، لماذا تريد أن تدخل
 الولايات المتحدة الامريكانية؟ لماذا لا يمكنك البقاء في بلدك؟ ما هو خوفك؟ <BR/>
 في هذه المقابلة ، يجب أن توضح أنك تخشى العودة إلى بلدك. هذا الخوف حقيقي. هذا الخوف ذو مصداقية
 `
@@ -174,34 +194,37 @@ In this interview, you must explain that you are afraid to return to your countr
     "ru": [
       `Что такое «Интервью за Достоверный Страх?»`,
       `Американские власти спросят вас: «Ну, сэр, почему вы хотите войти в
-Соединенные Штаты? Почему вы не можете остаться в своей стране? Что ты боишься?» <br/>
-  В этом интервью вы должны объяснить, что боитесь вернуться в свою страну. Этот страх настоящий. Этот страх заслуживает доверия`    ],
+Соединенные Штаты? Почему вы не можете остаться в своей стране? Что ты боишься?» <BR/>
+  В этом интервью вы должны объяснить, что боитесь вернуться в свою страну. Этот страх настоящий. Этот страх заслуживает доверия`],
     "ht": [
       `Ki sa ki se "Entèvyou pou moun ki te pè nan kredib?" `,
       `Otorite Ameriken yo pral mande ou: "Oke, mesye, poukisa ou vle antre nan la
-Etazini? Poukisa ou pa ka rete nan pwòp peyi ou? Ki sa ki gen krentif pou ou a? <br/>
+Etazini? Poukisa ou pa ka rete nan pwòp peyi ou? Ki sa ki gen krentif pou ou a? <BR/>
   Nan entèvyou sa a, ou dwe eksplike ke ou pè retounen nan peyi ou. Sa a pè se reyèl. Sa a pè se kredib`
     ],
     "fr": [
       `Qu'est-ce que "L'interview de la peur crédible?"`,
       `Les autorités américaines vont vous demander:" Eh bien, monsieur, pourquoi voulez-vous entrer dans le
-États Unis? Pourquoi ne pouvez-vous pas rester dans votre propre pays? Quelle est ta peur? <br/>
+États Unis? Pourquoi ne pouvez-vous pas rester dans votre propre pays? Quelle est ta peur? <BR/>
   Dans cette interview, vous devez expliquer que vous avez peur de retourner dans votre pays. Cette peur est réelle. Cette crainte est crédible`
     ]
   },
   "qMano": {
     "en": [
-      `What are the important parts of the interview`,
-      `WHAT happened? <br/>
-WHO did it? <br/>
-WHY did he do it? <br/>
-Did you go to the POLICE? <br/>
-Is there ANOTHER part of your country where you can live?`
+      `
+      What are the important parts of the interview
+      `, `
+WHAT happened? <BR/>
+WHO did it? <BR/>
+WHY did he do it? <BR/>
+Did you go to the POLICE? <BR/>
+Is there ANOTHER part of your country where you can live?
+`
     ],
     "ar": [
-`    ما هي الأجزاء المهمة من المقابلة؟
+      `    ما هي الأجزاء المهمة من المقابلة؟
 `,
-`      
+      `      
               ماذا حدث؟ <BR/>
 
   من فعلها؟ <BR/>
@@ -212,117 +235,124 @@ Is there ANOTHER part of your country where you can live?`
     ],
     "ru": [
       `Каковы важные части интервью`,
-      `Что случилось? <br/>
-Кто это сделал? <br/>
-ПОЧЕМУ он это сделал? <br/>
-Вы ходили в полицию? <br/>
+      `Что случилось? <BR/>
+Кто это сделал? <BR/>
+ПОЧЕМУ он это сделал? <BR/>
+Вы ходили в полицию? <BR/>
 Есть ли другая часть вашей страны, где вы можете жить?`
     ],
     "ht": [
       'Ki pati enpòtan nan entèvyou a?',
-      `KISA te rive? <br/>
-KI MOUN KI te fè? <br/>
-POUKISA li te fè li? <br/>
-Eske ou te ale nan POLIS la? <br/>
+      `KISA te rive? <BR/>
+KI MOUN KI te fè? <BR/>
+POUKISA li te fè li? <BR/>
+Eske ou te ale nan POLIS la? <BR/>
 Èske gen yon LOT PATI nan peyi ou kote ou ka viv? `
     ],
     "fr": [
       `Quelles sont les parties importantes de l'interview? `,
-      `QUE est-ce qui s'est passé? <br/>
-        QUI l'a fait? <br/>
-      POURQUOI l'a-t'il fait? <br/>
-        Êtes-vous allé à la POLICE? <br/>
+      `QUE est-ce qui s'est passé? <BR/>
+        QUI l'a fait? <BR/>
+      POURQUOI l'a-t'il fait? <BR/>
+        Êtes-vous allé à la POLICE? <BR/>
         Y a-t-il une AUTRE PARTIE de votre pays où vous pouvez vivre? `
     ]
   },
   "qPostCFI": {
     "en": [
-      `What will happen if everything goes well with my interview?`,
-      `There are several possibilities <br/>
-Everyone goes into the detention of <em> US Customs and Border Patrol </em>. This is called <strong> the
-    cooler </strong> <br/>
+      `
+      What will happen if everything goes well with my interview?
+      `,
+      `
+There are several possibilities <BR/>
+Everyone goes into the detention of <EM> US Customs and Border Patrol </EM>. This is called <STRONG> the
+    cooler </STRONG> <BR/>
 After that there are two possibilities in most cases
-    <ul>
-    <li> In most cases, families with children who are minors are released </li>
-    <li> In most cases, the others to a detention of <em> US Immigration and Customs
-      Enforcement </em> </li>
-    </ul> `
+    <UL>
+    <LI> In most cases, families with children who are minors are released </LI>
+    <LI> In most cases, the others to a detention of <EM> US Immigration and Customs
+      Enforcement </EM> </LI>
+    </UL> 
+`
     ],
     "ar": [
       `
     ماذا سيحدث إذا سارت الأمور على ما يرام في مقابلتي؟
 `,
 
-              `هناك العديد من الاحتمالات <br/>
-يذهب الجميع إلى احتجاز <em> دورية الجمارك والحدود الأمريكية </em>. وهذا ما يسمى <strong> the
-برودة </strong> <br/>
+      `هناك العديد من الاحتمالات <BR/>
+يذهب الجميع إلى احتجاز <EM> دورية الجمارك والحدود الأمريكية </EM>. وهذا ما يسمى <STRONG> the
+برودة </STRONG> <BR/>
 بعد ذلك هناك احتمالان في معظم الحالات
 <UL>
-<li> في معظم الحالات ، يتم إطلاق سراح العائلات التي لديها أطفال قاصرون </li>
-<li> في معظم الحالات ، يتم احتجاز الآخرين في <em> الهجرة والجمارك الأمريكية
-التنفيذ </em> </li>
-</ul> `
+<LI> في معظم الحالات ، يتم إطلاق سراح العائلات التي لديها أطفال قاصرون </LI>
+<LI> في معظم الحالات ، يتم احتجاز الآخرين في <EM> الهجرة والجمارك الأمريكية
+التنفيذ </EM> </LI>
+</UL> `
     ],
     "ru": [
       "Что будет, если все пойдет хорошо с моим интервью?",
-      `Есть несколько возможностей <br/>
-Все попадают под стражу <em> Таможенного и пограничного патруля США </em>. Это называется <strong>
-кулер </strong> <br/>
+      `Есть несколько возможностей <BR/>
+Все попадают под стражу <EM> Таможенного и пограничного патруля США </EM>. Это называется <STRONG>
+кулер </STRONG> <BR/>
 После этого в большинстве случаев есть две возможности
 <UL>
-<li> В большинстве случаев освобождаются семьи с несовершеннолетними детьми </li>
-<li> В большинстве случаев остальные находятся под стражей иммиграционной и таможенной службы США.
-Правоприменение </em> </li>
-</ul> `
+<LI> В большинстве случаев освобождаются семьи с несовершеннолетними детьми </LI>
+<LI> В большинстве случаев остальные находятся под стражей иммиграционной и таможенной службы США.
+Правоприменение </EM> </LI>
+</UL> `
     ],
     "ht": [
       `Kisa ki pral rive si tout bagay mache byen ak entèvyou mwen an? `,
-      `Gen plizyè posiblite <br/>
-Tout moun ale nan detansyon <em> US Ladwàn ak Patwouy Border </em>. Se sa yo rele <strong> la
-pi fre </strong> <br/>
+      `Gen plizyè posiblite <BR/>
+Tout moun ale nan detansyon <EM> US Ladwàn ak Patwouy Border </EM>. Se sa yo rele <STRONG> la
+pi fre </STRONG> <BR/>
 Apre sa, gen de posibilite nan pifò ka yo
-<ul>
-<li> Nan pifò ka yo, fanmi ki gen timoun ki minè yo lage </li>
-<li> Nan pifò ka yo, lòt moun yo nan yon detansyon nan <em> Imigrasyon US ak Ladwàn
-Ranfòsman </em> </li>
-</ul> `
+<UL>
+<LI> Nan pifò ka yo, fanmi ki gen timoun ki minè yo lage </LI>
+<LI> Nan pifò ka yo, lòt moun yo nan yon detansyon nan <EM> Imigrasyon US ak Ladwàn
+Ranfòsman </EM> </LI>
+</UL> `
     ],
     "fr": ["Que se passera-t-il si tout se passe bien avec mon entretien?",
-      `Il y a plusieurs possibilités <br/>
-Tout le monde entre en détention par la <em> patrouille des douanes et des frontières des États-Unis </em>. Ceci est appelé <strong> le
-glacière </strong> <br/>
+      `Il y a plusieurs possibilités <BR/>
+Tout le monde entre en détention par la <EM> patrouille des douanes et des frontières des États-Unis </EM>. Ceci est appelé <STRONG> le
+glacière </STRONG> <BR/>
 Après cela, il y a deux possibilités dans la plupart des cas
-<ul>
-<li> Dans la plupart des cas, les familles avec enfants mineurs sont libérées </li>
-<li> Dans la plupart des cas, les autres personnes placées en détention <em> dans Immigration et douanes américaines
-Application </em> </li>
-</ul> `]
+<UL>
+<LI> Dans la plupart des cas, les familles avec enfants mineurs sont libérées </LI>
+<LI> Dans la plupart des cas, les autres personnes placées en détention <EM> dans Immigration et douanes américaines
+Application </EM> </LI>
+</UL> `]
   },
   "qWhatHielera": {
     "en": [
-      `What is <strong> the cooler </strong> of <em> US Customs and Border Patrol? </em>`,
-      `The cooler is very ugly. <br/>
-     It's a jail. <br/>
+      `
+What is <STRONG> the cooler </STRONG> of <EM> US Customs and Border Patrol? </EM>
+`, `
+The cooler is very ugly. <BR/>
+     It's a jail. <BR/>
      A description:
-<blockquote>
+<BLOCKQUOTE>
    It is a cold place where you can not sleep because the light is on 24 hours during the time
    Intentionally, you will lose the notion of time, there is a room that in theory is where
-   people receive food, food is horrible, it's cold. <br/>
-   You sleep (try to sleep) on the floor or on the metal benches where hardly anyone can sleep. <br/>
-   You must drink recycled water from toilets that is harmful to your stomach. <br/>
-   When you use the bathrooms you have to do it in front of others. <br/>
+   people receive food, food is horrible, it's cold. <BR/>
+   You sleep (try to sleep) on the floor or on the metal benches where hardly anyone can sleep. <BR/>
+   You must drink recycled water from toilets that is harmful to your stomach. <BR/>
+   When you use the bathrooms you have to do it in front of others. <BR/>
    Also in each cell they have around 10 to 15 people at most. That in a small space as in
    4 meters long by 3 meters of hancho.
-</blockquote> `
+</BLOCKQUOTE> 
+`
     ],
     "ar": [
-    `ما هو <strong> مبرد <strong> <em> دورية الجمارك والحدود الأمريكية؟ </em> `
-, `
+      `ما هو <STRONG> مبرد <STRONG> <EM> دورية الجمارك والحدود الأمريكية؟ </EM> `
+      , `
    
            برودة القبيح جدا. <BR/>
   إنه سجن. <BR/>
   وصف:
-    <blockquote>
+    <BLOCKQUOTE>
       إنه مكان بارد لا يمكنك النوم فيه لأن الضوء يعمل على مدار 24 ساعة
       عن عمد ، ستفقد فكرة الوقت ، هناك مجال نظريًا هو المكان
       يتلقى الناس الطعام ، الطعام سيء ، بارد. <BR/>
@@ -331,58 +361,58 @@ Application </em> </li>
       عند استخدام الحمامات ، عليك أن تفعل ذلك أمام الآخرين. <BR/>
       في كل زنزانة أيضًا ، يوجد حوالي 10 إلى 15 شخصًا على الأكثر. هذا في مساحة صغيرة كما هو الحال في
       4 أمتار من قبل 3 أمتار من hancho.
-    </blockquote> `
+    </BLOCKQUOTE> `
     ],
     "ru": [
-      `Что такое <strong> кулер </strong> Таможенного и <em> пограничного патруля США? </EM> `,
-      `Кулер очень уродливый. <br/>
-Это тюрьма. <br/>
+      `Что такое <STRONG> кулер </STRONG> Таможенного и <EM> пограничного патруля США? </EM> `,
+      `Кулер очень уродливый. <BR/>
+Это тюрьма. <BR/>
 Описание:
 <BLOCKQUOTE>
 Это холодное место, где вы не можете спать, потому что свет включен в течение 24 часов
 Намеренно вы потеряете представление о времени, в теории есть место, где
-люди получают еду, еда ужасна, холодно. <br/>
-Вы спите (пытаетесь уснуть) на полу или на металлических скамейках, где вряд ли кто-то может спать. <br/>
-Вы должны пить переработанную воду из туалетов, которая вредна для вашего желудка. <br/>
-Когда вы используете ванные комнаты, вы должны делать это на глазах у других. <br/>
+люди получают еду, еда ужасна, холодно. <BR/>
+Вы спите (пытаетесь уснуть) на полу или на металлических скамейках, где вряд ли кто-то может спать. <BR/>
+Вы должны пить переработанную воду из туалетов, которая вредна для вашего желудка. <BR/>
+Когда вы используете ванные комнаты, вы должны делать это на глазах у других. <BR/>
 Также в каждой камере их максимум от 10 до 15 человек. Это в небольшом пространстве, как в
 4 метра в длину и 3 метра Ханчо.
-</blockquote> `
+</BLOCKQUOTE> `
     ],
     "ht": [
-      `Ki sa ki <strong> pi fre </strong> nan <em> US Ladwàn ak Patwouy Border? </em> `,
-      `Pi fre a se trè lèd. <br/>
-Se yon prizon. <br/>
+      `Ki sa ki <STRONG> pi fre </STRONG> nan <EM> US Ladwàn ak Patwouy Border? </EM> `,
+      `Pi fre a se trè lèd. <BR/>
+Se yon prizon. <BR/>
 Yon deskripsyon:
-<blockquote>
+<BLOCKQUOTE>
 Li se yon kote ki frèt kote ou pa ka dòmi paske limyè a se sou 24 èdtan pandan tan an
 Entansyonèlman, ou pral pèdi nosyon de tan, gen yon chanm ki nan teyori se kote
-moun resevwa manje, manje se terib, li frèt. <br/>
-Ou dòmi (eseye dòmi) sou planche a oswa sou bank metal yo kote diman nenpòt moun ka dòmi. <br/>
-Ou dwe bwè dlo resikle nan twalèt ki danjere nan vant ou. <br/>
-Lè ou itilize twalèt yo ou dwe fè l devan lòt moun. <br/>
+moun resevwa manje, manje se terib, li frèt. <BR/>
+Ou dòmi (eseye dòmi) sou planche a oswa sou bank metal yo kote diman nenpòt moun ka dòmi. <BR/>
+Ou dwe bwè dlo resikle nan twalèt ki danjere nan vant ou. <BR/>
+Lè ou itilize twalèt yo ou dwe fè l devan lòt moun. <BR/>
 Epitou nan chak selil yo gen alantou 10 a 15 moun nan pi. Sa nan yon ti espas tankou nan
 4 mèt nan 3 mèt longè.
-</blockquote> `],
-    "fr": [`Quel est le <strong> refroidisseur </strong> de <em> la US Customs and Border Patrol? </em> `,
-      `La glacière est très moche. <br/>
-C'est une prison. <br/>
+</BLOCKQUOTE> `],
+    "fr": [`Quel est le <STRONG> refroidisseur </STRONG> de <EM> la US Customs and Border Patrol? </EM> `,
+      `La glacière est très moche. <BR/>
+C'est une prison. <BR/>
 Une description:
-<blockquote>
+<BLOCKQUOTE>
 C’est un endroit froid où vous ne pouvez pas dormir car la lumière est allumée 24 heures par jour.
 Intentionnellement, vous allez perdre la notion du temps, il y a une salle qui est en théorie où
-les gens reçoivent de la nourriture, la nourriture est horrible, il fait froid. <br/>
-Vous dormez (essayez de dormir) sur le sol ou sur des bancs métalliques où presque personne ne peut dormir. <br/>
-Vous devez boire de l'eau recyclée des toilettes qui soit nocive pour votre estomac. <br/>
-Lorsque vous utilisez les salles de bain, vous devez le faire devant les autres. <br/>
+les gens reçoivent de la nourriture, la nourriture est horrible, il fait froid. <BR/>
+Vous dormez (essayez de dormir) sur le sol ou sur des bancs métalliques où presque personne ne peut dormir. <BR/>
+Vous devez boire de l'eau recyclée des toilettes qui soit nocive pour votre estomac. <BR/>
+Lorsque vous utilisez les salles de bain, vous devez le faire devant les autres. <BR/>
 De plus, dans chaque cellule, ils ont environ 10 à 15 personnes au maximum. Que dans un petit espace comme dans
 4 mètres de long par 3 mètres de hancho.
-</blockquote> `]
+</BLOCKQUOTE> `]
   },
   "qWhatDetencion": {
     "en": [
       `
-What is the detention of <em> US Immigration and Customs Enforcement </em> 
+What is the detention of <EM> US Immigration and Customs Enforcement </EM> 
 `
       ,
       `
@@ -391,20 +421,20 @@ What is the detention of <em> US Immigration and Customs Enforcement </em>
     ],
     "ar": [
       `
-ما هو احتجاز <em> مصلحة الهجرة والجمارك الأمريكية </em>
-`,  `
+ما هو احتجاز <EM> مصلحة الهجرة والجمارك الأمريكية </EM>
+`, `
        إنه سجن. انها قبيحة جدا. أتلقى أوصاف ...
-       `    ],
+       `],
     "ru": [
-      `Что такое задержание <em> Управления иммиграции и таможни США </em>`,
+      `Что такое задержание <EM> Управления иммиграции и таможни США </EM>`,
       `Это тюрьма. Это очень некрасиво. Я получаю описания ... `
     ],
     "ht": [
-      `Ki sa ki se detansyon an nan <em> US Imigrasyon ak Ladwàn Ranfòsman </em>`,
+      `Ki sa ki se detansyon an nan <EM> US Imigrasyon ak Ladwàn Ranfòsman </EM>`,
       `Se yon prizon. Li trè lèd. Mwen resevwa deskripsyon ...`
     ],
     "fr": [
-      `Qu'est-ce que la détention de <em> l'immigration des États-Unis et de la police </em>`,
+      `Qu'est-ce que la détention de <EM> l'immigration des États-Unis et de la police </EM>`,
       `C'est une prison. C'est très moche. Je reçois des descriptions ...`
     ]
   },
@@ -415,7 +445,7 @@ What is the detention of <em> US Immigration and Customs Enforcement </em>
       `
       ,
       `
-Write the phone numbers and addresses and all the important things about your arm <br/>
+Write the phone numbers and addresses and all the important things about your arm <BR/>
              Write it with a SHARPIE pen. It is very easy to wash a normal pen from your body.
 `
     ],
@@ -423,25 +453,25 @@ Write the phone numbers and addresses and all the important things about your ar
       `
        كيف يمكنني الاستعداد للبرودة والاحتجاز؟
        `
-       ,
-       `
-اكتب أرقام الهواتف والعناوين وكل الأشياء المهمة عن ذراعك <br/>
+      ,
+      `
+اكتب أرقام الهواتف والعناوين وكل الأشياء المهمة عن ذراعك <BR/>
 اكتبها بقلم SHARPIE. من السهل جدًا غسل قلم عادي من جسمك.
 `
     ],
     "ru": [
       `How can I prepare for the cooler and the detention?`,
-      `Write the phone numbers and addresses and all the important things about your arm <br/>
+      `Write the phone numbers and addresses and all the important things about your arm <BR/>
              Write it with a SHARPIE pen. It is very easy to wash a normal pen from your body.`
     ],
     "ht": [
       "Kouman mwen ka prepare pou pi fre a ak detansyon an?",
-      `Ekri nimewo telefòn yo ak adrès yo ak tout bagay sa yo enpòtan sou bra ou <br/>
+      `Ekri nimewo telefòn yo ak adrès yo ak tout bagay sa yo enpòtan sou bra ou <BR/>
              Ekri l ak yon plim SHARPIE. Li trè fasil pou lave yon plim nòmal nan kò w`
     ],
     "fr": [
       `Comment puis-je me préparer pour la chambre froide et la détention?`,
-      `Ecrivez les numéros de téléphone et adresses ainsi que toutes les informations importantes concernant votre bras<br/>
+      `Ecrivez les numéros de téléphone et adresses ainsi que toutes les informations importantes concernant votre bras<BR/>
       Ecris-le avec un stylo SHARPIE. Il est très facile de laver un stylo normal de votre corps.`
     ]
   },
@@ -450,32 +480,32 @@ Write the phone numbers and addresses and all the important things about your ar
       `
       I do not have any number or address. Who can I call or write for help when I'm detained? 
       `, `
- <h1>Me</h1> <br/>
-            Mitchell Verter <br/>
-            +1 646 705 7784 <br/>
+ <h1>Me</h1> <BR/>
+            Mitchell Verter <BR/>
+            +1 646 705 7784 <BR/>
 
-            <address>
-                Mitchell Verter <br/>
-                654 East San Ysidro Blvd <br/>
-                PMB 187 <br/>
+            <Address>
+                Mitchell Verter <BR/>
+                654 East San Ysidro Blvd <BR/>
+                PMB 187 <BR/>
                 San Ysidro, CA 92173
             </address>
-            <br/>
+            <BR/>
             Write it with a SHARPIE pen. It is very easy to wash a normal pen from your body.
 `
     ],
     "ar": [
       `
        ليس لدي أي رقم أو عنوان. من الذي يمكنني الاتصال به أو الكتابة للمساعدة عندما أكون معتقلاً؟
-       `,`
-  <h1> أنا </h1> <br/>
-ميتشل فيتر <br/>
-+1 646 705 7784 <br/>
+       `, `
+  <h1> أنا </h1> <BR/>
+ميتشل فيتر <BR/>
++1 646 705 7784 <BR/>
 
-   <address>
-                Mitchell Verter <br/>
-                654 East San Ysidro Blvd <br/>
-                PMB 187 <br/>
+   <Address>
+                Mitchell Verter <BR/>
+                654 East San Ysidro Blvd <BR/>
+                PMB 187 <BR/>
                 San Ysidro, CA 92173
             </address>
         <BR/>
@@ -484,49 +514,49 @@ Write the phone numbers and addresses and all the important things about your ar
     ],
     "ru": [
       `У меня нет ни номера, ни адреса. Кому я могу позвонить или написать о помощи, когда меня задержат? `,
-      `<h1> Я </h1> <br/>
-Митчелл Вертер <br/>
-+1 646 705 7784 <br/>
+      `<h1> Я </h1> <BR/>
+Митчелл Вертер <BR/>
++1 646 705 7784 <BR/>
 
-           <address>
-                Mitchell Verter <br/>
-                654 East San Ysidro Blvd <br/>
-                PMB 187 <br/>
+           <Address>
+                Mitchell Verter <BR/>
+                654 East San Ysidro Blvd <BR/>
+                PMB 187 <BR/>
                 San Ysidro, CA 92173
             </address>
- <br/>
+ <BR/>
 Напишите это с ручкой SHARPIE. Очень легко вымыть нормальную ручку из своего тела.
 `
     ],
     "ht": [
       `Mwen pa gen okenn nimewo oswa adrès. Ki moun mwen ka rele oswa ekri pou èd lè mwen arete? `,
-      `<h1> Mwen </h1> <br/>
-Mitchell Verter <br/>
-+1 646 705 7784 <br/>
+      `<h1> Mwen </h1> <BR/>
+Mitchell Verter <BR/>
++1 646 705 7784 <BR/>
 
-<address>
-Mitchell Vast <br/>
-654 East San Ysidro Blvd <br/>
-PMB 187 <br/>
+<Address>
+Mitchell Vast <BR/>
+654 East San Ysidro Blvd <BR/>
+PMB 187 <BR/>
 San Ysidro, CA 92173
 </address>
-<br/>
+<BR/>
 Ekri l ak yon plim SHARPIE. Li trè fasil pou lave yon plim nòmal nan kò w.
 `
     ],
     "fr": [
       `Je n'ai ni numéro ni adresse. Qui puis-je appeler ou demander de l'aide lorsque je suis détenu? `,
-      `<h2> Moi </h2> <br/>
-Mitchell Verter <br/>
-+1 646 705 7784 <br/>
+      `<h2> Moi </h2> <BR/>
+Mitchell Verter <BR/>
++1 646 705 7784 <BR/>
 
-<address>
-Mitchell Verter <br/>
-654 East San Ysidro Blvd <br/>
-PMB 187 <br/>
+<Address>
+Mitchell Verter <BR/>
+654 East San Ysidro Blvd <BR/>
+PMB 187 <BR/>
 San Ysidro, CA 92173
 </address>
-<br/>
+<BR/>
 Ecris-le avec un stylo SHARPIE. Il est très facile de laver un stylo normal de votre corps.
 `
     ]
@@ -536,28 +566,28 @@ Ecris-le avec un stylo SHARPIE. Il est très facile de laver un stylo normal de 
       `
       What do The Bible think about this process? 
       `, `
-<blockquote>
-When a foreigner lives with you in your land, you must not oppress him. <br/>
+<BLOCKQUOTE>
+When a foreigner lives with you in your land, you must not oppress him. <BR/>
 You must regard the foreigner who lives with you as the native-born among you. You are to love him as yourself, for you were foreigners in the land of Egypt.
-            </blockquote>
+            </BLOCKQUOTE>
             <cite> Leviticus 19: 33-34 </cite>
  `
     ],
     "ar": [
       `
        ماذا يفكر الكتاب المقدس في هذه العملية؟
-       `,`
-<blockquote>
+       `, `
+<BLOCKQUOTE>
 عندما يعيش أجنبي معك في أرضك ، يجب ألا تضطهده. <BR/>
 يجب أن تعتبر الأجنبي الذي يعيش معك هو المولود فيك. أنت تحبه بنفسك ، لأنك كنت أجنبياً في أرض مصر.
-</blockquote>
+</BLOCKQUOTE>
 <cite> سفر اللاويين 19: 33-34 </cite>
 `
     ],
     "ru": [
       `Что Библия думает об этом процессе? `,
       `<BLOCKQUOTE>
-    Когда иностранец живет с вами на вашей земле, вы не должны угнетать его. <br/>
+    Когда иностранец живет с вами на вашей земле, вы не должны угнетать его. <BR/>
     Вы должны рассматривать иностранца, который живет с вами, как родного среди вас. Вы должны любить его как самого себя, потому что вы были иностранцами на земле Египетской.
   </BLOCKQUOTE>
   <cite> Левит 19: 33–34 </cite>
@@ -565,19 +595,19 @@ You must regard the foreigner who lives with you as the native-born among you. Y
     ],
     "ht": [
       `Kisa Bib la panse sou pwosesis sa a? `,
-      `<blockquote>
-Si yon moun lòt nasyon rete ak nou nan peyi nou an, nou p'ap gen pitye pou li. <br/>
+      `<BLOCKQUOTE>
+Si yon moun lòt nasyon rete ak nou nan peyi nou an, nou p'ap gen pitye pou li. <BR/>
 Se pou nou konsidere moun lòt nasyon yo tou ki ta viv lakay nou, menm jan ak nou. Se pou ou renmen l 'tankou ou menm, paske ou te etranje nan peyi Lejip la.
-</blockquote>
+</BLOCKQUOTE>
 <cite> Levitik 19: 33-34 </cite>
 `
     ],
     "fr": [
       `Que pense la Bible de ce processus? `,
-      `<Blockquote>
-Lorsqu'un étranger habite avec vous dans votre pays, vous ne devez pas l'opprimer. <br/>
+      `<BLOCKQUOTE>
+Lorsqu'un étranger habite avec vous dans votre pays, vous ne devez pas l'opprimer. <BR/>
 Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. Vous devez l'aimer comme vous-même, car vous étiez étrangers au pays d'Égypte.
-</blockquote>
+</BLOCKQUOTE>
 <cite> Lévitique 19: 33-34 </cite>
 `
     ]
@@ -587,7 +617,7 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
       `
       What do the anarchists think about this process?
       `, `
-         <blockquote>
+         <BLOCKQUOTE>
  This is already more than enough for a social revolution of an economic and anti-authoritarian nature; but
  there is more. In Mexico live about four million Indians, who until twenty or twenty-five years ago lived
  in communities, owning in common the lands, waters and forests. Mutual support was the rule in
@@ -600,20 +630,20 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
  necessary, and the work of weeding and raising the crops was done in common, gathering all the
  community, today, to raise Pedro's harvest, tomorrow to raise Juan's, and so on.
  To make a hut, all the members of the community put to work.
-            </blockquote>
+            </BLOCKQUOTE>
             <cite>
-<a href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
- Ricardo Flores Magon, <em> The Mexican people are apt for anarcho-communism </em> <br/>
+<A href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
+ Ricardo Flores Magon, <EM> The Mexican people are apt for anarcho-communism </EM> <BR/>
  Regeneration, num. 53, September 2, 1911.
-</a>
+</A>
             </cite>
 `
     ],
     "ar": [
       `
       ماذا يفكر الأناركيون في هذه العملية؟
-      `,`
-<blockquote>
+      `, `
+<BLOCKQUOTE>
  هذا بالفعل أكثر من كافٍ لثورة اجتماعية ذات طبيعة اقتصادية ومعادية للسلطوية. لكن
  هناك أكثر. يعيش في المكسيك حوالي أربعة ملايين هندي ، عاشوا حتى قبل عشرين أو خمسة وعشرين عامًا
  في المجتمعات ، والتملك المشترك في الأراضي والمياه والغابات. وكان الدعم المتبادل هو القاعدة في
@@ -626,10 +656,10 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
  كان ضروريا ، وكان عمل إزالة الأعشاب الضارة ورفع المحاصيل مشتركا ، وجمع كل
  المجتمع ، اليوم ، لرفع حصاد بيدرو ، غدا لرفع خوان ، وهلم جرا.
  لجعل كوخ ، كل أفراد المجتمع للعمل.
-</blockquote>
+</BLOCKQUOTE>
 <cite> و
-<a href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
- ريكاردو فلوريس ماجون ، <em> الشعب المكسيكي مستعد للشيوعية الأناركية </em> <br/>
+<A href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
+ ريكاردو فلوريس ماجون ، <EM> الشعب المكسيكي مستعد للشيوعية الأناركية </EM> <BR/>
  التجديد ، الأسطوانات. 53 ، 2 سبتمبر 1911.
 </A>
 </cite> و
@@ -653,17 +683,17 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
  Чтобы создать хижину, все члены сообщества отправляются на работу.
 </BLOCKQUOTE>
 <cite>
-<a href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
- Рикардо Флорес Магон, <em> народ Мексики склонен к анархо-коммунизму </em> <br/>
+<A href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
+ Рикардо Флорес Магон, <EM> народ Мексики склонен к анархо-коммунизму </EM> <BR/>
  Регенерация, число 53, 2 сентября 1911 г.
-</a>
+</A>
 </cite>
 `
     ],
     "ht": [
       `Ki sa anarchis yo panse sou pwosesis sa a?`,
       `
-         <blockquote>
+         <BLOCKQUOTE>
  Sa a se deja plis pase ase pou yon revolisyon sosyal nan yon nati ekonomik ak anti-otoritè; men
  Gen plis. Nan Meksik ap viv sou kat milyon Endyen, ki moun ki jiska ven oswa ven-senk ane de sa te viv
  nan kominote yo, posede an komen tè ​​yo, dlo yo ak forè yo. Sipòte mityèl te règ la nan
@@ -676,19 +706,19 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
  nesesè, ak travay la nan sarkle ak ogmante rekòt yo te fè an komen, ranmase tout la
  kominote a, jodi a, ogmante rekòt Pedro a, demen ogmante a Juan la, ak sou sa.
  Pou fè yon jacal, tout manm kominote a te travay.
-            </blockquote>
+            </BLOCKQUOTE>
             <cite>
-<a href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
- Ricardo Flores Magon, <em> Moun Meksiken yo jis pou anarcho-kominis </em> <br/>
+<A href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
+ Ricardo Flores Magon, <EM> Moun Meksiken yo jis pou anarcho-kominis </EM> <BR/>
  Rejenerasyon, Num. 53 septanm 2, 1911.
-</a>
+</A>
             </cite>
 `
     ],
     "fr": [
       `Que pensent les anarchistes de ce processus?`,
       `
-         <blockquote>
+         <BLOCKQUOTE>
  C'est déjà plus que suffisant pour une révolution sociale de nature économique et anti-autoritaire; mais
  il y a plus. Au Mexique vivent environ quatre millions d'Indiens, qui vivaient jusqu'à il y a vingt ou vingt-cinq ans
  dans les communautés, possédant en commun les terres, les eaux et les forêts. Le soutien mutuel était la règle dans
@@ -701,12 +731,12 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
  nécessaire, et le travail de désherbage et d’élevage a été effectué en commun, réunissant tous les
  la communauté, aujourd’hui, pour élever la récolte de Pedro, demain pour élever celle de Juan, et ainsi de suite.
  Pour faire un jacal, tous les membres de la communauté se mettent au travail.
-            </blockquote>
+            </BLOCKQUOTE>
             <cite>
-<a href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
- Ricardo Flores Magon, <em> Le peuple mexicain est enclin à l'anarcho-communisme </em> <br/>
+<A href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
+ Ricardo Flores Magon, <EM> Le peuple mexicain est enclin à l'anarcho-communisme </EM> <BR/>
  Régénération, num. 53, 2 septembre 1911.
-</a>
+</A>
             </cite>
 `
     ]
@@ -716,32 +746,32 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
       `
             My friend or relative already crossed into the United States. Where is she right now?
 `, `
-            Possibly, she is being detained in the United States <br/>
-Right after a person crosses the border they go into the hielera.  They stay there for as long as two weeks.  There is no way to get information about them.<br />
+            Possibly, she is being detained in the United States <BR/>
+Right after a person crosses the border they go into the hielera.  They stay there for as long as two weeks.  There is no way to get information about them.<BR />
 
-After this, they might go into ICE detention<br/>
-Here is the official page for search for them: <br/>
-<a href="https://locator.ice.gov/odls">Online Detainee Locator System - ICE</a><br/>
-It is very hard to use.  ICE is a racist, fascist organization.  They do not care about human beings<br/>
-I am trying to search for people too, but it is very difficult<br>
-            Please, use this page to start a search: <br/>
-            <strong> <a href="detention.html"> SEARCH PAGE </a> </strong> 
+After this, they might go into ICE detention<BR/>
+Here is the official page for search for them: <BR/>
+<A href="https://locator.ice.gov/odls">Online Detainee Locator System - ICE</A><BR/>
+It is very hard to use.  ICE is a racist, fascist organization.  They do not care about human beings<BR/>
+I am trying to search for people too, but it is very difficult<BR>
+            Please, use this page to start a search: <BR/>
+            <STRONG> <A href="detention.html"> SEARCH PAGE </A> </STRONG> 
 `
     ],
     "ar": [
       `
 صديقي أو قريبي عبروا بالفعل إلى الولايات المتحدة. أين هي الآن؟
-`,`
-ربما ، هي محتجزة في الولايات المتحدة <br/>
-مباشرة بعد أن يعبر الشخص الحدود يذهبون إلى hielera. يقيمون هناك لمدة أسبوعين. لا توجد طريقة للحصول على معلومات عنها. <br />
+`, `
+ربما ، هي محتجزة في الولايات المتحدة <BR/>
+مباشرة بعد أن يعبر الشخص الحدود يذهبون إلى hielera. يقيمون هناك لمدة أسبوعين. لا توجد طريقة للحصول على معلومات عنها. <BR />
 
-بعد ذلك ، قد يذهبون إلى حجز ICE <br/>
-فيما يلي الصفحة الرسمية للبحث عنها: <br/>
-<a href="https://locator.ice.gov/odls"> نظام محدد مواقع المحتجزين عبر الإنترنت - ICE </a> <br/>
-من الصعب جدا استخدامها. ICE هي منظمة فاشية عنصرية. إنهم لا يهتمون بالإنسان <br/>
-أحاول البحث عن أشخاص أيضًا ، لكنه صعب جدًا <br>
-يرجى استخدام هذه الصفحة لبدء البحث: <br/>
-<strong> <a href="detention.html"> صفحة البحث </a> </strong>
+بعد ذلك ، قد يذهبون إلى حجز ICE <BR/>
+فيما يلي الصفحة الرسمية للبحث عنها: <BR/>
+<A href="https://locator.ice.gov/odls"> نظام محدد مواقع المحتجزين عبر الإنترنت - ICE </A> <BR/>
+من الصعب جدا استخدامها. ICE هي منظمة فاشية عنصرية. إنهم لا يهتمون بالإنسان <BR/>
+أحاول البحث عن أشخاص أيضًا ، لكنه صعب جدًا <BR>
+يرجى استخدام هذه الصفحة لبدء البحث: <BR/>
+<STRONG> <A href="detention.html"> صفحة البحث </A> </STRONG>
 `
     ],
 
@@ -750,16 +780,16 @@ I am trying to search for people too, but it is very difficult<br>
 Zanmi mwen oswa fanmi mwen deja janbe nan Etazini yo. Kote li ye kounye a?
 `,
       `
-Li posib, li se ke yo te arete nan peyi Etazini <br/>
-Dwa apre yon moun kwaze fwontyè a yo ale nan Hielera la. Yo rete la pou lontan de semèn. Pa gen okenn fason pou jwenn enfòmasyon sou yo. <br />
+Li posib, li se ke yo te arete nan peyi Etazini <BR/>
+Dwa apre yon moun kwaze fwontyè a yo ale nan Hielera la. Yo rete la pou lontan de semèn. Pa gen okenn fason pou jwenn enfòmasyon sou yo. <BR />
 
 Apre sa, yo ka ale nan detansyon ICE la
-Isit la se paj ofisyèl la pou rechèch pou yo: <br/>
-<a href="https://locator.ice.gov/odls"> Sistèm Lokalizasyon Lokal Detenab - ICE </a> <br/>
-Li trè difisil pou itilize. ICE se yon rasis, òganizasyon fachis. Yo pa pran swen sou èt imen <br/>
-Mwen ap eseye pou chèche moun tou, men li trè difisil <br>
-Tanpri, itilize paj sa a pou kòmanse yon rechèch: <br/>
-<strong> <a href="detention.html"> rechèch PAJ </a> </strong>
+Isit la se paj ofisyèl la pou rechèch pou yo: <BR/>
+<A href="https://locator.ice.gov/odls"> Sistèm Lokalizasyon Lokal Detenab - ICE </A> <BR/>
+Li trè difisil pou itilize. ICE se yon rasis, òganizasyon fachis. Yo pa pran swen sou èt imen <BR/>
+Mwen ap eseye pou chèche moun tou, men li trè difisil <BR>
+Tanpri, itilize paj sa a pou kòmanse yon rechèch: <BR/>
+<STRONG> <A href="detention.html"> rechèch PAJ </A> </STRONG>
 `
     ],
     "ru": [
@@ -767,16 +797,16 @@ Tanpri, itilize paj sa a pou kòmanse yon rechèch: <br/>
 Мой друг или родственник уже въехал в Соединенные Штаты. Где она сейчас?
 `,
       `
-Возможно, ее задержали в Соединенных Штатах. <br/>
-Сразу после того, как человек пересекает границу, они уходят в гиелера Они остаются там до двух недель. Нет возможности получить информацию о них. <br />
+Возможно, ее задержали в Соединенных Штатах. <BR/>
+Сразу после того, как человек пересекает границу, они уходят в гиелера Они остаются там до двух недель. Нет возможности получить информацию о них. <BR />
 
-После этого они могут попасть под стражу ДВС. <br/>
-Вот официальная страница для их поиска: <br/>
-<a href="https://locator.ice.gov/odls"> Система обнаружения задержанных в Интернете - ICE </a> <br/>
-Это очень сложно использовать. ICE - расистская, фашистская организация. Они не заботятся о людях <br/>
-Я тоже пытаюсь искать людей, но это очень сложно <br>
-Пожалуйста, используйте эту страницу, чтобы начать поиск: <br/>
-<strong> <a href="detention.html"> ПОИСК СТРАНИЦЫ </a> </strong>
+После этого они могут попасть под стражу ДВС. <BR/>
+Вот официальная страница для их поиска: <BR/>
+<A href="https://locator.ice.gov/odls"> Система обнаружения задержанных в Интернете - ICE </A> <BR/>
+Это очень сложно использовать. ICE - расистская, фашистская организация. Они не заботятся о людях <BR/>
+Я тоже пытаюсь искать людей, но это очень сложно <BR>
+Пожалуйста, используйте эту страницу, чтобы начать поиск: <BR/>
+<STRONG> <A href="detention.html"> ПОИСК СТРАНИЦЫ </A> </STRONG>
 `
     ],
     "fr": [
@@ -784,16 +814,16 @@ Tanpri, itilize paj sa a pou kòmanse yon rechèch: <br/>
 Mon ami ou un parent est déjà passé aux États-Unis. Où est-elle en ce moment?
 `,
       `
-Elle est peut-être détenue aux États-Unis. <br/>
-Dès qu'une personne traverse la frontière, elle entre dans la hielera. Ils y restent jusqu'à deux semaines. Il n'y a aucun moyen d'obtenir des informations à leur sujet. <br />
+Elle est peut-être détenue aux États-Unis. <BR/>
+Dès qu'une personne traverse la frontière, elle entre dans la hielera. Ils y restent jusqu'à deux semaines. Il n'y a aucun moyen d'obtenir des informations à leur sujet. <BR />
 
-Après cela, ils pourraient être placés en détention par ICE <br/>
-Voici la page officielle de recherche pour eux: <br/>
-<a href="https://locator.ice.gov/odls"> Système de localisation de détenus en ligne - ICE </a> <br/>
-C'est très difficile à utiliser. ICE est une organisation raciste et fasciste. Ils ne se soucient pas des êtres humains <br/>
-J'essaie aussi de rechercher des personnes, mais c'est très difficile. <br>
-Utilisez cette page pour lancer une recherche: <br/>
-<strong> <a href="detention.html"> PAGE DE RECHERCHE </a> </strong>
+Après cela, ils pourraient être placés en détention par ICE <BR/>
+Voici la page officielle de recherche pour eux: <BR/>
+<A href="https://locator.ice.gov/odls"> Système de localisation de détenus en ligne - ICE </A> <BR/>
+C'est très difficile à utiliser. ICE est une organisation raciste et fasciste. Ils ne se soucient pas des êtres humains <BR/>
+J'essaie aussi de rechercher des personnes, mais c'est très difficile. <BR>
+Utilisez cette page pour lancer une recherche: <BR/>
+<STRONG> <A href="detention.html"> PAGE DE RECHERCHE </A> </STRONG>
 `
     ]
   },
@@ -801,34 +831,34 @@ Utilisez cette page pour lancer une recherche: <br/>
     "en": [
       `
       Why do I make this website? 
-      `,`
- Because I'm an anarchist, who believes in <a href="https://en.wikipedia.org/wiki/Mutual_aid_(organization_theory)" target="_blank"> mutual aid </a>
+      `, `
+ Because I'm an anarchist, who believes in <A href="https://en.wikipedia.org/wiki/Mutual_aid_(organization_theory)" target="_blank"> mutual aid </A>
 `
     ],
     "ar": [
       `
        لماذا أقوم بإنشاء هذا الموقع؟
        `, `      
-        لأنني فوضوي ، أؤمن <a href="https://en.wikipedia.org/wiki/Mutual_aid_(organization_theory)" target="_blank"> بالمساعدة المتبادلة </a>
+        لأنني فوضوي ، أؤمن <A href="https://en.wikipedia.org/wiki/Mutual_aid_(organization_theory)" target="_blank"> بالمساعدة المتبادلة </A>
 `
     ],
     "ru": [
       `Почему я делаю этот сайт? `,
       `
-  Потому что я анархист, который верит в <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B7%D0%B0%D0%B8%D0%BC%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C" target="_blank"> взаимную помощь </a>
+  Потому что я анархист, который верит в <A href="https://ru.wikipedia.org/wiki/%D0%92%D0%B7%D0%B0%D0%B8%D0%BC%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C" target="_blank"> взаимную помощь </A>
 `
     ],
     "ht": [
       `Poukisa mwen fè sit entènèt sa a? `,
       `
-  Paske mwen se yon anarchist, ki moun ki mete konfyans yo nan <a href="https://es.wikipedia.org/wiki/Apoyo_mutuo" target="_blank"> sipò mityèl </a><br/>
+  Paske mwen se yon anarchist, ki moun ki mete konfyans yo nan <A href="https://es.wikipedia.org/wiki/Apoyo_mutuo" target="_blank"> sipò mityèl </A><BR/>
 <h2>MEN ANPIL CHAY PA LOU</h2>
 `
     ],
     "fr": [
       `Pourquoi est-ce que je crée ce site? `,
       `
-  Parce que je suis un anarchiste, je crois au <a href="https://fr.wikipedia.org/wiki/Entraide_(%C3%A9conomie_politique)" target="_blank"> l'entraide </a>.
+  Parce que je suis un anarchiste, je crois au <A href="https://fr.wikipedia.org/wiki/Entraide_(%C3%A9conomie_politique)" target="_blank"> l'entraide </A>.
 `
     ]
   },
@@ -841,8 +871,8 @@ var questions_defaults = {
   ],
   "qHowList": [
     `¿Cómo funciona la lista?`,
-    `Usted va a Chaparral desde las 7 de la mañana hasta las 9 de la mañana para obtener un número <br/>
-Esperas tu numero <br/>
+    `Usted va a Chaparral desde las 7 de la mañana hasta las 9 de la mañana para obtener un número <BR/>
+Esperas tu numero <BR/>
 Cuando se llama su número, puede ir al otro lado`
   ],
   "qWaitTime": [
@@ -855,93 +885,93 @@ Cuando se llama su número, puede ir al otro lado`
   ],
   "qCrossing": [
     `¿Qué pasará después de que cruce al otro lado?`,
-    `Las autoridades estadounidenses lo interrogarán sobre su caso de asilo. Esto se llama "La entrevista de miedo creíble" <br/>
+    `Las autoridades estadounidenses lo interrogarán sobre su caso de asilo. Esto se llama "La entrevista de miedo creíble" <BR/>
 Es posible que te pongan en un centro de detención`
   ],
   "qWhatAsylum": [
     `Que es asilo?`,
     `El Derecho de asilo es un derecho internacional de los derechos humanos, que puede disfrutar cualquier
-    persona fuera de su pais de origen en caso de persecucion (<a href="https://es.wikipedia.org/wiki/Derecho_de_asilo">Wikipedia</a>)`
+    persona fuera de su pais de origen en caso de persecucion (<A href="https://es.wikipedia.org/wiki/Derecho_de_asilo">Wikipedia</A>)`
   ],
   "qCFI": [
     `¿Qué es la "Entrevista de miedo creíble?" `,
     `Las autoridades estadounidenses le preguntarán:" Bueno, señor, ¿por qué quiere ingresar a la
-¿Estados Unidos? ¿Por qué no puedes quedarte en tu propio país? ¿Cuál es tu miedo? <br/>
+¿Estados Unidos? ¿Por qué no puedes quedarte en tu propio país? ¿Cuál es tu miedo? <BR/>
   En esta entrevista, debe explicar que tiene miedo de regresar a su país. Este miedo es real. Este miedo es creíble.`],
   "qMano": [
     `¿Cuáles son las partes importantes de la entrevista?
-¿QUE pasó? <br/>
-¿QUIEN lo hizo? <br/>
-¿POR QUE lo hizo? <br/>
-¿Fuiste a la POLICIA? <br/>
+¿QUE pasó? <BR/>
+¿QUIEN lo hizo? <BR/>
+¿POR QUE lo hizo? <BR/>
+¿Fuiste a la POLICIA? <BR/>
 ¿Hay OTRA PARTE de tu país donde puedas vivir? `
   ],
   "qPostCFI": [
     `¿Qué pasará si todo va bien con mi entrevista?`,
-    `Hay varias posibilidades <br/>
-Todos entran en la detención de <em> Aduanas y Patrulla Fronteriza de los Estados Unidos </em>. Esto se llama <strong> la
-enfriador </strong> <br/>
+    `Hay varias posibilidades <BR/>
+Todos entran en la detención de <EM> Aduanas y Patrulla Fronteriza de los Estados Unidos </EM>. Esto se llama <STRONG> la
+enfriador </STRONG> <BR/>
 Después de eso hay dos posibilidades en la mayoría de los casos.
-<ul>
-<li> En la mayoría de los casos, las familias con hijos menores de edad son liberadas </li>
-<li> En la mayoría de los casos, los demás están detenidos por <em> Inmigración y aduanas de EE. UU.
-Cumplimiento </em> </li>
-</ul> `
+<UL>
+<LI> En la mayoría de los casos, las familias con hijos menores de edad son liberadas </LI>
+<LI> En la mayoría de los casos, los demás están detenidos por <EM> Inmigración y aduanas de EE. UU.
+Cumplimiento </EM> </LI>
+</UL> `
   ],
   "qWhatHielera": [
-    `Que es <strong>la hielera</strong> de <em>US Customs and Border Patrol?</em>`,
-    `La hielera es muy feo. <br/>
-    Es un carcel. <br/>
+    `Que es <STRONG>la hielera</STRONG> de <EM>US Customs and Border Patrol?</EM>`,
+    `La hielera es muy feo. <BR/>
+    Es un carcel. <BR/>
     Una descripcion:
-<blockquote>
+<BLOCKQUOTE>
   Es un lugar frio en el que no puedes dormir porque la luz esta encendida 24 horas durante el tiempo que
   estes en dentencion perderas la nocion del tiempo, hay una habitacion que en teoria es donde las
-  personas reciben la comida, la comida es horrible, esta fria. <br/>
-  Duermes (intentas dormir) en el suelo o en las bancas metalicas donde dificilmente alguien puede dormir.<br/>
-  Debes beber agua reciclada de los sanitarios que es perjudicial para el estomago.<br/>
-  Cuando utilizas los banos tienes que hacerlo frente a los demas. <br/>
+  personas reciben la comida, la comida es horrible, esta fria. <BR/>
+  Duermes (intentas dormir) en el suelo o en las bancas metalicas donde dificilmente alguien puede dormir.<BR/>
+  Debes beber agua reciclada de los sanitarios que es perjudicial para el estomago.<BR/>
+  Cuando utilizas los banos tienes que hacerlo frente a los demas. <BR/>
   Ademas en cada celda tienen alrededor de 10 a 15 personas como maximo. Eso en un espacio pequeno como en
   4 metros de largo por 3 metros de hancho.
-</blockquote>`
+</BLOCKQUOTE>`
   ],
   "qWhatDetencion": [
-    `Que es la detencion de <em>US Immigration and Customs Enforcement</em>`,
+    `Que es la detencion de <EM>US Immigration and Customs Enforcement</EM>`,
     `Es una prision. Es muy feo. Estoy consiguiendo descripciones ...`,
   ],
   "qDetencionPrep": [
     `How can I prepare for the cooler and the detention?`,
-    `Write the phone numbers and addresses and all the important things about your arm <br/>
+    `Write the phone numbers and addresses and all the important things about your arm <BR/>
              Write it with a SHARPIE pen. It is very easy to wash a normal pen from your body.`
   ],
   "qMyContact": [
     `No tengo ningún número ni dirección. ¿A quién puedo llamar o escribir para pedir ayuda cuando estoy detenido? `,
-    `<h2> Yo </h2> <br/>
-Mitchell Verter <br/>
-+1 646 705 7784 <br/>
+    `<h2> Yo </h2> <BR/>
+Mitchell Verter <BR/>
++1 646 705 7784 <BR/>
 
-<address>
-Mitchell Verter <br/>
-654 East San Ysidro Blvd <br/>
-PMB 187 <br/>
+<Address>
+Mitchell Verter <BR/>
+654 East San Ysidro Blvd <BR/>
+PMB 187 <BR/>
 San Ysidro, CA 92173
 </address>
-<br/>
+<BR/>
 Escríbelo con un bolígrafo SHARPIE. Es muy fácil lavar una pluma normal de tu cuerpo.
 `
   ],
   "qLeviticus": [
     `¿Qué piensa la Biblia sobre este proceso? `,
-    `<blockquote>
-    Cuando un extranjero vive contigo en tu tierra, no debes oprimirlo. <br/>
+    `<BLOCKQUOTE>
+    Cuando un extranjero vive contigo en tu tierra, no debes oprimirlo. <BR/>
     Debe considerar al extranjero que vive con usted como el nativo entre ustedes. Debes amarlo como a ti mismo, porque eras extranjero en la tierra de Egipto.
-  </blockquote>
+  </BLOCKQUOTE>
   <cite> Leviticus 19: 33-34 </cite>
   `
   ],
   "qACAB": [
     `Que piensan los anarquistas sobre todo esta proceso?`,
     `
-         <blockquote>
+         <BLOCKQUOTE>
  Esto es ya mas que suficiente para una revolucion social de caracter economico y antiautoritario; pero
  hay mas. En Mexico viven unos cuatro millones de indios, que hasta hace veinte o veinticinco anos vivian
  en comunidades, poseyendo en comun las tierras, las aguas y los bosques. El apoyo mutuo era la regla en
@@ -954,12 +984,12 @@ Escríbelo con un bolígrafo SHARPIE. Es muy fácil lavar una pluma normal de tu
  necesario, y el trabajo de escarda y de levantar las cosechas se hacia en comun, reuniendose toda la
  comunidad, hoy, para levantar la cosecha de Pedro, manana para levantar la de Juan y asi sucesivamente.
  Para fabricar un jacal, ponian manos a la obra todos los miembros de la comunidad.
-            </blockquote>
+            </BLOCKQUOTE>
             <cite>
-<a href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
- Ricardo Flores Magon, <em>El pueblo mexicano es apto para el anarchocomunismo</em> <br/>
+<A href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
+ Ricardo Flores Magon, <EM>El pueblo mexicano es apto para el anarchocomunismo</EM> <BR/>
  Regeneracion, num. 53, septiembre 2, 1911.
-</a>
+</A>
             </cite>
 `
   ],
@@ -968,22 +998,22 @@ Escríbelo con un bolígrafo SHARPIE. Es muy fácil lavar una pluma normal de tu
 Mi amigo o familiar ya cruzó a los Estados Unidos. ¿Dónde está ella ahora?
 `,
     `
-Posiblemente, ella está detenida en los Estados Unidos <br/>
-Justo después de que una persona cruza la frontera entran en la hielera. Se quedan allí hasta dos semanas. No hay manera de obtener información sobre ellos. <br />
+Posiblemente, ella está detenida en los Estados Unidos <BR/>
+Justo después de que una persona cruza la frontera entran en la hielera. Se quedan allí hasta dos semanas. No hay manera de obtener información sobre ellos. <BR />
 
-Después de esto, podrían ir a la detención de ICE <br/>
-Aquí está la página oficial para buscarlos: <br/>
-<a href="https://locator.ice.gov/odls"> Sistema de localización de detenidos en línea - ICE </a> <br/>
-Es muy difícil de usar. ICE es una organización racista, fascista. No les importan los seres humanos <br/>
-Estoy tratando de buscar personas también, pero es muy difícil <br>
-Por favor, use esta página para iniciar una búsqueda: <br/>
-<strong> <a href="detention.html"> BUSCAR PÁGINA </a> </strong>
+Después de esto, podrían ir a la detención de ICE <BR/>
+Aquí está la página oficial para buscarlos: <BR/>
+<A href="https://locator.ice.gov/odls"> Sistema de localización de detenidos en línea - ICE </A> <BR/>
+Es muy difícil de usar. ICE es una organización racista, fascista. No les importan los seres humanos <BR/>
+Estoy tratando de buscar personas también, pero es muy difícil <BR>
+Por favor, use esta página para iniciar una búsqueda: <BR/>
+<STRONG> <A href="detention.html"> BUSCAR PÁGINA </A> </STRONG>
 `
   ],
   "qMutualAid": [
     `¿Por qué hago este sitio web? `,
     `
-  Porque soy un anarquista, que cree en <a href="https://es.wikipedia.org/wiki/Apoyo_mutuo" target="_blank"> apoyo mutuo </a>
+  Porque soy un anarquista, que cree en <A href="https://es.wikipedia.org/wiki/Apoyo_mutuo" target="_blank"> apoyo mutuo </A>
 `
   ]
 };
