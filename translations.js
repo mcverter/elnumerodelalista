@@ -4,6 +4,11 @@ var questions_to_international = {
       "What is the list?",
       "The list is an immoral and racist system that the United States uses to limit the number of people who can enter the country."
     ],
+    "ar": [
+      `ما هي القائمة؟`,
+       `القائمة نظام غير أخلاقي وعنصري تستخدمه الولايات المتحدة للحد من عدد الأشخاص الذين يمكنهم الدخول إلى البلاد."
+`
+    ],
     "ru": [
       "Что такое список?",
       "Этот список является аморальной и расистской системой, которую Соединенные Штаты используют для ограничения числа людей, которые могут въехать в страну"
@@ -23,6 +28,13 @@ var questions_to_international = {
       `You go to chaparral from 7 in the morning until 9 in the morning to get a number <br/>
 You wait for your number<br/>
 When your number is called, you can go to the other side`
+    ],
+    "ar": [
+    `كيف تعمل القائمة؟`,
+       `تذهب إلى chaparral من 7 في الصباح حتى 9 في الصباح للحصول على رقم <br/>
+  انتظر رقمك <br/>
+  عندما يتم استدعاء رقمك ، يمكنك الذهاب إلى الجانب الآخر
+    `
     ],
     "ru": [
       `Как работает список?`,
@@ -46,6 +58,11 @@ Lorsque votre numéro est appelé, vous pouvez aller de l'autre côté`
       "How much time do I have to wait?",
       "A lot. One month?  Two months?  Three?"
     ],
+    "ar": [
+    `كم من الوقت يجب علي الانتظار؟`
+    ,   `كثير. شهر واحد؟ شهرين؟ ثلاثة؟"
+    `
+    ],
     "ru": [
       "Сколько времени мне ждать?",
       "Много. Один месяц? Два месяца? Три?"
@@ -63,6 +80,10 @@ Lorsque votre numéro est appelé, vous pouvez aller de l'autre côté`
     "en": [
       `How many numbers are called each day?`,
       `It's different every day. Some days a lot. Some days a little.  Some days none`
+    ],
+    "ar": [
+    `كم عدد الأرقام تسمى كل يوم؟`,
+       `الأمر مختلف كل يوم. بعض الأيام كثيرا. بعض الأيام قليلا. في بعض الأيام لا شيء`
     ],
     "ru": [
       "Сколько номеров вызывается каждый день?",
@@ -82,6 +103,12 @@ Lorsque votre numéro est appelé, vous pouvez aller de l'autre côté`
       `What will happen after I cross to the other side?`,
       `The American authorities will interrogate you about your asylum case. This is called "The Credible Fear Interview "<br/>
 It is possible that you will be put in a detention facility`
+    ],
+    "ar": [
+    `ماذا سيحدث بعد عبوري إلى الجانب الآخر؟`,
+       `ستستجوبك السلطات الأمريكية بشأن قضية اللجوء الخاصة بك. وهذا ما يسمى "مقابلة الخوف الموثوق بها" <br/>
+من الممكن أن يتم وضعك في مركز احتجاز
+`
     ],
     "ru": [
       "Что будет после того, как я перейду на другую сторону?",
@@ -105,6 +132,13 @@ Il est possible que vous soyez placé dans un centre de détention`
       `The right of asylum is an international right of human rights, which can be enjoyed by any
      person outside his country of origin in case of persecution (<a href="https://en.wikipedia.org/wiki/Right_of_asylum">Wikipedia</a>) `
     ],
+    "ar": [
+      `
+      ما هو اللجوء؟
+`,      
+`حق اللجوء هو حق دولي لحقوق الإنسان ، يمكن لأي شخص التمتع به
+شخص خارج بلده الأصلي في حالة الاضطهاد (<a href="https://en.wikipedia.org/wiki/Right_of_asylum"> ويكيبيديا </a>) `
+],
     "ru": [
       `Что такое убежище?`,
       `Право на убежище является международным правом прав человека, которым могут пользоваться любые
@@ -128,9 +162,18 @@ Il est possible que vous soyez placé dans un centre de détention`
 United States? Why can  you not stay in your own country? What is your fear? <br/>
 In this interview, you must explain that you are afraid to return to your country. This fear is real. This fear is credible`
     ],
+    "ar": [
+`
+      ما هي "مقابلة الخوف الموثوق بها؟"
+ `,
+        `السلطات الأمريكية سوف تسألك:" حسنًا ، سيدي ، لماذا تريد أن تدخل
+الولايات المتحدة الامريكانية؟ لماذا لا يمكنك البقاء في بلدك؟ ما هو خوفك؟ <BR/>
+في هذه المقابلة ، يجب أن توضح أنك تخشى العودة إلى بلدك. هذا الخوف حقيقي. هذا الخوف ذو مصداقية
+`
+    ],
     "ru": [
-`Что такое «Интервью за Достоверный Страх?»`,
-`Американские власти спросят вас: «Ну, сэр, почему вы хотите войти в
+      `Что такое «Интервью за Достоверный Страх?»`,
+      `Американские власти спросят вас: «Ну, сэр, почему вы хотите войти в
 Соединенные Штаты? Почему вы не можете остаться в своей стране? Что ты боишься?» <br/>
   В этом интервью вы должны объяснить, что боитесь вернуться в свою страну. Этот страх настоящий. Этот страх заслуживает доверия`    ],
     "ht": [
@@ -154,6 +197,18 @@ WHO did it? <br/>
 WHY did he do it? <br/>
 Did you go to the POLICE? <br/>
 Is there ANOTHER part of your country where you can live?`
+    ],
+    "ar": [
+`    ما هي الأجزاء المهمة من المقابلة؟
+`,
+`      
+              ماذا حدث؟ <BR/>
+
+  من فعلها؟ <BR/>
+  لماذا هو فعل هذا؟ <BR/>
+  هل ذهبت الى الشرطة؟ <BR/>
+  هل هناك جزء آخر من بلدك حيث يمكنك العيش؟
+ `
     ],
     "ru": [
       `Каковы важные части интервью`,
@@ -192,6 +247,21 @@ After that there are two possibilities in most cases
     <li> In most cases, the others to a detention of <em> US Immigration and Customs
       Enforcement </em> </li>
     </ul> `
+    ],
+    "ar": [
+      `
+    ماذا سيحدث إذا سارت الأمور على ما يرام في مقابلتي؟
+`,
+
+              `هناك العديد من الاحتمالات <br/>
+يذهب الجميع إلى احتجاز <em> دورية الجمارك والحدود الأمريكية </em>. وهذا ما يسمى <strong> the
+برودة </strong> <br/>
+بعد ذلك هناك احتمالان في معظم الحالات
+<UL>
+<li> في معظم الحالات ، يتم إطلاق سراح العائلات التي لديها أطفال قاصرون </li>
+<li> في معظم الحالات ، يتم احتجاز الآخرين في <em> الهجرة والجمارك الأمريكية
+التنفيذ </em> </li>
+</ul> `
     ],
     "ru": [
       "Что будет, если все пойдет хорошо с моим интервью?",
@@ -245,6 +315,24 @@ Application </em> </li>
    4 meters long by 3 meters of hancho.
 </blockquote> `
     ],
+    "ar": [
+    `ما هو <strong> مبرد <strong> <em> دورية الجمارك والحدود الأمريكية؟ </em> `
+, `
+   
+           برودة القبيح جدا. <BR/>
+  إنه سجن. <BR/>
+  وصف:
+    <blockquote>
+      إنه مكان بارد لا يمكنك النوم فيه لأن الضوء يعمل على مدار 24 ساعة
+      عن عمد ، ستفقد فكرة الوقت ، هناك مجال نظريًا هو المكان
+      يتلقى الناس الطعام ، الطعام سيء ، بارد. <BR/>
+      تنام (حاول أن تنام) على الأرض أو على المقاعد المعدنية حيث لا يستطيع أي شخص النوم. <BR/>
+      يجب أن تشرب الماء المعاد تدويره من المراحيض الضارة بطنك. <BR/>
+      عند استخدام الحمامات ، عليك أن تفعل ذلك أمام الآخرين. <BR/>
+      في كل زنزانة أيضًا ، يوجد حوالي 10 إلى 15 شخصًا على الأكثر. هذا في مساحة صغيرة كما هو الحال في
+      4 أمتار من قبل 3 أمتار من hancho.
+    </blockquote> `
+    ],
     "ru": [
       `Что такое <strong> кулер </strong> Таможенного и <em> пограничного патруля США? </EM> `,
       `Кулер очень уродливый. <br/>
@@ -293,9 +381,20 @@ De plus, dans chaque cellule, ils ont environ 10 à 15 personnes au maximum. Que
   },
   "qWhatDetencion": {
     "en": [
-      `What is the detention of <em> US Immigration and Customs Enforcement </em> `,
-      `It's a prison. It is very ugly. I'm getting descriptions ...`
+      `
+What is the detention of <em> US Immigration and Customs Enforcement </em> 
+`
+      ,
+      `
+      It's a prison. It is very ugly. I'm getting descriptions ...
+      `
     ],
+    "ar": [
+      `
+ما هو احتجاز <em> مصلحة الهجرة والجمارك الأمريكية </em>
+`,  `
+       إنه سجن. انها قبيحة جدا. أتلقى أوصاف ...
+       `    ],
     "ru": [
       `Что такое задержание <em> Управления иммиграции и таможни США </em>`,
       `Это тюрьма. Это очень некрасиво. Я получаю описания ... `
@@ -311,9 +410,24 @@ De plus, dans chaque cellule, ils ont environ 10 à 15 personnes au maximum. Que
   },
   "qDetencionPrep": {
     "en": [
-      `How can I prepare for the cooler and the detention?`,
-      `Write the phone numbers and addresses and all the important things about your arm <br/>
-             Write it with a SHARPIE pen. It is very easy to wash a normal pen from your body.`
+      `
+      How can I prepare for the cooler and the detention?
+      `
+      ,
+      `
+Write the phone numbers and addresses and all the important things about your arm <br/>
+             Write it with a SHARPIE pen. It is very easy to wash a normal pen from your body.
+`
+    ],
+    "ar": [
+      `
+       كيف يمكنني الاستعداد للبرودة والاحتجاز؟
+       `
+       ,
+       `
+اكتب أرقام الهواتف والعناوين وكل الأشياء المهمة عن ذراعك <br/>
+اكتبها بقلم SHARPIE. من السهل جدًا غسل قلم عادي من جسمك.
+`
     ],
     "ru": [
       `How can I prepare for the cooler and the detention?`,
@@ -333,8 +447,10 @@ De plus, dans chaque cellule, ils ont environ 10 à 15 personnes au maximum. Que
   },
   "qMyContact": {
     "en": [
-      `I do not have any number or address. Who can I call or write for help when I'm detained? `,
-      ` <h1>Me</h1> <br/>
+      `
+      I do not have any number or address. Who can I call or write for help when I'm detained? 
+      `, `
+ <h1>Me</h1> <br/>
             Mitchell Verter <br/>
             +1 646 705 7784 <br/>
 
@@ -346,6 +462,24 @@ De plus, dans chaque cellule, ils ont environ 10 à 15 personnes au maximum. Que
             </address>
             <br/>
             Write it with a SHARPIE pen. It is very easy to wash a normal pen from your body.
+`
+    ],
+    "ar": [
+      `
+       ليس لدي أي رقم أو عنوان. من الذي يمكنني الاتصال به أو الكتابة للمساعدة عندما أكون معتقلاً؟
+       `,`
+  <h1> أنا </h1> <br/>
+ميتشل فيتر <br/>
++1 646 705 7784 <br/>
+
+   <address>
+                Mitchell Verter <br/>
+                654 East San Ysidro Blvd <br/>
+                PMB 187 <br/>
+                San Ysidro, CA 92173
+            </address>
+        <BR/>
+اكتبها بقلم SHARPIE. من السهل جدًا غسل قلم عادي من جسمك.
 `
     ],
     "ru": [
@@ -399,17 +533,30 @@ Ecris-le avec un stylo SHARPIE. Il est très facile de laver un stylo normal de 
   },
   "qLeviticus": {
     "en": [
-      `What do The Bible think about this process? `,
-      `<blockquote>
+      `
+      What do The Bible think about this process? 
+      `, `
+<blockquote>
 When a foreigner lives with you in your land, you must not oppress him. <br/>
 You must regard the foreigner who lives with you as the native-born among you. You are to love him as yourself, for you were foreigners in the land of Egypt.
             </blockquote>
             <cite> Leviticus 19: 33-34 </cite>
  `
     ],
+    "ar": [
+      `
+       ماذا يفكر الكتاب المقدس في هذه العملية؟
+       `,`
+<blockquote>
+عندما يعيش أجنبي معك في أرضك ، يجب ألا تضطهده. <BR/>
+يجب أن تعتبر الأجنبي الذي يعيش معك هو المولود فيك. أنت تحبه بنفسك ، لأنك كنت أجنبياً في أرض مصر.
+</blockquote>
+<cite> سفر اللاويين 19: 33-34 </cite>
+`
+    ],
     "ru": [
       `Что Библия думает об этом процессе? `,
-       `<BLOCKQUOTE>
+      `<BLOCKQUOTE>
     Когда иностранец живет с вами на вашей земле, вы не должны угнетать его. <br/>
     Вы должны рассматривать иностранца, который живет с вами, как родного среди вас. Вы должны любить его как самого себя, потому что вы были иностранцами на земле Египетской.
   </BLOCKQUOTE>
@@ -437,8 +584,9 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
   },
   "qACAB": {
     "en": [
-      `What do the anarchists think about this process?`,
       `
+      What do the anarchists think about this process?
+      `, `
          <blockquote>
  This is already more than enough for a social revolution of an economic and anti-authoritarian nature; but
  there is more. In Mexico live about four million Indians, who until twenty or twenty-five years ago lived
@@ -459,6 +607,32 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
  Regeneration, num. 53, September 2, 1911.
 </a>
             </cite>
+`
+    ],
+    "ar": [
+      `
+      ماذا يفكر الأناركيون في هذه العملية؟
+      `,`
+<blockquote>
+ هذا بالفعل أكثر من كافٍ لثورة اجتماعية ذات طبيعة اقتصادية ومعادية للسلطوية. لكن
+ هناك أكثر. يعيش في المكسيك حوالي أربعة ملايين هندي ، عاشوا حتى قبل عشرين أو خمسة وعشرين عامًا
+ في المجتمعات ، والتملك المشترك في الأراضي والمياه والغابات. وكان الدعم المتبادل هو القاعدة في
+ تلك المجتمعات ، التي شعرت فيها السلطة فقط عندما كان وكيل جمع الإيجارات
+ نحو مظهره الدوري أو عند وصول المناطق الريفية بحثًا عن الرجال لإدخالهم
+ بالقوة للجيش. في هذه المجتمعات لم يكن هناك قضاة أو رؤساء بلديات أو سجناء أو أي
+ فراشة من تلك الفئة. كان لكل شخص الحق في الأرض ، والمياه للري ، إلى الغابة
+ الحطب والخشب لبناء الأكواخ. سار المحاريث من يد إلى آخر ، وكذلك النير
+ من الثيران. عملت كل أسرة على امتداد الأرض التي تم حسابها لتكون كافية لإنتاج
+ كان ضروريا ، وكان عمل إزالة الأعشاب الضارة ورفع المحاصيل مشتركا ، وجمع كل
+ المجتمع ، اليوم ، لرفع حصاد بيدرو ، غدا لرفع خوان ، وهلم جرا.
+ لجعل كوخ ، كل أفراد المجتمع للعمل.
+</blockquote>
+<cite> و
+<a href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
+ ريكاردو فلوريس ماجون ، <em> الشعب المكسيكي مستعد للشيوعية الأناركية </em> <br/>
+ التجديد ، الأسطوانات. 53 ، 2 سبتمبر 1911.
+</A>
+</cite> و
 `
     ],
     "ru": [
@@ -541,8 +715,7 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
     "en": [
       `
             My friend or relative already crossed into the United States. Where is she right now?
-`,
-      `
+`, `
             Possibly, she is being detained in the United States <br/>
 Right after a person crosses the border they go into the hielera.  They stay there for as long as two weeks.  There is no way to get information about them.<br />
 
@@ -555,6 +728,23 @@ I am trying to search for people too, but it is very difficult<br>
             <strong> <a href="detention.html"> SEARCH PAGE </a> </strong> 
 `
     ],
+    "ar": [
+      `
+صديقي أو قريبي عبروا بالفعل إلى الولايات المتحدة. أين هي الآن؟
+`,`
+ربما ، هي محتجزة في الولايات المتحدة <br/>
+مباشرة بعد أن يعبر الشخص الحدود يذهبون إلى hielera. يقيمون هناك لمدة أسبوعين. لا توجد طريقة للحصول على معلومات عنها. <br />
+
+بعد ذلك ، قد يذهبون إلى حجز ICE <br/>
+فيما يلي الصفحة الرسمية للبحث عنها: <br/>
+<a href="https://locator.ice.gov/odls"> نظام محدد مواقع المحتجزين عبر الإنترنت - ICE </a> <br/>
+من الصعب جدا استخدامها. ICE هي منظمة فاشية عنصرية. إنهم لا يهتمون بالإنسان <br/>
+أحاول البحث عن أشخاص أيضًا ، لكنه صعب جدًا <br>
+يرجى استخدام هذه الصفحة لبدء البحث: <br/>
+<strong> <a href="detention.html"> صفحة البحث </a> </strong>
+`
+    ],
+
     "ht": [
       `
 Zanmi mwen oswa fanmi mwen deja janbe nan Etazini yo. Kote li ye kounye a?
@@ -609,9 +799,17 @@ Utilisez cette page pour lancer une recherche: <br/>
   },
   "qMutualAid": {
     "en": [
-      `Why do I make this website? `,
       `
+      Why do I make this website? 
+      `,`
  Because I'm an anarchist, who believes in <a href="https://en.wikipedia.org/wiki/Mutual_aid_(organization_theory)" target="_blank"> mutual aid </a>
+`
+    ],
+    "ar": [
+      `
+       لماذا أقوم بإنشاء هذا الموقع؟
+       `, `      
+        لأنني فوضوي ، أؤمن <a href="https://en.wikipedia.org/wiki/Mutual_aid_(organization_theory)" target="_blank"> بالمساعدة المتبادلة </a>
 `
     ],
     "ru": [
