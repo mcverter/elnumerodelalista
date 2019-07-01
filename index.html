@@ -13,8 +13,13 @@
       /* url prefix language  (eg: en.elnumerodelalista.com */
       var urlPrefixLanguage = (function getUrlPrefixLanguage(){
         var url = window.location.href;
-        debugger;
-        return url.match("/(\w+).elnumerodelalista")
+        var subdomainRegexp = /(\w+)\.elnumerodelalista/;
+        var subdomain = url.match(subdomainRegexp);
+        if (!subdomain || subdomain.length < 2 || subdomain[1] === "www") {
+          return false;
+        } else {
+          return subdomain[1]
+        }
       })();
       var language = urlPrefixLanguage || window.navigator.language.substring(0, 2).toLowerCase();
 
