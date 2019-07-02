@@ -125,6 +125,16 @@
       gtag('config', 'UA-139213214-1');
     </script>
     <style>
+        #language-form {
+            text-align: center;
+            font-size: 200%;
+            color: darkred;
+        }
+        #language-picker {
+            font-size: 200%;
+            font-weight: 900;
+            color: darkred;
+        }
         #days-ago {
             font-size: 125%;
             font-style: italic;
@@ -206,8 +216,8 @@
 
 <div>
     <h1 style="text-align: center" id="mas_informacion"> MAS INFORMACION</h1>
-    <form>
-        <label for="language-picker">Cambia el Idioma</label>
+    <form name="language-form" id="language-form">
+        <label for="language-picker">CAMBIA EL IDIOMA &nbsp;</label>
     <select id="language-picker" name="language-picker" onchange="translateAllContent()">
         <option value="">SELECCIONAR</option>
         <option value="es">Español</option>
