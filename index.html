@@ -10,18 +10,11 @@
       var month_of_number = '06';
       var year_of_number = '2019';
 
-      /* url prefix language  (eg: en.elnumerodelalista.com */
-      var urlPrefixLanguage = (function getUrlPrefixLanguage(){
-        var url = window.location.href;
-        var subdomainRegexp = /(\w+)\.elnumerodelalista/;
-        var subdomain = url.match(subdomainRegexp);
-        if (!subdomain || subdomain.length < 2 || subdomain[1] === "www") {
-          return false;
-        } else {
-          return subdomain[1]
-        }
-      })();
-      var language = urlPrefixLanguage || window.navigator.language.substring(0, 2).toLowerCase();
+    /* language is either specified in URL or browser default language */
+      var getParameters = window.location.search.substr(1);
+      var language = getParameters.match(/language=(\w+)/) ?
+        getParameters.substr(getParameters.indexOf("language=")+9, 2) :
+        window.navigator.language.substr(0, 2).toLowerCase();
 
       /* We only care about date, not time. */
       var list_date = new Date(year_of_number + '-' + month_of_number + '-' + day_of_number + 'T12:00:00');
@@ -153,7 +146,7 @@
 </div>
 
 <script>
-    /* MAIN */
+  /* MAIN */
   window.onload = function () {
     var divs_to_translate = [
       "el_numero_es",
