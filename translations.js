@@ -226,7 +226,7 @@ The right of asylum is an international right of human rights, which can be enjo
     ]
   },
   "qCFI": {
-    "am":  [
+    "am": [
       `
     "የሚታመን የደስታ ቃለ-ምልልስ ምንድን ነው?
       `,
