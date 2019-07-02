@@ -1,5 +1,13 @@
 var questions_to_international = {
   "qWhatList": {
+    "am": [
+      `
+      ዝርዝሩ ምንድን ነው?
+      `,
+      `
+  ዝርዝሩ ዩናይትድ ስቴትስ ወደ አገሪቱ ለመግባት የሚችሉ ሰዎችን ቁጥር ለመገደብ የሚጠቀምበት ሥነ ምግባር የጎደለ እና የዘረኝነት ስርዓት ነው.
+  `
+    ],
     "en": [
       `
       What is the list?
@@ -26,6 +34,16 @@ var questions_to_international = {
     ]
   },
   "qHowList": {
+    "am": [
+      `
+  ዝርዝሩ እንዴት ነው የሚሰራው?
+  `,
+      `
+<BR/> ቁጥርን ለማግኘት ከጠዋቱ 7 እስከ ጠዋቱ 9 ሰዓት ድረስ ወደ ጎረቤትዎ ትሄዳላችሁ
+ቁጥርዎን <BR/> ይጠብቃሉ
+የእርስዎ ቁጥር ሲጠራ, ወደ ሌላኛው ወገን መሄድ ይችላሉ
+`
+    ],
     "en": [
       `
       How does the list work?
@@ -60,6 +78,14 @@ Lorsque votre numéro est appelé, vous pouvez aller de l'autre côté`
     ]
   },
   "qWaitTime": {
+    "am": [
+      `
+    ምን ያህል ጊዜ መጠበቅ አለብኝ?
+    `,
+      `
+            ብዙ. አንድ ወር? ሁለት ወራት? ሶስት?
+      `
+    ],
     "en": [
       `How much time do I have to wait?
       `, `
@@ -85,6 +111,14 @@ Lorsque votre numéro est appelé, vous pouvez aller de l'autre côté`
     ]
   },
   "qQuantity": {
+    "am":  [
+      `
+      በየቀኑ ስንት ቁጥሮች ይባላሉ?
+      `,
+      `
+    በየቀኑ የተለየ ነው. አንዳንድ ቀኖች በጣም ብዙ ናቸው. ከጥቂት ቀናት በኋላ. አንዳንድ ቀናት ምንም
+    `
+    ],
     "en": [
       `
       How many numbers are called each day?
@@ -110,6 +144,15 @@ Lorsque votre numéro est appelé, vous pouvez aller de l'autre côté`
     ]
   },
   "qCrossing": {
+    "am":  [
+      `
+    ወደ ሌላኛው ከተሻገርኩ በኋላ ምን ይከሰታል?
+    `,
+      `
+የአሜሪካ ባለሥልጣኖች ስለ ጥገኝነት ጉዳይዎ ምርመራ የሚያደርጉበት ጉዳይ ይሆናል. ይህ "ክሬነር ስጋርድ ቃለ መጠይቅ" <BR/> ይባላል
+ምናልባት በእስር ቤት ውስጥ ሊቆዩ ይችላሉ
+`
+    ],
     "en": [
       `
       What will happen after I cross to the other side?
@@ -141,6 +184,16 @@ Il est possible que vous soyez placé dans un centre de détention`
     ]
   },
   "qWhatAsylum": {
+    "am":   [
+      `
+      ጥገኝነት ምንድን ነው?
+      `,
+      `
+    የጥገኝነት መብት ማናቸውም በሰብአዊ መብት አያያዝ ዓለም አቀፍ መብት ነው
+  (<A href="https://en.wikipedia.org/wiki/Right_of_asylum"> Wikipedia </A>) ውስጥ የስደተኞችን ሁኔታ ያጠቃልላል.
+    `
+    ],
+
     "en": [
       `
       What is asylum?
@@ -173,6 +226,16 @@ The right of asylum is an international right of human rights, which can be enjo
     ]
   },
   "qCFI": {
+    "am":  [
+      `
+    "የሚታመን የደስታ ቃለ-ምልልስ ምንድን ነው?
+      `,
+      `
+የአሜሪካ ባለሥልጣናት ሊጠይቁዎት ነው: "እሺ, ጌታ ሆይ ለምን
+የተባበሩት መንግስታት? ለምን በራስዎ አገር አይቆዩም? ምን ፈሩ? <BR/>
+በዚህ ቃለ መጠይቅ ወደ ሀገርዎ ለመመለስ መፍራት አለብዎት. ይህ ፍርሃት ነው. ይህ ፍርሃት ሊታመን የሚችል ነው
+`
+    ],
     "en": [
       `
       What is "The Credible Fear Interview? 
@@ -210,6 +273,18 @@ Etazini? Poukisa ou pa ka rete nan pwòp peyi ou? Ki sa ki gen krentif pou ou a?
     ]
   },
   "qMano": {
+    "am": [
+      `
+      የቃለ መጠይቁ አስፈላጊ ክፍሎች ምንድን ናቸው
+      `,
+      `
+  ምን ተፈጠረ? <BR/>
+ማን አደረገ? <BR/>
+ለምን ይሄን አደረገ? <BR/>
+ወደ POLICE ሄደህ? <BR/>
+እርስዎ የሚኖሩበት አገር ሌላ አገር አለን?
+  `
+    ],
     "en": [
       `
       What are the important parts of the interview
@@ -259,6 +334,23 @@ Eske ou te ale nan POLIS la? <BR/>
     ]
   },
   "qPostCFI": {
+    "am":  [
+      `
+  በቃለ መጠይቁ ላይ ሁሉም ነገር በደንብ ቢሰራ ምን ይሆናል?
+  `,
+      `
+  በርካታ አማራጮችን አሉ <BR/>
+እያንዳንዱ ሰው <EM> የዩ.ኤስ. የጉምሩክ እና የጠረፍ ፖሊስ </EM> እስር ቤት ውስጥ ገብቷል. ይህ <STRONG> the
+ቀዝቃዛ </STRONG> <BR/>
+ከዚህ በኋላ በአብዛኛው ሁኔታዎች ሁለት አማራጮች አሉ
+<UL>
+<LI> በአብዛኛው ሁኔታዎች ታዳጊ የሆኑ ልጆች ያላቸው ቤተሰቦች ይለቀቃሉ </LI>
+<LI> በአብዛኛው, ሌሎች እስረኞች <EM> የዩናይትድ ስቴትስ ኢሚግሬሽንና ጉምሩክ ታሳሪዎች ናቸው
+ማስከበር </EM> </LI>
+</UL>
+  `
+    ],
+
     "en": [
       `
       What will happen if everything goes well with my interview?
@@ -326,6 +418,26 @@ Application </EM> </LI>
 </UL> `]
   },
   "qWhatHielera": {
+    "am": [
+      `
+<STRONG> la hielera </STRONG> የ <EM> የዩ.ኤስ. የጉምሩክ እና የጠረፍ ፖሊስ ምንድነው? </EM>
+`,
+      `
+ቀዝቃዛው በጣም አስቀያሚ ነው. <BR/>
+እሥር ቤት ነው. <BR/>
+አንድ መግለጫ
+<BLOCKQUOTE>
+የብርሃኑ መብራት በ 24 ሰዓታት ውስጥ ስለነበረ መተኛት የማይቻልበት ቀዝቃዛ ቦታ ነው
+ሆን ተብሎ, የጊዜን ሀሳብ ታጣለህ, በንድፈ ሀሳብ ውስጥ ቦታ አለ
+ሰዎች ምግብ ይቀበላሉ, ምግብ በጣም አሰቃቂ ነው, በጣም ቀዝቃዛ ነው. <BR/>
+መሬት ላይ ወይም እንቅልፋቸው ማንም ሰው በማይተኛባቸው የብረት ማዕዘኖች ላይ ይተኛል (እንቅልፍ ይተኛል). <BR/>
+ለሆድዎ ጎጂ ከሆኑት መጸዳጃዎች በድጋሜ የተጠማውን ውሃ መጠጣት ይኖርብዎታል. <BR/>
+መታጠቢያ ቤቶችን ሲጠቀሙ ፊትዎን ፊት ለፊት መደርደር አለብዎ. <BR/>
+በእያንዳንዱ ሴል ውስጥ ቢበዛ ከ 10 እስከ 15 ሰዎች ቢበዛ ነው. እዚያ ውስጥ እንደ ትንሽ ቦታ
+4 ሜትር ርዝማኔ በ 3 ሜትር በ hancho.
+</BLOCKQUOTE>
+`
+    ],
     "en": [
       `
 What is <STRONG> the cooler </STRONG> of <EM> US Customs and Border Patrol? </EM>
@@ -410,6 +522,15 @@ De plus, dans chaque cellule, ils ont environ 10 à 15 personnes au maximum. Que
 </BLOCKQUOTE> `]
   },
   "qWhatDetencion": {
+    "am": [
+      `
+<EM> የአሜሪካ ኢሚግሬሽን እና ጉምሩክ አስፈፃሚ </EM> ማቆም ምን ማለት ነው?
+`
+      ,
+      `
+      እስር ቤት ነው. በጣም አስቀያሚ ነው. መግለጫዎችን እያገኘሁ ነው ...
+      `
+    ],
     "en": [
       `
 What is the detention of <EM> US Immigration and Customs Enforcement </EM> 
@@ -439,6 +560,16 @@ What is the detention of <EM> US Immigration and Customs Enforcement </EM>
     ]
   },
   "qDetencionPrep": {
+    "am":   [
+      `
+      ለቀጣዩ ቀዝቃዛ እና ለእስራት መዘጋጀት እንዴት እችላለሁ?
+      `
+      ,
+      `
+የስልክ ቁጥሮችዎን እና አድራሻዎችን እና ስለ የእጆችዎ አስፈላጊ ቁም ነገር ሁሉ ይጻፉ <BR/>
+በ SHARPIE ቢግ ይፃፉ. አንድ መደበኛ ብዕር ከሰውነትዎ መታጠብ በጣም ቀላል ነው.
+`
+    ],
     "en": [
       `
       How can I prepare for the cooler and the detention?
@@ -476,6 +607,25 @@ Write the phone numbers and addresses and all the important things about your ar
     ]
   },
   "qMyContact": {
+    "am": [
+      `
+      ምንም ቁጥር ወይም አድራሻ የለኝም. እስር ቤት ስደርስ ለእርዳታ ለመጠየቅ ወይም ለመፃፍ ማን ሊረዳ ይችላል?
+      `,
+      `
+<h1> እኔ </h1> <BR/>
+Mitchell Verter <BR/>
++1 646 705 7784 <BR/>
+
+<address>
+Mitchell Verter <BR/>
+654 East San Ysidro Blvd / <BR/>
+PMB 187 <BR/>
+San Ysidro, CA 92173
+</address>
+<BR/>
+በ SHARPIE ቢግ ይፃፉ. አንድ መደበኛ ብዕር ከሰውነትዎ መታጠብ በጣም ቀላል ነው.
+  `
+    ],
     "en": [
       `
       I do not have any number or address. Who can I call or write for help when I'm detained? 
@@ -562,6 +712,18 @@ Ecris-le avec un stylo SHARPIE. Il est très facile de laver un stylo normal de 
     ]
   },
   "qLeviticus": {
+    "am":  [
+      `
+መጽሐፍ ቅዱስ ስለዚህ ሂደት ምን ያስባል?
+  `,
+      `
+<BLOCKQUOTE>
+በምድርህ ውስጥ የሚኖር የባዕድ አገር ሰው ከእናንተ ጋር በሚኖርበት ጊዜ አትጨቁን. <BR/>
+ከእናንተ ጋር የሚኖረውን የባዕድ አገር ሰው በእናንተ መኖሩን ታስተውላላችሁ. እናንተ በግብፅ ምድር እንግዶች ነበራችሁና እርሱን እንደ ራስህ ውደድ.
+</BLOCKQUOTE>
+<cite> ዘሌዋውያን 19: 33-34 </cite>
+`
+    ],
     "en": [
       `
       What do The Bible think about this process? 
@@ -613,6 +775,22 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
     ]
   },
   "qACAB": {
+    "am": [
+      `
+      አመንታኒስት ስለ ሂደቱ ምን ያስባሉ?
+      `,
+      `
+<BLOCKQUOTE>
+ይህ በራሱ ለግብርታዊ እና ፀረ-ፈላጭ ኢኮኖሚዊ ማህበራዊ አብዮት በቂ ነው, ግን ተጨማሪም አለ. በሜክሲኮ ውስጥ እስከ አራት ወይም ሃያ አምስት ዓመት ገደማ ድረስ አራት ሚልዮን ሕንዶች ይኖራሉ, መሬት, ውሃ, እና የደን ሳንቲሞች ባላቸው ማህበረሰቦች ውስጥ ይኖሩ ነበር. በነዚህ ማህበረሰቦች ውስጥ እርስ በርስ የሚደረገው እርዳታ በየትኛው ማኅበረሰብ ውስጥ ደንብ ነበር, በዚህ ስልጣን ላይ ባለስልጣን የታክስ ቀበሌው በየጊዜው ብቅ ሲል ወይም "ሠራተኞችን" ወደ ሠራዊቱ ለማስገባት ሲፈልጉ ብቻ ተገኝተዋል. በእነዚህ ማህበረሰቦች ውስጥ ምንም ዳኞች, ከንቲባዎች, ወሮበሎች አልነበሩም, በእንደዚህ አይነት አይነት የሚያስጨንቁ ህዝቦች የሉም. ሁሉም ሰው የመሬትን, ውኃውን ለማጠጣት ውሃን, ለማገዶ እንጨት እና ለትንንሾቹ ቤቶች ግንባታ እንጨት ወደ ጫካ ያመራል. ማረሻዎች በእጆቻቸው እንደ በሬዎች ነበሩ. እያንዳንዱ ቤተሰብ አስፈላጊ የሆነውን ነገር ለማሟላት በቂ እንደሆነ ያሰቡትን ያህል ብዙ ስራዎችን ሰርቷል, የአረም እና የመከር ሥራ በአጠቃላይ ማህበረሰቡ - በዛሬው ጊዜ, የፔድሮ መከር, ነገ ዮዋን እና ወዘተ. በማኅበረሰቡ ውስጥ ያሉ ሰዎች ሁሉ አንድ ቤት በሚነሳበት ጊዜ እጃቸውን ወደ ሥራው ያደርጉ ነበር.
+</BLOCKQUOTE>
+<cite>
+<A href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
+  Ricardo Flores Magon, <EM> የሜክሲኮ ሰዎች ለአርኖክ ኮሚኒቲዎች ተስማሚ ናቸው </em> <BR/>
+እንደገና መታደስ, ቁጥር. 53, መስከረም 2, 1911
+</A>
+</cite>
+  `
+    ],
     "en": [
       `
       What do the anarchists think about this process?
@@ -731,6 +909,23 @@ This in itself is enough for a social revolution which is economic in na¬ture a
     ]
   },
   "qBusquedas": {
+    "am":   [
+      `
+ወዳጄ ወይም ዘመድ ቀደም ሲል ወደ ዩናይትድ ስቴትስ ገብቷል. እሷ አሁን የት ነው?
+  `,
+      `
+ምናልባትም በዩናይትድ ስቴትስ ውስጥ ታስሮ ሊሆን ይችላል. <BR/>
+አንድ ሰው ድንበሩን አቋርጦ ሲያልፍ ወዲያውኑ ወደ ሂዬራ ይመለሳል. እስከ ሁለት ሳምንት ድረስ እዚያ ይቆያሉ. ስለእነሱ መረጃ ለማግኘት ምንም መንገድ የለም. <BR />
+
+ከዚያ በኋላ ወደ ኢ.ኢ.ግ. እስር ቤት ይገቡ ይሆናል <BR/>
+እነሱን ለመፈለግ ኦፊሴላዊው ገጽ እነሆ: <BR/>
+<A href="https://locator.ice.gov/odls"> የመስመር ላይ የፓርቲው ተቆጣጣሪ ስርዓት - ICE </A> <BR/>
+ለመጠቀም በጣም ከባድ ነው. ICE ዘረኛ, ፋሺስት ድርጅት ነው. ስለሰው ልጆች አያስቡም <BR/>
+እኔ ሰዎችን ለመፈለግ እየሞከርኩ ነው, ነገር ግን በጣም ከባድ ነው. <BR>
+እባክዎን ፍለጋ ለመጀመር ይህንን ገጽ ይጠቀሙ: <BR/>
+<STRONG> <A href="detention.html"> SEARCH PAGE </A> </STRONG>
+`
+    ],
     "en": [
       `
             My friend or relative already crossed into the United States. Where is she right now?
@@ -817,6 +1012,14 @@ Utilisez cette page pour lancer une recherche: <BR/>
     ]
   },
   "qMutualAid": {
+    "am": [
+      `
+      ለምንድን ነው ይህን ድር ጣቢያ የምሆነው?
+      `,
+      `
+  ምክንያቱም እኔ በ <A href="https://en.wikipedia.org/wiki/Mutual_aid_(organization_theory)" target="_blank"> የጋራ መተባበር </A> የሚያምን ሰው ነኝ.
+  `
+    ],
     "en": [
       `
       Why do I make this website? 
