@@ -17,10 +17,13 @@
         window.navigator.language.substr(0, 2).toLowerCase();
 
       const divs_to_translate = [
-        "el_numero_es",
-        "el_numero_de_la_lista",
+        "el-numero-es",
+        "el-numero-de-la-lista",
         "sobre",
-        "mas_informacion"
+        "mas-informacion",
+        "language-picker-label",
+        "dont-bug-me",
+        "disclaimer",
       ];
 
       function translateAllDivs(){
@@ -61,7 +64,7 @@
       function translateAllContent() {
         language = document.getElementById("language-picker").value || language;
 
-
+        translateDate();
         translateAllDivs();
         translateAllQuestions();
       }
@@ -69,8 +72,8 @@
       const list_date = new Date(year_of_number + '-' + month_of_number + '-' + day_of_number + 'T12:00:00');
       const today = new Date(); //new Date().toJSON().slice(0,10) + 'T12:00:00');
 
-      function inSpanish(date) {
-        return date.toLocaleDateString(language, {
+      function translateDate() {
+        document.getElementById("list-day").innerText = list_date.toLocaleDateString(language, {
             weekday: 'long',
             year: 'numeric',
             month: 'long',
@@ -91,11 +94,10 @@
       }
 
       function populateDivs() {
-        const listDayDiv = document.getElementById("list-day");
         const listNumberDiv = document.getElementById("list-number");
         const daysAgoDiv = document.getElementById("days-ago");
 
-        listDayDiv.innerText = inSpanish(list_date);
+        document.getElementById.innerText = translateDate();
         listNumberDiv.innerText = list_number.toString();
         daysAgoDiv.innerText = numDaysAgo();
       }
@@ -196,14 +198,14 @@
 
 </head>
 <body>
-<h1 style="text-align:center" id="el_numero_de_la_lista"> EL NUMERO DE LA LISTA </h1>
+<h1 style="text-align:center" id="el-numero-de-la-lista"> EL NUMERO DE LA LISTA </h1>
 <div id="main-container">
     <div class="interstitial" id="sobre"> SOBRE</div>
     <div id="date-div">
         <div id="list-day"></div>
         <div id="days-ago"></div>
     </div>
-    <div class="interstitial" id="el_numero_es">EL NUMERO ES</div>
+    <div class="interstitial" id="el-numero-es">EL NUMERO ES</div>
     <div id="list-number"></div>
 </div>
 
@@ -219,9 +221,9 @@
 
 
 <div>
-    <h1 style="text-align: center" id="mas_informacion"> MAS INFORMACION</h1>
+    <h1 style="text-align: center" id="mas-informacion"> MAS INFORMACION</h1>
     <form name="language-form" id="language-form">
-        <label for="language-picker">CAMBIA EL IDIOMA &nbsp;</label>
+        <label for="language-picker" id="language-picker-label">CAMBIA EL IDIOMA &nbsp;</label>
     <select id="language-picker" name="language-picker" onchange="translateAllContent()">
         <option value="">SELECCIONAR</option>
         <option value="es">Español</option>
@@ -433,7 +435,7 @@
             <div>
                 <a href="tel:16467057784">+1 646 705 7784
                 </a>
-                <p> Por favor, no llamame. Solo mandame mensajes de texto.
+                <p id="dont-bug-me"> Por favor, no llamame. Solo mandame mensajes de texto.</p>
             </div>
             <!-- div>
                 <a href="https://wa.me/16467057784" class="social-icon whatsapp">+1 646 705 7784
@@ -442,7 +444,7 @@
             </div -->
         </div>
         <hr>
-        <div>
+        <div id="disclaimer">
             <h3> NOTICIA LEGAL </H3>
             No estoy afiliado con ningun gobierno.<br/>
             No estoy afiliado con ningun ONG tampoco. <br/>
@@ -450,7 +452,7 @@
             <br/>
         </div>
         <hr/>
-        <div style="text-align: center; font-weight: bolder; font-style: oblique">
+        <div style="text-align: center; font-weight: bolder; font-style: oblique" id="rights">
             All wrongs righted. All rites reversed.
         </div>
     </div>
