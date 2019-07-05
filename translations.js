@@ -112,6 +112,104 @@ Sa a se yon pwojè endepandan epi kreyatè a pran tout responsablite pou sa.
 
 
 var QUESTIONS_TO_INTERNATIONAL = {
+  "qWhySoSlow": {
+    "en": [`
+    Why is the list moving so slowly now?
+    `,`
+    I don't know.  In the end, the movement of the list is determined by the US Government.  They determine how many people can enter the Port of Entry each day.  I would guess that there is some problem there: they are unable to take in people. Maybe Trump did something?  Maybe the Attorney General Did Something? Maybe the detention centers are too full?  Maybe the protests against the horrible conditions is slowing things down?
+    `],
+    "am": [
+      `
+     ለምንድን ነው ዝርዝሩ በዝግታ እየተጓዘ ያለው?
+     `, `
+      እኔ አላውቅም. በመጨረሻም የዝርዝሩ እንቅስቃሴ የሚወሰነው በአሜሪካ መንግሥት ነው. በየቀኑ ምን ያህል ሰዎች ወደ መግቢያ መግቢያ ምን ያህል ሰዎች መግባት እንደሚችሉ ይወስናሉ. እዚያ ውስጥ ችግር እንዳለ እገምታለሁ; ለሰዎች ለመውሰድ አይችሉም. ምናልባት ክርፕስ አንድ ነገር ሰርጎ ሊሆን ይችላል? ምናልባት የጠበቃው ጠቅላይ ፍርድ ቤት የእስር ማቆያ ማዕከሎች በጣም ብዙ ናቸው? ምናልባት አስከፊ ከሆነው ሁኔታ ጋር የሚደረገው ተቃውሞ ነገሮችን ማቅለል ሊሆን ይችላል?
+  `
+    ],
+    "pt": [
+    `
+     Por que a lista está se movendo tão devagar agora?
+     `,`
+     Eu não sei. No final, o movimento da lista é determinado pelo governo dos EUA. Eles determinam quantas pessoas podem entrar no Porto de Entrada todos os dias. Eu acho que há algum problema lá: eles são incapazes de absorver as pessoas. Talvez o Trump tenha feito alguma coisa? Talvez o procurador-geral tenha feito alguma coisa? Talvez os centros de detenção estejam cheios demais? Talvez os protestos contra as condições horríveis estejam atrasando as coisas?
+     `
+    ],
+    "bn": [
+    `
+     কেন তালিকা এত ধীরে ধীরে এখন চলন্ত?
+     `,`
+     আমি জানি না। শেষ পর্যন্ত, তালিকার আন্দোলন মার্কিন সরকার দ্বারা নির্ধারিত হয়। তারা নির্ধারণ করে যে প্রতিদিন কত জন প্রবেশপথ প্রবেশ করতে পারে। আমি অনুমান করবো যে সেখানে কিছু সমস্যা রয়েছে: তারা জনগণকে নিতে পারে না। হয়তো ট্রাম্প কিছু করেছে? হয়তো অ্যাটর্নি জেনারেল কি কিছু করেছিলেন? হয়তো আটক কেন্দ্রগুলো কি খুব পূর্ণ? হয়তো ভয়ঙ্কর অবস্থার বিরুদ্ধে বিক্ষোভের গতি কমে যাচ্ছে?
+     `
+    ],
+    "zh": [
+    `
+     为什么列表现在移动得这么慢？
+    `,`
+     我不知道。 最后，名单的移动由美国政府决定。 他们确定每天有多少人可以进入入境港。 我猜那里有一些问题：他们无法接纳人。 也许特朗普做了什么？ 也许司法部长做了什么？ 也许拘留中心太满了？ 也许针对恶劣条件的抗议活动正在减缓事态的发展？
+    `
+    ],
+    "ha": [
+    `
+     Me ya sa jerin ke motsi sosai a hankali a yanzu?
+     `,`
+     Ban sani ba. A ƙarshe, Gwamnatin Amirka ta ƙaddamar motsi na lissafi. Sun ƙayyade yawancin mutane zasu iya shigar da Port of Entry kowace rana. Ina tsammani akwai matsala a can: ba su iya daukar mutane. Wata kila Trump ya yi wani abu? Wata kila Babban Babban Shari'a Kome Kashi? Wataƙila wuraren cibiyoyin sun cika? Watakila boren da ake yi a kan mummunan yanayi yana rage abubuwa?
+     `
+],
+    "sw": [
+    `
+     Kwa nini orodha hiyo inaendelea polepole sasa?
+     `, `
+     Sijui. Mwishoni, harakati ya orodha hiyo imedhamiriwa na Serikali ya Marekani. Wao huamua jinsi watu wengi wanaweza kuingia kwenye Bandari ya Kuingia kila siku. Napenda nadhani kuwa kuna tatizo fulani pale: hawawezi kuchukua watu. Labda Trump alifanya kitu? Labda Mwanasheria Mkuu Alifanya Kitu? Labda vituo vya kufungwa ni kamili sana? Labda maandamano dhidi ya hali mbaya hupungua mambo?
+     `
+    ],
+    "fa": [
+    `
+     چرا لیست در حال حرکت به آرامی در حال حاضر؟
+     `,`
+     من نمی دانم. در پایان، حرکت این فهرست توسط دولت ایالات متحده تعیین می شود. آنها تعیین می کنند که چه تعداد از مردم می توانند هر روز وارد بندر ورودی شوند. من حدس می زنم که مشکلی وجود دارد: آنها نمی توانند مردم را بگیرند. شاید Trump کاری انجام داد؟ شاید دادخواست کلیشه کرد؟ شاید بازداشتگاه ها بیش از حد پر است؟ شاید اعتراضات علیه شرایط وحشتناک، کارها را کند می کند؟
+     `
+],
+    "tr": [
+    `
+     Liste neden bu kadar yavaş ilerliyor?
+     `,`
+     Bilmiyorum. Sonunda, listenin hareketi ABD Hükümeti tarafından belirlenir. Her gün Giriş Limanı'na kaç kişinin girebileceğini belirlerler. Orada bir sorun olduğunu tahmin ediyorum: İnsanları alamıyorlar. Belki Trump bir şey yaptı? Belki Başsavcı Bir Şey Yaptı? Belki gözaltı merkezleri çok dolu? Belki de korkunç koşullara karşı protestolar işleri yavaşlatıyor?
+     `
+],
+    "uk": [
+    `
+     Чому зараз цей список так повільно рухається?
+     `,`
+     Не знаю. Зрештою, перелік списку визначається урядом США. Вони визначають, скільки людей може входити до порту щодня. Я думаю, що є певна проблема: вони не можуть взяти людей. Може, Трамп щось зробив? Можливо, Генеральний прокурор щось зробив? Можливо, центри затримання надто повні? Можливо, протести проти жахливих умов сповільнюють ситуацію?
+     `
+    ],
+    "ar": [
+    `
+     لماذا تتحرك القائمة ببطء شديد الآن؟
+     `,`
+     لا أدري، لا أعرف. في النهاية ، يتم تحديد حركة القائمة من قبل حكومة الولايات المتحدة. وهي تحدد عدد الأشخاص الذين يمكنهم الدخول إلى ميناء الدخول كل يوم. أعتقد أن هناك بعض المشكلات هناك: فهم غير قادرين على استقبال الناس. ربما فعلت ترامب شيئا؟ ربما فعل النائب العام شيء؟ ربما مراكز الاحتجاز مليئة جدا؟ ربما الاحتجاجات ضد الظروف الرهيبة تبطئ الأمور؟
+     `
+],
+    "ru": [
+    `
+     Почему список движется так медленно сейчас?
+     `,`
+     Я не знаю. В конце концов, движение по списку определяется правительством США. Они определяют, сколько людей могут заходить в порт въезда каждый день. Я предполагаю, что здесь есть какая-то проблема: они не могут принимать людей. Может быть, Трамп что-то сделал? Может быть, генеральный прокурор что-то сделал? Может быть, центры заключения слишком переполнены? Может быть, протесты против ужасных условий замедляют ход событий?
+     `
+    ],
+    "ht": [
+    `
+     Poukisa lis la ap deplase tèlman dousman kounye a?
+     `,`
+     M pa konnen. Nan fen a, se mouvman an nan lis la detèmine pa gouvènman ameriken an. Yo detèmine konbyen moun ki ka antre nan Pò a nan antre chak jou. Mwen ta devine ke gen kèk pwoblèm la: yo kapab pran nan moun. Petèt Trump te fè yon bagay? Petèt Pwokirè Jeneral la fè yon bagay? Petèt sant detansyon yo twò plen? Petèt manifestasyon yo kont kondisyon terib yo ralanti bagay sa yo desann?
+     `
+    ],
+    "fr": [
+    `
+     Pourquoi la liste se déplace si lentement maintenant?
+     `,`
+     Je ne sais pas. Finalement, le mouvement de la liste est déterminé par le gouvernement américain. Ils déterminent combien de personnes peuvent entrer dans le port d'entrée chaque jour. Je suppose qu’il ya un problème là-bas: ils ne peuvent pas accueillir de personnes. Peut-être que Trump a fait quelque chose? Peut-être que le procureur général a fait quelque chose? Peut-être que les centres de détention sont trop pleins? Peut-être que les manifestations contre les conditions horribles ralentissent les choses?
+     `
+    ],
+  },
   "qWhatList": {
     "am": [
       `
@@ -2467,6 +2565,13 @@ Utilisez cette page pour lancer une recherche: <BR/>
 };
 
 var QUESTION_DEFAULTS = {
+  "qWhySoSlow": [
+    `¿Por qué la lista se está moviendo tan lenta ahora?
+    `,`
+    No lo sé. Al final, el movimiento de la lista está determinado por el gobierno de los Estados Unidos. Ellos determinan cuántas personas pueden ingresar al Puerto de Entrada cada día. Supongo que hay algún problema allí: son incapaces de asimilar a las personas. Tal vez Trump hizo algo? Tal vez el fiscal general hizo algo? Tal vez los centros de detención están demasiado llenos? ¿Quizás las protestas contra las horribles condiciones están ralentizando las cosas?
+    `
+
+  ],
   "qWhatList": [
     "¿Que es la lista?",
     "La lista es un sistema inmoral y racista que los Estados Unidos utilizan para limitar el numero de personas que pueden ingresar al pais."
@@ -2665,11 +2770,15 @@ function xDaysAgo(language, x) {
   }
 }
 function divToInternational(divName, language) {
+  if (!DIVS_TO_INTERNATIONAL[divName] || ! DIV_DEFAULTS[divName]) return;
+
   document.getElementById(divName).innerHTML =
     DIVS_TO_INTERNATIONAL[divName][language] ||
     DIV_DEFAULTS[divName];
 }
 function questionToInternational(questionName, language) {
+  if (!QUESTIONS_TO_INTERNATIONAL[questionName] || ! QUESTION_DEFAULTS[questionName]) return;
+
   var divElement = document.getElementById(questionName);
   var qAndA = QUESTIONS_TO_INTERNATIONAL[questionName][language];
   if (!qAndA || qAndA.length < 2) {
