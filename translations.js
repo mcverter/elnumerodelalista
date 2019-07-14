@@ -132,7 +132,7 @@ var QUESTIONS_TO_INTERNATIONAL = {
     ይህ ጋዜጠኛ ሐምሌ 10 ቀን 2019 ለእኔ የጻፈኝ ነው.
 <blockquote>
                  የጠረፍ ፖሊስ እንደገለጹት የቃለ መጠይቅ ክፍተት ከቦታ እና የገንዘብ ድጋፍ ስለማይኖር ነጠላ አዋቂዎች ከማስተላለፉ በፊት 300 ሰዓታት በእስር እንደሚቆዩ ነው. ይሄ ከ 12 ቀናት በላይ ነው. እርሱ ስለ CBP መገልገያዎች እያወራ አልነበረም ነገር ግን ወደ ተመሳሳይ ቦታዎች / ኤጀንሲዎች ይዛወራሉ. (ምክንያቱም በአንዳንድ የአዋቂዎች ቃል ተፈርዶ መሰረት በመሰረቱ በአስተዳደር ስራ አመራር ጃንዋሪ 2017 መሰረት አቁሟቸዋል.)
-</ blockquote>
+</blockquote>
   `
     ],
     "pt": [
@@ -144,7 +144,7 @@ var QUESTIONS_TO_INTERNATIONAL = {
     Isso é o que um jornalista escreveu para mim em 10 de julho de 2019:
 <blockquote>
                  A Patrulha de Fronteira disse que, como a detenção do ICE está sem espaço e financiamento, os adultos solteiros estão passando 300 horas sob custódia antes da transferência. Isso é mais que 12 dias. Ele não estava falando sobre as instalações do CBP, mas elas se transferem para os mesmos lugares / agências. (Porque a liberdade condicional de adultos solteiros parou basicamente em janeiro de 2017 por ordem executiva).
-</ blockquote>
+</blockquote>
      `
     ],
     "bn": [
@@ -156,7 +156,7 @@ var QUESTIONS_TO_INTERNATIONAL = {
     10 জুলাই, ২019 তারিখে একজন সাংবাদিক আমাকে লিখেছিলেন:
 <blockquote>
                  বর্ডার প্যাট্রোল বলেছে যে আইসিই আটক স্থান এবং তহবিলের বাইরে, একক প্রাপ্তবয়স্করা হস্তান্তর করার আগে 300 ঘন্টা হেফাজতে ব্যয় করে। যে 12 দিন বেশী। তিনি সিবিপি সুবিধা সম্পর্কে কথা বলছিলেন না তবে তারা একই স্থান / সংস্থায় স্থানান্তর করেন। (কারন একক প্রাপ্তবয়স্কদের প্যারোল মূলত ২017 সালের জানুয়ারী মাসে নির্বাহী আদেশে বন্ধ হয়ে গেছে।)
-</ blockquote>
+</blockquote>
      `
     ],
     "zh": [
@@ -168,7 +168,7 @@ var QUESTIONS_TO_INTERNATIONAL = {
     这是记者在2019年7月10日写给我的内容：
 <BLOCKQUOTE>
                  边境巡逻队表示，由于ICE拘留的空间和资金不足，单身成年人在转移前会被拘留300个小时。 那是超过12天。 他不是在谈论CBP设施，而是转移到相同的地方/机构。 （因为每个行政命令，单身成人的假释基本上在2017年1月停止了。）
-</ BLOCKQUOTE>
+</BLOCKQUOTE>
     `
     ],
     "ha": [
@@ -180,7 +180,7 @@ var QUESTIONS_TO_INTERNATIONAL = {
     Wannan shine abin da jarida ya rubuta a ran 10 ga Yuli, 2019:
 <blockquote>
                  Ma'aikatar Border ta bayyana cewa, saboda tsarewar na ICE ba shi da sararin samaniya da kuma kudade, masu balagaggu suna ciyar da awa 300 a tsare kafin a canja wurin. Wannan ya wuce kwanaki 12. Bai magana game da wuraren CBP ba, amma sun canja wuri a wurin. (Domin maganganun mazan aure ya tsaya a watan Janairu 2017 ta kowane tsari.)
-</ blockquote>
+</blockquote>
      `
 ],
     "sw": [
@@ -192,7 +192,7 @@ var QUESTIONS_TO_INTERNATIONAL = {
     Hii ni nini mwandishi wa habari aliandika kwangu Julai 10, 2019:
 <blockquote>
                  Mpaka Patrol alisema kuwa kwa sababu kizuizini cha ICE hakikuwepo nafasi na fedha, watu wazima moja hutumia masaa 300 chini ya uhamisho kabla ya kuhamishwa. Hiyo ni zaidi ya siku 12. Hakuzungumza kuhusu vituo vya CBP lakini wao huhamishia mahali sawa / shirika. (Kwa sababu parole ya watu wazima moja kwa moja kimesimamishwa Januari 2017 kwa utaratibu mkuu.)
-</ blockquote>
+</blockquote>
      `
     ],
     "fa": [
@@ -204,7 +204,7 @@ var QUESTIONS_TO_INTERNATIONAL = {
     این چیزی است که یک روزنامه نگار به من در 10 ژوئیه 2019 نوشت:
 <blockquote>
                  گشت مرزی گفت که از آنجا که بازداشت ICE از فضای و بودجه نیست، تنها بزرگسالان قبل از انتقال به بازداشت 300 ساعت می رسند. این بیش از 12 روز است. او درباره امکانات CBP حرف نمی زد اما آنها به همان مکان ها / آژانس انتقال می دادند. (از آنجا که اموال افراد بزرگسال تنها اساسا در ژانویه 2017 در هر دستور اجرایی متوقف شد)
-</ blockquote>
+</blockquote>
      `
 ],
     "tr": [
@@ -216,7 +216,7 @@ var QUESTIONS_TO_INTERNATIONAL = {
     Bir gazetecinin 10 Temmuz 2019'da bana yazdığı şey buydu:
 <Blockquote>
                  Sınır Devriyesi, ICE'nin gözaltına alınmasının alan ve finansman sağlamadığı için bekar yetişkinlerin transferden önce 300 saatini gözaltında geçirdiğini söyledi. Bu 12 günden fazla. CBP tesisleri hakkında konuşmuyor ama aynı yerlere / ajanslara transfer oluyorlar. (Çünkü bekar yetişkinlerin şartlı tahliyesi Ocak 2017'de icra emriyle temelde durdu.)
-</ Blockquote>
+</Blockquote>
      `
 ],
     "uk": [
@@ -252,7 +252,7 @@ var QUESTIONS_TO_INTERNATIONAL = {
     Вот что журналист написал мне 10 июля 2019 года:
 <BLOCKQUOTE>
                  Пограничный патруль сказал, что из-за нехватки места и финансирования ICE, одинокие взрослые проводят 300 часов в заключении до перевода. Это более 12 дней. Он не говорил об объектах CBP, но они переводят в те же места / агентства. (Потому что условно-досрочное освобождение взрослых не состоялось в январе 2017 года в соответствии с распоряжением.)
-</ BLOCKQUOTE>
+</BLOCKQUOTE>
   `
     ],
     "ht": [
@@ -276,7 +276,7 @@ var QUESTIONS_TO_INTERNATIONAL = {
     Voici ce qu'un journaliste m'a écrit le 10 juillet 2019:
 <blockquote>
                  La patrouille des frontières a déclaré que, comme la détention de l'ICE est insuffisante, les adultes célibataires passent 300 heures en détention avant leur transfert. C'est plus de 12 jours. Il ne parlait pas des installations du CBP mais celles-ci ont été transférées aux mêmes endroits / agences. (Parce que la libération conditionnelle d'adultes célibataires s'est essentiellement arrêtée en janvier 2017 par décret.)
-</ blockquote>
+</blockquote>
      `
     ],
   },
