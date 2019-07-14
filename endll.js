@@ -96,13 +96,21 @@ function populateDivs() {
   daysAgoDiv.innerText = numDaysAgo();
 }
 
+function reloadIfPreviousDayNumberAndAfter7AMTJ() {
+  const rightNow = new Date();
+  const seven_am_tj = new Date(rightNow.toDateString() + " 07:00:00 GMT-0700 (Pacific Daylight Time)");
+
+  if ((
+      dateFns.differenceInCalendarDays(
+        rightNow, list_date) !== 0) &&
+    (rightNow.getTime() > seven_am_tj.getTime())
+  ) {
+    location.reload(true)
+  }
+}
+
+
 function reloadAfterInterval() {
   const interval = 3 * 1000;
-  window.setTimeout(
-    function () {
-      if (dateFns.differenceInCalendarDays(
-          new Date(), list_date) !== 0) {
-        location.reload(true)
-      }
-    }, interval);
+  window.setTimeout(reloadIfPreviousDayNumberAndAfter7AMTJ, interval);
 }
