@@ -15,7 +15,7 @@ const DIV_DEFAULTS = {
   `,
 };
 
-var DIVS_TO_INTERNATIONAL = {
+const DIVS_TO_INTERNATIONAL = {
   "mas-informacion": {
     "am": "ተጨማሪ መረጃ",
     "en": "MORE INFORMATION",
@@ -110,8 +110,7 @@ Sa a se yon pwojè endepandan epi kreyatè a pran tout responsablite pou sa.
   }
 };
 
-
-var QUESTIONS_TO_INTERNATIONAL = {
+const QUESTIONS_TO_INTERNATIONAL = {
   "qWhySoSlow": {
     "en": [`
     Why is the list moving so slowly now?
@@ -2634,7 +2633,7 @@ Utilisez cette page pour lancer une recherche: <BR/>
   },
 };
 
-var QUESTION_DEFAULTS = {
+const QUESTION_DEFAULTS = {
   "qWhySoSlow": [
     `¿Por qué la lista se está moviendo tan lenta ahora?
     `,`
