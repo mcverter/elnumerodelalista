@@ -1,6 +1,62 @@
-
 <html>
 <head>
+    <script>
+      const list_number = 2704;
+      const day_of_number = '16';
+      const month_of_number = '07';
+      const year_of_number = '2019';
+      /* We only care about date, not time. */
+      const list_date = new Date(year_of_number + '-' + month_of_number + '-' + day_of_number + 'T12:00:00');
+      function translateDate() {
+        document.getElementById("list-day").innerText = list_date.toLocaleDateString(language, {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+          }
+        )
+      }
+      function numDaysAgo() {
+        const days_difference = dateFns.differenceInCalendarDays(new Date(), list_date);
+        if (days_difference === 0) {
+          return `(${hoy(language)})`;
+        } else if (days_difference === 1) {
+          return `(${ayer(language)})`;
+        } else {
+          return "(hace " + days_difference + "dias)";
+        }
+      }
+
+      function populateDivs() {
+        const listNumberDiv = document.getElementById("list-number");
+        const daysAgoDiv = document.getElementById("days-ago");
+
+        document.getElementById.innerText = translateDate();
+        listNumberDiv.innerText = list_number.toString();
+        daysAgoDiv.innerText = numDaysAgo();
+      }
+
+      function reloadIfPreviousDayNumberAndAfter7AMTJ() {
+        const rightNow = new Date();
+        const seven_am_tj = new Date(rightNow.toDateString() + " 07:00:00 GMT-0700 (Pacific Daylight Time)");
+
+        if ((
+            dateFns.differenceInCalendarDays(
+              rightNow, list_date) !== 0) &&
+          (rightNow.getTime() > seven_am_tj.getTime())
+        ) {
+          location.reload(true)
+        }
+      }
+
+
+      function reloadAfterInterval() {
+        const interval = 3 * 1000;
+        window.setTimeout(reloadIfPreviousDayNumberAndAfter7AMTJ, interval);
+      }
+
+
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
     <script type="text/javascript" src="./date-fns_v1.3.0.js"></script>
@@ -42,63 +98,6 @@
 
 <script>
   /* MAIN */
-  const list_number = 2702;
-  const day_of_number = '14';
-  const month_of_number = '07';
-  const year_of_number = '2019';
-  /* We only care about date, not time. */
-  const list_date = new Date(year_of_number + '-' + month_of_number + '-' + day_of_number + 'T12:00:00');
-
-  function translateDate() {
-    document.getElementById("list-day").innerText = list_date.toLocaleDateString(language, {
-        weekday: 'long',
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric'
-      }
-    )
-  }
-
-  function numDaysAgo() {
-    const days_difference = dateFns.differenceInCalendarDays(new Date(), list_date);
-    if (days_difference === 0) {
-      return `(${hoy(language)})`;
-    } else if (days_difference === 1) {
-      return `(${ayer(language)})`;
-    } else {
-      return "(hace " + days_difference + "dias)";
-    }
-  }
-
-  function populateDivs() {
-    const listNumberDiv = document.getElementById("list-number");
-    const daysAgoDiv = document.getElementById("days-ago");
-
-    document.getElementById.innerText = translateDate();
-    listNumberDiv.innerText = list_number.toString();
-    daysAgoDiv.innerText = numDaysAgo();
-  }
-
-  function reloadIfPreviousDayNumberAndAfter7AMTJ() {
-    const rightNow = new Date();
-    const seven_am_tj = new Date(rightNow.toDateString() + " 07:00:00 GMT-0700 (Pacific Daylight Time)");
-
-    if ((
-        dateFns.differenceInCalendarDays(
-          rightNow, list_date) !== 0) &&
-      (rightNow.getTime() > seven_am_tj.getTime())
-    ) {
-      location.reload(true)
-    }
-  }
-
-
-  function reloadAfterInterval() {
-    const interval = 3 * 1000;
-    window.setTimeout(reloadIfPreviousDayNumberAndAfter7AMTJ, interval);
-  }
-
-
   window.onload = function () {
     populateDivs();
     reloadAfterInterval();
@@ -112,27 +111,27 @@
     <h1 style="text-align: center" id="mas-informacion"> MAS INFORMACION</h1>
     <form name="language-form" id="language-form">
         <label for="language-picker" id="language-picker-label">CAMBIA EL IDIOMA &nbsp;</label>
-    <select id="language-picker" name="language-picker" onchange="translateAllContent()">
-        <option value="">SELECCIONAR</option>
-        <option value="es">Español</option>
-        <option value="ht">Kreyòl Ayisyen</option>
-        <option value="fr">Français</option>
-        <option value="en">English</option>
-        <option value="ru">русский</option>
-        <option value="ar">عربى</option>
-        <option value="am">አማርኛ</option>
+        <select id="language-picker" name="language-picker" onchange="translateAllContent()">
+            <option value="">SELECCIONAR</option>
+            <option value="es">Español</option>
+            <option value="ht">Kreyòl Ayisyen</option>
+            <option value="fr">Français</option>
+            <option value="en">English</option>
+            <option value="ru">русский</option>
+            <option value="ar">عربى</option>
+            <option value="am">አማርኛ</option>
 
 
 
-        <option value="bn">বাঙালি</option>
-        <option value="pt">Português</option>
-        <option value="zh">中文</option>
-        <option value="ha">Hausa</option>
-        <option value="sw">Swahili</option>
-        <option value="fa">فارسی</option>
-        <option value="tr">Türk</option>
-        <option value="uk">українська</option>
-    </select>
+            <option value="bn">বাঙালি</option>
+            <option value="pt">Português</option>
+            <option value="zh">中文</option>
+            <option value="ha">Hausa</option>
+            <option value="sw">Swahili</option>
+            <option value="fa">فارسی</option>
+            <option value="tr">Türk</option>
+            <option value="uk">українська</option>
+        </select>
     </form>
     <dl id="qWhySoSlow">
         <dt>¿Por qué la lista se está moviendo tan lenta ahora?</dt>
