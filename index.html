@@ -5,6 +5,15 @@
       const day_of_number = '16';
       const month_of_number = '07';
       const year_of_number = '2019';
+
+      /* language is either specified in URL or browser default language */
+      const getParameters = window.location.search.substr(1);
+      let language = getParameters.match(/language=(\w+)/) ?
+        getParameters.substr(getParameters.indexOf("language=") + 9, 2) :
+        window.navigator.language.substr(0, 2).toLowerCase();
+
+
+
       /* We only care about date, not time. */
       const list_date = new Date(year_of_number + '-' + month_of_number + '-' + day_of_number + 'T12:00:00');
       function translateDate() {

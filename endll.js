@@ -1,8 +1,3 @@
-/* language is either specified in URL or browser default language */
-const getParameters = window.location.search.substr(1);
-let language = getParameters.match(/language=(\w+)/) ?
-  getParameters.substr(getParameters.indexOf("language=") + 9, 2) :
-  window.navigator.language.substr(0, 2).toLowerCase();
 
 const divs_to_translate = [
   "el-numero-es",
