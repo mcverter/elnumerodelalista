@@ -2574,6 +2574,365 @@ Utilisez cette page pour lancer une recherche: <BR/>
 `
     ]
   },
+
+  "qAntifascist": {
+
+    "pt": [
+      `
+      Quantos números são chamados a cada dia?
+      `,`
+      É diferente a cada dia. Alguns dias muito. Alguns dias um pouco. Alguns dias nenhum
+      `
+    ],
+
+    "bn": [
+      `
+        কত নম্বর প্রতিটি দিন বলা হয়?
+        `,`
+        এটা প্রতিদিন ভিন্ন। কিছু দিন অনেক। কিছু দিন একটু। কিছু দিন কেউ নেই
+  `
+    ],
+
+    "zh": [
+      `
+      每天拨打多少个号码？
+      `,`
+      它每天都不同。有些日子很多。有一天一点点。有些日子没有
+      `
+    ],
+
+    "ha": [
+      `
+      Lambobi nawa ne ake kira kowace rana?
+      `,`
+      Ya bambanta kowace rana. Wasu kwanaki mai yawa. Wasu kwanaki kadan. Wasu kwanakin babu
+      `
+    ],
+
+    "sw": [
+      `
+      Nambari ngapi zinaitwa kila siku?
+      `, `
+      Ni tofauti kila siku. Siku kadhaa mengi. Siku kadhaa kidogo. Siku kadhaa hakuna
+      `
+    ],
+    "tr": [
+      `
+      Her gün kaç numara aranır?
+      `,`
+      Her gün farklı. Bazı günler çok fazla. Bazı günler biraz. Bazı günler hiçbiri
+      `
+    ],
+
+    "fa": [
+      `
+      چند شماره هر روز نامیده می شود؟
+      `,`
+      هر روز متفاوت است. چند روز زیاد است چند روز کمی. چند روز هیچ
+      `
+    ],
+
+    "uk": [
+      `
+      Скільки номерів називається щодня?
+      `,`
+      Різниця щодня. Кілька днів багато. Кілька днів. Кілька днів немає
+      `
+    ],
+
+
+    "am":  [
+      `
+      በየቀኑ ስንት ቁጥሮች ይባላሉ?
+      `,
+      `
+    በየቀኑ የተለየ ነው. አንዳንድ ቀኖች በጣም ብዙ ናቸው. ከጥቂት ቀናት በኋላ. አንዳንድ ቀናት ምንም
+    `
+    ],
+    "en": [
+      `
+      What do the Antifascists think?
+      `, `
+<blockquote>
+    <p>
+        There’s wrong and there’s right.
+        It’s time to take action against the forces of evil.</p>
+
+    <p>Evil says one life is worth less than another.
+        Evil says the flow of commerce is our purpose here.
+        Evil says concentration camps for folks deemed lesser are necessary.
+        The handmaid of evil says the concentration camps should be more humane.
+        Beware the centrist.</p>
+
+    <p>I have a father’s broken heart
+        I have a broken down body
+        And I have an unshakable abhorrence for injustice
+        That is what brings me here.
+        This is my clear opportunity to try to make a difference, I’d be an ingrate to be waiting for a more obvious invitation.</p>
+
+    <p>I follow three teachers:
+        Don Pritts, my spiritual guide. “Love without action is just a word.”
+        John Brown, my moral guide. “What is needed is action!”
+        Emma Goldman, my political guide. “If I can’t dance, I don’t want to be in your revolution.”</p>
+
+    <p>I’m a head in the clouds dreamer, I believe in love and redemption.
+        I believe we’re going to win.
+        I’m joyfully revolutionary. (We all should have been reading Emma Goldman in school instead of the jingo drivel we were fed, but I digress.) (We should all be looking at the photos of the YPG heroes should we falter and think our dreams are impossible, but I double digress. Fight me.)</p>
+
+    <p>In these days of fascist hooligans preying on vulnerable people in our streets, in the name of the state or supported and defended by the state,</p>
+
+    <p>In these days of highly profitable detention/concentration camps and a battle over the semantics,</p>
+
+    <p>In these days of hopelessness, empty pursuit and empty yearning,</p>
+
+    <p>We are living in visible fascism ascendant. (I say visible, because those paying attention watched it survive and thrive under the protection of the state for decades. [See Howard Zinn, A People’s History of the United States.] Now it unabashedly follows its agenda with open and full cooperation from the government. From governments around the world.</p>
+
+    <p>Fascism serves the needs of the state serves the needs of business and at your expense. Who benefits? Jeff Bezos, Warren Buffet, Elon Musk, Tim Cook, Bill Gates, Betsy de Vos, George Soros, Donald Trump, and need I go on? Let me say it again: rich guys (who think you’re not really all that good), really dig government (every government everywhere, including “communist” governments), because they make the rules that make rich guys richer.
+        Simple.
+        Don’t overthink it.</p>
+
+    <p>(Are you patriots in the back paying attention?)</p>
+
+    <p>When I was a boy, in post-war Holland, later France, my head was filled with stories of the rise of fascism in the ’30s. I promised myself that I would not be one of those who stands by as neighbors are torn from their homes and imprisoned for somehow being perceived as lesser.
+        You don’t have to burn the motherfucker down, but are you going to just stand by?</p>
+
+    <p>This is the test of our fundamental belief in real freedom and our responsibility to each other.
+        This is a call to patriots, too, to stand against this travesty against everything that you hold sacred. I know you. I know that in your hearts, you see the dishonor in these camps. It’s time for you, too, to stand up to the money pulling the strings of every goddamn puppet pretending to represent us.</p>
+
+    <p>I’m a man who loves you all and this spinning ball so much that I’m going to fulfill my childhood promise to myself to be noble.</p>
+
+    <p>Here it is, in these corporate for profit concentration camps.
+        Here it is, in Brown and non-conforming folks afraid to show their faces for fear of the police/migra/Proud Boys/the boss/beckies…
+        Here it is, a planet almost used up by the market’s greed.</p>
+
+    <p>I’m a black and white thinker.
+        Detention camps are an abomination.
+        I’m not standing by.
+        I really shouldn’t have to say any more than this.</p>
+
+    <p>I set aside my broken heart and I heal the only way I know how—by being useful.
+        I efficiently compartmentalize my pain…
+        And I joyfully go about this work.
+        (To those burdened with the wreckage from my actions, I hope that you will make the best use of that burden.)</p>
+
+    <p>To my comrades:
+        I regret that I will miss the rest of the revolution.
+        Thank you for the honor of having me in your midst.</p>
+
+    <p>Giving me space to be useful, to feel that I was fulfilling my ideals, has been the spiritual pinnacle of my life.</p>
+
+    <p>Doing what I can to help defend my precious and wondrous people is an experience too rich to describe.</p>
+
+    <p>My trans comrades have transformed me, solidifying my conviction that we will be guided to a dreamed-of future by those most marginalized among us today. I have dreamed it so clearly that I have no regret for not seeing how it turns out. Thank you for bringing me so far along.</p>
+
+    <p>I am antifa. I stand with comrades around the world who act from the love of life in every permutation. Comrades who understand that freedom means real freedom for all and a life worth living.</p>
+
+    <p>Keep the faith!
+        All power to the people!
+        Bella ciao.</p>
+
+    <p>Don’t let your silly government agencies spend money “investigating” this one. I was radicalized in civics class at 13 when we were taught about the electoral college. It was at that point that I decided that the status quo might be a house of cards. Further reading confirmed in the positive. I highly recommend reading!</p>
+
+    <p>I am not affiliated with any organization, I have disaffiliated from any organizations who disagree with my choice of tactics.</p>
+
+    <p>The semi-automatic weapon I used was a cheap, home-built unregistered “ghost” AR-15, it had six magazines. I strongly encourage comrades and incoming comrades to arm themselves. We are now responsible for defending people from the predatory state. Ignore the law in arming yourself if you have the luxury, I did.
+    </p>
+</blockquote>
+      `
+    ],
+    "ar": [
+      `كم عدد الأرقام تسمى كل يوم؟`,
+      `الأمر مختلف كل يوم. بعض الأيام كثيرا. بعض الأيام قليلا. في بعض الأيام لا شيء`
+    ],
+    "ru": [
+      "Сколько номеров вызывается каждый день?",
+      "Каждый день все по-другому. Несколько дней много. Несколько дней мало. Несколько дней нет"
+    ],
+
+    "ht": [
+      `
+      Kisa Antifasisis yo panse?
+      `,`
+<blockquote>
+    <p>
+        Gen yon move ak gen dwa.
+        Li lè yo pran aksyon kont fòs yo nan sa ki mal. </p>
+
+    <p> Move di yon sèl lavi vo mwens pase yon lòt.
+        Sa ki mal la di koule nan komès se bi nou an isit la.
+        Sa ki mal la di kan konsantrasyon pou moun jije pi piti yo nesesè.
+        Sèvant mal la di kan yo konsantrasyon yo ta dwe plis imen.
+        Pran prekosyon nou santis la. </p>
+
+    <p> Mwen gen kè kase yon papa
+        Mwen gen yon kò kraze
+        Epi mwen gen yon odisyon inebranlab pou enjistis
+        Se sa ki pote m 'isit la.
+        Sa a se opòtinite klè mwen pou eseye fè yon diferans, mwen ta dwe yon ingrats yo dwe ap tann pou yon envitasyon pi evidan. </p>
+
+    <p> Mwen swiv twa pwofesè:
+        Don Pritts, gid espirityèl mwen an. "Renmen san aksyon se jis yon mo."
+        John Brown, gid moral mwen. "Ki sa ki nesesè se aksyon!"
+        Emma Goldman, gid politik mwen an. "Si mwen pa ka danse, mwen pa vle nan revolisyon ou."
+
+    <p> Mwen se yon tèt nan renmen fè rèv nan nwaj yo, mwen kwè nan renmen ak delivre.
+        Mwen kwè ke nou pral genyen.
+        Mwen byen revolisyonè. (Nou tout ta dwe te li Emma Goldman nan lekòl olye de driv yo jingo nou te manje, men mwen digress.) (Nou ta dwe tout ap gade foto yo nan ewo yo YPG ta dwe nou ezitasyon ak panse rèv nou yo se enposib, men mwen ... double digress. Goumen m '.) </p>
+
+    <p> Nan jou sa yo nan vandè fachis viktim sou moun ki vilnerab nan lari nou yo, nan non eta a oswa sipòte ak defann pa eta a, </p>
+
+    <p> Nan jou sa yo nan detansyon trè pwofitab / kan konsantrasyon ak yon batay sou semantik a, </p>
+
+    <p> Nan jou sa yo nan dezespwa, pouswit vid ak anvi vid, </p>
+
+    <p> Nou ap viv nan asistan ase fasism vizib. (Mwen di vizib, paske moun ki peye atansyon veye li siviv ak boujonnen anba pwoteksyon an nan eta a pou dè dekad. [Gade Howard Zinn, Istwa Yon Pèp la nan peyi Etazini.] Koulye a, li unabashedly swiv ajanda li yo ak koperasyon louvri ak plen soti nan la. gouvènman an, nan men gouvènman atravè mond lan. </p>
+
+<p> Fachism sèvi bezwen yo nan eta a sèvi bezwen yo nan biznis ak sou kont ou. Ki moun ki benefis yo? Jeff Bezos, Warren kafeterya, Elon, Musk, Tim Cook, Bill Gates, Betsy de Vos, George Soros, Donald Trump, ak bezwen mwen ale sou? Kite m 'di l' ankò: mesye rich (ki panse ou pa reyèlman tout sa ki bon), reyèlman fouye gouvènman an (chak gouvènman toupatou, ki gen ladan "kominis" gouvènman yo), paske yo fè règleman yo ki fè mesye rich rich.
+        Senp.
+        Pa overthink li. </p>
+
+    <p> (Èske ou patriyòt nan do a peye atansyon?) </p>
+
+    <p> Lè m 'te yon ti gason, nan post-lagè Holland, pita Lafrans, te tèt mwen plen ak istwa nan ogmantasyon nan fachis nan' 30 yo. Mwen te pwomèt tèt mwen ke mwen pa ta dwe youn nan moun ki kanpe pa kòm vwazen yo chire soti nan kay yo ak nan prizon pou yon jan kanmenm ke yo te santi yo pi piti.
+        Ou pa oblije boule manman an, men èske w ap jis kanpe la a? </p>
+
+    <p> Sa a se tès la nan kwayans fondamantal nou an libète reyèl ak responsablite nou yo youn ak lòt.
+        Sa a se yon apèl patriyòt, tou, kanpe kont parody sa a kont tout sa ou kenbe sakre. Mwen konnen ou. Mwen konnen nan kè ou, ou wè wont nan kan sa yo. Li lè pou ou, tou, kenbe tèt ak lajan yo rale strings yo nan tout mannken goddamn pretann reprezante nou.
+
+    <p> Mwen se yon moun ki renmen ou tout ak sa a boul k ap vire tèlman bagay ke mwen pral satisfè pwomès anfans mwen an tèt mwen yo dwe nòb. </p>
+
+    <p> Men li se, nan sa yo antrepriz pou kan konsantrasyon pwofi.
+        Isit la li ye, nan Brown ak ki pa konfòme jan gen krentif pou montre figi yo pou yo te pè polis la / migra / fyète gason / bòs nan travay / beckies ...
+        Isit la li se, yon planèt prèske itilize moute nan Evaris mache a. </p>
+
+    <p> Mwen se yon pansè nwa e blan.
+        Kan detansyon yo se yon abominasyon.
+        Mwen pa kanpe pa.
+        Mwen vrèman pa ta dwe di plis pase sa. </p>
+
+    <p> Mwen mete sou kote kè kase mwen an e mwen geri sèl fason mwen konnen kijan — lè mwen te itil.
+        Mwen avèk efikasite konparteman doulè mwen ...
+        Apre sa, mwen kontan ale sou travay sa a.
+        (Pou moun ki chaje ak aneantisman ki soti nan aksyon mwen, mwen espere ke ou pral fè pi bon itilizasyon chay sa a.) </p>
+
+    <p> Kamarad mwen yo:
+        Mwen regrèt ke mwen pral manke rès la nan revolisyon an.
+        Mèsi pou onè ki gen m 'nan mitan ou
+
+    <p> Bay m 'espas yo dwe itil, yo santi ke mwen te ranpli ideyal mwen, ki te pwomnad espirityèl la nan lavi m' yo. </p>
+
+    <p> Fè sa mwen kapab ede defann koute chè ak bèl bagay moun mwen se yon eksperyans twò rich yo dekri
+
+    <p> Kamarad trans mwen yo te transfòme m ', solidifikasyon konviksyon mwen ke nou pral gide nan yon rèv-nan tan kap vini pa moun ki pi eskli nan mitan nou jodi a. Mwen reve li tèlman klè ke mwen pa gen okenn regrè pou pa wè ki jan li vire soti. Mèsi pou pote m 'twò lwen ansanm. </p>
+
+    <p> Mwen antifa. Mwen kanpe ak kamarad atravè mond lan ki aji soti nan renmen nan lavi nan tout pèmitasyon. Kamarad ki konprann ke libète vle di reyèl libète pou tout moun ak yon lavi ki vo viv ... </p>
+
+    <p> Kenbe lafwa a!
+        Tout pouvwa pou pèp la!
+        Bella Ciao. </p>
+
+    <p> Pa kite ajans gouvènman komik ou yo ap depanse lajan “envestige” sa a. Mwen te radikalize nan klas sivik nan 13 lè nou te anseye sou kolèj elektoral la. Li te nan pwen sa a ke mwen deside ke jan bagay sa yo ta ka yon kay kat. Pli lwen lekti konfime nan pozitif la. Mwen rekòmande anpil pou li lekti! </p>
+
+    <p> Mwen pa afilye avèk okenn òganizasyon, mwen te afekte ak okenn òganizasyon ki pa dakò avèk chwa taktik mwen. </p>
+
+    <p> Zam la semi-otomatik mwen itilize se te yon bon mache, kay-bati anrejistre "fantom" AR-15, li te gen sis magazin. Mwen ankouraje kamarad yo ak fèk ap rantre kamarad yo pouse tèt yo. Nou kounye a se responsab pou defann moun ki sòti nan eta a predatè. Ignore lalwa nan armeman tèt ou si ou gen liksye a, mwen te fè sa.
+    </p>
+</blockquote>
+`
+    ],
+    "fr": [
+      `
+      Qu'en pensent les antifascistes?
+      `,`
+<blockquote>
+    <p>
+        Il y a de faux et il y a de bons.
+        Il est temps de prendre des mesures contre les forces du mal. </P>
+
+    <p> Le mal dit qu'une vie vaut moins qu'une autre.
+        Le mal dit que le flux du commerce est notre but ici.
+        Le mal dit que des camps de concentration pour les personnes jugées moins importantes sont nécessaires.
+        La servante du mal dit que les camps de concentration devraient être plus humains.
+        Attention au centriste. </P>
+
+    <p> J'ai le coeur brisé d'un père
+        J'ai un corps en panne
+        Et j'ai une haine inébranlable pour l'injustice
+        C'est ce qui m'amène ici.
+        C’est pour moi une occasion évidente de faire une différence, je serais un ingrat d’attendre une invitation plus évidente. </P>
+
+    <p> Je suis trois professeurs:
+        Don Pritts, mon guide spirituel. "L'amour sans action n'est qu'un mot."
+        John Brown, mon guide moral. "Ce qu'il faut, c'est de l'action!"
+        Emma Goldman, mon guide politique. "Si je ne peux pas danser, je ne veux pas être dans votre révolution." </P>
+
+    <p> Je suis un rêveur de la tête dans les nuages, je crois en l’amour et à la rédemption.
+        Je crois que nous allons gagner.
+        Je suis joyeusement révolutionnaire. (Nous aurions tous dû lire Emma Goldman à l’école au lieu du jingo drivel que nous avions reçu, mais je m'éloigne du sujet.) (Nous devrions tous regarder les photos des héros des YPG si nous hésitons et pensons que nos rêves sont impossibles. double digresse, combat-moi.) </p>
+
+    <p> À l’époque des hooligans fascistes s’attaquant aux personnes vulnérables dans nos rues, au nom de l’État ou soutenus et défendus par l’État, </p>
+
+    <p> En ces jours de camps de détention / de concentration extrêmement rentables et de batailles sur la sémantique, </p>
+
+    <p> En ces jours de désespoir, de poursuite à vide et de désir vide, </p>
+
+    <p> Nous vivons dans le fascisme visible ascendant. (Je dis visible, car ceux qui y prêtent attention le regardent survivre et prospérer sous la protection de l'État pendant des décennies. [Voir Howard Zinn, Histoire populaire des États-Unis.] Maintenant, il suit sans scrupule son ordre du jour avec une coopération ouverte et totale de la part du gouvernement. gouvernement. Des gouvernements du monde entier. </p>
+
+<p> Le fascisme sert les besoins de l'État, il sert les besoins des entreprises et à vos frais. Qui en profite? Jeff Bezos, Warren Buffet, Elon Musk, Tim Cook, Bill Gates, Betsy de Vos, George Soros, Donald Trump, et dois-je continuer? Permettez-moi de le répéter: les gars riches (qui pensent que vous n’êtes pas si bon), creusent vraiment le gouvernement (tous les gouvernements du monde, y compris les gouvernements «communistes»), parce qu’ils rendent les règles plus riches.
+        Simple.
+        Ne pensez pas trop. </P>
+
+    <p> (Êtes-vous patriotes dans le dos en faisant attention?) </p>
+
+    <p> Quand j’étais un garçon dans la Hollande d’après-guerre, plus tard la France, ma tête était remplie d’histoires de la montée du fascisme dans les années 30. Je me suis promis de ne pas faire partie de ceux qui resteraient là, les voisins étant déchirés de chez eux et emprisonnés pour avoir été perçus comme des mineurs.
+        Vous n'êtes pas obligé de brûler le fils de pute, mais allez-vous simplement rester là? </P>
+
+    <p> C’est le test de notre croyance fondamentale en la liberté réelle et de notre responsabilité les uns envers les autres.
+        C’est aussi un appel aux patriotes de s’opposer à cette parodie contre tout ce que vous considérez comme sacré. Je vous connais. Je sais que dans vos cœurs, vous voyez le déshonneur dans ces camps. Il est temps que vous aussi résistiez à l’argent en tirant les ficelles de chaque foutu pantin prétendant nous représenter. </P>
+
+    <p> Je suis un homme qui vous aime tous et aime tellement cette balle qui tourne que je vais réaliser la promesse de mon enfance d'être noble. </p>
+
+    <p> Le voici, dans ces camps de concentration d'entreprises à but lucratif.
+        La voici, chez Brown et les non conformistes qui ont peur de se montrer, de peur de voir la police / migra / Proud Boys / le patron / beckies…
+        La voici, une planète presque épuisée par la cupidité du marché. </P>
+
+    <p> Je suis un penseur noir et blanc.
+        Les camps de détention sont une abomination.
+        Je ne suis pas en attente.
+        Je ne devrais vraiment pas avoir à en dire plus. </P>
+
+    <p> Je laisse de côté mon cœur brisé et je guéris de la seule façon que je sais faire: en étant utile.
+        Je compartimente efficacement ma douleur…
+        Et je vais avec joie à ce travail.
+        (J'espère que vous ferez le meilleur usage de ce fardeau pour ceux qui sont accablés des dégâts causés par mes actes.) </P>
+
+    <p> À mes camarades:
+        Je regrette que le reste de la révolution me manque.
+        Merci pour l'honneur de m'avoir parmi vous. </P>
+
+    <p> En me laissant de la place pour être utile, pour sentir que je réalisais mes idéaux, a été le sommet spirituel de ma vie. </p>
+
+    <p> Faire ce que je peux pour aider à défendre mon peuple précieux et merveilleux est une expérience trop riche pour être décrite. </p>
+
+    <p> Mes camarades trans m'ont transformée, renforçant ma conviction que nous serons guidés vers un avenir rêvé par les plus marginalisés d'aujourd'hui. J'ai tellement rêvé que je n'ai aucun regret de ne pas voir comment ça se passe. Merci de m'avoir amené jusqu'ici. </P>
+
+    <p> Je suis antifa. Je me tiens aux côtés de camarades du monde entier qui agissent par amour de la vie dans toutes les permutations. Camarades qui comprennent que la liberté signifie la vraie liberté pour tous et une vie digne d'être vécue. </P>
+
+    <p> Gardez la foi!
+        Tout le pouvoir au peuple!
+        Bella ciao. </P>
+
+    <p> Ne laissez pas vos agences gouvernementales stupides dépenser de l'argent pour "enquêter" sur celui-ci. J'ai été radicalisé en cours d'instruction civique à 13 ans lorsque nous avons appris le collège électoral. C'est à ce moment-là que j'ai décidé que le statu quo pourrait être un château de cartes. Des lectures supplémentaires ont confirmé dans le positif. Je recommande fortement de lire! </P>
+
+    <p> Je ne suis affilié à aucune organisation, je me suis désaffilié de toutes les organisations qui désapprouvent mon choix de tactique. </p>
+
+    <p> L’arme semi-automatique que j’ai utilisée était un AR-15 «fantôme» non enregistré, construit à la maison et bon marché, avec six magasins. J'encourage fortement les camarades et les nouveaux camarades à s'armer. Nous sommes maintenant responsables de la défense des personnes de l’État prédateur. Ignorez la loi en vous armant si vous avez le luxe, je l'ai fait.
+    </p>
+</blockquote>
+`
+    ]
+  },
+
   "qMutualAid": {
     "zh": [
       `
