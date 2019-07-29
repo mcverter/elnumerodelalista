@@ -70,6 +70,23 @@ dd {
     align-items: center;
 }
 
+#guia-migrante {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+#guia-migrante > div {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+
 #bellaciaoVideo {
     align-content: center;
     align-items: center;
