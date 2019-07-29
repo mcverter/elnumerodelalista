@@ -6,7 +6,7 @@ const DIV_DEFAULTS = {
   "language-picker-label" : "CAMBIA EL IDIOMA &nbsp;",
   "dont-bug-me": "Por favor, no llamame. Solo mandame mensajes de texto.",
   "disclaimer":
-  `
+    `
          <h3> NOTICIA LEGAL </H3>
             No estoy afiliado con ningun gobierno.<br/>
             No estoy afiliado con ningun ONG tampoco. <br/>
@@ -39,7 +39,7 @@ const DIVS_TO_INTERNATIONAL = {
     "am": "ቁጥር ነው",
     "ar": "الرقم هو",
     "ru": "НОМЕР ЕСТЬ",
-  }, 
+  },
   "el-numero-de-la-lista": {
     "en": "THE LIST NUMBER",
     "fr": "LE NOMBRE DE LA LISTE",
@@ -135,7 +135,7 @@ const QUESTIONS_TO_INTERNATIONAL = {
   `
     ],
     "pt": [
-    `
+      `
      Por que a lista está se movendo tão devagar agora?
      `,`
      Eu não sei. No final, o movimento da lista é determinado pelo governo dos EUA. Eles determinam quantas pessoas podem entrar no Porto de Entrada todos os dias. Eu acho que há algum problema lá: eles são incapazes de absorver as pessoas. Talvez o Trump tenha feito alguma coisa? Talvez o procurador-geral tenha feito alguma coisa? Talvez os centros de detenção estejam cheios demais? Talvez os protestos contra as condições horríveis estejam atrasando as coisas?
@@ -147,7 +147,7 @@ const QUESTIONS_TO_INTERNATIONAL = {
      `
     ],
     "bn": [
-    `
+      `
      কেন তালিকা এত ধীরে ধীরে এখন চলন্ত?
      `,`
      আমি জানি না। শেষ পর্যন্ত, তালিকার আন্দোলন মার্কিন সরকার দ্বারা নির্ধারিত হয়। তারা নির্ধারণ করে যে প্রতিদিন কত জন প্রবেশপথ প্রবেশ করতে পারে। আমি অনুমান করবো যে সেখানে কিছু সমস্যা রয়েছে: তারা জনগণকে নিতে পারে না। হয়তো ট্রাম্প কিছু করেছে? হয়তো অ্যাটর্নি জেনারেল কি কিছু করেছিলেন? হয়তো আটক কেন্দ্রগুলো কি খুব পূর্ণ? হয়তো ভয়ঙ্কর অবস্থার বিরুদ্ধে বিক্ষোভের গতি কমে যাচ্ছে?
@@ -159,7 +159,7 @@ const QUESTIONS_TO_INTERNATIONAL = {
      `
     ],
     "zh": [
-    `
+      `
      为什么列表现在移动得这么慢？
     `,`
      我不知道。 最后，名单的移动由美国政府决定。 他们确定每天有多少人可以进入入境港。 我猜那里有一些问题：他们无法接纳人。 也许特朗普做了什么？ 也许司法部长做了什么？ 也许拘留中心太满了？ 也许针对恶劣条件的抗议活动正在减缓事态的发展？
@@ -171,7 +171,7 @@ const QUESTIONS_TO_INTERNATIONAL = {
     `
     ],
     "ha": [
-    `
+      `
      Me ya sa jerin ke motsi sosai a hankali a yanzu?
      `,`
      Ban sani ba. A ƙarshe, Gwamnatin Amirka ta ƙaddamar motsi na lissafi. Sun ƙayyade yawancin mutane zasu iya shigar da Port of Entry kowace rana. Ina tsammani akwai matsala a can: ba su iya daukar mutane. Wata kila Trump ya yi wani abu? Wata kila Babban Babban Shari'a Kome Kashi? Wataƙila wuraren cibiyoyin sun cika? Watakila boren da ake yi a kan mummunan yanayi yana rage abubuwa?
@@ -181,9 +181,9 @@ const QUESTIONS_TO_INTERNATIONAL = {
                  Ma'aikatar Border ta bayyana cewa, saboda tsarewar na ICE ba shi da sararin samaniya da kuma kudade, masu balagaggu suna ciyar da awa 300 a tsare kafin a canja wurin. Wannan ya wuce kwanaki 12. Bai magana game da wuraren CBP ba, amma sun canja wuri a wurin. (Domin maganganun mazan aure ya tsaya a watan Janairu 2017 ta kowane tsari.)
 </blockquote>
      `
-],
+    ],
     "sw": [
-    `
+      `
      Kwa nini orodha hiyo inaendelea polepole sasa?
      `, `
      Sijui. Mwishoni, harakati ya orodha hiyo imedhamiriwa na Serikali ya Marekani. Wao huamua jinsi watu wengi wanaweza kuingia kwenye Bandari ya Kuingia kila siku. Napenda nadhani kuwa kuna tatizo fulani pale: hawawezi kuchukua watu. Labda Trump alifanya kitu? Labda Mwanasheria Mkuu Alifanya Kitu? Labda vituo vya kufungwa ni kamili sana? Labda maandamano dhidi ya hali mbaya hupungua mambo?
@@ -195,7 +195,7 @@ const QUESTIONS_TO_INTERNATIONAL = {
      `
     ],
     "fa": [
-    `
+      `
      چرا لیست در حال حرکت به آرامی در حال حاضر؟
      `,`
      من نمی دانم. در پایان، حرکت این فهرست توسط دولت ایالات متحده تعیین می شود. آنها تعیین می کنند که چه تعداد از مردم می توانند هر روز وارد بندر ورودی شوند. من حدس می زنم که مشکلی وجود دارد: آنها نمی توانند مردم را بگیرند. شاید Trump کاری انجام داد؟ شاید دادخواست کلیشه کرد؟ شاید بازداشتگاه ها بیش از حد پر است؟ شاید اعتراضات علیه شرایط وحشتناک، کارها را کند می کند؟
@@ -205,9 +205,9 @@ const QUESTIONS_TO_INTERNATIONAL = {
                  گشت مرزی گفت که از آنجا که بازداشت ICE از فضای و بودجه نیست، تنها بزرگسالان قبل از انتقال به بازداشت 300 ساعت می رسند. این بیش از 12 روز است. او درباره امکانات CBP حرف نمی زد اما آنها به همان مکان ها / آژانس انتقال می دادند. (از آنجا که اموال افراد بزرگسال تنها اساسا در ژانویه 2017 در هر دستور اجرایی متوقف شد)
 </blockquote>
      `
-],
+    ],
     "tr": [
-    `
+      `
      Liste neden bu kadar yavaş ilerliyor?
      `,`
      Bilmiyorum. Sonunda, listenin hareketi ABD Hükümeti tarafından belirlenir. Her gün Giriş Limanı'na kaç kişinin girebileceğini belirlerler. Orada bir sorun olduğunu tahmin ediyorum: İnsanları alamıyorlar. Belki Trump bir şey yaptı? Belki Başsavcı Bir Şey Yaptı? Belki gözaltı merkezleri çok dolu? Belki de korkunç koşullara karşı protestolar işleri yavaşlatıyor?
@@ -217,9 +217,9 @@ const QUESTIONS_TO_INTERNATIONAL = {
                  Sınır Devriyesi, ICE'nin gözaltına alınmasının alan ve finansman sağlamadığı için bekar yetişkinlerin transferden önce 300 saatini gözaltında geçirdiğini söyledi. Bu 12 günden fazla. CBP tesisleri hakkında konuşmuyor ama aynı yerlere / ajanslara transfer oluyorlar. (Çünkü bekar yetişkinlerin şartlı tahliyesi Ocak 2017'de icra emriyle temelde durdu.)
 </Blockquote>
      `
-],
+    ],
     "uk": [
-    `
+      `
      Чому зараз цей список так повільно рухається?
      `,`
      Не знаю. Зрештою, перелік списку визначається урядом США. Вони визначають, скільки людей може входити до порту щодня. Я думаю, що є певна проблема: вони не можуть взяти людей. Може, Трамп щось зробив? Можливо, Генеральний прокурор щось зробив? Можливо, центри затримання надто повні? Можливо, протести проти жахливих умов сповільнюють ситуацію?
@@ -231,7 +231,7 @@ const QUESTIONS_TO_INTERNATIONAL = {
      `
     ],
     "ar": [
-    `
+      `
      لماذا تتحرك القائمة ببطء شديد الآن؟
      `,`
      لا أدري، لا أعرف. في النهاية ، يتم تحديد حركة القائمة من قبل حكومة الولايات المتحدة. وهي تحدد عدد الأشخاص الذين يمكنهم الدخول إلى ميناء الدخول كل يوم. أعتقد أن هناك بعض المشكلات هناك: فهم غير قادرين على استقبال الناس. ربما فعلت ترامب شيئا؟ ربما فعل النائب العام شيء؟ ربما مراكز الاحتجاز مليئة جدا؟ ربما الاحتجاجات ضد الظروف الرهيبة تبطئ الأمور؟
@@ -241,9 +241,9 @@ const QUESTIONS_TO_INTERNATIONAL = {
                  قالت حرس الحدود أنه بسبب احتجاز ICE خارج الفضاء والتمويل ، يقضي البالغون 300 شخص في الحجز قبل النقل. هذا أكثر من 12 يومًا. لم يكن يتحدث عن مرافق CBP لكنهم ينتقلون إلى نفس الأماكن / الوكالة. (بسبب توقف الإفراج المشروط عن البالغين في الأساس في يناير 2017 لكل أمر تنفيذي.)
    </blockquote>
      `
-],
+    ],
     "ru": [
-    `
+      `
      Почему список движется так медленно сейчас?
      `,`
      Я не знаю. В конце концов, движение по списку определяется правительством США. Они определяют, сколько людей могут заходить в порт въезда каждый день. Я предполагаю, что здесь есть какая-то проблема: они не могут принимать людей. Может быть, Трамп что-то сделал? Может быть, генеральный прокурор что-то сделал? Может быть, центры заключения слишком переполнены? Может быть, протесты против ужасных условий замедляют ход событий?
@@ -255,7 +255,7 @@ const QUESTIONS_TO_INTERNATIONAL = {
   `
     ],
     "ht": [
-    `
+      `
      Poukisa lis la ap deplase tèlman dousman kounye a?
      `,`
      M pa konnen. Nan fen a, se mouvman an nan lis la detèmine pa gouvènman ameriken an. Yo detèmine konbyen moun ki ka antre nan Pò a nan antre chak jou. Mwen ta devine ke gen kèk pwoblèm la: yo kapab pran nan moun. Petèt Trump te fè yon bagay? Petèt Pwokirè Jeneral la fè yon bagay? Petèt sant detansyon yo twò plen? Petèt manifestasyon yo kont kondisyon terib yo ralanti bagay sa yo desann?
@@ -267,7 +267,7 @@ const QUESTIONS_TO_INTERNATIONAL = {
      `
     ],
     "fr": [
-    `
+      `
      Pourquoi la liste se déplace si lentement maintenant?
      `,`
      Je ne sais pas. Finalement, le mouvement de la liste est déterminé par le gouvernement américain. Ils déterminent combien de personnes peuvent entrer dans le port d'entrée chaque jour. Je suppose qu’il ya un problème là-bas: ils ne peuvent pas accueillir de personnes. Peut-être que Trump a fait quelque chose? Peut-être que le procureur général a fait quelque chose? Peut-être que les centres de détention sont trop pleins? Peut-être que les manifestations contre les conditions horribles ralentissent les choses?
@@ -295,13 +295,13 @@ const QUESTIONS_TO_INTERNATIONAL = {
       The list is an immoral and racist system that the United States uses to limit the number of people who can enter the country.
       `
     ],
-  "pt": [
-    `
+    "pt": [
+      `
       Qual é a lista?
       `,`
       A lista é um sistema imoral e racista que os Estados Unidos usam para limitar o número de pessoas que podem entrar no país.
       `
-      ],
+    ],
     "bn": [
       `
       তালিকা কি?
@@ -309,27 +309,27 @@ const QUESTIONS_TO_INTERNATIONAL = {
       এই তালিকাটি একটি অনৈতিক ও বর্ণবাদী ব্যবস্থা যা আমেরিকা দেশটিতে প্রবেশ করতে পারে এমন ব্যক্তিদের সংখ্যা সীমিত করতে ব্যবহার করে।
       `
     ],
-  "zh": [
-    `
+    "zh": [
+      `
       列表是什么？
       `, `
       该清单是一种不道德和种族主义的制度，美国用它来限制可以进入该国的人数。
       `
-  ],
-"ha": [
-    `
+    ],
+    "ha": [
+      `
       Mene ne jerin?
       `,`
       Jerin wannan tsari ne mai lalata da tsarin wariyar launin fata wanda {asar Amirka ke amfani da ita don iyakance yawan mutanen da za su shiga cikin} asa.
       `
-  ],
-  "sw": [
-    `
+    ],
+    "sw": [
+      `
       Orodha ni nini?
       `, `
       Orodha ni mfumo wa uasherati na ubaguzi ambao Marekani hutumia ili kupunguza idadi ya watu ambao wanaweza kuingia nchini.
       `
-  ],
+    ],
     "fa": [
       `
       لیست چیست؟
@@ -337,7 +337,7 @@ const QUESTIONS_TO_INTERNATIONAL = {
       این فهرست یک سیستم غیر اخلاقی و نژادپرستانه است که ایالات متحده از آن برای محدود کردن تعداد افرادی که می توانند وارد کشور شوند استفاده می کنند.
       `
     ],
-   "tr": [
+    "tr": [
       `
       Liste nedir?
       `,`
@@ -352,7 +352,7 @@ const QUESTIONS_TO_INTERNATIONAL = {
       `
     ],
 
-      "ar": [
+    "ar": [
       `ما هي القائمة؟`,
       `القائمة نظام غير أخلاقي وعنصري تستخدمه الولايات المتحدة للحد من عدد الأشخاص الذين يمكنهم الدخول إلى البلاد."
 `
@@ -390,15 +390,15 @@ You wait for your number<BR/>
 When your number is called, you can go to the other side
 `
     ],
-        "pt": [
-    `
+    "pt": [
+      `
       Como a lista funciona?
       `,`
 Você vai para o chaparral das 7 da manhã até as 9 da manhã para pegar um número <BR/>
 Você espera pelo seu número <BR/>
 Quando seu número é chamado, você pode ir para o outro lado
 `
-  ],
+    ],
 
 
     "bn": [
@@ -410,33 +410,33 @@ Quando seu número é chamado, você pode ir para o outro lado
 যখন আপনার নাম বলা হয়, আপনি অন্য দিকে যেতে পারেন
 `
     ],
-"ha": [
-    `
+    "ha": [
+      `
       Ta yaya jerin ke aiki?
       `,`
 Kuna tafiya zuwa kaso daga 7 na safe har zuwa 9 na safe don samun lamba <BR/>
 Kuna jiran lambarku <BR/>
 Lokacin da aka kira lambarka, za ka iya zuwa wancan gefe
 `
-  ],
-  "zh": [
-    `
+    ],
+    "zh": [
+      `
       该清单如何运作？
       `, `
 你从早上7点到早上9点去丛林，得到一个数字<BR/>
 你等待你的号码<BR/>
 拨打电话号码后，您可以转到另一侧
 `
-  ],
-  "sw": [
-    `
+    ],
+    "sw": [
+      `
       Orodha hiyo inafanya kazi?
       `,`
 Unakwenda kwenye mkutano kutoka 7 asubuhi mpaka 9 asubuhi ili kupata namba <BR/>
 Unasubiri nambari yako <BR/>
 Wakati nambari yako inaitwa, unaweza kwenda upande mwingine
 `
-  ],
+    ],
     "fa": [
       `
       لیست چگونه کار می کند؟
@@ -446,7 +446,7 @@ Wakati nambari yako inaitwa, unaweza kwenda upande mwingine
 هنگامی که شماره شما نامیده می شود، می توانید به طرف دیگر بروید
 `
     ],
-     "tr": [
+    "tr": [
       `
       Liste nasıl çalışır?
       `,`
@@ -490,15 +490,15 @@ Vous attendez votre numéro <BR/>
 Lorsque votre numéro est appelé, vous pouvez aller de l'autre côté`
     ]
   },
-      "qWaitTime": {
-	        
-  "pt": [
-  `
+  "qWaitTime": {
+
+    "pt": [
+      `
     Quanto tempo tenho que esperar?
       `,`
       Muito. Um mês? Dois meses? Três?
       `
-  ],
+    ],
     "bn": [
       `
       আমার কতক্ষণ অপেক্ষা করতে হবে?
@@ -506,27 +506,27 @@ Lorsque votre numéro est appelé, vous pouvez aller de l'autre côté`
         অনেক. এক মাস? দুই মাস? তিন?
         `
     ],
-      
-  "zh": [
-    `
+
+    "zh": [
+      `
     “我需要等多少时间？
       `, `
       很多。一个月？两个月？三？
       `
-  ],
+    ],
 
-  "ha": [
-    `Nawa lokaci zan jira?
+    "ha": [
+      `Nawa lokaci zan jira?
       ` , `
       Mai yawa. Wata wata? Watanni biyu? Uku?
       `
-  ],
-  "sw": [
-    `Ni lazima nisubiri muda gani?
+    ],
+    "sw": [
+      `Ni lazima nisubiri muda gani?
       `, `
       Mengi. Mwezi mmoja? Miezi miwili? Tatu?
       `
-  ],
+    ],
     "fa": [
       `چقدر وقت باید صبر کنم؟
       `,`
@@ -580,15 +580,15 @@ Lorsque votre numéro est appelé, vous pouvez aller de l'autre côté`
       `Beaucoup. Un mois? Deux mois? Trois? `
     ]
   },
-      "qQuantity": {
-	  
-  "pt": [
-    `
+  "qQuantity": {
+
+    "pt": [
+      `
       Quantos números são chamados a cada dia?
       `,`
       É diferente a cada dia. Alguns dias muito. Alguns dias um pouco. Alguns dias nenhum
       `
-  ],
+    ],
 
     "bn": [
       `
@@ -597,30 +597,30 @@ Lorsque votre numéro est appelé, vous pouvez aller de l'autre côté`
         এটা প্রতিদিন ভিন্ন। কিছু দিন অনেক। কিছু দিন একটু। কিছু দিন কেউ নেই
   `
     ],
-      
-  "zh": [
-    `
+
+    "zh": [
+      `
       每天拨打多少个号码？
       `,`
       它每天都不同。有些日子很多。有一天一点点。有些日子没有
       `
-  ],
+    ],
 
-  "ha": [
-    `
+    "ha": [
+      `
       Lambobi nawa ne ake kira kowace rana?
       `,`
       Ya bambanta kowace rana. Wasu kwanaki mai yawa. Wasu kwanaki kadan. Wasu kwanakin babu
       `
-  ],
+    ],
 
-  "sw": [
-    `
+    "sw": [
+      `
       Nambari ngapi zinaitwa kila siku?
       `, `
       Ni tofauti kila siku. Siku kadhaa mengi. Siku kadhaa kidogo. Siku kadhaa hakuna
       `
-      ],
+    ],
     "tr": [
       `
       Her gün kaç numara aranır?
@@ -628,7 +628,7 @@ Lorsque votre numéro est appelé, vous pouvez aller de l'autre côté`
       Her gün farklı. Bazı günler çok fazla. Bazı günler biraz. Bazı günler hiçbiri
       `
     ],
-      
+
     "fa": [
       `
       چند شماره هر روز نامیده می شود؟
@@ -678,15 +678,15 @@ Lorsque votre numéro est appelé, vous pouvez aller de l'autre côté`
       `C'est différent tous les jours. Certains jours beaucoup. Quelques jours un peu. Certains jours, personne`
     ]
   },
-      "qCrossing": {
-	    "pt": [
-    `
+  "qCrossing": {
+    "pt": [
+      `
       O que acontecerá depois que eu cruzar para o outro lado?
       `,`
 As autoridades americanas irão interrogá-lo sobre o seu caso de asilo. Isso é chamado de "The Credible Fear Interview" <BR/>
 É possível que você seja colocado em um centro de detenção
 `
-  ],
+    ],
 
     "bn": [
       `
@@ -697,14 +697,14 @@ As autoridades americanas irão interrogá-lo sobre o seu caso de asilo. Isso é
   `
     ],
 
-  "zh": [
-    `
+    "zh": [
+      `
       我穿过另一边后会发生什么？
       `,`
 美国当局将审问您的庇护案件。这被称为“可靠的恐惧访谈”<BR/>
 您可能会被关押在拘留所
 `
-  ],
+    ],
     "tr": [
       `
       Diğer tarafa geçtikten sonra ne olacak?
@@ -712,24 +712,24 @@ As autoridades americanas irão interrogá-lo sobre o seu caso de asilo. Isso é
 Amerikan makamları sizi iltica davası hakkında sorgulayacaktır. Buna "İnanılmaz Korku Röportajı" deniyor <BR/>
 Bir gözaltı merkezine koymanız mümkündür.
 `
-    ], 
+    ],
 
-  "ha": [
-    `
+    "ha": [
+      `
       Menene zai faru bayan na haye zuwa wancan gefe?
       `,`
 Hukumomin Amurka za su yi maka tambayoyi game da asibiti. Wannan ake kira "Interview Tsanani Na Farko" <BR/>
 Zai yiwu za a saka ku a wurin tsare
 `
-  ],
-  "sw": [
-    `
+    ],
+    "sw": [
+      `
       Nini kitatokea baada ya kuvuka kwa upande mwingine?
       `, `
 Mamlaka ya Amerika atawahoji kuhusu kesi yako ya kukimbia. Hii inaitwa "Mahojiano ya Hofu ya Kuaminika" <BR/>
 Inawezekana kwamba utawekwa kwenye kituo cha kizuizini
 `
-  ],
+    ],
     "fa": [
       `
       چه اتفاقی می افتد بعد از عبور از طرف دیگر؟
@@ -787,16 +787,16 @@ Li posib ke ou pral mete nan yon sant detansyon`
 Il est possible que vous soyez placé dans un centre de détention`
     ]
   },
-      "qWhatAsylum": {
-	        
-        "pt": [
-    `
+  "qWhatAsylum": {
+
+    "pt": [
+      `
       O que é asilo?
       `,`
 O direito de asilo é um direito internacional dos direitos humanos, que pode ser desfrutado por qualquer
 pessoa fora de seu país de origem em caso de perseguição (<A href="https://en.wikipedia.org/wiki/Right_of_asylum"> Wikipedia </A>)
 `
-  ],
+    ],
 
     "bn": [
       `
@@ -807,30 +807,30 @@ pessoa fora de seu país de origem em caso de perseguição (<A href="https://en
 `
     ],
 
-  "zh": [
-    `
+    "zh": [
+      `
       什么是庇护？
       `,`
 庇护权是一项国际人权权利，任何人都可以享有
 在受到迫害的情况下在原籍国以外的人（<A href="https://en.wikipedia.org/wiki/Right_of_asylum">维基百科</A>）
 `
-  ],
-  "ha": [
-    `
+    ],
+    "ha": [
+      `
       Menene mafaka?
       `,`
 Hakki na mafaka shi ne haƙƙin haƙƙin haƙƙin ɗan adam na kasa da kasa, wanda kowane abu zai iya jin dadin shi
 mutum a waje da asalin asalinsa idan aka tsananta (<A href="https://en.wikipedia.org/wiki/Right_of_asylum"> Wikipedia </A>)
 `
-  ],
-  "sw": [
-    `
+    ],
+    "sw": [
+      `
       Nini hifadhi?
       `, `
 Haki ya hifadhi ni haki ya kimataifa ya haki za binadamu, ambayo inaweza kupendezwa na yoyote
 mtu nje ya nchi yake ya asili wakati wa mateso (<A href="https://en.wikipedia.org/wiki/Right_of_asylum"> Wikipedia </A>)
 `
-  ],
+    ],
     "fa": [
       `
       پناهندگی چیست؟
@@ -840,7 +840,7 @@ mtu nje ya nchi yake ya asili wakati wa mateso (<A href="https://en.wikipedia.or
 `
     ],
 
-         "tr": [
+    "tr": [
       `
       İltica nedir?
       `,`
@@ -898,17 +898,17 @@ The right of asylum is an international right of human rights, which can be enjo
       personne extérieure à son pays d'origine en cas de persécution (<A href="https://fr.wikipedia.org/wiki/Droit_d%27asile">Wikipedia</A>)`
     ]
   },
-      "qCFI": {
-	    "pt": [
-    `
+  "qCFI": {
+    "pt": [
+      `
       O que é "The Credible Fear Interview?"
       `,`
 As autoridades americanas vão lhe perguntar: "Bem, senhor, por que você quer entrar no
 Estados Unidos? Por que você não pode ficar no seu próprio país? Qual é o seu medo? <BR/>
 Nesta entrevista, você deve explicar que tem medo de voltar ao seu país. Esse medo é real. Esse medo é credível
 `
-  ],
-      "bn": [
+    ],
+    "bn": [
       `
 "অবিশ্বাস্য ভয় সাক্ষাৎকার কি?
   `,`
@@ -916,44 +916,44 @@ Nesta entrevista, você deve explicar que tem medo de voltar ao seu país. Esse 
 যুক্তরাষ্ট্র? কেন আপনি আপনার নিজের দেশে থাকতে পারে না? আপনার ভয় কি? <br/>
 এই সাক্ষাত্কারে, আপনাকে ব্যাখ্যা করতে হবে যে আপনি আপনার দেশে ফিরে যাওয়ার জন্য ভীত। এই ভয় বাস্তব। এই ভয় বিশ্বাসযোগ্য
   `
-      ],
-        "uk": [
-    `
+    ],
+    "uk": [
+      `
           Що таке "Довіра інтерв'ю страху?"
           `,`
     Американська влада збирається запитати вас: «Ну, сер, чому ви хочете увійти до
     Сполучені Штати? Чому ви не можете залишитися у своїй країні? Який ваш страх? <BR/>
     У цьому інтерв'ю ви повинні пояснити, що ви боїтеся повернутися у свою країну. Цей страх реальний. Цей страх є надійним
     `
-  ],
+    ],
 
-  "zh": [
-    `
+    "zh": [
+      `
       什么是“可靠的恐惧访谈？
       `, `
 美国当局会问你：“好吧，先生，你为什么要进入
 美国？为什么你不能留在自己的国家？你害怕什么？ <BR/>
 在这次采访中，你必须说明你害怕回到自己的国家。这种恐惧是真实的。这种担心是可信的
 `
-  ],
-  "ha": [
-    `
+    ],
+    "ha": [
+      `
       Mene ne "Taron Tambaya Ta Musamman?
       `,`
 Hukumomin Amirka za su tambaye ku: "To, sir, me yasa kuke so ku shiga
 Amurka? Me yasa ba za ku iya zama a kasarku ba? Mene ne tsoronku? <BR/>
 A cikin wannan hira, dole ne ka bayyana cewa kana jin tsoron komawa kasarka. Wannan tsoro shi ne ainihin. Wannan tsoro yana da gaskiya
 `
-  ],
-  "sw": [
-    `
+    ],
+    "sw": [
+      `
       Ni nini "Hofu ya Kuaminika?
       `, `
 Mamlaka ya Marekani wataenda kukuuliza: "Sawa, bwana, kwa nini unataka kuingia
 Marekani? Kwa nini huwezi kukaa katika nchi yako mwenyewe? Hofu yako ni nini? <BR/>
 Katika mahojiano haya, lazima ueleze kwamba unaogopa kurudi nchi yako. Hofu hii ni kweli. Hofu hii ni ya kuaminika
 `
-      ],
+    ],
     "fa": [
       `
       مصاحبه "ترس و وفادار قابل اعتماد" چیست؟
@@ -963,15 +963,15 @@ Katika mahojiano haya, lazima ueleze kwamba unaogopa kurudi nchi yako. Hofu hii 
 در این مصاحبه، شما باید توضیح دهید که می ترسید به کشور خود بازگردید. این ترس واقعی است این ترس اعتبار دارد
 `
     ],
-  "tr": [
-  `
+    "tr": [
+      `
       "İnanılmaz Korku Röportajı" nedir?
       `,`
 Amerikan makamları size soracaklar: "Peki efendim, neden girmek istiyorsun?
 Amerika Birleşik Devletleri? Neden kendi ülkenizde kalamıyorsunuz? Korkun nedir? <BR/>
 Bu röportajda ülkenize dönmekten korktuğunuzu açıklamalısınız. Bu korku gerçek. Bu korku güvenilir
 `
-],
+    ],
 
     "am": [
       `
@@ -1019,9 +1019,9 @@ Etazini? Poukisa ou pa ka rete nan pwòp peyi ou? Ki sa ki gen krentif pou ou a?
   Dans cette interview, vous devez expliquer que vous avez peur de retourner dans votre pays. Cette peur est réelle. Cette crainte est crédible`
     ]
   },
-      "qMano": {
-	    "pt": [
-    `
+  "qMano": {
+    "pt": [
+      `
       Quais são as partes importantes da entrevista?
       `,`
 O que aconteceu? <BR/>
@@ -1030,8 +1030,8 @@ Por que ele fez isso? <BR/>
 Você foi à POLÍCIA? <BR/>
 Existe outra parte do seu país onde você pode viver?
 `
-      ],
-        "fa": [
+    ],
+    "fa": [
       `
       بخش های مهم مصاحبه چیست؟
       `,`
@@ -1054,8 +1054,8 @@ Existe outra parte do seu país onde você pode viver?
 আপনার দেশের অন্য অংশ কি আপনি বসবাস করতে পারেন?
   `
     ],
-        "uk": [
-    `
+    "uk": [
+      `
           Які важливі частини інтерв'ю
           `,`
     Що трапилось? <BR/>
@@ -1064,11 +1064,11 @@ Existe outra parte do seu país onde você pode viver?
     Ви пішли до поліції? <BR/>
     Чи є інша частина вашої країни, де ви можете жити?
     `
-  ],
+    ],
 
 
-  "zh": [
-    `
+    "zh": [
+      `
       面试的重要部分是什么？
       `, `
 发生了什么？ <BR/>
@@ -1077,9 +1077,9 @@ Existe outra parte do seu país onde você pode viver?
 你去警察局了吗？ <BR/>
 您所在国家的另一部分是否可以居住？
 `
-  ],
-  "ha": [
-    `
+    ],
+    "ha": [
+      `
       Mene ne muhimmin ɓangare na hira?
       `,`
 Me ya faru? <BR/>
@@ -1088,9 +1088,9 @@ Me ya sa ya yi haka? <BR/>
 Shin, kun je POLICE? <BR/>
 Shin akwai wani ɓangare na ƙasarku inda za ku zauna?
 `
-  ],
-  "sw": [
-    `
+    ],
+    "sw": [
+      `
       Je, sehemu muhimu za mahojiano ni nini?
       `, `
 Nini kimetokea? <BR/>
@@ -1099,9 +1099,9 @@ NINI alifanya hivyo? <BR/>
 Ulikwenda POLICE? <BR/>
 Je, kuna sehemu nyingine ya nchi yako ambapo unaweza kuishi?
 `
-  ],
-  "tr": [
-  `
+    ],
+    "tr": [
+      `
       Röportajın önemli kısımları nelerdir?
       `,`
 Ne oldu? <BR/>
@@ -1110,7 +1110,7 @@ Neden bunu yaptı? <BR/>
 POLİS'e gittiniz mi? <BR/>
 Ülkenizde yaşayabileceğiniz başka bir yer var mı?
 `
-],
+    ],
 
     "am": [
       `
@@ -1172,14 +1172,14 @@ Eske ou te ale nan POLIS la? <BR/>
         Y a-t-il une AUTRE PARTIE de votre pays où vous pouvez vivre? `
     ]
   },
-      "qPostCFI": {
+  "qPostCFI": {
 
-	        
-  "pt": [
-    `
+
+    "pt": [
+      `
       O que vai acontecer se tudo correr bem com a minha entrevista?
       `,
-    `
+      `
 Existem várias possibilidades <BR/>
 Todos vão para a detenção de <EM> Alfândega e Patrulha de Fronteira dos EUA </EM>. Isso é chamado de <STRONG>
     refrigerador </STRONG> <BR/>
@@ -1190,7 +1190,7 @@ Depois disso, existem duas possibilidades na maioria dos casos
         Execução </EM> </LI>
 </UL>
 `
-  ],
+    ],
     "bn": [
       `
   সবকিছু আমার সাক্ষাত্কারে ভাল যায় যদি কি হবে?
@@ -1207,11 +1207,11 @@ Depois disso, existem duas possibilidades na maioria dos casos
 </Ul>
   `
     ],
-  "uk": [
-    `
+    "uk": [
+      `
           Що станеться, якщо з моїм інтерв'ю все буде добре?
           `,
-    `
+      `
     Є кілька можливостей <BR/>
     Кожен піде на затримання митного <em> та прикордонного патруля США </EM>. Це називається <STRONG>
         кулер </STRONG> <BR/>
@@ -1222,8 +1222,8 @@ Depois disso, existem duas possibilidades na maioria dos casos
                 Виконання </EM> </LI>
         </UL>
         `
-  ],
-          "fa": [
+    ],
+    "fa": [
       `
       چه اتفاقی می افتد اگر همه چیز با مصاحبه من خوب باشد؟
       `,
@@ -1240,8 +1240,8 @@ Depois disso, existem duas possibilidades na maioria dos casos
 `
     ],
 
-  "zh": [
-    `
+    "zh": [
+      `
       如果我的采访一切顺利，会发生什么？
       `,
       `
@@ -1255,12 +1255,12 @@ Depois disso, existem duas possibilidades na maioria dos casos
         执法</EM> </LI>
 </UL>
 `
-  ],
-  "sw": [
-    `
+    ],
+    "sw": [
+      `
       Nini kitatokea ikiwa kila kitu kinaendelea vizuri na mahojiano yangu?
       `,
-    `
+      `
 Kuna uwezekano wa <BR/>
 Kila mtu huingia kizuizini cha <EM> Forodha ya Marekani na Mpaka Patron </EM>. Hii inaitwa <STRONG>
     baridi </STRONG> <BR/>
@@ -1271,12 +1271,12 @@ Baada ya hayo kuna uwezekano mawili katika kesi nyingi
         Utekelezaji </EM> </LI>
 </UL>
 `
-  ],
-  "tr": [
-  `
+    ],
+    "tr": [
+      `
       Röportajımda her şey yolunda giderse ne olacak?
       `,
-  `
+      `
 Birkaç olasılık var <BR/>
 Herkes <EM> ABD Gümrükleri ve Sınır Devriyesi </EM> gözaltına alındı. Buna <STRONG> denir.
     soğutucu </STRONG> <BR/>
@@ -1287,7 +1287,7 @@ Bundan sonra çoğu durumda iki olasılık var
         Yürürlük </EM> </LI>
 </Ul>
 `
-],
+    ],
     "am":  [
       `
   በቃለ መጠይቁ ላይ ሁሉም ነገር በደንብ ቢሰራ ምን ይሆናል?
@@ -1372,8 +1372,8 @@ Application </EM> </LI>
 </UL> `]
   },
   "qWhatHielera": {
-        "pt": [
-    `
+    "pt": [
+      `
 O que é <STRONG> o mais legal </STRONG> da <EM> Alfândega e Patrulha de Fronteira dos EUA? </EM>
 `,`
 O cooler é muito feio. <BR/>
@@ -1390,7 +1390,7 @@ Uma descrição:
     4 metros de comprimento por 3 metros de hancho.
 </BLOCKQUOTE>
 `
-  ],
+    ],
 
     "bn": [
       `
@@ -1411,8 +1411,8 @@ Uma descrição:
 </blockquote>
   `
     ],
-  "uk": [
-    `
+    "uk": [
+      `
         Що таке <STRONG> кулер </STRONG> митного та прикордонного патруля США? </EM>
     `,`
     Кулер дуже потворний. <BR/>
@@ -1429,9 +1429,9 @@ Uma descrição:
         4 метри завдовжки на 3 метри hancho.
     </BLOCKQUOTE>
     `
-  ],
-      
-            "fa": [
+    ],
+
+    "fa": [
       `
 <strong> cooler </strong> <EM> گمرک گمرک و مرزی ایالات متحده چیست؟ </EM>
 `,`
@@ -1451,8 +1451,8 @@ Uma descrição:
 `
     ],
 
-  "zh": [
-    `
+    "zh": [
+      `
 什么是<EM>美国海关和边境巡逻队的<STRONG>冷却器</STRONG>？ </EM>
 `, `
 冷却器非常难看。 <BR/>
@@ -1469,9 +1469,9 @@ Uma descrição:
     4米长，3米长的hancho。
 </BLOCKQUOTE>
 `
-  ],
-  "ha": [
-    `
+    ],
+    "ha": [
+      `
 Mene ne <strong> mai sanyaya </STRONG> na <EM> Kwamfuta na Kwastam da Border Amurka? </EM>
 `,`
 Mai sanyaya yana da mummunan aiki. <BR/>
@@ -1488,9 +1488,9 @@ A bayanin:
     4 mita tsawo da mita 3 na hancho.
 </BLOCKQUOTE>
 `
-  ],
-  "sw": [
-    `
+    ],
+    "sw": [
+      `
 Nini <STRONG> baridi </STRONG> ya <EM> US Customs na Border Patrol? </EM>
 `, `
 Baridi ni mbaya sana. <BR/>
@@ -1507,10 +1507,10 @@ Maelezo:
     Mita 4 kwa muda mrefu na mita 3 za hancho.
 </BLOCKQUOTE>
 `
-  ],
+    ],
 
-  "tr": [
-  `
+    "tr": [
+      `
 <EM> ABD Gümrük ve Sınır Devriyesi'nin <STRONG> soğutucusu </STRONG> nedir? </EM>
 `,`
 Soğutucu çok çirkin. <BR/>
@@ -1527,10 +1527,10 @@ Bir tanım:
     4 metre uzunluğunda, 3 metre hancho.
 </Blockquote>
 `
-],
+    ],
 
 
-      "am": [
+    "am": [
       `
 <STRONG> la hielera </STRONG> የ <EM> የዩ.ኤስ. የጉምሩክ እና የጠረፍ ፖሊስ ምንድነው? </EM>
 `,
@@ -1635,16 +1635,16 @@ De plus, dans chaque cellule, ils ont environ 10 à 15 personnes au maximum. Que
   },
   "qWhatDetencion": {
 
-    
-  "pt": [
-    `
+
+    "pt": [
+      `
 Qual é a detenção de <EM> Imigração e Alfândega dos EUA </EM>
 `
-    ,
-    `
+      ,
+      `
       É uma prisão. É muito feio. Estou recebendo descrições ...
       `
-  ],
+    ],
     "bn": [
       `
 <em> মার্কিন ইমিগ্রেশন এবং কাস্টমস এনফোর্সমেন্ট </EM> আটক রাখা হয়
@@ -1654,17 +1654,17 @@ Qual é a detenção de <EM> Imigração e Alfândega dos EUA </EM>
 এটা একটা কারাগার। এটা খুব কুৎসিত। আমি বর্ণনা পাচ্ছি ...
 `
     ],
-      
-  "uk": [
-    `
+
+    "uk": [
+      `
     Що таке затримання <EM> імміграційного та митного контролю США </EM>
     `
-    ,
-    `
+      ,
+      `
           Це в'язниця. Це дуже потворно. Я отримую описи ...
           `
-  ],
-          "fa": [
+    ],
+    "fa": [
       `
 بازداشت <EM> مهاجرت و اجرای آداب و رسوم ایالات متحده </EM> چیست؟
 `
@@ -1674,45 +1674,45 @@ Qual é a detenção de <EM> Imigração e Alfândega dos EUA </EM>
       `
     ],
 
-  "zh": [
-    `
+    "zh": [
+      `
 什么是<EM>美国移民和海关执法局的拘留</EM>
 `,
-    `
+      `
       这是一所监狱。这非常难看。我正在描述......
       `
-  ],
+    ],
 
-  "ha": [
-    `
+    "ha": [
+      `
 Mene ne tsarewar <EM> Shige da Fice na Amurka da kuma Aiwatar da Dokoki </EM>
 `
-    ,
-    `
+      ,
+      `
       Yana da kurkuku. Yana da mummunan aiki. Ina samun kwatancin ...
       `
-  ],
+    ],
 
-  "sw": [
-    `
+    "sw": [
+      `
 Ni kizuizini cha <EM> Uhamiaji wa Marekani na Utekelezaji wa Forodha </EM>
 `
-    ,
-    `
+      ,
+      `
       Ni jela. Ni mbaya sana. Ninapata maelezo ...
       `
-  ],
-  "tr": [
-  `
+    ],
+    "tr": [
+      `
 <EM> ABD Göçmenlik ve Gümrük İfadesi </EM> 'nin alıkonması nedir?
 `
-  ,
-  `
+      ,
+      `
       Bu bir hapishane. Çok çirkin. Açıklamalar alıyorum ...
       `
-],
+    ],
 
-      "am": [
+    "am": [
       `
 <EM> የአሜሪካ ኢሚግሬሽን እና ጉምሩክ አስፈፃሚ </EM> ማቆም ምን ማለት ነው?
 `
@@ -1749,19 +1749,19 @@ What is the detention of <EM> US Immigration and Customs Enforcement </EM>
       `C'est une prison. C'est très moche. Je reçois des descriptions ...`
     ]
   },
-      "qDetencionPrep": {
-	    "pt": [
-    `
+  "qDetencionPrep": {
+    "pt": [
+      `
       Como posso me preparar para o refrigerador e a detenção?
       `
-    ,
-    `
+      ,
+      `
 Escreva os números de telefone e endereços e todas as coisas importantes sobre o seu braço <BR/>
 Escreva com uma caneta SHARPIE. É muito fácil lavar uma caneta normal do seu corpo.
 `
-  ],
+    ],
 
-  "bn": [
+    "bn": [
       `
 আমি কিভাবে শীতল এবং আটক জন্য প্রস্তুত করতে পারেন?
   `
@@ -1770,8 +1770,8 @@ Escreva com uma caneta SHARPIE. É muito fácil lavar uma caneta normal do seu c
   ফোন নম্বর এবং ঠিকানা এবং আপনার বাহু সম্পর্কে সমস্ত গুরুত্বপূর্ণ জিনিসগুলি লিখুন <BR/>
 একটি SHARPIE কলম সঙ্গে এটি লিখুন। এটা আপনার শরীর থেকে একটি স্বাভাবিক কলম ধোয়া খুব সহজ।
 `
-  ],
-      "fa": [
+    ],
+    "fa": [
       `
       چگونه می توانم برای کولر و بازداشت آماده کنم؟
       `
@@ -1781,59 +1781,59 @@ Escreva com uma caneta SHARPIE. É muito fácil lavar uma caneta normal do seu c
 آن را با قلم SHARPIE بنویسید. یک قلم طبیعی از بدن شما بسیار ساده است.
 `
     ],
-  "uk": [
-    `
+    "uk": [
+      `
           Як я можу підготуватися до кулера і затримання?
           `
-    ,
-    `
+      ,
+      `
     Напишіть номери телефонів і адреси, а також всі важливі речі щодо вашої руки. <BR/>
     Напишіть його за допомогою пера SHARPIE. Мити нормальну ручку з вашого тіла дуже легко.
     `
-  ],
+    ],
 
-  "zh": [
-    `
+    "zh": [
+      `
       我怎样才能为冷却器和拘留做准备？
       `
-    ,
-    `
+      ,
+      `
 写下电话号码和地址以及关于你手臂的所有重要事项<BR/>
 用SHARPIE笔书写。从你的身体上洗一支普通的笔非常容易。
 `
-  ],
+    ],
 
-  "ha": [
-    `
+    "ha": [
+      `
       Yaya zan iya shirya don mai sanyaya da kuma tsare?
       `
-    ,
-    `
+      ,
+      `
 Rubuta lambobin waya da adiresoshin da duk abubuwan da ke da muhimmanci game da hannunka <BR/>
 Rubuta shi tare da takarda SHARPIE. Yana da sauƙin wanke wanke adon ku daga jiki.
 `
-  ],
-  "sw": [
-    `
+    ],
+    "sw": [
+      `
       Ninawezaje kujiandaa kwa ajili ya baridi na kizuizini?
       `
-    ,
-    `
+      ,
+      `
 Andika namba za simu na anwani na mambo yote muhimu kuhusu mkono wako <BR/>
 Andika kwa kalamu ya SHARPIE. Ni rahisi sana kuosha kalamu ya kawaida kutoka kwenye mwili wako.
 `
-  ],
+    ],
 
-  "tr": [
-  `
+    "tr": [
+      `
       Soğutucu ve gözaltı için nasıl hazırlanabilirim?
       `
-  ,
-  `
+      ,
+      `
 Telefon numaralarını, adresleri ve kolunla ilgili tüm önemli şeyleri yaz <BR/>
 Bir SHARPIE kalemi ile yaz. Normal bir kalemi vücudunuzdan yıkamak çok kolaydır.
 `
-],
+    ],
     "am":   [
       `
       ለቀጣዩ ቀዝቃዛ እና ለእስራት መዘጋጀት እንዴት እችላለሁ?
@@ -1880,9 +1880,9 @@ Write the phone numbers and addresses and all the important things about your ar
       Ecris-le avec un stylo SHARPIE. Il est très facile de laver un stylo normal de votre corps.`
     ]
   },
-      "qMyContact": {
-	    "pt": [
-    `
+  "qMyContact": {
+    "pt": [
+      `
       Eu não tenho nenhum número ou endereço. Para quem posso ligar ou escrever pedindo ajuda quando estou detido?
       `,`
  <h1> Eu </h1> <BR/>
@@ -1898,10 +1898,10 @@ Mitchell Verter <BR/>
 <BR/>
 Escreva com uma caneta SHARPIE. É muito fácil lavar uma caneta normal do seu corpo.
 `
-  ],
+    ],
 
 
-  "bn": [
+    "bn": [
       `
 আমি কোন সংখ্যা বা ঠিকানা নেই। আমি আটক থাকাকালীন সাহায্যের জন্য কাকে কল বা লিখতে পারি?
   `,`
@@ -1918,9 +1918,9 @@ Escreva com uma caneta SHARPIE. É muito fácil lavar uma caneta normal do seu c
 <br/>
 একটি SHARPIE কলম সঙ্গে এটি লিখুন। এটা আপনার শরীর থেকে একটি স্বাভাবিক কলম ধোয়া খুব সহজ।
 `
-  ],
+    ],
 
-      "fa": [
+    "fa": [
       `
       من هیچ شماره یا نشانی ندارم وقتی من بازداشت شدم، می توانم تماس بگیرم یا برای کمک نامه بنویسم؟
       `,`
@@ -1938,8 +1938,8 @@ Escreva com uma caneta SHARPIE. É muito fácil lavar uma caneta normal do seu c
 آن را با قلم SHARPIE بنویسید. یک قلم طبیعی از بدن شما بسیار ساده است.
 `
     ],
-  "zh": [
-    `
+    "zh": [
+      `
       我没有任何号码或地址。我被拘留时，谁可以打电话或写信寻求帮助？
       `, `
  <h1>我</h1> <BR/>
@@ -1955,9 +1955,9 @@ Mitchell Verter <BR/>
 <BR/>
 用SHARPIE笔书写。从你的身体上洗一支普通的笔非常容易。
 `
-  ],
-  "ha": [
-    `
+    ],
+    "ha": [
+      `
       Ba ni da lambar ko adireshin. Wanene zan iya kira ko rubuta don taimako lokacin da aka kulle ni?
       `,`
  <h1> Ni </h1> <BR/>
@@ -1973,9 +1973,9 @@ Mitchell Verter <BR/>
 <BR/>
 Rubuta shi tare da takarda SHARPIE. Yana da sauƙin wanke wanke adon ku daga jiki.
 `
-  ],
-  "sw": [
-    `
+    ],
+    "sw": [
+      `
       Sina idadi yoyote au anwani. Ni nani ninayeweza kumuita au kuandika msaada ili nimefungwa?
       `, `
  <h1> Me </h1> <BR/>
@@ -1993,8 +1993,8 @@ Andika kwa kalamu ya SHARPIE. Ni rahisi sana kuosha kalamu ya kawaida kutoka kwe
 `
     ],
 
-  "tr": [
-  `
+    "tr": [
+      `
       Hiçbir numara veya adresim yok. Alıkonulduğumda yardım için kimi arayabilir veya yazabilirim?
       `,`
  <h1> Me </h1> <BR/>
@@ -2010,9 +2010,9 @@ Mitchell Verter <BR/>
 <BR/>
 Bir SHARPIE kalemi ile yaz. Normal bir kalemi vücudunuzdan yıkamak çok kolaydır.
 `
-  ],
-        "uk": [
-    `
+    ],
+    "uk": [
+      `
           Я не маю жодного номера або адреси. Кого я можу зателефонувати або написати на допомогу, коли я затриманий?
           `,`
      <h1> Мені </h1> <BR/>
@@ -2028,7 +2028,7 @@ Bir SHARPIE kalemi ile yaz. Normal bir kalemi vücudunuzdan yıkamak çok kolayd
         <BR/>
         Напишіть його за допомогою ручки SHARPIE. Мити нормальну ручку з вашого тіла дуже легко.
         `
-  ],
+    ],
 
 
     "am": [
@@ -2135,11 +2135,11 @@ Ecris-le avec un stylo SHARPIE. Il est très facile de laver un stylo normal de 
 `
     ]
   },
-      "qLeviticus": {
-	  
+  "qLeviticus": {
 
-        "pt": [
-    `
+
+    "pt": [
+      `
       O que a Bíblia pensa sobre esse processo?
       `,`
 <BLOCKQUOTE>
@@ -2148,7 +2148,7 @@ Ecris-le avec un stylo SHARPIE. Il est très facile de laver un stylo normal de 
 </BLOCKQUOTE>
 <cite> Levítico 19: 33-34 </cite>
 `
-  ],
+    ],
 
     "bn": [
       `
@@ -2162,7 +2162,7 @@ Ecris-le avec un stylo SHARPIE. Il est très facile de laver un stylo normal de 
   `
     ],
 
-          "fa": [
+    "fa": [
       `
       کتاب مقدس در مورد این روند چه فکر می کند؟
       `,`
@@ -2173,8 +2173,8 @@ Ecris-le avec un stylo SHARPIE. Il est très facile de laver un stylo normal de 
 <cite> Leviticus 19: 33-34 </quote>
 `
     ],
-      "ha": [
-    `
+    "ha": [
+      `
       Menene Littafi Mai-Tsarki ke tunani akan wannan tsari?
       `,`
 <BLOCKQUOTE>
@@ -2183,9 +2183,9 @@ Ecris-le avec un stylo SHARPIE. Il est très facile de laver un stylo normal de 
 </BLOCKQUOTE>
 <cite> Leviticus 19: 33-34 </cite>
 `
-      ],
-        "uk": [
-    `
+    ],
+    "uk": [
+      `
               Що думає Біблія про цей процес?
               `,`
         <BLOCKQUOTE>
@@ -2194,9 +2194,9 @@ Ecris-le avec un stylo SHARPIE. Il est très facile de laver un stylo normal de 
         </BLOCKQUOTE>
         <cite> Левит 19: 33-34 </cite>
         `
-  ],
-  "zh": [
-    `
+    ],
+    "zh": [
+      `
       圣经对这个过程的看法是什么？
       `, `
 <BLOCKQUOTE>
@@ -2205,9 +2205,9 @@ Ecris-le avec un stylo SHARPIE. Il est très facile de laver un stylo normal de 
 </BLOCKQUOTE>
 <cite>利未记19：33-34 </cite>
 `
-  ],
-  "ha": [
-    `
+    ],
+    "ha": [
+      `
       Menene Littafi Mai-Tsarki ke tunani akan wannan tsari?
       `,`
 <BLOCKQUOTE>
@@ -2216,9 +2216,9 @@ Ecris-le avec un stylo SHARPIE. Il est très facile de laver un stylo normal de 
 </BLOCKQUOTE>
 <cite> Leviticus 19: 33-34 </cite>
 `
-  ],
-  "sw": [
-    `
+    ],
+    "sw": [
+      `
       Biblia inafikiria nini kuhusu mchakato huu?
       `, `
 <BLOCKQUOTE>
@@ -2227,9 +2227,9 @@ Ecris-le avec un stylo SHARPIE. Il est très facile de laver un stylo normal de 
 </BLOCKQUOTE>
 <cite> Mambo ya Walawi 19: 33-34 </cite>
 `
-  ],
-  "tr": [
-  `
+    ],
+    "tr": [
+      `
       İncil bu süreç hakkında ne düşünüyor?
       `,`
 <Blockquote>
@@ -2238,7 +2238,7 @@ Ecris-le avec un stylo SHARPIE. Il est très facile de laver un stylo normal de 
 </Blockquote>
 <cite> Leviticus 19: 33-34 </cite>
 `
-],
+    ],
 
 
     "am":  [
@@ -2305,9 +2305,9 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
   },
   "qRFM": {
 
-      
-  "zh": [
-    `
+
+    "zh": [
+      `
       无政府主义者对这个过程有何看法？
       `, `
 <BLOCKQUOTE>
@@ -2320,10 +2320,10 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
     </A>
 </cite>
 `
-  ],
+    ],
 
-  "ha": [
-    `
+    "ha": [
+      `
       Mene ne masanan sunyi tunanin wannan tsari?
       `,`
 <BLOCKQUOTE>
@@ -2336,9 +2336,9 @@ Vous devez considérer l'étranger qui vit avec vous comme un natif parmi vous. 
     </A>
 </cite>
 `
-  ],
-    
-      "am": [
+    ],
+
+    "am": [
       `
       አመንታኒስት ስለ ሂደቱ ምን ያስባሉ?
       `,
@@ -2574,21 +2574,21 @@ Utilisez cette page pour lancer une recherche: <BR/>
 `
     ]
   },
-      "qMutualAid": {
-	    "zh": [
-    `
+  "qMutualAid": {
+    "zh": [
+      `
       我为什么要建这个网站？
       `, `
  因为我是一名无政府主义者，他相信<A href="https://en.wikipedia.org/wiki/Mutual_aid_(organization_theory)" target="_blank">互助</A>
 `
-  ],
-  "ha": [
-    `
+    ],
+    "ha": [
+      `
       Me ya sa nake yin wannan shafin intanet?
       `,`
  Domin ina da wani anarchist, wanda ya yi imanin <A href="https://en.wikipedia.org/wiki/Mutual_aid_(organization_theory)" target="_blank"> taimakon juna </A>
 `
-  ],
+    ],
     "am": [
       `
       ለምንድን ነው ይህን ድር ጣቢያ የምሆነው?
@@ -2773,6 +2773,9 @@ Escríbelo con un bolígrafo SHARPIE. Es muy fácil lavar una pluma normal de tu
             </cite>
 `
   ],
+  "qAntifascist": {
+
+  },
   "qBusquedas": [
     `
 Mi amigo o familiar ya cruzó a los Estados Unidos. ¿Dónde está ella ahora?
