@@ -84,6 +84,8 @@ dd {
     text-align: center;
     align-content: center;
     align-items: center;
+    border: maroon 5px solid;
+    border-radius: 7%;
 }
 
 
