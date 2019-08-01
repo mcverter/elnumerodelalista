@@ -2471,6 +2471,30 @@ This in itself is enough for a social revolution which is economic in na¬ture a
 `
     ]
   },
+  "q589" : {
+    "en": [
+      `
+                  My number was called.  I entered the United States. Maybe I was returned to Tijuana or maybe I am now in the United States.  What happens next?
+
+      `,
+      `
+                  <div>
+                <p>You will go to Immigration Court in the United States.  If you were returned to Tijuana, you will have to show up to chaparral in the morning to go to court in San Diego</p>
+                <p>The prosecutor in the court will be trying to make a case that you should be deported.</p>
+                <p>In your defense, you need to submit the FORM
+                    "I-589, Application for Asylum and for Withholding of Removal"</p>
+                <p>You can download it at this website: https://www.uscis.gov/i-589</p>
+                <p> Or here</p>
+                <ul>
+                    <li> <a href="589/"> English</a><li>
+                    <li> <a href=""> Spanish (can not be used in court)</a></li>
+                </ul>
+                </div>
+
+      `
+
+    ]
+  },
   "qBusquedas": {
     "am":   [
       `
@@ -2750,7 +2774,7 @@ Utilisez cette page pour lancer une recherche: <BR/>
     ],
 
     "ht": [
-      `
+      `
       Kisa Antifasisis yo panse?
       `,`
 <blockquote>
@@ -2841,7 +2865,7 @@ Utilisez cette page pour lancer une recherche: <BR/>
 `
     ],
     "fr": [
-      `
+      `
       Qu'en pensent les antifascistes?
       `,`
 <blockquote>
