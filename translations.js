@@ -2479,21 +2479,271 @@ This in itself is enough for a social revolution which is economic in na¬ture a
       `,
       `
                   <div>
-                <p>You will go to Immigration Court in the United States.  If you were returned to Tijuana, you will have to show up to chaparral in the morning to go to court in San Diego</p>
-                <p>The prosecutor in the court will be trying to make a case that you should be deported.</p>
-                <p>In your defense, you need to submit the FORM
-                    "I-589, Application for Asylum and for Withholding of Removal"</p>
-                <p>You can download it at this website: https://www.uscis.gov/i-589</p>
-                <p> Or here</p>
-                <ul>
-                    <li> <a href="589/"> English</a><li>
-                    <li> <a href=""> Spanish (can not be used in court)</a></li>
+                <p>You will go to Immigration Court in the United States.  If you were returned to Tijuana, you will have to show up to chaparral in the morning to go to court in San Diego
+<br>The prosecutor in the court will be trying to make a case that you should be deported.
+<br>In your defense, you need to submit the FORM
+                    "I-589, Application for Asylum and for Withholding of Removal"
+<br>You can download it at this website: <a href="https://www.uscis.gov/i-589">https://www.uscis.gov/i-589</a>
+<br> Or here</p><ul>
+                    <li> <a href="589/i-589.pdf"> English</a></li>
+                    <li> <a href="589/i-589_spanish.pdf"> Spanish (can not be used in court)</a></li>
                 </ul>
                 </div>
 
       `
 
-    ]
+    ],
+    "ht": [
+      `
+                  Nimewo mwen te rele. Mwen te antre nan Etazini. Petèt mwen te retounen nan Tijuana oswa petèt mwen kounye a nan Etazini yo. Kisa k ap pase pwochen?
+
+      `,
+      `
+                  <div>
+                <p> Ou pral ale nan Tribinal Imigrasyon nan Etazini yo. Si ou te retounen nan Tijuana, ou pral gen pou montre jiska chaparral nan maten pou ale nan tribinal nan San Diego 
+<br> Pwokirè a nan tribinal la pral eseye fè yon ka ke ou ta dwe depòte. 
+<br> Nan defans ou, ou bezwen soumèt fòm lan
+                    "I-589, Aplikasyon pou Azil ak pou kenbe nan Retire" 
+<br> Ou ka telechaje li nan sit entènèt sa a: <a href="https://www.uscis.gov/i-589">https://www.uscis.gov/i-589</a> 
+<br> Oswa isit la 
+<br><ul>
+                    <li> <a href="589/i-589.pdf"> angle </a> </a>
+                    <li> <a href="589/i-589_spanish.pdf"> Panyòl (pa kapab itilize nan tribinal) </a> </li>
+                </ul>
+                </div>
+
+      `
+    ],
+    "am" : [
+      `
+                  ቁጥሬ ተጠርቷል ፡፡ ወደ አሜሪካ ገባሁ ፡፡ ምናልባት ወደ ቲዩዋና ተመለስኩ ይሆናል ወይም ምናልባት አሁን አሜሪካ ውስጥ ነኝ ፡፡ ከዚያስ ምን ይሆናል?
+
+      `,
+      `
+                  <div>
+                በአሜሪካ ውስጥ ወደ ኢሚግሬሽን ፍርድ ቤት ይሄዳሉ ፡፡ ወደ Tijuana ከተመለሱ ፣ ጠዋት እስከ ሳንዲያ ዲዬጎ ወደ ፍርድ ቤት ለመሄድ እስከ ምዕመናን ድረስ ወደ ቤተመቅደሱ ማሳየት አለብዎት። 
+<br>በፍርድ ቤቱ ያለው አቃቤ ህግ እርስዎ እንዲባረሩ የሚያደርግ ክስ ለማቅረብ እየሞከረ ነው ፡፡ 
+<br>በመከላከያዎ ውስጥ FORM ን ማስገባት አለብዎት።
+                    "I-589, ለጥገኝነት እና የማስወገድ ማመልከቻ" "
+<br>በዚህ ድር ጣቢያ ላይ ማውረድ ይችላሉ ‹a href="https://www.uscis.gov/i-589"> https://www.uscis.gov/i-589 </a> 
+<br> ወይም እዚህ 
+<br><ul>።
+                    <li> <a href="589/i-589.pdf"> እንግሊዝኛ </a></li>
+                    <li> <a href="589/i-589_spanish.pdf"> ስፓኒሽ (በፍርድ ቤት መጠቀም አይቻልም) </a> </li>
+                </ul>
+                </div>
+
+      `
+    ],
+    "fr": [
+      `
+                  Mon numéro a été appelé. Je suis entré aux États-Unis. Peut-être que je suis retourné à Tijuana ou peut-être que je suis maintenant aux États-Unis. Qu'est-ce qui se passe ensuite?
+
+      `,
+      `
+                  <div>
+                <p> Vous irez au tribunal de l'immigration aux États-Unis. Si vous êtes renvoyé à Tijuana, vous devrez vous présenter à chaparral le matin pour vous rendre au tribunal de San Diego 
+<br> Le procureur du tribunal essaiera de faire valoir que vous devriez être expulsé. 
+<br> Pour votre défense, vous devez soumettre le FORMULAIRE.
+                    "I-589, Demande d'asile et de suspension de l'éloignement" 
+<br> Vous pouvez le télécharger sur ce site Web: <a href="https://www.uscis.gov/i-589"> https://www.uscis.gov/i-589 </a> 
+<br> Ou ici 
+<br><ul>
+                    <li> <a href="589/i-589.pdf"> Anglais </a></li>
+                    <li> <a href="589/i-589_spanish.pdf"> espagnol (ne peut pas être utilisé devant un tribunal) </a> </li>
+                </ul>
+                </div>
+
+      `
+    ],
+    "ru": [
+      `
+                  Mon numéro a été appelé. Je suis entré aux États-Unis. Peut-être que je suis retourné à Tijuana ou peut-être que je suis maintenant aux États-Unis. Qu'est-ce qui se passe ensuite?
+
+      `,
+      `
+                  <div>
+                <p> Vous irez au tribunal de l'immigration aux États-Unis. Si vous êtes renvoyé à Tijuana, vous devrez vous présenter à chaparral le matin pour vous rendre au tribunal de San Diego 
+<br> Le procureur du tribunal essaiera de faire valoir que vous devriez être expulsé. 
+<br> Pour votre défense, vous devez soumettre le FORMULAIRE.
+                    "I-589, Demande d'asile et de suspension de l'éloignement" 
+<br> Vous pouvez le télécharger sur ce site Web: <a href="https://www.uscis.gov/i-589"> https://www.uscis.gov/i-589 </a> 
+<br> Ou ici 
+<br><ul>
+                    <li> <a href="589/i-589.pdf"> Anglais </a></li>
+                    <li> <a href="589/i-589_spanish.pdf"> espagnol (ne peut pas être utilisé devant un tribunal) </a> </li>
+                </ul>
+                </div>
+
+      `
+    ],
+    "pt":[
+      `
+                  Mon numéro a été appelé. Je suis entré aux États-Unis. Peut-être que je suis retourné à Tijuana ou peut-être que je suis maintenant aux États-Unis. Qu'est-ce qui se passe ensuite?
+
+      `,
+      `
+                  <div>
+                <p> Vous irez au tribunal de l'immigration aux États-Unis. Si vous êtes renvoyé à Tijuana, vous devrez vous présenter à chaparral le matin pour vous rendre au tribunal de San Diego 
+<br> Le procureur du tribunal essaiera de faire valoir que vous devriez être expulsé. 
+<br> Pour votre défense, vous devez soumettre le FORMULAIRE.
+                    "I-589, Demande d'asile et de suspension de l'éloignement" 
+<br> Vous pouvez le télécharger sur ce site Web: <a href="https://www.uscis.gov/i-589"> https://www.uscis.gov/i-589 </a> 
+<br> Ou ici 
+<br><ul>
+                    <li> <a href="589/i-589.pdf"> Anglais </a></li>
+                    <li> <a href="589/i-589_spanish.pdf"> espagnol (ne peut pas être utilisé devant un tribunal) </a> </li>
+                </ul>
+                </div>
+
+      `
+    ],
+    "bn": [
+      `
+                  Mon numéro a été appelé. Je suis entré aux États-Unis. Peut-être que je suis retourné à Tijuana ou peut-être que je suis maintenant aux États-Unis. Qu'est-ce qui se passe ensuite?
+
+      `,
+      `
+                  <div>
+                <p> Vous irez au tribunal de l'immigration aux États-Unis. Si vous êtes renvoyé à Tijuana, vous devrez vous présenter à chaparral le matin pour vous rendre au tribunal de San Diego 
+<br> Le procureur du tribunal essaiera de faire valoir que vous devriez être expulsé. 
+<br> Pour votre défense, vous devez soumettre le FORMULAIRE.
+                    "I-589, Demande d'asile et de suspension de l'éloignement" 
+<br> Vous pouvez le télécharger sur ce site Web: <a href="https://www.uscis.gov/i-589"> https://www.uscis.gov/i-589 </a> 
+<br> Ou ici 
+<br><ul>
+                    <li> <a href="589/i-589.pdf"> Anglais </a></li>
+                    <li> <a href="589/i-589_spanish.pdf"> espagnol (ne peut pas être utilisé devant un tribunal) </a> </li>
+                </ul>
+                </div>
+
+      `
+    ],
+    "ha": [
+      `
+                  An kira lambata Na shiga Amurka. Wataƙila an komar da ni Tijuana ko wataƙila yanzu ina Amurka. Me zai faru bayan haka?
+
+      `,
+      `
+      <div>
+      <p> Zaku tafi Kotun Shige da Fice a Amurka. Idan an dawo da ku zuwa Tijuana, dole ne ku nuna sallar asuba don zuwa kotu a San Diego 
+<br> Mai gabatar da kara a kotu zai yi kokarin daukaka karar da ya kamata a tura ka. 
+<br> A cikin kariyarku, kuna buƙatar gabatar da FORM
+      "I-589, Aikace-aikacen neman mafaka da hana Karfafawa" 
+<br> Za ku iya saukar da shi ta wannan rukunin yanar gizo: <a href="https://www.uscis.gov/i-589"> https://www.uscis.gov/i-589 </a> 
+<br> Ko kuma a nan </p><ul>
+<li> <a href="589/i-589.pdf"> Turanci </a></li>
+  <li> <a href="589/i-589_spanish.pdf"> Mutanen Espanya (ba za a iya amfani da su a kotu ba) </a> </li>
+</ul>
+</div>
+
+  `
+    ],
+    "sw": [
+      `
+                  Nambari yangu iliitwa. Niliingia Merika. Labda nilirudishwa Tijuana au labda sasa niko Amerika. Nini kinatokea?
+
+      `,
+      `
+                  <div>
+                Utaenda kwa Korti ya Uhamiaji nchini Merika. Ikiwa ulirudishwa Tijuana, italazimika kuonesha asubuhi kwenda kortini San Diego 
+<br> Mwendesha mashtaka katika korti atakuwa akijaribu kutoa kesi ambayo unapaswa kufukuzwa. 
+<br> Katika utetezi wako, unahitaji kuwasilisha FOMU
+                    "I-589, Maombi ya Asili na ya Kuzuia Kuondolewa" 
+<br> Unaweza kuipakua katika wavuti hii: <a href="https://www.uscis.gov/i-589"> https://www.uscis.gov/i-589 </a> 
+<br> Au hapa 
+<br><ul>
+                    <li> <a href="589/i-589.pdf"> Kiingereza </a></li>
+                    <li> <a href="589/i-589_spanish.pdf"> Kihispania (haiwezi kutumiwa katika korti) </a> </li>
+                </ul>
+                </div>
+
+      `
+    ],
+    "tr": [
+      `
+      Numaram arandı. Amerika Birleşik Devletleri'ne girdim. Belki Tijuana'ya iade edildim ya da şimdi Birleşik Devletler'deyim. Sonra ne olur?
+
+        `,
+      `
+                  <Div>
+                <p> Amerika Birleşik Devletleri'ndeki Göçmen Mahkemesine gideceksiniz. Eğer Tijuana'ya iade edildiyseniz, San Diego'daki mahkemeye gitmek için sabahları chaparral'a gelmeniz gerekecek. 
+<br> Mahkemedeki savcı, sınır dışı edilmeniz gerektiğine dair bir dava açmaya çalışacaktır. 
+<br> Savunmanızda, FORM'u göndermeniz gerekir.
+                    "I-589, Sığınma ve Kaldırma Durdurma Başvurusu" 
+<br> Bu web sitesinden indirebilirsiniz: <a href="https://www.uscis.gov/i-589"> https://www.uscis.gov/i-589 </a> 
+<br> Veya burada 
+<br><Ul>
+                    <li> <a href="589/i-589.pdf"> İngilizce </a></li>
+                    <li> <a href="589/i-589_spanish.pdf"> İspanyolca (mahkemede kullanılamaz) </a> </li>
+                </Ul>
+                </Div>
+
+      `
+    ],
+    "fa": [
+      `
+                  شماره من تماس گرفت وارد ایالات متحده شدم. شاید من به تیجوانا بازگردانده شده ام یا شاید هم اکنون در ایالات متحده هستم. بعد چه اتفاقی می افتد؟
+
+      `,
+      `
+                  <div>
+                <p> شما به دادگاه مهاجرت در ایالات متحده می روید. اگر به Tijuana برگردانده شده اید ، باید صبح امروز به حضور در مناجات بپردازید تا به دادگاه در سن دیگو بروید.
+                <p> دادستان در دادگاه سعی در ایجاد پرونده ای دارد که شما باید از آنجا اخراج شوید
+                <p> در دفاع شما باید FORM را ارسال کنید
+                    "I-589 ، درخواست پناهندگی و جلوگیری از حذف" 
+<br> شما می توانید در این وب سایت بارگیری کنید: <a href="https://www.uscis.gov/i-589 "> https://www.uscis.gov/i-589 </a> 
+<br> یا اینجا 
+<br><ul>
+                    <li> <a href="589/i-589.pdf"> انگلیسی </a></li>
+                    <li> <a href="589/i-589_spanish.pdf"> اسپانیایی (قابل استفاده در دادگاه نیست) </a> </li>
+                </ul>
+                </div>
+
+      `
+    ],
+    "uk": [
+      `
+                  Мій номер називався. Я вступив до США. Можливо, мене повернули в Тіхуану, або, можливо, зараз я в США. Що буде далі?
+
+      `,
+      `
+                  <div>
+                <p> Ви перейдете до Імміграційного суду в Сполучених Штатах. Якщо вас повернули в Тіхуану, вам доведеться з’явитися до чапраралу вранці, щоб звернутися до суду в Сан-Дієго 
+<br> Прокурор суду намагатиметься скласти справу про те, що вас депортують. 
+<br> На ваш захист вам потрібно подати ФОРМУ
+                    "I-589, Заява про надання притулку та відмову від видалення" 
+<br> Ви можете завантажити його на цьому веб-сайті: <a href="https://www.uscis.gov/i-589"> https://www.uscis.gov/i-589 </a> 
+<br> Або тут 
+<br><ul>
+                    <li> <a href="589/i-589.pdf"> англійська </a></li>
+                    <li> <a href="589/i-589_spanish.pdf"> іспанська (не може бути використана в суді) </a> </li>
+                </ul>
+                </div>
+
+      `
+    ],
+    "ar": [
+      `
+                  تم استدعاء رقمي. دخلت الولايات المتحدة. ربما تم إعادتي إلى تيخوانا أو ربما أنا الآن في الولايات المتحدة. ماذا حدث بعد ذلك؟
+
+      `,
+      `
+                  <div>
+                <p> ستذهب إلى محكمة الهجرة في الولايات المتحدة. إذا تم إعادتك إلى تيخوانا ، فسيتعين عليك الحضور إلى شابارال في الصباح للذهاب إلى المحكمة في سان دييغو 
+<br> سيحاول المدعي العام في المحكمة رفع قضية يجب ترحيلك منها. 
+<br> في دفاعك ، يتعين عليك تقديم النموذج
+                    "I-589 ، طلب اللجوء وحجب الإزالة" 
+<br> يمكنك تنزيله من موقع الويب هذا: <a href="https://www.uscis.gov/i-589"> https://www.uscis.gov/i-589 </a> 
+<br> أو هنا 
+<br><UL>
+                    <li> <a href="589/i-589.pdf"> الإنجليزية </a></li>
+                    <li> <a href="589/i-589_spanish.pdf"> الإسبانية (لا يمكن استخدامها في المحكمة) </a> </li>
+                </UL>
+                </div>
+
+      `
+    ],
   },
   "qBusquedas": {
     "am":   [
@@ -2545,7 +2795,6 @@ I am trying to search for people too, but it is very difficult<BR>
 <STRONG> <A href="detention.html"> صفحة البحث </A> </STRONG>
 `
     ],
-
     "ht": [
       `
 Zanmi mwen oswa fanmi mwen deja janbe nan Etazini yo. Kote li ye kounye a?
@@ -2598,9 +2847,7 @@ Utilisez cette page pour lancer une recherche: <BR/>
 `
     ]
   },
-
   "qAntifascist": {
-
     "pt": [
       `
       Quantos números são chamados a cada dia?
@@ -2608,7 +2855,6 @@ Utilisez cette page pour lancer une recherche: <BR/>
       É diferente a cada dia. Alguns dias muito. Alguns dias um pouco. Alguns dias nenhum
       `
     ],
-
     "bn": [
       `
         কত নম্বর প্রতিটি দিন বলা হয়?
@@ -2616,7 +2862,6 @@ Utilisez cette page pour lancer une recherche: <BR/>
         এটা প্রতিদিন ভিন্ন। কিছু দিন অনেক। কিছু দিন একটু। কিছু দিন কেউ নেই
   `
     ],
-
     "zh": [
       `
       每天拨打多少个号码？
@@ -2624,7 +2869,6 @@ Utilisez cette page pour lancer une recherche: <BR/>
       它每天都不同。有些日子很多。有一天一点点。有些日子没有
       `
     ],
-
     "ha": [
       `
       Lambobi nawa ne ake kira kowace rana?
@@ -2632,7 +2876,6 @@ Utilisez cette page pour lancer une recherche: <BR/>
       Ya bambanta kowace rana. Wasu kwanaki mai yawa. Wasu kwanaki kadan. Wasu kwanakin babu
       `
     ],
-
     "sw": [
       `
       Nambari ngapi zinaitwa kila siku?
@@ -2647,7 +2890,6 @@ Utilisez cette page pour lancer une recherche: <BR/>
       Her gün farklı. Bazı günler çok fazla. Bazı günler biraz. Bazı günler hiçbiri
       `
     ],
-
     "fa": [
       `
       چند شماره هر روز نامیده می شود؟
@@ -2655,7 +2897,6 @@ Utilisez cette page pour lancer une recherche: <BR/>
       هر روز متفاوت است. چند روز زیاد است چند روز کمی. چند روز هیچ
       `
     ],
-
     "uk": [
       `
       Скільки номерів називається щодня?
@@ -2663,8 +2904,6 @@ Utilisez cette page pour lancer une recherche: <BR/>
       Різниця щодня. Кілька днів багато. Кілька днів. Кілька днів немає
       `
     ],
-
-
     "am":  [
       `
       በየቀኑ ስንት ቁጥሮች ይባላሉ?
@@ -2680,88 +2919,62 @@ Utilisez cette page pour lancer une recherche: <BR/>
 <blockquote>
     <p>
         There’s wrong and there’s right.
-        It’s time to take action against the forces of evil.</p>
-
-    <p>Evil says one life is worth less than another.
+        It’s time to take action against the forces of evil.
+<br>Evil says one life is worth less than another.
         Evil says the flow of commerce is our purpose here.
         Evil says concentration camps for folks deemed lesser are necessary.
         The handmaid of evil says the concentration camps should be more humane.
-        Beware the centrist.</p>
-
-    <p>I have a father’s broken heart
+        Beware the centrist.
+<br>I have a father’s broken heart
         I have a broken down body
         And I have an unshakable abhorrence for injustice
         That is what brings me here.
-        This is my clear opportunity to try to make a difference, I’d be an ingrate to be waiting for a more obvious invitation.</p>
-
-    <p>I follow three teachers:
+        This is my clear opportunity to try to make a difference, I’d be an ingrate to be waiting for a more obvious invitation.
+<br>I follow three teachers:
         Don Pritts, my spiritual guide. “Love without action is just a word.”
         John Brown, my moral guide. “What is needed is action!”
-        Emma Goldman, my political guide. “If I can’t dance, I don’t want to be in your revolution.”</p>
-
-    <p>I’m a head in the clouds dreamer, I believe in love and redemption.
+        Emma Goldman, my political guide. “If I can’t dance, I don’t want to be in your revolution.”
+<br>I’m a head in the clouds dreamer, I believe in love and redemption.
         I believe we’re going to win.
-        I’m joyfully revolutionary. (We all should have been reading Emma Goldman in school instead of the jingo drivel we were fed, but I digress.) (We should all be looking at the photos of the YPG heroes should we falter and think our dreams are impossible, but I double digress. Fight me.)</p>
-
-    <p>In these days of fascist hooligans preying on vulnerable people in our streets, in the name of the state or supported and defended by the state,</p>
-
-    <p>In these days of highly profitable detention/concentration camps and a battle over the semantics,</p>
-
-    <p>In these days of hopelessness, empty pursuit and empty yearning,</p>
-
-    <p>We are living in visible fascism ascendant. (I say visible, because those paying attention watched it survive and thrive under the protection of the state for decades. [See Howard Zinn, A People’s History of the United States.] Now it unabashedly follows its agenda with open and full cooperation from the government. From governments around the world.</p>
-
-    <p>Fascism serves the needs of the state serves the needs of business and at your expense. Who benefits? Jeff Bezos, Warren Buffet, Elon Musk, Tim Cook, Bill Gates, Betsy de Vos, George Soros, Donald Trump, and need I go on? Let me say it again: rich guys (who think you’re not really all that good), really dig government (every government everywhere, including “communist” governments), because they make the rules that make rich guys richer.
+        I’m joyfully revolutionary. (We all should have been reading Emma Goldman in school instead of the jingo drivel we were fed, but I digress.) (We should all be looking at the photos of the YPG heroes should we falter and think our dreams are impossible, but I double digress. Fight me.)
+<br>In these days of fascist hooligans preying on vulnerable people in our streets, in the name of the state or supported and defended by the state,
+<br>In these days of highly profitable detention/concentration camps and a battle over the semantics,
+<br>In these days of hopelessness, empty pursuit and empty yearning,
+<br>We are living in visible fascism ascendant. (I say visible, because those paying attention watched it survive and thrive under the protection of the state for decades. [See Howard Zinn, A People’s History of the United States.] Now it unabashedly follows its agenda with open and full cooperation from the government. From governments around the world.
+<br>Fascism serves the needs of the state serves the needs of business and at your expense. Who benefits? Jeff Bezos, Warren Buffet, Elon Musk, Tim Cook, Bill Gates, Betsy de Vos, George Soros, Donald Trump, and need I go on? Let me say it again: rich guys (who think you’re not really all that good), really dig government (every government everywhere, including “communist” governments), because they make the rules that make rich guys richer.
         Simple.
-        Don’t overthink it.</p>
-
-    <p>(Are you patriots in the back paying attention?)</p>
-
-    <p>When I was a boy, in post-war Holland, later France, my head was filled with stories of the rise of fascism in the ’30s. I promised myself that I would not be one of those who stands by as neighbors are torn from their homes and imprisoned for somehow being perceived as lesser.
-        You don’t have to burn the motherfucker down, but are you going to just stand by?</p>
-
-    <p>This is the test of our fundamental belief in real freedom and our responsibility to each other.
-        This is a call to patriots, too, to stand against this travesty against everything that you hold sacred. I know you. I know that in your hearts, you see the dishonor in these camps. It’s time for you, too, to stand up to the money pulling the strings of every goddamn puppet pretending to represent us.</p>
-
-    <p>I’m a man who loves you all and this spinning ball so much that I’m going to fulfill my childhood promise to myself to be noble.</p>
-
-    <p>Here it is, in these corporate for profit concentration camps.
+        Don’t overthink it.
+<br>(Are you patriots in the back paying attention?)
+<br>When I was a boy, in post-war Holland, later France, my head was filled with stories of the rise of fascism in the ’30s. I promised myself that I would not be one of those who stands by as neighbors are torn from their homes and imprisoned for somehow being perceived as lesser.
+        You don’t have to burn the motherfucker down, but are you going to just stand by?
+<br>This is the test of our fundamental belief in real freedom and our responsibility to each other.
+        This is a call to patriots, too, to stand against this travesty against everything that you hold sacred. I know you. I know that in your hearts, you see the dishonor in these camps. It’s time for you, too, to stand up to the money pulling the strings of every goddamn puppet pretending to represent us.
+<br>I’m a man who loves you all and this spinning ball so much that I’m going to fulfill my childhood promise to myself to be noble.
+<br>Here it is, in these corporate for profit concentration camps.
         Here it is, in Brown and non-conforming folks afraid to show their faces for fear of the police/migra/Proud Boys/the boss/beckies…
-        Here it is, a planet almost used up by the market’s greed.</p>
-
-    <p>I’m a black and white thinker.
+        Here it is, a planet almost used up by the market’s greed.
+<br>I’m a black and white thinker.
         Detention camps are an abomination.
         I’m not standing by.
-        I really shouldn’t have to say any more than this.</p>
-
-    <p>I set aside my broken heart and I heal the only way I know how—by being useful.
+        I really shouldn’t have to say any more than this.
+<br>I set aside my broken heart and I heal the only way I know how—by being useful.
         I efficiently compartmentalize my pain…
         And I joyfully go about this work.
-        (To those burdened with the wreckage from my actions, I hope that you will make the best use of that burden.)</p>
-
-    <p>To my comrades:
+        (To those burdened with the wreckage from my actions, I hope that you will make the best use of that burden.)
+<br>To my comrades:
         I regret that I will miss the rest of the revolution.
-        Thank you for the honor of having me in your midst.</p>
-
-    <p>Giving me space to be useful, to feel that I was fulfilling my ideals, has been the spiritual pinnacle of my life.</p>
-
-    <p>Doing what I can to help defend my precious and wondrous people is an experience too rich to describe.</p>
-
-    <p>My trans comrades have transformed me, solidifying my conviction that we will be guided to a dreamed-of future by those most marginalized among us today. I have dreamed it so clearly that I have no regret for not seeing how it turns out. Thank you for bringing me so far along.</p>
-
-    <p>I am antifa. I stand with comrades around the world who act from the love of life in every permutation. Comrades who understand that freedom means real freedom for all and a life worth living.</p>
-
-    <p>Keep the faith!
+        Thank you for the honor of having me in your midst.
+<br>Giving me space to be useful, to feel that I was fulfilling my ideals, has been the spiritual pinnacle of my life.
+<br>Doing what I can to help defend my precious and wondrous people is an experience too rich to describe.
+<br>My trans comrades have transformed me, solidifying my conviction that we will be guided to a dreamed-of future by those most marginalized among us today. I have dreamed it so clearly that I have no regret for not seeing how it turns out. Thank you for bringing me so far along.
+<br>I am antifa. I stand with comrades around the world who act from the love of life in every permutation. Comrades who understand that freedom means real freedom for all and a life worth living.
+<br>Keep the faith!
         All power to the people!
-        Bella ciao.</p>
-
-    <p>Don’t let your silly government agencies spend money “investigating” this one. I was radicalized in civics class at 13 when we were taught about the electoral college. It was at that point that I decided that the status quo might be a house of cards. Further reading confirmed in the positive. I highly recommend reading!</p>
-
-    <p>I am not affiliated with any organization, I have disaffiliated from any organizations who disagree with my choice of tactics.</p>
-
-    <p>The semi-automatic weapon I used was a cheap, home-built unregistered “ghost” AR-15, it had six magazines. I strongly encourage comrades and incoming comrades to arm themselves. We are now responsible for defending people from the predatory state. Ignore the law in arming yourself if you have the luxury, I did.
-    </p>
-</blockquote>
+        Bella ciao.
+<br>Don’t let your silly government agencies spend money “investigating” this one. I was radicalized in civics class at 13 when we were taught about the electoral college. It was at that point that I decided that the status quo might be a house of cards. Further reading confirmed in the positive. I highly recommend reading!
+<br>I am not affiliated with any organization, I have disaffiliated from any organizations who disagree with my choice of tactics.
+<br>The semi-automatic weapon I used was a cheap, home-built unregistered “ghost” AR-15, it had six magazines. I strongly encourage comrades and incoming comrades to arm themselves. We are now responsible for defending people from the predatory state. Ignore the law in arming yourself if you have the luxury, I did.
+    </p></blockquote>
       `
     ],
     "ar": [
@@ -2772,7 +2985,6 @@ Utilisez cette page pour lancer une recherche: <BR/>
       "Сколько номеров вызывается каждый день?",
       "Каждый день все по-другому. Несколько дней много. Несколько дней мало. Несколько дней нет"
     ],
-
     "ht": [
       `
       Kisa Antifasisis yo panse?
@@ -2780,88 +2992,46 @@ Utilisez cette page pour lancer une recherche: <BR/>
 <blockquote>
     <p>
         Gen yon move ak gen dwa.
-        Li lè yo pran aksyon kont fòs yo nan sa ki mal. </p>
-
-    <p> Move di yon sèl lavi vo mwens pase yon lòt.
+        Li lè yo pran aksyon kont fòs yo nan sa ki mal. </p>    <p> Move di yon sèl lavi vo mwens pase yon lòt.
         Sa ki mal la di koule nan komès se bi nou an isit la.
         Sa ki mal la di kan konsantrasyon pou moun jije pi piti yo nesesè.
         Sèvant mal la di kan yo konsantrasyon yo ta dwe plis imen.
-        Pran prekosyon nou santis la. </p>
-
-    <p> Mwen gen kè kase yon papa
+        Pran prekosyon nou santis la. </p>    <p> Mwen gen kè kase yon papa
         Mwen gen yon kò kraze
         Epi mwen gen yon odisyon inebranlab pou enjistis
         Se sa ki pote m 'isit la.
-        Sa a se opòtinite klè mwen pou eseye fè yon diferans, mwen ta dwe yon ingrats yo dwe ap tann pou yon envitasyon pi evidan. </p>
-
-    <p> Mwen swiv twa pwofesè:
+        Sa a se opòtinite klè mwen pou eseye fè yon diferans, mwen ta dwe yon ingrats yo dwe ap tann pou yon envitasyon pi evidan. </p>    <p> Mwen swiv twa pwofesè:
         Don Pritts, gid espirityèl mwen an. "Renmen san aksyon se jis yon mo."
         John Brown, gid moral mwen. "Ki sa ki nesesè se aksyon!"
         Emma Goldman, gid politik mwen an. "Si mwen pa ka danse, mwen pa vle nan revolisyon ou."
 
     <p> Mwen se yon tèt nan renmen fè rèv nan nwaj yo, mwen kwè nan renmen ak delivre.
         Mwen kwè ke nou pral genyen.
-        Mwen byen revolisyonè. (Nou tout ta dwe te li Emma Goldman nan lekòl olye de driv yo jingo nou te manje, men mwen digress.) (Nou ta dwe tout ap gade foto yo nan ewo yo YPG ta dwe nou ezitasyon ak panse rèv nou yo se enposib, men mwen ... double digress. Goumen m '.) </p>
-
-    <p> Nan jou sa yo nan vandè fachis viktim sou moun ki vilnerab nan lari nou yo, nan non eta a oswa sipòte ak defann pa eta a, </p>
-
-    <p> Nan jou sa yo nan detansyon trè pwofitab / kan konsantrasyon ak yon batay sou semantik a, </p>
-
-    <p> Nan jou sa yo nan dezespwa, pouswit vid ak anvi vid, </p>
-
-    <p> Nou ap viv nan asistan ase fasism vizib. (Mwen di vizib, paske moun ki peye atansyon veye li siviv ak boujonnen anba pwoteksyon an nan eta a pou dè dekad. [Gade Howard Zinn, Istwa Yon Pèp la nan peyi Etazini.] Koulye a, li unabashedly swiv ajanda li yo ak koperasyon louvri ak plen soti nan la. gouvènman an, nan men gouvènman atravè mond lan. </p>
-
-<p> Fachism sèvi bezwen yo nan eta a sèvi bezwen yo nan biznis ak sou kont ou. Ki moun ki benefis yo? Jeff Bezos, Warren kafeterya, Elon, Musk, Tim Cook, Bill Gates, Betsy de Vos, George Soros, Donald Trump, ak bezwen mwen ale sou? Kite m 'di l' ankò: mesye rich (ki panse ou pa reyèlman tout sa ki bon), reyèlman fouye gouvènman an (chak gouvènman toupatou, ki gen ladan "kominis" gouvènman yo), paske yo fè règleman yo ki fè mesye rich rich.
+        Mwen byen revolisyonè. (Nou tout ta dwe te li Emma Goldman nan lekòl olye de driv yo jingo nou te manje, men mwen digress.) (Nou ta dwe tout ap gade foto yo nan ewo yo YPG ta dwe nou ezitasyon ak panse rèv nou yo se enposib, men mwen ... double digress. Goumen m '.) </p>    <p> Nan jou sa yo nan vandè fachis viktim sou moun ki vilnerab nan lari nou yo, nan non eta a oswa sipòte ak defann pa eta a, </p>    <p> Nan jou sa yo nan detansyon trè pwofitab / kan konsantrasyon ak yon batay sou semantik a, </p>    <p> Nan jou sa yo nan dezespwa, pouswit vid ak anvi vid, </p>    <p> Nou ap viv nan asistan ase fasism vizib. (Mwen di vizib, paske moun ki peye atansyon veye li siviv ak boujonnen anba pwoteksyon an nan eta a pou dè dekad. [Gade Howard Zinn, Istwa Yon Pèp la nan peyi Etazini.] Koulye a, li unabashedly swiv ajanda li yo ak koperasyon louvri ak plen soti nan la. gouvènman an, nan men gouvènman atravè mond lan. 
+<br> Fachism sèvi bezwen yo nan eta a sèvi bezwen yo nan biznis ak sou kont ou. Ki moun ki benefis yo? Jeff Bezos, Warren kafeterya, Elon, Musk, Tim Cook, Bill Gates, Betsy de Vos, George Soros, Donald Trump, ak bezwen mwen ale sou? Kite m 'di l' ankò: mesye rich (ki panse ou pa reyèlman tout sa ki bon), reyèlman fouye gouvènman an (chak gouvènman toupatou, ki gen ladan "kominis" gouvènman yo), paske yo fè règleman yo ki fè mesye rich rich.
         Senp.
-        Pa overthink li. </p>
-
-    <p> (Èske ou patriyòt nan do a peye atansyon?) </p>
-
-    <p> Lè m 'te yon ti gason, nan post-lagè Holland, pita Lafrans, te tèt mwen plen ak istwa nan ogmantasyon nan fachis nan' 30 yo. Mwen te pwomèt tèt mwen ke mwen pa ta dwe youn nan moun ki kanpe pa kòm vwazen yo chire soti nan kay yo ak nan prizon pou yon jan kanmenm ke yo te santi yo pi piti.
-        Ou pa oblije boule manman an, men èske w ap jis kanpe la a? </p>
-
-    <p> Sa a se tès la nan kwayans fondamantal nou an libète reyèl ak responsablite nou yo youn ak lòt.
+        Pa overthink li. </p>    <p> (Èske ou patriyòt nan do a peye atansyon?) </p>    <p> Lè m 'te yon ti gason, nan post-lagè Holland, pita Lafrans, te tèt mwen plen ak istwa nan ogmantasyon nan fachis nan' 30 yo. Mwen te pwomèt tèt mwen ke mwen pa ta dwe youn nan moun ki kanpe pa kòm vwazen yo chire soti nan kay yo ak nan prizon pou yon jan kanmenm ke yo te santi yo pi piti.
+        Ou pa oblije boule manman an, men èske w ap jis kanpe la a? </p>    <p> Sa a se tès la nan kwayans fondamantal nou an libète reyèl ak responsablite nou yo youn ak lòt.
         Sa a se yon apèl patriyòt, tou, kanpe kont parody sa a kont tout sa ou kenbe sakre. Mwen konnen ou. Mwen konnen nan kè ou, ou wè wont nan kan sa yo. Li lè pou ou, tou, kenbe tèt ak lajan yo rale strings yo nan tout mannken goddamn pretann reprezante nou.
 
-    <p> Mwen se yon moun ki renmen ou tout ak sa a boul k ap vire tèlman bagay ke mwen pral satisfè pwomès anfans mwen an tèt mwen yo dwe nòb. </p>
-
-    <p> Men li se, nan sa yo antrepriz pou kan konsantrasyon pwofi.
+    <p> Mwen se yon moun ki renmen ou tout ak sa a boul k ap vire tèlman bagay ke mwen pral satisfè pwomès anfans mwen an tèt mwen yo dwe nòb. </p>    <p> Men li se, nan sa yo antrepriz pou kan konsantrasyon pwofi.
         Isit la li ye, nan Brown ak ki pa konfòme jan gen krentif pou montre figi yo pou yo te pè polis la / migra / fyète gason / bòs nan travay / beckies ...
-        Isit la li se, yon planèt prèske itilize moute nan Evaris mache a. </p>
-
-    <p> Mwen se yon pansè nwa e blan.
+        Isit la li se, yon planèt prèske itilize moute nan Evaris mache a. </p>    <p> Mwen se yon pansè nwa e blan.
         Kan detansyon yo se yon abominasyon.
         Mwen pa kanpe pa.
-        Mwen vrèman pa ta dwe di plis pase sa. </p>
-
-    <p> Mwen mete sou kote kè kase mwen an e mwen geri sèl fason mwen konnen kijan — lè mwen te itil.
+        Mwen vrèman pa ta dwe di plis pase sa. </p>    <p> Mwen mete sou kote kè kase mwen an e mwen geri sèl fason mwen konnen kijan — lè mwen te itil.
         Mwen avèk efikasite konparteman doulè mwen ...
         Apre sa, mwen kontan ale sou travay sa a.
-        (Pou moun ki chaje ak aneantisman ki soti nan aksyon mwen, mwen espere ke ou pral fè pi bon itilizasyon chay sa a.) </p>
-
-    <p> Kamarad mwen yo:
+        (Pou moun ki chaje ak aneantisman ki soti nan aksyon mwen, mwen espere ke ou pral fè pi bon itilizasyon chay sa a.) </p>    <p> Kamarad mwen yo:
         Mwen regrèt ke mwen pral manke rès la nan revolisyon an.
         Mèsi pou onè ki gen m 'nan mitan ou
 
-    <p> Bay m 'espas yo dwe itil, yo santi ke mwen te ranpli ideyal mwen, ki te pwomnad espirityèl la nan lavi m' yo. </p>
+    <p> Bay m 'espas yo dwe itil, yo santi ke mwen te ranpli ideyal mwen, ki te pwomnad espirityèl la nan lavi m' yo. </p>    <p> Fè sa mwen kapab ede defann koute chè ak bèl bagay moun mwen se yon eksperyans twò rich yo dekri
 
-    <p> Fè sa mwen kapab ede defann koute chè ak bèl bagay moun mwen se yon eksperyans twò rich yo dekri
-
-    <p> Kamarad trans mwen yo te transfòme m ', solidifikasyon konviksyon mwen ke nou pral gide nan yon rèv-nan tan kap vini pa moun ki pi eskli nan mitan nou jodi a. Mwen reve li tèlman klè ke mwen pa gen okenn regrè pou pa wè ki jan li vire soti. Mèsi pou pote m 'twò lwen ansanm. </p>
-
-    <p> Mwen antifa. Mwen kanpe ak kamarad atravè mond lan ki aji soti nan renmen nan lavi nan tout pèmitasyon. Kamarad ki konprann ke libète vle di reyèl libète pou tout moun ak yon lavi ki vo viv ... </p>
-
-    <p> Kenbe lafwa a!
+    <p> Kamarad trans mwen yo te transfòme m ', solidifikasyon konviksyon mwen ke nou pral gide nan yon rèv-nan tan kap vini pa moun ki pi eskli nan mitan nou jodi a. Mwen reve li tèlman klè ke mwen pa gen okenn regrè pou pa wè ki jan li vire soti. Mèsi pou pote m 'twò lwen ansanm. </p>    <p> Mwen antifa. Mwen kanpe ak kamarad atravè mond lan ki aji soti nan renmen nan lavi nan tout pèmitasyon. Kamarad ki konprann ke libète vle di reyèl libète pou tout moun ak yon lavi ki vo viv ... </p>    <p> Kenbe lafwa a!
         Tout pouvwa pou pèp la!
-        Bella Ciao. </p>
-
-    <p> Pa kite ajans gouvènman komik ou yo ap depanse lajan “envestige” sa a. Mwen te radikalize nan klas sivik nan 13 lè nou te anseye sou kolèj elektoral la. Li te nan pwen sa a ke mwen deside ke jan bagay sa yo ta ka yon kay kat. Pli lwen lekti konfime nan pozitif la. Mwen rekòmande anpil pou li lekti! </p>
-
-    <p> Mwen pa afilye avèk okenn òganizasyon, mwen te afekte ak okenn òganizasyon ki pa dakò avèk chwa taktik mwen. </p>
-
-    <p> Zam la semi-otomatik mwen itilize se te yon bon mache, kay-bati anrejistre "fantom" AR-15, li te gen sis magazin. Mwen ankouraje kamarad yo ak fèk ap rantre kamarad yo pouse tèt yo. Nou kounye a se responsab pou defann moun ki sòti nan eta a predatè. Ignore lalwa nan armeman tèt ou si ou gen liksye a, mwen te fè sa.
-    </p>
-</blockquote>
+        Bella Ciao. </p>    <p> Pa kite ajans gouvènman komik ou yo ap depanse lajan “envestige” sa a. Mwen te radikalize nan klas sivik nan 13 lè nou te anseye sou kolèj elektoral la. Li te nan pwen sa a ke mwen deside ke jan bagay sa yo ta ka yon kay kat. Pli lwen lekti konfime nan pozitif la. Mwen rekòmande anpil pou li lekti! </p>    <p> Mwen pa afilye avèk okenn òganizasyon, mwen te afekte ak okenn òganizasyon ki pa dakò avèk chwa taktik mwen. </p>    <p> Zam la semi-otomatik mwen itilize se te yon bon mache, kay-bati anrejistre "fantom" AR-15, li te gen sis magazin. Mwen ankouraje kamarad yo ak fèk ap rantre kamarad yo pouse tèt yo. Nou kounye a se responsab pou defann moun ki sòti nan eta a predatè. Ignore lalwa nan armeman tèt ou si ou gen liksye a, mwen te fè sa.
+    </p></blockquote>
 `
     ],
     "fr": [
@@ -2871,92 +3041,41 @@ Utilisez cette page pour lancer une recherche: <BR/>
 <blockquote>
     <p>
         Il y a de faux et il y a de bons.
-        Il est temps de prendre des mesures contre les forces du mal. </P>
-
-    <p> Le mal dit qu'une vie vaut moins qu'une autre.
+        Il est temps de prendre des mesures contre les forces du mal. </p>    <p> Le mal dit qu'une vie vaut moins qu'une autre.
         Le mal dit que le flux du commerce est notre but ici.
         Le mal dit que des camps de concentration pour les personnes jugées moins importantes sont nécessaires.
         La servante du mal dit que les camps de concentration devraient être plus humains.
-        Attention au centriste. </P>
-
-    <p> J'ai le coeur brisé d'un père
+        Attention au centriste. </p>    <p> J'ai le coeur brisé d'un père
         J'ai un corps en panne
         Et j'ai une haine inébranlable pour l'injustice
         C'est ce qui m'amène ici.
-        C’est pour moi une occasion évidente de faire une différence, je serais un ingrat d’attendre une invitation plus évidente. </P>
-
-    <p> Je suis trois professeurs:
+        C’est pour moi une occasion évidente de faire une différence, je serais un ingrat d’attendre une invitation plus évidente. </p>    <p> Je suis trois professeurs:
         Don Pritts, mon guide spirituel. "L'amour sans action n'est qu'un mot."
         John Brown, mon guide moral. "Ce qu'il faut, c'est de l'action!"
-        Emma Goldman, mon guide politique. "Si je ne peux pas danser, je ne veux pas être dans votre révolution." </P>
-
-    <p> Je suis un rêveur de la tête dans les nuages, je crois en l’amour et à la rédemption.
+        Emma Goldman, mon guide politique. "Si je ne peux pas danser, je ne veux pas être dans votre révolution." </p>    <p> Je suis un rêveur de la tête dans les nuages, je crois en l’amour et à la rédemption.
         Je crois que nous allons gagner.
-        Je suis joyeusement révolutionnaire. (Nous aurions tous dû lire Emma Goldman à l’école au lieu du jingo drivel que nous avions reçu, mais je m'éloigne du sujet.) (Nous devrions tous regarder les photos des héros des YPG si nous hésitons et pensons que nos rêves sont impossibles. double digresse, combat-moi.) </p>
-
-    <p> À l’époque des hooligans fascistes s’attaquant aux personnes vulnérables dans nos rues, au nom de l’État ou soutenus et défendus par l’État, </p>
-
-    <p> En ces jours de camps de détention / de concentration extrêmement rentables et de batailles sur la sémantique, </p>
-
-    <p> En ces jours de désespoir, de poursuite à vide et de désir vide, </p>
-
-    <p> Nous vivons dans le fascisme visible ascendant. (Je dis visible, car ceux qui y prêtent attention le regardent survivre et prospérer sous la protection de l'État pendant des décennies. [Voir Howard Zinn, Histoire populaire des États-Unis.] Maintenant, il suit sans scrupule son ordre du jour avec une coopération ouverte et totale de la part du gouvernement. gouvernement. Des gouvernements du monde entier. </p>
-
-<p> Le fascisme sert les besoins de l'État, il sert les besoins des entreprises et à vos frais. Qui en profite? Jeff Bezos, Warren Buffet, Elon Musk, Tim Cook, Bill Gates, Betsy de Vos, George Soros, Donald Trump, et dois-je continuer? Permettez-moi de le répéter: les gars riches (qui pensent que vous n’êtes pas si bon), creusent vraiment le gouvernement (tous les gouvernements du monde, y compris les gouvernements «communistes»), parce qu’ils rendent les règles plus riches.
+        Je suis joyeusement révolutionnaire. (Nous aurions tous dû lire Emma Goldman à l’école au lieu du jingo drivel que nous avions reçu, mais je m'éloigne du sujet.) (Nous devrions tous regarder les photos des héros des YPG si nous hésitons et pensons que nos rêves sont impossibles. double digresse, combat-moi.) </p>    <p> À l’époque des hooligans fascistes s’attaquant aux personnes vulnérables dans nos rues, au nom de l’État ou soutenus et défendus par l’État, </p>    <p> En ces jours de camps de détention / de concentration extrêmement rentables et de batailles sur la sémantique, </p>    <p> En ces jours de désespoir, de poursuite à vide et de désir vide, </p>    <p> Nous vivons dans le fascisme visible ascendant. (Je dis visible, car ceux qui y prêtent attention le regardent survivre et prospérer sous la protection de l'État pendant des décennies. [Voir Howard Zinn, Histoire populaire des États-Unis.] Maintenant, il suit sans scrupule son ordre du jour avec une coopération ouverte et totale de la part du gouvernement. gouvernement. Des gouvernements du monde entier. 
+<br> Le fascisme sert les besoins de l'État, il sert les besoins des entreprises et à vos frais. Qui en profite? Jeff Bezos, Warren Buffet, Elon Musk, Tim Cook, Bill Gates, Betsy de Vos, George Soros, Donald Trump, et dois-je continuer? Permettez-moi de le répéter: les gars riches (qui pensent que vous n’êtes pas si bon), creusent vraiment le gouvernement (tous les gouvernements du monde, y compris les gouvernements «communistes»), parce qu’ils rendent les règles plus riches.
         Simple.
-        Ne pensez pas trop. </P>
-
-    <p> (Êtes-vous patriotes dans le dos en faisant attention?) </p>
-
-    <p> Quand j’étais un garçon dans la Hollande d’après-guerre, plus tard la France, ma tête était remplie d’histoires de la montée du fascisme dans les années 30. Je me suis promis de ne pas faire partie de ceux qui resteraient là, les voisins étant déchirés de chez eux et emprisonnés pour avoir été perçus comme des mineurs.
-        Vous n'êtes pas obligé de brûler le fils de pute, mais allez-vous simplement rester là? </P>
-
-    <p> C’est le test de notre croyance fondamentale en la liberté réelle et de notre responsabilité les uns envers les autres.
-        C’est aussi un appel aux patriotes de s’opposer à cette parodie contre tout ce que vous considérez comme sacré. Je vous connais. Je sais que dans vos cœurs, vous voyez le déshonneur dans ces camps. Il est temps que vous aussi résistiez à l’argent en tirant les ficelles de chaque foutu pantin prétendant nous représenter. </P>
-
-    <p> Je suis un homme qui vous aime tous et aime tellement cette balle qui tourne que je vais réaliser la promesse de mon enfance d'être noble. </p>
-
-    <p> Le voici, dans ces camps de concentration d'entreprises à but lucratif.
+        Ne pensez pas trop. </p>    <p> (Êtes-vous patriotes dans le dos en faisant attention?) </p>    <p> Quand j’étais un garçon dans la Hollande d’après-guerre, plus tard la France, ma tête était remplie d’histoires de la montée du fascisme dans les années 30. Je me suis promis de ne pas faire partie de ceux qui resteraient là, les voisins étant déchirés de chez eux et emprisonnés pour avoir été perçus comme des mineurs.
+        Vous n'êtes pas obligé de brûler le fils de pute, mais allez-vous simplement rester là? </p>    <p> C’est le test de notre croyance fondamentale en la liberté réelle et de notre responsabilité les uns envers les autres.
+        C’est aussi un appel aux patriotes de s’opposer à cette parodie contre tout ce que vous considérez comme sacré. Je vous connais. Je sais que dans vos cœurs, vous voyez le déshonneur dans ces camps. Il est temps que vous aussi résistiez à l’argent en tirant les ficelles de chaque foutu pantin prétendant nous représenter. </p>    <p> Je suis un homme qui vous aime tous et aime tellement cette balle qui tourne que je vais réaliser la promesse de mon enfance d'être noble. </p>    <p> Le voici, dans ces camps de concentration d'entreprises à but lucratif.
         La voici, chez Brown et les non conformistes qui ont peur de se montrer, de peur de voir la police / migra / Proud Boys / le patron / beckies…
-        La voici, une planète presque épuisée par la cupidité du marché. </P>
-
-    <p> Je suis un penseur noir et blanc.
+        La voici, une planète presque épuisée par la cupidité du marché. </p>    <p> Je suis un penseur noir et blanc.
         Les camps de détention sont une abomination.
         Je ne suis pas en attente.
-        Je ne devrais vraiment pas avoir à en dire plus. </P>
-
-    <p> Je laisse de côté mon cœur brisé et je guéris de la seule façon que je sais faire: en étant utile.
+        Je ne devrais vraiment pas avoir à en dire plus. </p>    <p> Je laisse de côté mon cœur brisé et je guéris de la seule façon que je sais faire: en étant utile.
         Je compartimente efficacement ma douleur…
         Et je vais avec joie à ce travail.
-        (J'espère que vous ferez le meilleur usage de ce fardeau pour ceux qui sont accablés des dégâts causés par mes actes.) </P>
-
-    <p> À mes camarades:
+        (J'espère que vous ferez le meilleur usage de ce fardeau pour ceux qui sont accablés des dégâts causés par mes actes.) </p>    <p> À mes camarades:
         Je regrette que le reste de la révolution me manque.
-        Merci pour l'honneur de m'avoir parmi vous. </P>
-
-    <p> En me laissant de la place pour être utile, pour sentir que je réalisais mes idéaux, a été le sommet spirituel de ma vie. </p>
-
-    <p> Faire ce que je peux pour aider à défendre mon peuple précieux et merveilleux est une expérience trop riche pour être décrite. </p>
-
-    <p> Mes camarades trans m'ont transformée, renforçant ma conviction que nous serons guidés vers un avenir rêvé par les plus marginalisés d'aujourd'hui. J'ai tellement rêvé que je n'ai aucun regret de ne pas voir comment ça se passe. Merci de m'avoir amené jusqu'ici. </P>
-
-    <p> Je suis antifa. Je me tiens aux côtés de camarades du monde entier qui agissent par amour de la vie dans toutes les permutations. Camarades qui comprennent que la liberté signifie la vraie liberté pour tous et une vie digne d'être vécue. </P>
-
-    <p> Gardez la foi!
+        Merci pour l'honneur de m'avoir parmi vous. </p>    <p> En me laissant de la place pour être utile, pour sentir que je réalisais mes idéaux, a été le sommet spirituel de ma vie. </p>    <p> Faire ce que je peux pour aider à défendre mon peuple précieux et merveilleux est une expérience trop riche pour être décrite. </p>    <p> Mes camarades trans m'ont transformée, renforçant ma conviction que nous serons guidés vers un avenir rêvé par les plus marginalisés d'aujourd'hui. J'ai tellement rêvé que je n'ai aucun regret de ne pas voir comment ça se passe. Merci de m'avoir amené jusqu'ici. </p>    <p> Je suis antifa. Je me tiens aux côtés de camarades du monde entier qui agissent par amour de la vie dans toutes les permutations. Camarades qui comprennent que la liberté signifie la vraie liberté pour tous et une vie digne d'être vécue. </p>    <p> Gardez la foi!
         Tout le pouvoir au peuple!
-        Bella ciao. </P>
-
-    <p> Ne laissez pas vos agences gouvernementales stupides dépenser de l'argent pour "enquêter" sur celui-ci. J'ai été radicalisé en cours d'instruction civique à 13 ans lorsque nous avons appris le collège électoral. C'est à ce moment-là que j'ai décidé que le statu quo pourrait être un château de cartes. Des lectures supplémentaires ont confirmé dans le positif. Je recommande fortement de lire! </P>
-
-    <p> Je ne suis affilié à aucune organisation, je me suis désaffilié de toutes les organisations qui désapprouvent mon choix de tactique. </p>
-
-    <p> L’arme semi-automatique que j’ai utilisée était un AR-15 «fantôme» non enregistré, construit à la maison et bon marché, avec six magasins. J'encourage fortement les camarades et les nouveaux camarades à s'armer. Nous sommes maintenant responsables de la défense des personnes de l’État prédateur. Ignorez la loi en vous armant si vous avez le luxe, je l'ai fait.
-    </p>
-</blockquote>
+        Bella ciao. </p>    <p> Ne laissez pas vos agences gouvernementales stupides dépenser de l'argent pour "enquêter" sur celui-ci. J'ai été radicalisé en cours d'instruction civique à 13 ans lorsque nous avons appris le collège électoral. C'est à ce moment-là que j'ai décidé que le statu quo pourrait être un château de cartes. Des lectures supplémentaires ont confirmé dans le positif. Je recommande fortement de lire! </p>    <p> Je ne suis affilié à aucune organisation, je me suis désaffilié de toutes les organisations qui désapprouvent mon choix de tactique. </p>    <p> L’arme semi-automatique que j’ai utilisée était un AR-15 «fantôme» non enregistré, construit à la maison et bon marché, avec six magasins. J'encourage fortement les camarades et les nouveaux camarades à s'armer. Nous sommes maintenant responsables de la défense des personnes de l’État prédateur. Ignorez la loi en vous armant si vous avez le luxe, je l'ai fait.
+    </p></blockquote>
 `
     ]
   },
-
   "qMutualAid": {
     "zh": [
       `
@@ -3163,91 +3282,85 @@ Que piensan l@s Antifascist@s?
     `        <blockquote>
         <p>
             Está mal y está bien.
-            Es hora de actuar contra las fuerzas del mal. </p>
-
-        <p> El mal dice que una vida vale menos que otra.
+            Es hora de actuar contra las fuerzas del mal. 
+<br> El mal dice que una vida vale menos que otra.
             El mal dice que el flujo del comercio es nuestro propósito aquí.
             Evil dice que son necesarios campos de concentración para personas consideradas menores.
             La sierva del mal dice que los campos de concentración deberían ser más humanos.
-            Cuidado con el centrista. </p>
-
-        <p> Tengo el corazón roto de un padre
+            Cuidado con el centrista. 
+<br> Tengo el corazón roto de un padre
             Tengo un cuerpo descompuesto
             Y tengo un odio inquebrantable por la injusticia
             Eso es lo que me trae aquí.
-            Esta es mi clara oportunidad de tratar de marcar la diferencia. Sería un ingrato esperar una invitación más obvia. </p>
-
-        <p> Sigo a tres maestros:
+            Esta es mi clara oportunidad de tratar de marcar la diferencia. Sería un ingrato esperar una invitación más obvia. 
+<br> Sigo a tres maestros:
             Don Pritts, mi guía espiritual. "Amor sin acción es solo una palabra".
             John Brown, mi guía moral. "¡Lo que se necesita es acción!"
-            Emma Goldman, mi guía política. "Si no puedo bailar, no quiero estar en tu revolución". </p>
-
-        <p> Soy un soñador cabeza en las nubes, creo en el amor y la redención.
+            Emma Goldman, mi guía política. "Si no puedo bailar, no quiero estar en tu revolución". 
+<br> Soy un soñador cabeza en las nubes, creo en el amor y la redención.
             Creo que vamos a ganar.
-            Soy alegremente revolucionario. (Todos deberíamos haber estado leyendo Emma Goldman en la escuela en lugar del jingo tonto que nos alimentaron, pero estoy divagando). (Todos deberíamos estar mirando las fotos de los héroes de YPG si vacilamos y pensamos que nuestros sueños son imposibles, pero yo doble divagación. Lucha conmigo.) </p>
-
-        <p> En estos días de hooligans fascistas que se aprovechan de personas vulnerables en nuestras calles, en nombre del estado o apoyados y defendidos por el estado, </p>
-
-        <p> En estos días de campos de concentración / detención altamente rentables y una batalla por la semántica, </p>
-
-        <p> En estos días de desesperanza, búsqueda vacía y anhelo vacío, </p>
-
-        <p> Estamos viviendo en un ascendente fascismo visible. (Digo visible, porque aquellos que le prestaron atención lo vieron sobrevivir y prosperar bajo la protección del estado durante décadas. [Ver Howard Zinn, A People's History of the United States.] Ahora sigue descaradamente su agenda con la cooperación abierta y plena del gobierno. De gobiernos de todo el mundo. </p>
-
-        <p> El fascismo satisface las necesidades del estado y las necesidades de los negocios y a su cargo. ¿Quién se beneficia? Jeff Bezos, Warren Buffet, Elon Musk, Tim Cook, Bill Gates, Betsy de Vos, George Soros, Donald Trump, y ¿necesito continuar? Permítanme decirlo de nuevo: los ricos (que piensan que en realidad no son tan buenos), realmente cavan al gobierno (todos los gobiernos en todas partes, incluidos los gobiernos "comunistas"), porque hacen que las reglas que enriquecen a los ricos.
+            Soy alegremente revolucionario. (Todos deberíamos haber estado leyendo Emma Goldman en la escuela en lugar del jingo tonto que nos alimentaron, pero estoy divagando). (Todos deberíamos estar mirando las fotos de los héroes de YPG si vacilamos y pensamos que nuestros sueños son imposibles, pero yo doble divagación. Lucha conmigo.) 
+<br> En estos días de hooligans fascistas que se aprovechan de personas vulnerables en nuestras calles, en nombre del estado o apoyados y defendidos por el estado, 
+<br> En estos días de campos de concentración / detención altamente rentables y una batalla por la semántica, 
+<br> En estos días de desesperanza, búsqueda vacía y anhelo vacío, 
+<br> Estamos viviendo en un ascendente fascismo visible. (Digo visible, porque aquellos que le prestaron atención lo vieron sobrevivir y prosperar bajo la protección del estado durante décadas. [Ver Howard Zinn, A People's History of the United States.] Ahora sigue descaradamente su agenda con la cooperación abierta y plena del gobierno. De gobiernos de todo el mundo. 
+<br> El fascismo satisface las necesidades del estado y las necesidades de los negocios y a su cargo. ¿Quién se beneficia? Jeff Bezos, Warren Buffet, Elon Musk, Tim Cook, Bill Gates, Betsy de Vos, George Soros, Donald Trump, y ¿necesito continuar? Permítanme decirlo de nuevo: los ricos (que piensan que en realidad no son tan buenos), realmente cavan al gobierno (todos los gobiernos en todas partes, incluidos los gobiernos "comunistas"), porque hacen que las reglas que enriquecen a los ricos.
             Sencillo.
-            No lo pienses demasiado. </p>
-
-        <p> (¿Están patriotas en la parte posterior prestando atención?) </p>
-
-        <p> Cuando era niño, en la Holanda de la posguerra, más tarde en Francia, mi cabeza estaba llena de historias sobre el surgimiento del fascismo en los años 30. Me prometí a mí mismo que no sería uno de los que se mantendrían al margen cuando los vecinos sean arrancados de sus hogares y encarcelados por ser percibidos de alguna manera como menores.
-            No tienes que quemar al hijo de puta, ¿pero vas a quedarte quieto? </p>
-
-        <p> Esta es la prueba de nuestra creencia fundamental en la libertad real y nuestra responsabilidad mutua.
-            Esta es una llamada a los patriotas, también, para oponerse a esta parodia contra todo lo que consideren sagrado. Te conozco. Sé que en tus corazones, ves el deshonor en estos campamentos. Es hora de que tú también te enfrentes al dinero tirando de los hilos de cada maldita marioneta que finge representarnos. </p>
-
-        <p> Soy un hombre que los ama a todos y esta bola giratoria tanto que voy a cumplir mi promesa de infancia de ser noble. </p>
-
-        <p> Aquí está, en estos campos de concentración corporativos con fines de lucro.
+            No lo pienses demasiado. 
+<br> (¿Están patriotas en la parte posterior prestando atención?) 
+<br> Cuando era niño, en la Holanda de la posguerra, más tarde en Francia, mi cabeza estaba llena de historias sobre el surgimiento del fascismo en los años 30. Me prometí a mí mismo que no sería uno de los que se mantendrían al margen cuando los vecinos sean arrancados de sus hogares y encarcelados por ser percibidos de alguna manera como menores.
+            No tienes que quemar al hijo de puta, ¿pero vas a quedarte quieto? 
+<br> Esta es la prueba de nuestra creencia fundamental en la libertad real y nuestra responsabilidad mutua.
+            Esta es una llamada a los patriotas, también, para oponerse a esta parodia contra todo lo que consideren sagrado. Te conozco. Sé que en tus corazones, ves el deshonor en estos campamentos. Es hora de que tú también te enfrentes al dinero tirando de los hilos de cada maldita marioneta que finge representarnos. 
+<br> Soy un hombre que los ama a todos y esta bola giratoria tanto que voy a cumplir mi promesa de infancia de ser noble. 
+<br> Aquí está, en estos campos de concentración corporativos con fines de lucro.
             Aquí está, en Brown y en las personas no conformes que temen mostrar sus rostros por temor a la policía / migra / Proud Boys / el jefe / beckies ...
-            Aquí está, un planeta casi agotado por la avaricia del mercado. </p>
-
-        <p> Soy un pensador blanco y negro.
+            Aquí está, un planeta casi agotado por la avaricia del mercado. 
+<br> Soy un pensador blanco y negro.
             Los campos de detención son una abominación.
             No estoy esperando.
-            Realmente no debería tener que decir nada más que esto. </p>
-
-        <p> Dejé a un lado mi corazón roto y sane de la única manera que sé, siendo útil.
+            Realmente no debería tener que decir nada más que esto. 
+<br> Dejé a un lado mi corazón roto y sane de la única manera que sé, siendo útil.
             Compartimento eficientemente mi dolor ...
             Y con alegría hago este trabajo.
-            (Para aquellos cargados con los restos de mis acciones, espero que hagan el mejor uso de esa carga). </p>
-
-        <p> A mis camaradas:
+            (Para aquellos cargados con los restos de mis acciones, espero que hagan el mejor uso de esa carga). 
+<br> A mis camaradas:
             Lamento haber extrañado el resto de la revolución.
-            Gracias por el honor de tenerme entre ustedes. </p>
-
-        <p> Darme espacio para ser útil, para sentir que estaba cumpliendo mis ideales, ha sido el pináculo espiritual de mi vida. </p>
-
-        <p> Hacer lo que pueda para ayudar a defender a mi gente preciosa y maravillosa es una experiencia demasiado rica para describirla. </p>
-
-        <p> Mis camaradas trans me han transformado, solidificando mi convicción de que los más marginados de nosotros hoy nos guiarán a un futuro soñado. Lo he soñado tan claramente que no me arrepiento de no ver cómo resulta. Gracias por llevarme tan lejos. </p>
-
-        <p> Soy antifa. Estoy con camaradas de todo el mundo que actúan desde el amor a la vida en cada permutación. Camaradas que entienden que la libertad significa libertad real para todos y una vida que vale la pena vivir. </p>
-
-        <p> ¡Mantén la fe!
+            Gracias por el honor de tenerme entre ustedes. 
+<br> Darme espacio para ser útil, para sentir que estaba cumpliendo mis ideales, ha sido el pináculo espiritual de mi vida. 
+<br> Hacer lo que pueda para ayudar a defender a mi gente preciosa y maravillosa es una experiencia demasiado rica para describirla. 
+<br> Mis camaradas trans me han transformado, solidificando mi convicción de que los más marginados de nosotros hoy nos guiarán a un futuro soñado. Lo he soñado tan claramente que no me arrepiento de no ver cómo resulta. Gracias por llevarme tan lejos. 
+<br> Soy antifa. Estoy con camaradas de todo el mundo que actúan desde el amor a la vida en cada permutación. Camaradas que entienden que la libertad significa libertad real para todos y una vida que vale la pena vivir. 
+<br> ¡Mantén la fe!
             Todo el poder para la gente!
-            Bella ciao. </p>
-
-        <p> No dejes que tus tontas agencias gubernamentales gasten dinero "investigando" este. Me radicalicé en la clase de educación cívica a los 13 años cuando nos enseñaron sobre el colegio electoral. Fue en ese momento que decidí que el status quo podría ser un castillo de naipes. Lecturas adicionales confirmadas en positivo. ¡Recomiendo leer! </p>
-
-        <p> No estoy afiliado a ninguna organización, me he desafiliado de cualquier organización que no esté de acuerdo con mi elección de tácticas. </p>
-
-        <p> El arma semiautomática que utilicé fue un AR-15 "fantasma" barato, construido en casa y no registrado, tenía seis revistas. Animo encarecidamente a los camaradas y camaradas entrantes a armarse. Ahora somos responsables de defender a las personas del estado depredador. Ignora la ley de armarte si tienes el lujo, lo hice.
-        </p>
-        </blockquote>
+            Bella ciao. 
+<br> No dejes que tus tontas agencias gubernamentales gasten dinero "investigando" este. Me radicalicé en la clase de educación cívica a los 13 años cuando nos enseñaron sobre el colegio electoral. Fue en ese momento que decidí que el status quo podría ser un castillo de naipes. Lecturas adicionales confirmadas en positivo. ¡Recomiendo leer! 
+<br> No estoy afiliado a ninguna organización, me he desafiliado de cualquier organización que no esté de acuerdo con mi elección de tácticas. 
+<br> El arma semiautomática que utilicé fue un AR-15 "fantasma" barato, construido en casa y no registrado, tenía seis revistas. Animo encarecidamente a los camaradas y camaradas entrantes a armarse. Ahora somos responsables de defender a las personas del estado depredador. Ignora la ley de armarte si tienes el lujo, lo hice.
+        </p></blockquote>
 `
   ],
+  "q589": [
+    `
+             Mi número fue llamado. Entré en los Estados Unidos. Tal vez regresé a Tijuana o tal vez ahora estoy en los Estados Unidos. ¿Qué pasa después?
+ 
+  `,
+    `
+              <div>
+                <p> Usted irá a la corte de inmigración en los Estados Unidos. Si fue devuelto a Tijuana, tendrá que presentarse al chaparral en la mañana para ir a la corte en San Diego 
+<br> El fiscal en el tribunal intentará presentar un caso para que sea deportado. 
+<br> En su defensa, debe enviar el FORMULARIO
+                    "I-589, Solicitud de asilo y de retención de deportación" 
+<br> Puede descargarlo en el oficial sitio web: <a href="https://www.uscis.gov/i-589">https://www.uscis.gov/i-589</a> 
+<br> O aquí </p><ul>
+                    <li> <a href="./589/i-589.pdf" download> inglés </a></li>
+                    <li> <a href="./589/i-589_spanish.pdf" download> español (no se puede usar en la corte) </a> </li>
+                </ul>
+            </div>
 
+  `
+
+  ],
   "qBusquedas": [
     `
 Mi amigo o familiar ya cruzó a los Estados Unidos. ¿Dónde está ella ahora?
