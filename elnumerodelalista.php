@@ -1,34 +1,24 @@
+<?php
+echo <<<HTML
 <html>
 <head>
-    <script>
-        const list_number = 2895;
-        const day_of_number = '31';
-        const month_of_number = '08';
-        const year_of_number = '2019';
-        /* We only care about date, not time. */
-        const list_date = new Date(year_of_number + '-' + month_of_number + '-' + day_of_number + 'T12:00:00');
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Daily number for Tijuana immigration list"/>
+    <meta name="keywords"
+          content="immigration, asylum, immigrant, refugee, immigration list, chaparral, asylum seeker, el numero de la lista, el numero de lista, elnumerodelalista, tijuana numero, tijuana lista, asilo, inmigracion tijuana"/>
+    
+    <link type="text/css" rel="stylesheet" href="endll.css" />
+HTML;
 
-
-        /* language is either specified in URL or browser default language */
-        const getParameters = window.location.search.substr(1);
-        let language = getParameters.match(/language=(\w+)/) ?
-            getParameters.substr(getParameters.indexOf("language=") + 9, 2) :
-            window.navigator.language.substr(0, 2).toLowerCase();
-
-
-
-
-    </script>
+    /* Google ads and analytics */
+    echo <<<HTML
     <script>
         (adsbygoogle = window.adsbygoogle || []).push({
             google_ad_client: "ca-pub-8571249216921327",
             enable_page_level_ads: true
         });
     </script>
-    <meta charset="UTF-8">
-    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
-    <script type="text/javascript" src="./date-fns_v1.3.0.js"></script>
-    <script type="text/javascript" src="translations.js?"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139213214-1"></script>
@@ -43,14 +33,9 @@
 
         gtag('config', 'UA-139213214-1');
     </script>
-    <link type="text/css" rel="stylesheet" href="endll.css" />
-    <style>
-    </style>
-    <meta name="description" content="Daily number for Tijuana immigration list"/>
-    <meta name="keywords"
-          content="immigration, asylum, immigrant, refugee, immigration list, chaparral, asylum seeker, el numero de la lista, el numero de lista, elnumerodelalista, tijuana numero, tijuana lista, asilo, inmigracion tijuana"/>
+HTML;
 
-
+echo <<<HTML
 </head>
 <body>
 <h1 style="text-align:center" id="el-numero-de-la-lista"> EL NUMERO DE LA LISTA </h1>
@@ -63,6 +48,27 @@
     <div class="interstitial" id="el-numero-es">EL NUMERO ES</div>
     <div id="list-number"></div>
 </div>
+HTML;
+
+/* Javascript */
+$javascript =<<<HTML
+
+    <script type="text/javascript" src="./date-fns_v1.3.0.js"></script>
+    <script type="text/javascript" src="translations.js?"></script>
+
+    <script>
+        const list_number = 2895;
+        const day_of_number = '31';
+        const month_of_number = '08';
+        const year_of_number = '2019';
+        /* We only care about date, not time. */
+        const list_date = new Date(year_of_number + '-' + month_of_number + '-' + day_of_number + 'T12:00:00');
+        /* language is either specified in URL or browser default language */
+        const getParameters = window.location.search.substr(1);
+        let language = getParameters.match(/language=(\w+)/) ?
+            getParameters.substr(getParameters.indexOf("language=") + 9, 2) :
+            window.navigator.language.substr(0, 2).toLowerCase();
+    </script>
 
 <script>
 
@@ -133,9 +139,9 @@
     function numDaysAgo() {
         const days_difference = dateFns.differenceInCalendarDays(new Date(), list_date);
         if (days_difference === 0) {
-            return `(${hoy(language)})`;
+            return `({hoy(language)})`;
         } else if (days_difference === 1) {
-            return `(${ayer(language)})`;
+            return `({ayer(language)})`;
         } else {
             return "(hace " + days_difference + "dias)";
         }
@@ -177,10 +183,12 @@
     }
 
 </script>
+HTML;
 
-
-<div>
-    <h1 style="text-align: center" id="mas-informacion"> MAS INFORMACION</h1>
+/* default content */
+echo <<<HTML
+<div id="default-content">
+    <h1 id="mas-informacion" style="text-align: center"> MAS INFORMACION</h1>
     <form name="language-form" id="language-form">
         <label for="language-picker" id="language-picker-label">CAMBIA EL IDIOMA &nbsp;</label>
         <select id="language-picker" name="language-picker" onchange="translateAllContent()">
@@ -192,9 +200,6 @@
             <option value="ru">русский</option>
             <option value="ar">عربى</option>
             <option value="am">አማርኛ</option>
-
-
-
             <option value="bn">বাঙালি</option>
             <option value="pt">Português</option>
             <option value="zh">中文</option>
@@ -205,7 +210,6 @@
             <option value="uk">українська</option>
         </select>
     </form>
-
 
     <div id="guia-migrante">
         <h2>GUIA MIGRANTE</h2>
@@ -222,8 +226,6 @@
             <img src="guia/guia%20migrante_espanol_web-4.gif">
         </div>
     </div>
-
-
 
     <dl id="q589">
         <dt>
@@ -545,3 +547,4 @@
 </div>
 </body>
 </html>
+HTML;
