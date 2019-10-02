@@ -35,6 +35,11 @@
  </div>
  <div class="interstitial" id="el-numero-es">EL NUMERO ES</div>
  <div id="list-number"></div>
+ <div id="not-current-warning">
+  <div>
+   NUMBER IS NOT CURRENT
+  </div>
+ </div>
 </div>
 
 <script>
@@ -80,14 +85,21 @@
   function reloadIfPreviousDayNumberAndAfter7AMTJ() {
     const rightNow = new Date();
     const seven_am_tj = new Date(rightNow.toDateString() + " 07:00:00 GMT-0700 (Pacific Daylight Time)");
+    let notCurrentDiv = document.getElementById("not-current-warning")
 
     if ((
         dateFns.differenceInCalendarDays(
           rightNow, list_date) !== 0) &&
       (rightNow.getTime() > seven_am_tj.getTime())
     ) {
+      // show not current
+      notCurrentDiv.style.display = "block";
       window.setTimeout(
         load_daily_number, 5000);
+
+    } else {
+      // hide not current
+      notCurrentDiv.style.display = "none";
     }
   }
 

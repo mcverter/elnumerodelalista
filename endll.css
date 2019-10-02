@@ -88,6 +88,26 @@ dd {
     border-radius: 7%;
 }
 
+#not-current-warning {
+    border: 15px black solid;
+    width: 60%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 7%;
+    display: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#not-current-warning div {
+    border: 15px red solid;
+    font-weight: 900;
+    font-size: 200%;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
 
 #bellaciaoVideo {
     align-content: center;
