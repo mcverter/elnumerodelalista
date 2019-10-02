@@ -28,7 +28,6 @@
 </div>
 
 <script>
-
     function load_daily_number() {
         fetch("./daily.json")
             .then(response=>{
@@ -49,14 +48,52 @@
     }
 
     function set_daily_number(list_number, day_of_number, month_of_number, year_of_number) {
-
+      /* We only care about date, not time. */
+      const list_date = new Date(year_of_number + '-' + month_of_number + '-' + day_of_number + 'T12:00:00');
+      populateTranslatedDateDiv(list_date);
+      populateNumberDiv(list_number);
+      populateDaysAgoDiv(list_number);
+      reloadIfPreviousDayNumberAndAfter7AMTJ(list_date)
     }
-    /* We only care about date, not time. */
-    const list_date = new Date(year_of_number + '-' + month_of_number + '-' + day_of_number + 'T12:00:00');
 
+    function reloadIfPreviousDayNumberAndAfter7AMTJ(list_date) {
+      const rightNow = new Date();
+      const seven_am_tj = new Date(rightNow.toDateString() + " 07:00:00 GMT-0700 (Pacific Daylight Time)");
 
-    function translateDate() {
-        document.getElementById("list-day").innerText = list_date.toLocaleDateString(language, {
+      if ((
+          dateFns.differenceInCalendarDays(
+            rightNow, list_date) !== 0) &&
+        (rightNow.getTime() > seven_am_tj.getTime())
+      ) {
+        window.setTimeout(
+          load_daily_number, 5000);
+      }
+    }
+
+    function populateDaysAgoDiv(list_date) {
+      const daysAgoDiv = document.getElementById("days-ago");
+      daysAgoDiv.innerText = numDaysAgo(list_date);
+
+      function numDaysAgo(list_date) {
+        const days_difference = dateFns.differenceInCalendarDays(new Date(), list_date);
+        if (days_difference === 0) {
+          return `(${hoy(language)})`;
+        } else if (days_difference === 1) {
+          return `(${ayer(language)})`;
+        } else {
+          return "(hace " + days_difference + "dias)";
+        }
+      }
+    }
+
+    function populateNumberDiv(list_number) {
+      document.getElementById("list-number").innerText
+        = list_number.toString();
+    }
+
+    function populateTranslatedDateDiv(list_date) {
+        document.getElementById("list-day").innerText
+          = list_date.toLocaleDateString(language, {
                 weekday: 'long',
                 year: 'numeric',
                 month: 'long',
@@ -65,49 +102,6 @@
         )
     }
 
-    function update_daily() {
-
-    }
-
-
-    function numDaysAgo() {
-        const days_difference = dateFns.differenceInCalendarDays(new Date(), list_date);
-        if (days_difference === 0) {
-            return `(${hoy(language)})`;
-        } else if (days_difference === 1) {
-            return `(${ayer(language)})`;
-        } else {
-            return "(hace " + days_difference + "dias)";
-        }
-    }
-
-    function populateDivs() {
-        const listNumberDiv = document.getElementById("list-number");
-        const daysAgoDiv = document.getElementById("days-ago");
-
-        document.getElementById.innerText = translateDate();
-        listNumberDiv.innerText = list_number.toString();
-        daysAgoDiv.innerText = numDaysAgo();
-    }
-
-    function reloadIfPreviousDayNumberAndAfter7AMTJ() {
-        const rightNow = new Date();
-        const seven_am_tj = new Date(rightNow.toDateString() + " 07:00:00 GMT-0700 (Pacific Daylight Time)");
-
-        if ((
-                dateFns.differenceInCalendarDays(
-                    rightNow, list_date) !== 0) &&
-            (rightNow.getTime() > seven_am_tj.getTime())
-        ) {
-            location.reload(true)
-        }
-    }
-
-
-    function reloadAfterInterval() {
-        const interval = 3 * 1000;
-        window.setTimeout(reloadIfPreviousDayNumberAndAfter7AMTJ, interval);
-    }
 </script>
 
 
@@ -487,16 +481,15 @@
 
     function translateAllContent() {
         language = document.getElementById("language-picker").value || language;
-        translateDate();
+        populateTranslatedDateDiv();
         translateAllDivs();
         translateAllQuestions();
     }
 
     /* MAIN */
     window.onload = function () {
-        populateDivs();
-        reloadAfterInterval();
-        translateAllContent();
+      load_daily_number();
+      translateAllContent();
     }
 
 </script>
