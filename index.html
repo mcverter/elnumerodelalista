@@ -12,14 +12,14 @@
  <script type="text/javascript" src="translations.js?"></script>
 
  <script>(adsbygoogle = window.adsbygoogle || []).push({
-   google_ad_client: "ca-pub-8571249216921327",
-   enable_page_level_ads: true
+     google_ad_client: "ca-pub-8571249216921327",
+     enable_page_level_ads: true
  });</script>
  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139213214-1"></script>
  <script>window.dataLayer = window.dataLayer || [];
 
  function gtag() {
-   dataLayer.push(arguments);
+     dataLayer.push(arguments);
  }
 
  gtag('js', new Date());
@@ -37,105 +37,105 @@
  <div id="list-number"></div>
  <div id="not-current-warning">
   <div>
-   NUMBER IS NOT CURRENT
+   <div id="not-current-message">
+    NUMBER IS NOT CURRENT
+   </div>
+   <div id="reload-button" onclick="reloadSite()">
+    RELOAD
+   </div>
   </div>
  </div>
 </div>
 
 <script>
-  let list_date;
-
-  /* language is either specified in URL or browser default language */
-  const getParameters = window.location.search.substr(1);
-  let language = getParameters.match(/language=(\w+)/) ?
-    getParameters.substr(getParameters.indexOf("language=") + 9, 2) :
-    window.navigator.language.substr(0, 2).toLowerCase();
-
-
-  function load_daily_number() {
-    console.log("fetching daily json")
-    fetch("./daily.json")
-      .then(response => {
-        return response.json()
-      })
-      .then(json => {
-        let {
-          list_number,
-          day_of_number,
-          month_of_number,
-          year_of_number
-        } = json;
-        set_daily_number(list_number, day_of_number, month_of_number, year_of_number);
-      })
-      .catch(error => {
-        console.error("error", error)
-      })
-
-  }
-
-  function set_daily_number(list_number, day_of_number, month_of_number, year_of_number) {
-    /* We only care about date, not time. */
-    list_date = new Date(year_of_number + '-' + month_of_number + '-' + day_of_number + 'T12:00:00');
-    populateNumberDiv(list_number);
-    populateTranslatedDateDiv();
-    populateDaysAgoDiv();
-    reloadIfPreviousDayNumberAndAfter7AMTJ()
-  }
-
-  function reloadIfPreviousDayNumberAndAfter7AMTJ() {
-    const rightNow = new Date();
-    const seven_am_tj = new Date(rightNow.toDateString() + " 07:00:00 GMT-0700 (Pacific Daylight Time)");
-    let notCurrentDiv = document.getElementById("not-current-warning")
-
-    if ((
-        dateFns.differenceInCalendarDays(
-          rightNow, list_date) !== 0) &&
-      (rightNow.getTime() > seven_am_tj.getTime())
-    ) {
-      // show not current
-      notCurrentDiv.style.display = "block";
-      window.setTimeout(
-        load_daily_number, 5000);
-
-    } else {
-      // hide not current
-      notCurrentDiv.style.display = "none";
+    window.onload = function () {
+        load_daily_number();
+        translateAllContent();
     }
-  }
 
-  function populateDaysAgoDiv() {
-    const daysAgoDiv = document.getElementById("days-ago");
-    daysAgoDiv.innerText = numDaysAgo(list_date);
+    let list_date;
 
-    function numDaysAgo() {
-      const days_difference = dateFns.differenceInCalendarDays(new Date(), list_date);
-      if (days_difference === 0) {
-        return `(${hoy(language)})`;
-      } else if (days_difference === 1) {
-        return `(${ayer(language)})`;
-      } else {
-        return "(hace " + days_difference + "dias)";
-      }
+    /* language is either specified in URL or browser default language */
+    const getParameters = window.location.search.substr(1);
+    let language = getParameters.match(/language=(\w+)/) ?
+        getParameters.substr(getParameters.indexOf("language=") + 9, 2) :
+        window.navigator.language.substr(0, 2).toLowerCase();
+
+
+    function load_daily_number() {
+        console.log("fetching daily json")
+        fetch("./daily.json")
+            .then(response => {
+                return response.json()
+            })
+            .then(json => {
+                let {
+                    list_number,
+                    day_of_number,
+                    month_of_number,
+                    year_of_number
+                } = json;
+                list_date = new Date(year_of_number + '-' + month_of_number + '-' + day_of_number + 'T12:00:00');
+                populateNumberDiv(list_number);
+                populateTranslatedDateDiv();
+                populateDaysAgoDiv();
+
+                const rightNow = new Date();
+                const seven_am_tj = new Date(rightNow.toDateString() + " 07:00:00 GMT-0700 (Pacific Daylight Time)");
+                if ((dateFns.differenceInCalendarDays(rightNow, list_date) !== 0)
+                    && (rightNow.getTime() > seven_am_tj.getTime())
+                ) {
+                    // show not current and attempt reload of number
+                    document.getElementById("not-current-warning").style.display = "block";
+                    window.setTimeout(load_daily_number, 5000);
+                } else {
+                    // hide not current
+                    document.getElementById("not-current-warning").style.display = "none";
+                }
+            })
+            .catch(error => {
+                console.error("error", error)
+            })
+
     }
-  }
 
-  function populateNumberDiv(list_number) {
-    document.getElementById("list-number").innerText
-      = list_number.toString();
-  }
+    function reloadSite() {
+        window.location.reload(true)
+    }
 
-  function populateTranslatedDateDiv() {
-    if (list_date) {
-      document.getElementById("list-day").innerText
-        = list_date.toLocaleDateString(language, {
-          weekday: 'long',
-          year: 'numeric',
-          month: 'long',
-          day: 'numeric'
+    function populateDaysAgoDiv() {
+        const daysAgoDiv = document.getElementById("days-ago");
+        daysAgoDiv.innerText = numDaysAgo(list_date);
+
+        function numDaysAgo() {
+            const days_difference = dateFns.differenceInCalendarDays(new Date(), list_date);
+            if (days_difference === 0) {
+                return `(${hoy(language)})`;
+            } else if (days_difference === 1) {
+                return `(${ayer(language)})`;
+            } else {
+                return "(hace " + days_difference + "dias)";
+            }
         }
-      )
     }
-  }
+
+    function populateNumberDiv(list_number) {
+        document.getElementById("list-number").innerText
+            = list_number.toString();
+    }
+
+    function populateTranslatedDateDiv() {
+        if (list_date) {
+            document.getElementById("list-day").innerText
+                = list_date.toLocaleDateString(language, {
+                    weekday: 'long',
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                }
+            )
+        }
+    }
 
 </script>
 
@@ -197,7 +197,7 @@
      <br> En su defensa, debe enviar el FORMULARIO
      "I-589, Solicitud de asilo y de retención de deportación"
      <br> Puede descargarlo en el oficial sitio web: <a
-       href="https://www.uscis.gov/i-589">https://www.uscis.gov/i-589</a>
+             href="https://www.uscis.gov/i-589">https://www.uscis.gov/i-589</a>
      <br> O aquí </p>
     <ul>
      <li><a href="./589/i-589.pdf" download> inglés </a></li>
@@ -494,65 +494,59 @@
 <script>
 
 
-  const divs_to_translate = [
-    "el-numero-es",
-    "el-numero-de-la-lista",
-    "sobre",
-    "mas-informacion",
-    "language-picker-label",
-    "dont-bug-me",
-    "disclaimer",
-  ];
+    const divs_to_translate = [
+        "el-numero-es",
+        "el-numero-de-la-lista",
+        "sobre",
+        "mas-informacion",
+        "language-picker-label",
+        "dont-bug-me",
+        "disclaimer",
+    ];
 
-  function translateAllDivs() {
-    for (let i = 0; i < divs_to_translate.length; i++) {
-      divToInternational(divs_to_translate[i], language);
+    function translateAllDivs() {
+        for (let i = 0; i < divs_to_translate.length; i++) {
+            divToInternational(divs_to_translate[i], language);
+        }
     }
-  }
 
-  const questions_to_translate = [
-    "qWhySoSlow",
-    "qWhatList",
-    "qHowList",
-    "qWhatList",
-    "qHowList",
-    "qWaitTime",
-    "qQuantity",
-    "qCrossing",
-    "qWhatAsylum",
-    "qCFI",
-    "qMano",
-    "qPostCFI",
-    "qWhatHielera",
-    "qWhatDetencion",
-    "qDetencionPrep",
-    "qMyContact",
-    "qLeviticus",
-    "qRFM",
-    "qBusquedas",
-    "q589",
-    "qAntifascist",
-    "qMutualAid"
-  ];
+    const questions_to_translate = [
+        "qWhySoSlow",
+        "qWhatList",
+        "qHowList",
+        "qWhatList",
+        "qHowList",
+        "qWaitTime",
+        "qQuantity",
+        "qCrossing",
+        "qWhatAsylum",
+        "qCFI",
+        "qMano",
+        "qPostCFI",
+        "qWhatHielera",
+        "qWhatDetencion",
+        "qDetencionPrep",
+        "qMyContact",
+        "qLeviticus",
+        "qRFM",
+        "qBusquedas",
+        "q589",
+        "qAntifascist",
+        "qMutualAid"
+    ];
 
-  function translateAllQuestions() {
-    for (let i = 0; i < questions_to_translate.length; i++) {
-      questionToInternational(questions_to_translate[i], language);
+    function translateAllQuestions() {
+        for (let i = 0; i < questions_to_translate.length; i++) {
+            questionToInternational(questions_to_translate[i], language);
+        }
     }
-  }
 
-  function translateAllContent() {
-    language = document.getElementById("language-picker").value || language;
-    populateTranslatedDateDiv();
-    translateAllDivs();
-    translateAllQuestions();
-  }
-
-  /* MAIN */
-  window.onload = function () {
-    load_daily_number();
-    translateAllContent();
-  }
+    function translateAllContent() {
+        language = document.getElementById("language-picker").value || language;
+        populateTranslatedDateDiv();
+        translateAllDivs();
+        translateAllQuestions();
+    }
 
 </script>
 
