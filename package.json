@@ -1,0 +1,23 @@
+{
+  "name": "elnumerodelalista",
+  "version": "1.0.0",
+  "description": "[http://elnumerodelalista.com](http://elnumerodelalista.com)",
+  "main": "baseQuestions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcverter/elnumerodelalista.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcverter/elnumerodelalista/issues"
+  },
+  "homepage": "https://github.com/mcverter/elnumerodelalista#readme",
+  "dependencies": {
+    "bluebird": "^3.7.0",
+    "fs-ext": "^1.3.0"
+  }
+}
