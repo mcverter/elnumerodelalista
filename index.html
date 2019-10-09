@@ -1,5 +1,4 @@
-<html>
-<head>
+<html><head>
  <meta charset="UTF-8">
  <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
  <meta name="description" content="Daily number for Tijuana immigration list"/>
@@ -10,21 +9,21 @@
 
  <script type="text/javascript" src="./date-fns_v1.3.0.js"></script>
 
- /* GOOGLE STUFF */
+ <!-- GOOGLE STUFF -->
  <script>(adsbygoogle = window.adsbygoogle || []).push({
-   google_ad_client: "ca-pub-8571249216921327",
-   enable_page_level_ads: true
+  google_ad_client: "ca-pub-8571249216921327",
+  enable_page_level_ads: true
  });</script>
  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139213214-1"></script>
  <script>window.dataLayer = window.dataLayer || [];
 
  function gtag() {
-   dataLayer.push(arguments);
+  dataLayer.push(arguments);
  }
 
  gtag('js', new Date());
  gtag('config', 'UA-139213214-1');</script>
- /* END GOOGLE STUFF */
+ <!-- END GOOGLE STUFF -->
 
 </head>
 <body>
@@ -53,7 +52,7 @@
  <h1 style="text-align: center" id="mas-informacion"> MAS INFORMACION</h1>
  <form name="language-form" id="language-form">
   <label for="language-picker" id="language-picker-label">CAMBIA EL IDIOMA &nbsp;</label>
-  <select id="language-picker" name="language-picker" onchange="translateAllContent()">
+  <select id="language-picker" name="language-picker" onchange="translateAllContent(this.value)">
    <option value="">SELECCIONAR</option>
    <option value="es">Español</option>
    <option value="ht">Kreyòl Ayisyen</option>
@@ -62,8 +61,6 @@
    <option value="ru">русский</option>
    <option value="ar">عربى</option>
    <option value="am">አማርኛ</option>
-
-
    <option value="bn">বাঙালি</option>
    <option value="pt">Português</option>
    <option value="zh">中文</option>
@@ -99,9 +96,23 @@
    </a>
   </div>
   <div>
-   <a href="guia/guia%20migrante_espanol_v3.pdf" download >
-    DESCARGAR
-   </a>
+   <ul>
+    <li>
+     <a href="guia/guia%20migrante_espanol_v3.pdf" download >
+      DESCARGAR EN ESPAÑOL
+     </a>
+    </li>
+    <li>
+     <a href="guia/guia%20migrante_french_v2.pdf" download >
+      TELECHARGEZ EN FRANCAIS
+     </a>
+    </li>
+    <li>
+     <a href="guia/guia%20migrante_english_v3.pdf" download >
+      DOWNLOAD IN ENGLISH
+     </a>
+    </li>
+   </ul>
   </div>
  </div>
 
@@ -119,7 +130,7 @@
      <br> En su defensa, debe enviar el FORMULARIO
      "I-589, Solicitud de asilo y de retención de deportación"
      <br> Puede descargarlo en el oficial sitio web: <a
-       href="https://www.uscis.gov/i-589">https://www.uscis.gov/i-589</a>
+             href="https://www.uscis.gov/i-589">https://www.uscis.gov/i-589</a>
      <br> O aquí </p>
     <ul>
      <li><a href="./589/i-589.pdf" download> inglés </a></li>
@@ -413,7 +424,15 @@
 
 </div>
 
-<script type="text/babel" src="endll.js"></script>
+<script src="endll.js"></script>
+<script>
+
+ /* Main */
+ window.onload = function () {
+  load_daily_number();
+  translateAllContent(language);
+ };
+</script>
 
 
 <div id="bellaciaoContainer">
