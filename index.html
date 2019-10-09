@@ -1,5 +1,4 @@
-<html>
-<head>
+<html><head>
  <meta charset="UTF-8">
  <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
  <meta name="description" content="Daily number for Tijuana immigration list"/>
@@ -9,21 +8,23 @@
  <link type="text/css" rel="stylesheet" href="endll.css"/>
 
  <script type="text/javascript" src="./date-fns_v1.3.0.js"></script>
- <script type="text/javascript" src="translations.js?"></script>
 
+ <!-- GOOGLE STUFF -->
  <script>(adsbygoogle = window.adsbygoogle || []).push({
-     google_ad_client: "ca-pub-8571249216921327",
-     enable_page_level_ads: true
+  google_ad_client: "ca-pub-8571249216921327",
+  enable_page_level_ads: true
  });</script>
  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139213214-1"></script>
  <script>window.dataLayer = window.dataLayer || [];
 
  function gtag() {
-     dataLayer.push(arguments);
+  dataLayer.push(arguments);
  }
 
  gtag('js', new Date());
  gtag('config', 'UA-139213214-1');</script>
+ <!-- END GOOGLE STUFF -->
+
 </head>
 <body>
 <h1 style="text-align:center" id="el-numero-de-la-lista"> EL NUMERO DE LA LISTA </h1>
@@ -47,105 +48,11 @@
  </div>
 </div>
 
-<script>
-    window.onload = function () {
-        load_daily_number();
-        translateAllContent();
-    }
-
-    let list_date;
-    let translations = {};
-
-    /* language is either specified in URL or browser default language */
-    const getParameters = window.location.search.substr(1);
-    let language = getParameters.match(/language=(\w+)/) ?
-        getParameters.substr(getParameters.indexOf("language=") + 9, 2) :
-        window.navigator.language.substr(0, 2).toLowerCase();
-
-
-    function load_daily_number() {
-        console.log("fetching daily json")
-        fetch("./daily.json")
-            .then(response => {
-                return response.json()
-            })
-            .then(json => {
-                let {
-                    list_number,
-                    day_of_number,
-                    month_of_number,
-                    year_of_number
-                } = json;
-                list_date = new Date(year_of_number + '-' + month_of_number + '-' + day_of_number + 'T12:00:00');
-                populateNumberDiv(list_number);
-                populateTranslatedDateDiv();
-                populateDaysAgoDiv();
-
-                const rightNow = new Date();
-                const seven_am_tj = new Date(rightNow.toDateString() + " 07:00:00 GMT-0700 (Pacific Daylight Time)");
-                if ((dateFns.differenceInCalendarDays(rightNow, list_date) !== 0)
-                    && (rightNow.getTime() > seven_am_tj.getTime())
-                ) {
-                    // show not current and attempt reload of number
-                    document.getElementById("not-current-warning").style.display = "block";
-                    window.setTimeout(load_daily_number, 5000);
-                } else {
-                    // hide not current
-                    document.getElementById("not-current-warning").style.display = "none";
-                }
-            })
-            .catch(error => {
-                console.error("error", error)
-            })
-
-    }
-
-    function reloadSite() {
-        window.location.reload(true)
-    }
-
-    function populateDaysAgoDiv() {
-        const daysAgoDiv = document.getElementById("days-ago");
-        daysAgoDiv.innerText = numDaysAgo(list_date);
-
-        function numDaysAgo() {
-            const days_difference = dateFns.differenceInCalendarDays(new Date(), list_date);
-            if (days_difference === 0) {
-                return `(${hoy(language)})`;
-            } else if (days_difference === 1) {
-                return `(${ayer(language)})`;
-            } else {
-                return "(hace " + days_difference + "dias)";
-            }
-        }
-    }
-
-    function populateNumberDiv(list_number) {
-        document.getElementById("list-number").innerText
-            = list_number.toString();
-    }
-
-    function populateTranslatedDateDiv() {
-        if (list_date) {
-            document.getElementById("list-day").innerText
-                = list_date.toLocaleDateString(language, {
-                    weekday: 'long',
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric'
-                }
-            )
-        }
-    }
-
-</script>
-
-
 <div>
  <h1 style="text-align: center" id="mas-informacion"> MAS INFORMACION</h1>
  <form name="language-form" id="language-form">
   <label for="language-picker" id="language-picker-label">CAMBIA EL IDIOMA &nbsp;</label>
-  <select id="language-picker" name="language-picker" onchange="translateAllContent()">
+  <select id="language-picker" name="language-picker" onchange="translateAllContent(this.value)">
    <option value="">SELECCIONAR</option>
    <option value="es">Español</option>
    <option value="ht">Kreyòl Ayisyen</option>
@@ -154,8 +61,6 @@
    <option value="ru">русский</option>
    <option value="ar">عربى</option>
    <option value="am">አማርኛ</option>
-
-
    <option value="bn">বাঙালি</option>
    <option value="pt">Português</option>
    <option value="zh">中文</option>
@@ -172,7 +77,7 @@
   <h2>GUIA MIGRANTE</h2>
   <div>
    <a href="guia/guia%20migrante_espanol_web-1.gif">
-   <img src="guia/1_GuiaEspanolv3guia%20migrante_espanol_v3.jpg" />
+    <img src="guia/1_GuiaEspanolv3guia%20migrante_espanol_v3.jpg" />
    </a>
   </div>
   <div>
@@ -182,18 +87,32 @@
   </div>
   <div>
    <a href="guia/guia%20migrante_espanol_web-3.gif">
-   <img src="guia/3_GuiaEspanolv3guia%20migrante_espanol_v3.jpg">
+    <img src="guia/3_GuiaEspanolv3guia%20migrante_espanol_v3.jpg">
    </a>
   </div>
   <div>
    <a href="guia/guia%20migrante_espanol_web-4.gif">
-   <img src="guia/4_GuiaEspanolv3guia%20migrante_espanol_v3.jpg">
+    <img src="guia/4_GuiaEspanolv3guia%20migrante_espanol_v3.jpg">
    </a>
   </div>
   <div>
-   <a href="guia/guia%20migrante_espanol_v3.pdf" download >
-    DESCARGAR
-   </a>
+   <ul>
+    <li>
+     <a href="guia/guia%20migrante_espanol_v3.pdf" download >
+      DESCARGAR EN ESPAÑOL
+     </a>
+    </li>
+    <li>
+     <a href="guia/guia%20migrante_french_v2.pdf" download >
+      TELECHARGEZ EN FRANCAIS
+     </a>
+    </li>
+    <li>
+     <a href="guia/guia%20migrante_english_v3.pdf" download >
+      DOWNLOAD IN ENGLISH
+     </a>
+    </li>
+   </ul>
   </div>
  </div>
 
@@ -505,66 +424,20 @@
 
 </div>
 
+<script src="endll.js"></script>
 <script>
 
-
-    const divs_to_translate = [
-        "el-numero-es",
-        "el-numero-de-la-lista",
-        "sobre",
-        "mas-informacion",
-        "language-picker-label",
-        "dont-bug-me",
-        "disclaimer",
-    ];
-
-    function translateAllDivs() {
-        for (let i = 0; i < divs_to_translate.length; i++) {
-            divToInternational(divs_to_translate[i], language);
-        }
-    }
-
-    const questions_to_translate = [
-        "qWhySoSlow",
-        "qWhatList",
-        "qHowList",
-        "qWhatList",
-        "qHowList",
-        "qWaitTime",
-        "qQuantity",
-        "qCrossing",
-        "qWhatAsylum",
-        "qCFI",
-        "qMano",
-        "qPostCFI",
-        "qWhatHielera",
-        "qWhatDetencion",
-        "qDetencionPrep",
-        "qMyContact",
-        "qLeviticus",
-        "qRFM",
-        "qBusquedas",
-        "q589",
-        "qAntifascist",
-        "qMutualAid"
-    ];
-
-    function translateAllQuestions() {
-        for (let i = 0; i < questions_to_translate.length; i++) {
-            questionToInternational(questions_to_translate[i], language);
-        }
-    }
-
-    function translateAllContent() {
-        language = document.getElementById("language-picker").value || language;
-        populateTranslatedDateDiv();
-        translateAllDivs();
-        translateAllQuestions();
-    }
-
+ /* Main */
+ window.onload = function () {
+  load_daily_number();
+  translateAllContent(language);
+ };
 </script>
 
 
+<div id="bellaciaoContainer">
+
+</div>
 <!-- div id="bellaciaoContainer">
  <iframe id="bellaciaoVideo" align="middle" src="https://www.youtube.com/embed/n_pWpW4JlrM" frameborder="0"
          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

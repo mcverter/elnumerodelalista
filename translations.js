@@ -3448,3 +3448,5 @@ function questionToInternational(questionName, language) {
   divElement.getElementsByTagName("dt")[0].innerHTML = qAndA[0];
   divElement.getElementsByTagName("dd")[0].innerHTML = qAndA[1];
 }
+
+module.exports = {DIV_DEFAULTS, DIVS_TO_INTERNATIONAL, QUESTION_DEFAULTS, QUESTIONS_TO_INTERNATIONAL};

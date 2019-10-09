@@ -1,6 +1,4 @@
 const fs = require("fs");
-const os = require("os");
-const fsext = require("fs-ext");
 
 const {
   DIV_DEFAULTS,

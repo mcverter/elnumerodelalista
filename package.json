@@ -1,0 +1,20 @@
+{
+  "name": "elnumerodelalista",
+  "version": "1.0.0",
+  "description": "[http://elnumerodelalista.com](http://elnumerodelalista.com)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcverter/elnumerodelalista.git"
+  },
+  "author": "mcverter",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/mcverter/elnumerodelalista/issues"
+  },
+  "homepage": "https://github.com/mcverter/elnumerodelalista#readme",
+  "dependencies": {
+  }
+}
