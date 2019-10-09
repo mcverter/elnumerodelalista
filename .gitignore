@@ -5,3 +5,5 @@
 .idea/
 done/
 otherLanguages/
+node_modules/
+yarn.lock
