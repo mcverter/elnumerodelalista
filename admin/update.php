@@ -13,16 +13,6 @@ echo<<<HTML
 <body>
 HTML;
 
-function queryDB($connection, $query) {
-    $result = pg_query($connection, $query);
-
-    if (!$result) {
-        $msg = pg_last_error($connection);
-        die("An error occurred. $msg \n");
-    }
-    return $result;
-}
-
 $connection = db_connect();
 if (!$connection) {
     die("Site unable to connect to db ");

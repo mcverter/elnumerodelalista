@@ -1,4 +1,14 @@
 <?php
+function queryDB($connection, $query) {
+    $result = pg_query($connection, $query);
+
+    if (!$result) {
+        $msg = pg_last_error($connection);
+        die("An error occurred. $msg \n");
+    }
+    return $result;
+}
+
 function db_connect() {
     static $connection;
 

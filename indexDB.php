@@ -429,7 +429,7 @@
 
  /* Main */
  window.onload = function () {
-  load_daily_number();
+  load_daily_php_number();
   translateAllContent(language);
  };
 </script>
