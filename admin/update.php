@@ -1,18 +1,5 @@
 <?php
 require_once(dirname(__FILE__) .  "/../db/database.php");
-
-echo<<<HTML
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>El Numero de La Lista -- Administracion </title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
-<body>
-HTML;
-
 $connection = db_connect();
 if (!$connection) {
     die("Site unable to connect to db ");
@@ -29,37 +16,88 @@ $arr = pg_fetch_all($result);
 $list_date = $arr[0]["list_date"];
 $list_number = $arr[0]["list_number"];
 
-echo ("Most recent number is $list_number from $list_date.");
+/*
+$spanishfmt = new IntlDateFormatter(
+    'es_MX',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Tijuana',
+    IntlDateFormatter::GREGORIAN
+);
+*/
+$english_list_date = date_format(date_create($list_date), "l, F j Y");
+// $spanish_list_date = $spanishfmt->format($list_date);
+
+echo<<<HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <!-- Compiled and minified CSS -->
+     
+       <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      
+    <title>El Numero de La Lista -- Administracion </title>
+    <style>
+    body {
+    font-size: 200%;
+    font-weight: 800;
+    }
+</style>
+</head>
+<body class="container">
+<div class="card-panel red lighten-4">
+Current Number: $list_number <br /> 
+Current Date:   $english_list_date.
+</div>
+HTML;
+
 if ($list_date < date("Y-m-d")) {
     echo <<<HTML
+<div class="card-panel deep-purple lighten-4 red-text text-darken-4">
     <div> Out of date</div>
     <div> Please use the form below to update the number </div>
+</div>
+<div class="card-panel purple lighten-4">
     <form action="update.php" method="post">
         <div class="form-group">
-            <label for="update_number">Update Today's Number</label>
+            <label for="update_number">Today's Number</label>
             <input type="number" class="form-control" id="update_number" name="update_number" placeholder="Enter today's number">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Update</button>
     </form>
-
+</div>
 HTML;
 } else {
     echo <<<HTML
-if this number is mistaken, send me a message with the correct number and I will try to fix it in a timely manner.  Otherwise, wait until you know the number tomorrow.  
-    <form action="update.php" method="post">
-        <div class="form-group">
-            <label for="update_number">Update Today's Number</label>
-            <input type="number" class="form-control" id="update_number" name="update_number" placeholder="Enter today's number">
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+<div class="card-panel blue">
+    If this number is mistaken, send me a message with the correct number and I will try to fix it in a timely manner.<br />
+    Otherwise, wait until you know the number tomorrow.
+</div>
+<div class="card-panel green">
+    Si este numero no es correcto, mandame un mensaje con el numero correcto y voy intentar de cambiarlo prono. <br />
+    Por lo demas, esperas hasta manana y cambiarlo cuando sabes el nuevo numero
+</div>
+
+<!-- form action="update.php" method="post">
+    <div class="form-group">
+        <label for="update_number">Update Today's Number</label>
+        <input type="number" class="form-control" id="update_number" name="update_number" placeholder="Enter today's number">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form -->
 HTML;
 }
 
 echo <<<HTML
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+           
 </body>
 </html>
 HTML;
