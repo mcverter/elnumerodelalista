@@ -30,7 +30,7 @@ $list_date = $arr[0]["list_date"];
 $list_number = $arr[0]["list_number"];
 
 echo ("Most recent number is $list_number from $list_date.");
-if ($list_date < date("Y/m/d")) {
+if ($list_date < date("Y-m-d")) {
     echo <<<HTML
     <div> Out of date</div>
     <div> Please use the form below to update the number </div>
