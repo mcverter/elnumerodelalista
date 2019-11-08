@@ -1,4 +1,4 @@
-let list_number
+let list_number;
 let list_date;
 let language;
 let translations = {};
@@ -50,54 +50,15 @@ function reloadSite() {
   window.location.reload(true)
 }
 
-function load_daily_php_number() {
-    console.log("fetching daily php")
+function load_daily_number() {
+    console.log("fetching daily php");
     fetch("admin/get.php")
         .then(response => {
-            debugger;
             return response.json()
         })
         .then(json => {
-            debugger
             list_number = json.list_number;
             list_date = new Date(json.list_date + 'T12:00:00');
-            populateNumberDiv(list_number);
-            populateTranslatedDateDiv();
-            populateDaysAgoDiv();
-
-            const rightNow = new Date();
-            const seven_am_tj = new Date(rightNow.toDateString() + " 07:00:00 GMT-0700 (Pacific Daylight Time)");
-            if ((dateFns.differenceInCalendarDays(rightNow, list_date) !== 0)
-                && (rightNow.getTime() > seven_am_tj.getTime())
-            ) {
-                // show not current and attempt reload of number
-                document.getElementById("not-current-warning").style.display = "block";
-                window.setTimeout(load_daily_php_number, 5000);
-            } else {
-                // hide not current
-                document.getElementById("not-current-warning").style.display = "none";
-            }
-        })
-        .catch(error => {
-            console.error("error", error)
-        })
-
-}
-
-function load_daily_number() {
-    console.log("fetching daily json")
-    fetch("./daily.json")
-        .then(response => {
-            return response.json()
-        })
-        .then(json => {
-            let {
-                list_number,
-                day_of_number,
-                month_of_number,
-                year_of_number
-            } = json;
-            list_date = new Date(year_of_number + '-' + month_of_number + '-' + day_of_number + 'T12:00:00');
             populateNumberDiv(list_number);
             populateTranslatedDateDiv();
             populateDaysAgoDiv();
@@ -118,6 +79,7 @@ function load_daily_number() {
         .catch(error => {
             console.error("error", error)
         })
+
 }
 
 function populateDaysAgoDiv() {
@@ -174,10 +136,10 @@ function divToInternational(divName, language) {
 }
 
 function questionToInternational(questionName, language) {
-  var divElement = document.getElementById(questionName);
-  var qAndA = translations[language][questionName] ||
-      translations[defaultLanguage][questionName];
-  divElement.getElementsByTagName("dt")[0].innerHTML = qAndA[0];
+    const divElement = document.getElementById(questionName);
+    const qAndA = translations[language][questionName] ||
+        translations[defaultLanguage][questionName];
+    divElement.getElementsByTagName("dt")[0].innerHTML = qAndA[0];
   divElement.getElementsByTagName("dd")[0].innerHTML = qAndA[1];
 }
 

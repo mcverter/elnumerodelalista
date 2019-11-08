@@ -27,10 +27,10 @@ function writeLanguageDivs() {
 
 
 function endJSONFile(language) {
-  let path = languageToPath(language)
+  let path = languageToPath(language);
   let stats = fs.statSync(path);
   fs.truncateSync(path, stats.size - 2);
-  let fd = fs.openSync(path, "a")
+  let fd = fs.openSync(path, "a");
   fs.writeSync(fd, "\n}\n");
   return fd;
 }
@@ -91,7 +91,7 @@ function writeToLanguageFile(language, elementId, value) {
 
 function startJSONFile(language) {
   let fd = fs.openSync(languageToPath(language), "w");
-  fs.writeSync(fd, "{\n")
+  fs.writeSync(fd, "{\n");
   fs.closeSync(fd);
 }
 function writeSpanishFile() {

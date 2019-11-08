@@ -3440,9 +3440,9 @@ function divToInternational(divName, language) {
 function questionToInternational(questionName, language) {
   if (!QUESTIONS_TO_INTERNATIONAL[questionName] || ! QUESTION_DEFAULTS[questionName]) return;
 
-  var divElement = document.getElementById(questionName);
-  var qAndA = QUESTIONS_TO_INTERNATIONAL[questionName][language];
-  if (!qAndA || qAndA.length < 2) {
+    const divElement = document.getElementById(questionName);
+    let qAndA = QUESTIONS_TO_INTERNATIONAL[questionName][language];
+    if (!qAndA || qAndA.length < 2) {
     qAndA = QUESTION_DEFAULTS[questionName];
   }
   divElement.getElementsByTagName("dt")[0].innerHTML = qAndA[0];

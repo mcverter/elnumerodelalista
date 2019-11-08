@@ -1,60 +1,60 @@
-var questions_to_international = [
-  [
-    `
+const questions_to_international = [
+    [
+        `
       What is the list?
       `, `
       The list is an immoral and racist system that the United States uses to limit the number of people who can enter the country.
       `
-  ],
-  [
-    `
+    ],
+    [
+        `
       How does the list work?
       `, `
 You go to chaparral from 7 in the morning until 9 in the morning to get a number <BR/>
 You wait for your number<BR/>
 When your number is called, you can go to the other side
 `
-  ],
-  [
-    `How much time do I have to wait?
+    ],
+    [
+        `How much time do I have to wait?
       `, `
       A lot. One month?  Two months?  Three?
       `
-  ],
-  [
-    `
+    ],
+    [
+        `
       How many numbers are called each day?
       `, `
       It's different every day. Some days a lot. Some days a little.  Some days none
       `
-  ],
-  [
-    `
+    ],
+    [
+        `
       What will happen after I cross to the other side?
       `, `
 The American authorities will interrogate you about your asylum case. This is called "The Credible Fear Interview "<BR/>
 It is possible that you will be put in a detention facility
 `
-  ],
-  [
-    `
+    ],
+    [
+        `
       What is asylum?
       `, `
 The right of asylum is an international right of human rights, which can be enjoyed by any
      person outside his country of origin in case of persecution (<A href="https://en.wikipedia.org/wiki/Right_of_asylum">Wikipedia</A>) 
 `
-  ],
-  [
-    `
+    ],
+    [
+        `
       What is "The Credible Fear Interview? 
       `, `
 The American authorities are going to ask you: "Well, sir, why do you want to enter the 
 United States? Why can  you not stay in your own country? What is your fear? <BR/>
 In this interview, you must explain that you are afraid to return to your country. This fear is real. This fear is credible
 `
-  ],
-  [
-    `
+    ],
+    [
+        `
       What are the important parts of the interview
       `, `
 WHAT happened? <BR/>
@@ -63,12 +63,12 @@ WHY did he do it? <BR/>
 Did you go to the POLICE? <BR/>
 Is there ANOTHER part of your country where you can live?
 `
-  ],
-  [
-    `
+    ],
+    [
+        `
       What will happen if everything goes well with my interview?
       `,
-    `
+        `
 There are several possibilities <BR/>
 Everyone goes into the detention of <EM> US Customs and Border Patrol </EM>. This is called <STRONG> the
     cooler </STRONG> <BR/>
@@ -79,9 +79,9 @@ After that there are two possibilities in most cases
       Enforcement </EM> </LI>
     </UL> 
 `
-  ],
-  [
-    `
+    ],
+    [
+        `
 What is <STRONG> the cooler </STRONG> of <EM> US Customs and Border Patrol? </EM>
 `, `
 The cooler is very ugly. <BR/>
@@ -98,28 +98,28 @@ The cooler is very ugly. <BR/>
    4 meters long by 3 meters of hancho.
 </BLOCKQUOTE> 
 `
-  ],
-  [
-    `
+    ],
+    [
+        `
 What is the detention of <EM> US Immigration and Customs Enforcement </EM> 
 `
-    ,
-    `
+        ,
+        `
       It's a prison. It is very ugly. I'm getting descriptions ...
       `
-  ],
-  [
-    `
+    ],
+    [
+        `
       How can I prepare for the cooler and the detention?
       `
-    ,
-    `
+        ,
+        `
 Write the phone numbers and addresses and all the important things about your arm <BR/>
              Write it with a SHARPIE pen. It is very easy to wash a normal pen from your body.
 `
-  ],
-  [
-    `
+    ],
+    [
+        `
       I do not have any number or address. Who can I call or write for help when I'm detained? 
       `, `
  <h1>Me</h1> <BR/>
@@ -135,9 +135,9 @@ Write the phone numbers and addresses and all the important things about your ar
             <BR/>
             Write it with a SHARPIE pen. It is very easy to wash a normal pen from your body.
 `
-  ],
-  [
-    `
+    ],
+    [
+        `
       What do The Bible think about this process? 
       `, `
 <BLOCKQUOTE>
@@ -146,9 +146,9 @@ You must regard the foreigner who lives with you as the native-born among you. Y
             </BLOCKQUOTE>
             <cite> Leviticus 19: 33-34 </cite>
  `
-  ],
-  [
-    `
+    ],
+    [
+        `
       What do the anarchists think about this process?
       `, `
          <BLOCKQUOTE>
@@ -161,9 +161,9 @@ This in itself is enough for a social revolution which is economic in na¬ture a
 </A>
             </cite>
 `
-  ],
-  [
-    `
+    ],
+    [
+        `
             My friend or relative already crossed into the United States. Where is she right now?
 `, `
             Possibly, she is being detained in the United States <BR/>
@@ -177,12 +177,12 @@ I am trying to search for people too, but it is very difficult<BR>
             Please, use this page to start a search: <BR/>
             <STRONG> <A href="detention.html"> SEARCH PAGE </A> </STRONG> 
 `
-  ],
-  [
-    `
+    ],
+    [
+        `
       Why do I make this website? 
       `, `
  Because I'm an anarchist, who believes in <A href="https://en.wikipedia.org/wiki/Mutual_aid_(organization_theory)" target="_blank"> mutual aid </A>
 `
-  ],
+    ],
 ];
