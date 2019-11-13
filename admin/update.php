@@ -6,8 +6,8 @@ if (!$connection) {
 }
 
 if ((isset($_POST["update_number"])) && !empty($_POST["update_number"])) {
-    $query = "INSERT INTO dn VALUES ({$_POST["update_number"]})";
-    $result = queryDB($connection, $query);
+#    $query = "INSERT INTO dn VALUES ({$_POST["update_number"]})";
+#    $result = queryDB($connection, $query);
 }
 $query = "SELECT * FROM dn ORDER BY list_date DESC LIMIT 1";
 $result = queryDB($connection, $query);
