@@ -15,7 +15,7 @@ $result = queryDB($connection, $query);
 $arr = pg_fetch_all($result);
 $list_date = $arr[0]["list_date"];
 $list_number = $arr[0]["list_number"];
-
+// $list_date = "2019-11-01";
 /*
 $spanishfmt = new IntlDateFormatter(
     'es_MX',
@@ -34,8 +34,7 @@ echo<<<HTML
 <head>
     <meta charset="UTF-8">
    <!-- Compiled and minified CSS -->
-     
-       <!--Import Google Icon Font-->
+         <!--Import Google Icon Font for materialize css -->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -61,7 +60,6 @@ Current Number: $list_number <br />
 Current Date:   $english_list_date.
 </div>
 HTML;
-
 if ($list_date < date("Y-m-d")) {
     echo <<<HTML
 <div class="card-panel deep-purple lighten-4 red-text text-darken-4">
@@ -78,38 +76,51 @@ if ($list_date < date("Y-m-d")) {
     <form action="update.php" method="post" id="update_form">
         <div class="form-group">
             <label for="update_number">El Numero de Hoy (Today's number)</label>
-            <input type="number" class="form-control" id="update_number" name="update_number" placeholder="Pon el número de hoy (Enter today's number)">
+            <input type="number" v-model="update_number" class="form-control" id="update_number" name="update_number" placeholder="Pon el número de hoy (Enter today's number)">
         </div>
         <a class="waves-effect waves-light btn" onclick="openModal(); return false;">ACTUALIZAR / UPDATE</a>
     </form>
 </div>
 
-    <div id="md1" class="modal">
-        <div class="modal-content">
-            <h4>POR FAVOR CONFIRME SU ACTUALIZACIÓN</h4>
-            <p>¿Estás seguro de que el número de hoy es </p>
-        </div>
-        <div class="modal-footer">
-            <a href="#" class="waves-effect waves-red btn-flat" style="background-color: red; color: white; font-weight: 900; margin-right: 100px" onclick="closeModal(); return false;">No</a>
-            <a href="#" class="waves-effect waves-green btn-flat" style="background-color: green; color: white; font-weight: 900;" onclick="submitForm()">Si</a>
-        </div>
+<div id="md1" class="modal">
+    <div class="modal-content">
     </div>
+    <div class="modal-footer">
+        <a href="#" class="waves-effect waves-red btn-flat" style="background-color: red; color: white; font-weight: 900; margin: 0 10%;" onclick="closeModal(); return false;">No</a>
+        <a href="#" class="waves-effect waves-green btn-flat" style="background-color: green; color: white; font-weight: 900; margin: 0 10%" onclick="submitForm()">Si</a>
+    </div>
+</div>
 
 <script>
-    const mo = M.Modal.init(document.getElementById("md1"), {dismissible:false});
-    const fo = document.getElementById("update_form");
+    const {submitForm, openModal, closeModal} =
+    (function(){
+        const el = document.getElementById("md1");
+        const mo = M.Modal.init(el, {dismissible:false});
+        const fo = document.getElementById("update_form");
 
-    function closeModal() {
-        mo.close();
-    }
-    function openModal(){
-        mo.open();
-    }
+        function closeModal() {
+            mo.close();
+        }
+        function openModal(){
+            let update_number = document.getElementById("update_number").value;
+            if (!update_number) {
+                M.toast({html: "Tienes que poner un número. Inténtalo de nuevo."});
+                return;
+            }
+            if (parseInt(update_number) < $list_number) {
+                M.toast({html: `El número de hoy no puede ser menor que el de ayer. Inténtalo de nuevo.`});
+                return;
+            }
+            el.getElementsByClassName("modal-content")[0].innerText =
+            "¿Estás seguro de que el número de hoy es " + update_number + "?";
+            mo.open();
+        }
 
-    function submitForm() {
-        console.log("moo");
-        fo.submit();
-    }
+        function submitForm() {
+            fo.submit();
+        }
+        return {submitForm, openModal, closeModal};
+    })();
 </script>   
 
 HTML;
