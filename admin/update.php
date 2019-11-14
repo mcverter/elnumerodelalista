@@ -6,8 +6,8 @@ if (!$connection) {
 }
 
 if ((isset($_POST["update_number"])) && !empty($_POST["update_number"])) {
-#    $query = "INSERT INTO dn VALUES ({$_POST["update_number"]})";
-#    $result = queryDB($connection, $query);
+    $query = "INSERT INTO dn VALUES ({$_POST["update_number"]})";
+    $result = queryDB($connection, $query);
 }
 $query = "SELECT * FROM dn ORDER BY list_date DESC LIMIT 1";
 $result = queryDB($connection, $query);
@@ -50,6 +50,10 @@ echo<<<HTML
     font-weight: 800;
     }
 </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+           
+
 </head>
 <body class="container">
 <div class="card-panel red lighten-4">
@@ -61,18 +65,53 @@ HTML;
 if ($list_date < date("Y-m-d")) {
     echo <<<HTML
 <div class="card-panel deep-purple lighten-4 red-text text-darken-4">
-    <div> Out of date</div>
-    <div> Please use the form below to update the number </div>
+    <div  style="background-color: lavender">
+        <div> Fuera de plazo</div>
+        <div> Utilice el siguiente formulario para actualizar el número. </div>
+    </div>
+    <div style="background-color: lightskyblue">
+        <div> Out of date</div>
+        <div> Use the form below to update the number. </div>
+    </div>
 </div>
-<div class="card-panel purple lighten-4">
-    <form action="update.php" method="post">
+<div class="card-panel yellow lighten-4">
+    <form action="update.php" method="post" id="update_form">
         <div class="form-group">
-            <label for="update_number">Today's Number</label>
-            <input type="number" class="form-control" id="update_number" name="update_number" placeholder="Enter today's number">
+            <label for="update_number">El Numero de Hoy (Today's number)</label>
+            <input type="number" class="form-control" id="update_number" name="update_number" placeholder="Pon el número de hoy (Enter today's number)">
         </div>
-        <button type="submit" class="btn btn-primary">Update</button>
+        <a class="waves-effect waves-light btn" onclick="openModal(); return false;">ACTUALIZAR / UPDATE</a>
     </form>
 </div>
+
+    <div id="md1" class="modal">
+        <div class="modal-content">
+            <h4>POR FAVOR CONFIRME SU ACTUALIZACIÓN</h4>
+            <p>¿Estás seguro de que el número de hoy es </p>
+        </div>
+        <div class="modal-footer">
+            <a href="#" class="waves-effect waves-red btn-flat" style="background-color: red; color: white; font-weight: 900; margin-right: 100px" onclick="closeModal(); return false;">No</a>
+            <a href="#" class="waves-effect waves-green btn-flat" style="background-color: green; color: white; font-weight: 900;" onclick="submitForm()">Si</a>
+        </div>
+    </div>
+
+<script>
+    const mo = M.Modal.init(document.getElementById("md1"), {dismissible:false});
+    const fo = document.getElementById("update_form");
+
+    function closeModal() {
+        mo.close();
+    }
+    function openModal(){
+        mo.open();
+    }
+
+    function submitForm() {
+        console.log("moo");
+        fo.submit();
+    }
+</script>   
+
 HTML;
 } else {
     echo <<<HTML
@@ -88,8 +127,6 @@ HTML;
 }
 
 echo <<<HTML
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-           
 </body>
 </html>
 HTML;
