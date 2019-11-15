@@ -126,13 +126,13 @@ if ($list_date < date("Y-m-d")) {
 HTML;
 } else {
     echo <<<HTML
-<div class="card-panel blue lighten-4">
-    If this number is mistaken, send me a message with the correct number and I will try to fix it in a timely manner.<br />
-    Otherwise, wait until you know the number tomorrow.
-</div>
 <div class="card-panel green lighten-4">
     Si este numero no es correcto, mandame un mensaje con el numero correcto y voy intentar de cambiarlo prono. <br />
     Por lo demas, esperas hasta manana y cambiarlo cuando sabes el nuevo numero
+</div>
+<div class="card-panel blue lighten-4">
+    If this number is mistaken, send me a message with the correct number and I will try to fix it in a timely manner.<br />
+    Otherwise, wait until you know the number tomorrow.
 </div>
 HTML;
 }
