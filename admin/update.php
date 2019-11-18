@@ -16,6 +16,9 @@ $arr = pg_fetch_all($result);
 $list_date = $arr[0]["list_date"];
 $list_number = $arr[0]["list_number"];
 // $list_date = "2019-11-01";
+
+$tj_date = (new DateTime("now", new DateTimeZone('America/Tijuana') ))->format('Y-m-d');
+
 /*
 $spanishfmt = new IntlDateFormatter(
     'es_MX',
@@ -79,7 +82,7 @@ Current Number: $list_number <br />
 Current Date:   $english_list_date.
 HTML;
 
-if ($list_date < date("Y-m-d")) {
+if ($list_date < date($tj_date)) {
     echo <<<HTML
 
     <div  style="background-color: black; color: red; text-align: center; padding: 10px; margin: 10px; border: 10px red solid;">
@@ -93,7 +96,7 @@ HTML;
 </div>
 HTML;
 
-    if ($list_date < date("Y-m-d")) {
+    if ($list_date < date($tj_date)) {
         echo <<<HTML
 <div style="background-color: black; border: 10px black solid; text-align: center">
     <div  style="background-color: whitesmoke; margin: 10px; padding: 5px">
