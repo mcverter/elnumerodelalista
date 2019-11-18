@@ -74,9 +74,12 @@ echo <<<HTML
 
 </head>
 <body class="container">
+    <h1>El Numero de La Lista -- Administracion </h1>
+
 <div class="card-panel red lighten-4">
-Current Number: $list_number <br /> 
-Current Date:   $english_list_date.
+<h2>Actualmente elnumerodelalista muestra lo siguiente</h2>
+Numero: $list_number <br /> 
+Fecha: $english_list_date.
 HTML;
 
 if ($list_date < date("Y-m-d")) {
