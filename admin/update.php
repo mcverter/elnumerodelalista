@@ -37,52 +37,54 @@ echo <<<HTML
 <head>
     <meta charset="UTF-8">
     <!-- Compiled and minified CSS -->
-         <!--Import Google Icon Font for materialize css -->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
+    <!--Import Google Icon Font for materialize css -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-     
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <title>El Numero de La Lista -- Administracion </title>
     <style>
-    body {
-    font-size: 150%;
-    font-weight: 600;
-    }
-    #input-label {
-        font-weight: 800;
-        font-size: 200%;
-        color: black;
-        text-shadow: #550200;
-    }
-    #update_number {    
-    background: white;
-    border-radius: 22px;
-    box-shadow: 0 1px 6px 0 darkgray;
-    box-sizing: border-box;
-    cursor: text;
-    font-size: 150%;
-    height: 60px;
-    margin: 0 auto;
-    max-width: 584px;
-    opacity: 1;
-    position: relative;
-    transition: none;}
-</style>
+        body {
+            font-size: 150%;
+            font-weight: 600;
+        }
+        #input-label {
+            font-weight: 800;
+            font-size: 200%;
+            color: black;
+            text-shadow: #550200;
+        }
+        #update_number {
+            background: white;
+            border-radius: 22px;
+            box-shadow: 0 1px 6px 0 darkgray;
+            box-sizing: border-box;
+            cursor: text;
+            font-size: 150%;
+            height: 60px;
+            margin: 0 auto;
+            max-width: 584px;
+            opacity: 1;
+            position: relative;
+            transition: none;}
+    </style>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-           
+
 
 </head>
 <body class="container">
-    <h1>El Numero de La Lista -- Administracion </h1>
+<div>El Numero de La Lista -- Administracion </div>
 
 <div class="card-panel red lighten-4">
-<h2>Actualmente elnumerodelalista muestra lo siguiente</h2>
-Numero: $list_number <br /> 
-Fecha: $english_list_date.
+    <div>Actualmente <a href="www.elnumerodelalista.com">elnumerodelalista.com</a> muestra</div>
+    <div style="background-color: white; margin: 5px; padding: 5px; border 5px black solid">
+        Numero: $list_number <br />
+        Fecha: $english_list_date.
+    </div>
 HTML;
 
 if ($list_date < date($tj_date)) {
