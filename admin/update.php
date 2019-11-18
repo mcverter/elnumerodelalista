@@ -80,7 +80,7 @@ echo <<<HTML
 <div>El Numero de La Lista -- Administracion </div>
 
 <div class="card-panel red lighten-4">
-    <div>Actualmente <a href="www.elnumerodelalista.com">elnumerodelalista.com</a> muestra</div>
+    <div>Actualmente <a href="http://www.elnumerodelalista.com">elnumerodelalista.com</a> muestra</div>
     <div style="background-color: white; margin: 5px; padding: 5px; border 5px black solid">
         Numero: $list_number <br />
         Fecha: $english_list_date.
