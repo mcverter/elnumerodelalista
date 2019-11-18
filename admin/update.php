@@ -28,12 +28,12 @@ $spanishfmt = new IntlDateFormatter(
 $english_list_date = date_format(date_create($list_date), "l, F j Y");
 // $spanish_list_date = $spanishfmt->format($list_date);
 
-echo<<<HTML
+echo <<<HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-   <!-- Compiled and minified CSS -->
+    <!-- Compiled and minified CSS -->
          <!--Import Google Icon Font for materialize css -->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
@@ -45,9 +45,28 @@ echo<<<HTML
     <title>El Numero de La Lista -- Administracion </title>
     <style>
     body {
-    font-size: 200%;
-    font-weight: 800;
+    font-size: 150%;
+    font-weight: 600;
     }
+    #input-label {
+        font-weight: 800;
+        font-size: 200%;
+        color: black;
+        text-shadow: #550200;
+    }
+    #update_number {    
+    background: white;
+    border-radius: 22px;
+    box-shadow: 0 1px 6px 0 darkgray;
+    box-sizing: border-box;
+    cursor: text;
+    font-size: 150%;
+    height: 60px;
+    margin: 0 auto;
+    max-width: 584px;
+    opacity: 1;
+    position: relative;
+    transition: none;}
 </style>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -58,27 +77,41 @@ echo<<<HTML
 <div class="card-panel red lighten-4">
 Current Number: $list_number <br /> 
 Current Date:   $english_list_date.
-</div>
 HTML;
+
 if ($list_date < date("Y-m-d")) {
     echo <<<HTML
-<div class="card-panel deep-purple lighten-4 red-text text-darken-4">
-    <div  style="background-color: lavender">
-        <div> Fuera de plazo</div>
-        <div> Utilice el siguiente formulario para actualizar el número. </div>
+
+    <div  style="background-color: black; color: red; text-align: center; padding: 10px; margin: 10px; border: 10px red solid;">
+        FUERA DE PLAZO <br />
+        OUT OF DATE
     </div>
-    <div style="background-color: lightskyblue">
-        <div> Out of date</div>
-        <div> Use the form below to update the number. </div>
+HTML;
+}
+    # end div
+    echo <<<HTML
+</div>
+HTML;
+
+    if ($list_date < date("Y-m-d")) {
+        echo <<<HTML
+<div style="background-color: black; border: 10px black solid; text-align: center">
+    <div  style="background-color: whitesmoke; margin: 10px; padding: 5px">
+        <div> ACTUALIZAR EL NUMERO</div>
+    </div>
+    <div style="background-color: lightgoldenrodyellow; margin: 10px; padding: 5px;">
+        <div> UPDATE THE NUMBER </div>
     </div>
 </div>
-<div class="card-panel yellow lighten-4">
-    <form action="update.php" method="post" id="update_form">
-        <div class="form-group">
-            <label for="update_number">El Numero de Hoy (Today's number)</label>
-            <input type="number" v-model="update_number" class="form-control" id="update_number" name="update_number" placeholder="Pon el número de hoy (Enter today's number)">
+
+<div style="background-color: black; border: 10px black solid">
+    <form action="update.php" method="post" id="update_form" style="background-color: white; margin: 10px; padding: 5px; border: 10px black solid">
+        <div>
+            <input type="number" v-model="update_number" class="form-control" id="update_number" name="update_number" placeholder="Número de hoy">
         </div>
-        <a class="waves-effect waves-light btn" onclick="openModal(); return false;">ACTUALIZAR / UPDATE</a>
+        <div>
+            <a class="waves-effect waves-light btn" style="margin: 10px; padding: 10px" onclick="openModal(); return false;">ACTUALIZAR / UPDATE</a>
+        </div>
     </form>
 </div>
 
@@ -93,39 +126,39 @@ if ($list_date < date("Y-m-d")) {
 
 <script>
     const {submitForm, openModal, closeModal} =
-    (function(){
-        const el = document.getElementById("md1");
-        const mo = M.Modal.init(el, {dismissible:false});
-        const fo = document.getElementById("update_form");
+        (function(){
+            const el = document.getElementById("md1");
+            const mo = M.Modal.init(el, {dismissible:false, endingTop: "50%"});
+            const fo = document.getElementById("update_form");
 
-        function closeModal() {
-            mo.close();
-        }
-        function openModal(){
-            let update_number = document.getElementById("update_number").value;
-            if (!update_number) {
-                M.toast({html: "Tienes que poner un número. Inténtalo de nuevo."});
-                return;
+            function closeModal() {
+                mo.close();
             }
-            if (parseInt(update_number) < $list_number) {
-                M.toast({html: `El número de hoy no puede ser menor que el de ayer. Inténtalo de nuevo.`});
-                return;
+            function openModal(){
+                let update_number = document.getElementById("update_number").value;
+                if (!update_number) {
+                    M.toast({html: "Tienes que poner un número. Inténtalo de nuevo."});
+                    return;
+                }
+                if (parseInt(update_number) < $list_number) {
+                    M.toast({html: `El número de hoy no puede ser menor que el de ayer. Inténtalo de nuevo.`});
+                    return;
+                }
+                el.getElementsByClassName("modal-content")[0].innerText =
+                    "¿Estás seguro de que el número de hoy es " + update_number + "?";
+                mo.open();
             }
-            el.getElementsByClassName("modal-content")[0].innerText =
-            "¿Estás seguro de que el número de hoy es " + update_number + "?";
-            mo.open();
-        }
 
-        function submitForm() {
-            fo.submit();
-        }
-        return {submitForm, openModal, closeModal};
-    })();
+            function submitForm() {
+                fo.submit();
+            }
+            return {submitForm, openModal, closeModal};
+        })();
 </script>   
 
 HTML;
-} else {
-    echo <<<HTML
+    } else {
+        echo <<<HTML
 <div class="card-panel green lighten-4">
     Si este numero no es correcto, mandame un mensaje con el numero correcto y voy intentar de cambiarlo prono. <br />
     Por lo demas, esperas hasta manana y cambiarlo cuando sabes el nuevo numero
@@ -135,9 +168,9 @@ HTML;
     Otherwise, wait until you know the number tomorrow.
 </div>
 HTML;
-}
+    }
 
-echo <<<HTML
+    echo <<<HTML
 </body>
 </html>
 HTML;
