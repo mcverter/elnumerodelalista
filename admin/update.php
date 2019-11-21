@@ -103,22 +103,21 @@ HTML;
 
     if ($list_date < date($tj_date)) {
         echo <<<HTML
-<div style="background-color: black; border: 10px black solid; text-align: center">
-    <div  style="background-color: whitesmoke; margin: 10px; padding: 5px">
-        <div> ACTUALIZAR EL NUMERO</div>
-    </div>
-    <div style="background-color: lightgoldenrodyellow; margin: 10px; padding: 5px;">
-        <div> UPDATE THE NUMBER </div>
-    </div>
-</div>
-
 <div style="background-color: black; border: 10px black solid">
     <form action="update.php" method="post" id="update_form" style="background-color: white; margin: 10px; padding: 5px; border: 10px black solid">
         <div>
             <input type="number" v-model="update_number" class="form-control" id="update_number" name="update_number" placeholder="Número de hoy">
         </div>
         <div>
-            <a class="waves-effect waves-light btn" style="margin: 10px; padding: 10px" onclick="openModal(); return false;">ACTUALIZAR / UPDATE</a>
+        <div style="background-color: black; border: 10px black solid; text-align: center">
+
+    <div onclick="openModal(); return false;" style="background-color: whitesmoke; margin: 10px; padding: 5px">
+        <div> ACTUALIZAR EL NUMERO</div>
+    </div>
+    <div style="background-color: lightgoldenrodyellow; margin: 10px; padding: 5px;">
+        <div> UPDATE THE NUMBER </div>
+    </div>
+</div>
         </div>
     </form>
 </div>
