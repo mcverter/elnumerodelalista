@@ -96,13 +96,13 @@ if ($list_date < date($tj_date)) {
     </div>
 HTML;
 }
-    # end div
-    echo <<<HTML
+# end div
+echo <<<HTML
 </div>
 HTML;
 
-    if ($list_date < date($tj_date)) {
-        echo <<<HTML
+if ($list_date < date($tj_date)) {
+    echo <<<HTML
 <div style="background-color: black; border: 10px black solid">
     <form action="update.php" method="post" id="update_form" style="background-color: white; margin: 10px; padding: 5px; border: 10px black solid">
         <div>
@@ -145,10 +145,14 @@ HTML;
                 let update_number = document.getElementById("update_number").value;
                 if (!update_number) {
                     M.toast({html: "Tienes que poner un número. Inténtalo de nuevo."});
+                    M.toast({html: "You have to enter a number.  Please try again."});
+
                     return;
                 }
                 if (parseInt(update_number) < $list_number) {
-                    M.toast({html: `El número de hoy no puede ser menor que el de ayer. Inténtalo de nuevo.`});
+                    M.toast({html: `El número de hoy no puede ser menor que el de ayer. Inténtalo de nuevo.`});                    
+                    M.toast({html: "Today's number can not be less than yesterday's.  Please try again."});
+
                     return;
                 }
                 el.getElementsByClassName("modal-content")[0].innerText =
@@ -164,8 +168,8 @@ HTML;
 </script>   
 
 HTML;
-    } else {
-        echo <<<HTML
+} else {
+    echo <<<HTML
 <div class="card-panel green lighten-4">
     Si este numero no es correcto, mandame un mensaje con el numero correcto y voy intentar de cambiarlo prono. <br />
     Por lo demas, esperas hasta manana y cambiarlo cuando sabes el nuevo numero
@@ -175,9 +179,9 @@ HTML;
     Otherwise, wait until you know the number tomorrow.
 </div>
 HTML;
-    }
+}
 
-    echo <<<HTML
+echo <<<HTML
 </body>
 </html>
 HTML;
