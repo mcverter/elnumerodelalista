@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Compiled and minified CSS -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>El Numero de La Lista -- Administracion </title>
+    <style>
+        /*        body {
+                    font-size: 150%;
+                    font-weight: 600;
+                }
+                #input-label {
+                    font-weight: 800;
+                    font-size: 200%;
+                    color: black;
+                    text-shadow: #550200;
+                }
+                #update_number {
+                    background: white;
+                    border-radius: 22px;
+                    box-shadow: 0 1px 6px 0 darkgray;
+                    box-sizing: border-box;
+                    cursor: text;
+                    font-size: 150%;
+                    height: 60px;
+                    margin: 0 auto;
+                    max-width: 584px;
+                    opacity: 1;
+                    position: relative;
+                    transition: none;}
+                    */
+    </style>
+</head>
+<body class="container-fluid">
+<h1>El Numero de La Lista -- Administracion </h1>
+
+<div class="jumbotron">
+    <h2>Actualmente <a href="http://www.elnumerodelalista.com">elnumerodelalista.com</a> muestra</h2>
+    <div style="background-color: white; margin: 5px; padding: 5px; border: 5px black solid">
+        Numero: 12345 <br />
+        Fecha: Wednesday, November 20 2019.
+    </div>
+    <div  style="background-color: black; color: red; text-align: center; padding: 10px; margin: 10px; border: 10px red solid;">
+        FUERA DE PLAZO <br />
+        OUT OF DATE
+    </div>
+</div>
+
+<form>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<div style="background-color: black; border: 10px black solid">
+        <form action="update.php" method="post" id="update_form" style="background-color: white; margin: 10px; padding: 5px; border: 10px black solid">
+            <div>
+                <input type="number" v-model="update_number" class="form-control" id="update_number" name="update_number" placeholder="Número de hoy">
+            </div>
+            <div>
+                <div style="background-color: black; border: 10px black solid; text-align: center">
+
+                    <div onclick="openModal(); return false;" style="background-color: whitesmoke; margin: 10px; padding: 5px">
+                        <div> ACTUALIZAR EL NUMERO</div>
+                    </div>
+                    <div style="background-color: lightgoldenrodyellow; margin: 10px; padding: 5px;">
+                        <div> UPDATE THE NUMBER </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+</div>
+
+<div id="md1" class="modal">
+    <div class="modal-content">
+    </div>
+    <div class="modal-footer">
+        <a href="#" class="waves-effect waves-red btn-flat" style="background-color: red; color: white; font-weight: 900; margin: 0 10%;" onclick="closeModal(); return false;">No</a>
+        <a href="#" class="waves-effect waves-green btn-flat" style="background-color: green; color: white; font-weight: 900; margin: 0 10%" onclick="submitForm()">Si</a>
+    </div>
+</div>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script>
+    const {submitForm, openModal, closeModal} =
+        (function(){
+            const el = document.getElementById("md1");
+            const mo = M.Modal.init(el, {dismissible:false, endingTop: "50%"});
+            const fo = document.getElementById("update_form");
+
+            function closeModal() {
+                mo.close();
+            }
+            function openModal(){
+                let update_number = document.getElementById("update_number").value;
+                if (!update_number) {
+                    M.toast({html: "Tienes que poner un número. Inténtalo de nuevo."});
+                    M.toast({html: "You have to enter a number.  Please try again."});
+
+                    return;
+                }
+                if (parseInt(update_number) < 12345) {
+                    M.toast({html: `El número de hoy no puede ser menor que el de ayer. Inténtalo de nuevo.`});
+                    M.toast({html: "Today's number can not be less than yesterday's.  Please try again."});
+
+                    return;
+                }
+                el.getElementsByClassName("modal-content")[0].innerText =
+                    "¿Estás seguro de que el número de hoy es " + update_number + "?";
+                mo.open();
+            }
+
+            function submitForm() {
+                fo.submit();
+            }
+            return {submitForm, openModal, closeModal};
+        })();
+</script>
+</body>
+</html>
