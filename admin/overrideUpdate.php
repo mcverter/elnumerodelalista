@@ -6,7 +6,7 @@ if (!$connection) {
 }
 
 if ((isset($_POST["update_number"])) && !empty($_POST["update_number"])) {
-    $query = "INSERT INTO dn VALUES ({$_POST["update_number"]})";
+    $query = "INSERT INTO dn VALUES ({$_POST["update_number"]}) ON CONFLICT (list_date) DO UPDATE SET list_number = {$_POST["update_number"]}";
     $result = queryDB($connection, $query);
 }
 $query = "SELECT * FROM dn ORDER BY list_date DESC LIMIT 1";
@@ -45,7 +45,7 @@ echo <<<HTML
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <title>El Numero de La Lista -- Administracion </title>
+    <title>El Numero de La Lista -- Number Override Page </title>
     <style>
         body {
             font-size: 150%;
@@ -95,16 +95,23 @@ if ($list_date < date($tj_date)) {
         OUT OF DATE
     </div>
 HTML;
+} else {
+    echo <<<HTML
+    <div  style="background-color: lightgray; color: green; text-align: center; padding: 10px; margin: 10px; border: 10px red solid;">
+        The number posted is today's number <br />
+        <b>$list_number</b> <br />
+        If this number is incorrect, please use the form below
+    </div>
+HTML;
 }
 # end div
 echo <<<HTML
 </div>
 HTML;
 
-if ($list_date < date($tj_date)) {
-    echo <<<HTML
+echo <<<HTML
 <div style="background-color: black; border: 10px black solid">
-    <form action="update.php" method="post" id="update_form" style="background-color: white; margin: 10px; padding: 5px; border: 10px black solid">
+    <form action="overrideUpdate.php" method="post" id="update_form" style="background-color: white; margin: 10px; padding: 5px; border: 10px black solid">
         <div>
             <input type="number" v-model="update_number" class="form-control" id="update_number" name="update_number" placeholder="Número de hoy">
         </div>
@@ -166,22 +173,6 @@ if ($list_date < date($tj_date)) {
             return {submitForm, openModal, closeModal};
         })();
 </script>   
-
-HTML;
-} else {
-    echo <<<HTML
-<div class="card-panel green lighten-4">
-    Si este numero no es correcto, mandame un mensaje con el numero correcto y voy intentar de cambiarlo prono. <br />
-    Por lo demas, esperas hasta manana y cambiarlo cuando sabes el nuevo numero
-</div>
-<div class="card-panel blue lighten-4">
-    If this number is mistaken, send me a message with the correct number and I will try to fix it in a timely manner.<br />
-    Otherwise, wait until you know the number tomorrow.
-</div>
-HTML;
-}
-
-echo <<<HTML
 </body>
 </html>
 HTML;
