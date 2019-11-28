@@ -11,7 +11,7 @@ const divs_to_translate = [
   "sobre",
   "mas-informacion",
   "language-picker-label",
-  "dont-bug-me",
+//  "dont-bug-me",
   "disclaimer",
 ];
 
@@ -31,10 +31,10 @@ const questions_to_translate = [
   "qWhatHielera",
   "qWhatDetencion",
   "qDetencionPrep",
-  "qMyContact",
+//  "qMyContact",
   "qLeviticus",
   "qRFM",
-  "qBusquedas",
+//  "qBusquedas",
   "q589",
   "qAntifascist",
   "qMutualAid"
