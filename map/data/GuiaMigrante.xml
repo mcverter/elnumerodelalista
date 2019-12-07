@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>guia migrante mapa</name>
+    <description/>
+    <Style id="icon-1577-000000-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1577-000000-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1577-000000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1577-000000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1577-000000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1603-000000-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1603-000000-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1603-000000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-000000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-000000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1624-000000-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1624-000000-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1624-000000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1624-000000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1624-000000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Enclave Caracol</name>
+        <styleUrl>#icon-1577-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.036088,32.537013,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Comedor Contra Viento y Marea</name>
+        <styleUrl>#icon-1577-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.047227,32.535897,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Espacio Migrante</name>
+        <styleUrl>#icon-1603-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0343361,32.538251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Templo Embajadores De Jesús</name>
+        <styleUrl>#icon-1603-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0797079,32.5078566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pro Amore Dei</name>
+        <styleUrl>#icon-1603-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0588042,32.5200195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa Del Deportation Sagrado Corazon</name>
+        <styleUrl>#icon-1603-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0541606,32.5390823,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Movimiento Juventud 2000 Secc. Tijuana AC</name>
+        <styleUrl>#icon-1603-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0393728,32.5403182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Desayunador Salesiano Padre Chava</name>
+        <styleUrl>#icon-1603-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.032126,32.5367559,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Programa YMCA de Desarrollo Comunitario y Asistencia Social, A.C.</name>
+        <styleUrl>#icon-1603-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0226056,32.5119193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ejercito De Salvación</name>
+        <styleUrl>#icon-1603-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0124358,32.5353128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ejercito De Salvación Casa Puerta de Esperanza</name>
+        <styleUrl>#icon-1603-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.009651,32.530813,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa del Migrante</name>
+        <styleUrl>#icon-1603-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0017001,32.5228819,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Instituto Madre Asunta</name>
+        <styleUrl>#icon-1603-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0013542,32.523395,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Volviendo a la Patria A.C. Centro para Migrantes</name>
+        <styleUrl>#icon-1603-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0001271,32.5359546,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa De Oracion Del Migrante A.C.</name>
+        <styleUrl>#icon-1603-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.9980122,32.530414,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Simon Bolívar 12512</name>
+        <styleUrl>#icon-1603-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.9947589,32.5415204,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mision Evangelica Roca de Salvacion A.C.</name>
+        <styleUrl>#icon-1603-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.9047369,32.4701767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Iglesia Cristiana Bautista Camino de Salvacion</name>
+        <styleUrl>#icon-1603-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.8748933,32.5003809,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Iglesia Casa de Dios</name>
+        <styleUrl>#icon-1603-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.8617021,32.4729917,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hospital Guadalajara</name>
+        <styleUrl>#icon-1624-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0466197,32.5343723,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hospital México</name>
+        <styleUrl>#icon-1624-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.028058,32.5385205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centro de Rehabilitacion jardin de las Mariposas, A.C.</name>
+        <styleUrl>#icon-1603-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.032846,32.5198823,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
