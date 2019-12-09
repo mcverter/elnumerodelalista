@@ -5,6 +5,8 @@ if (!$connection) {
     die("Site unable to connect to db ");
 }
 
+error_log("the server variables are " . var_dump(
+$_SERVER));
 if ((isset($_POST["update_number"])) && !empty($_POST["update_number"])) {
     $query = "INSERT INTO dn VALUES ({$_POST["update_number"]})";
     $result = queryDB($connection, $query);
