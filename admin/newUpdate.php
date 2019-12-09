@@ -6,7 +6,7 @@ if (!$connection) {
 }
 
 if ((isset($_POST["update_number"])) && !empty($_POST["update_number"])) {
-    $query = "INSERT INTO test_dailynumber VALUES ({$_POST["update_number"]})";
+    $query = "INSERT INTO test_dailynumber VALUES ({$_POST["update_number"]}) ON CONFLICT (list_date) DO NOTHING";
     $result = queryDB($connection, $query);
 }
 $query = "SELECT * FROM test_dailynumber ORDER BY list_date DESC LIMIT 1";
