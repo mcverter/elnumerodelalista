@@ -8,7 +8,7 @@ if (!$connection) {
 $tj_date = (new DateTime("now", new DateTimeZone('America/Tijuana') ))->format('Y-m-d');
 
 
-if ($_SERVER["CONTENT_TYPE"] == "application/json") {
+if ((isset($_SERVER["CONTENT_TYPE"])) && $_SERVER["CONTENT_TYPE"] == "application/json") {
     $json = file_get_contents('php://input');
     $data = json_decode($json, true);
     $update_number = $data["update_number"];
