@@ -18,7 +18,7 @@ elseif ((isset($_POST["update_number"])) && !empty($_POST["update_number"])) {
 }
 if ((isset($update_number)) && !empty($update_number)) {
    error_log("update.php: Number being updated to {$update_number}");
-    $query = "INSERT INTO dn (list_date, list_number) VALUES ({$tj_date}, {$update_number}) ON CONFLICT (list_date) DO NOTHING";
+    $query = "INSERT INTO dn (list_date, list_number) VALUES ('{$tj_date}', {$update_number}) ON CONFLICT (list_date) DO NOTHING";
     $result = queryDB($connection, $query);
 }
 
