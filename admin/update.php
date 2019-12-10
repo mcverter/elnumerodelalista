@@ -5,18 +5,20 @@ if (!$connection) {
     die("Site unable to connect to db ");
 }
 
-if ($_SERVER["CONTENT_TYPE" == "application/json"]) {
+if ($_SERVER["CONTENT_TYPE"] == "application/json") {
     $json = file_get_contents('php://input');
-    $data = json_decode($json);
+    $data = json_decode($json, true);
     $update_number = $data["update_number"];
-    error_log("update number is $update_number");
+} 
+elseif ((isset($_POST["update_number"])) && !empty($_POST["update_number"])) {
+   $update_number = $_POST["update_number"];
+}
+if ((isset($update_number)) && !empty($update_number)) {
+   error_log("update.php: Number being updated to {$update_number}");
     $query = "INSERT INTO dn VALUES ({$update_number}) ON CONFLICT (list_date) DO NOTHING";
     $result = queryDB($connection, $query);
 }
-elseif ((isset($_POST["update_number"])) && !empty($_POST["update_number"])) {
-    $query = "INSERT INTO dn VALUES ({$_POST["update_number"]}) ON CONFLICT (list_date) DO NOTHING";
-    $result = queryDB($connection, $query);
-}
+
 $query = "SELECT * FROM dn ORDER BY list_date DESC LIMIT 1";
 $result = queryDB($connection, $query);
 
