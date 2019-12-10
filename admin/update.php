@@ -5,6 +5,9 @@ if (!$connection) {
     die("Site unable to connect to db ");
 }
 
+$tj_date = (new DateTime("now", new DateTimeZone('America/Tijuana') ))->format('Y-m-d');
+
+
 if ($_SERVER["CONTENT_TYPE"] == "application/json") {
     $json = file_get_contents('php://input');
     $data = json_decode($json, true);
@@ -15,7 +18,7 @@ elseif ((isset($_POST["update_number"])) && !empty($_POST["update_number"])) {
 }
 if ((isset($update_number)) && !empty($update_number)) {
    error_log("update.php: Number being updated to {$update_number}");
-    $query = "INSERT INTO dn VALUES ({$update_number}) ON CONFLICT (list_date) DO NOTHING";
+    $query = "INSERT INTO dn (list_date, list_number) VALUES ({$tj_date}, {$update_number}) ON CONFLICT (list_date) DO NOTHING";
     $result = queryDB($connection, $query);
 }
 
@@ -26,8 +29,6 @@ $arr = pg_fetch_all($result);
 $list_date = $arr[0]["list_date"];
 $list_number = $arr[0]["list_number"];
 // $list_date = "2019-11-01";
-
-$tj_date = (new DateTime("now", new DateTimeZone('America/Tijuana') ))->format('Y-m-d');
 
 /*
 $spanishfmt = new IntlDateFormatter(
