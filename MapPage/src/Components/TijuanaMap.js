@@ -24,6 +24,7 @@ function TijuanaMap() {
     <GoogleMap
       defaultZoom={DEFAULT_ZOOM}
       defaultCenter={{lat: TJ_ARCH_COORDS.lat, lng: TJ_ARCH_COORDS.lng}}
+      defaultOptions={{mapTypeControl: false}}
     >
       {placemarks.map((place, index) => {
      //   console.log(place);
@@ -48,8 +49,12 @@ function TijuanaMap() {
               lng: selectedPlace.coordinates[0]
             }}
           >
+            <div>
             <InfoWindowDetail {...selectedPlace} />
+            <div style={{backgroundColor: "red", color: "white", fontWeight: 700, fontSize: "150%", padding: "10px", margin: "5px", border: "1px solid white"}} onClick={()=>setSelectedPlace(null)}>CERRAR</div>
+            </div>
           </InfoWindow>
+
         )
       }
     </GoogleMap>

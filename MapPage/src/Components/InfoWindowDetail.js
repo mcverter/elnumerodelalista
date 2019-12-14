@@ -1,56 +1,89 @@
 import React from 'react';
-import {InfoWindow} from 'react-google-maps'
 import PropTypes from 'prop-types';
 import ReactHtmlParser from 'react-html-parser';
-import phoneImage from "../images/phone.svg";
+import imageMap from "../images";
+
 
 const InfoWindowDetail = ({
-                           name,
-                           setSelectedPlace,
-                           type,
-                           coordinates,
-                           description,
-                           phone1,
-                           phone2,
-                           address,
-                           notes
-                         }) => {
- // debugger
-/*
-        {phone2 &&      <div>{phone2}</div>}
-        {notes  &&      <div>{notes}</div>}
-
- */
+                            name,
+                            type,
+                            description,
+                            phone1,
+                            phone2,
+                            address,
+                            notes
+                          }) => {
   console.log( name,
-//    setSelectedPlace,
-//    type,
-//    coordinates,
+    type,
     description,
     phone1,
     phone2,
     address,
     notes);
+  const renderAddress = () => (
+    <div style={Styles.address}>{address}</div>
+  );
+
+  const renderName = () => (
+    <div style={Styles.name}>
+      <span><img style={Styles.type} align="left" src={imageMap[type]} /></span>&nbsp;
+      <span>{name}</span>
+    </div>
+  );
+
+  const renderPhone = phone => (
+    <div style={Styles.phone}>
+      <a style={Styles.phoneLink} href={'"tel:' + phone + '"'}>
+        <span><img height={"24px"} align="left"  src={imageMap["phone"]}/></span>
+        &nbsp;+52{phone}
+      </a>
+    </div>
+  )
   return (
-      <div style={Styles.detailsDiv}>
-        {name &&        <h1>{name}</h1>}
-        {address &&     <div>{address}</div>}
-        {description && ReactHtmlParser(description)}
-        {phone1 &&      <div><span><img src={phoneImage}/></span><a href={'"tel:+52' + phone1 + '"'}>+52{phone1}</a></div>}
-        {phone2 &&      <div><span></span><a href={'"tel:+52' + phone2 + '"'}>+52{phone2}</a></div>}
-        {notes && ReactHtmlParser(notes)}
-      </div>
+    <div style={Styles.detailsDiv}>
+      {name && renderName()}
+      {address &&  renderAddress()}
+      {phone1 &&   renderPhone(phone1)}
+      {phone2 &&   renderPhone(phone2)}
+      {description && ReactHtmlParser(description)}
+      {notes && ReactHtmlParser(notes)}
+    </div>
   );
 };
 
 const Styles = {
   detailsDiv: {},
-  name: {},
-  type: {},
-  coordinates: {} ,
+  name: {
+    fontSize: "175%",
+    fontWeight: 700,
+    border: "2px black solid",
+    padding: "5px",
+    margin: "5px"
+  },
+  type: {
+    height: "24px"
+  },
   description: {},
-  phone1: {},
-  phone2: {},
-  address: {},
+  phone: {
+    border: "2px solid green",
+    padding: "5px",
+    margin: "5px"
+  },
+  phoneLink: {
+    color: "green",
+    textDecoration: "none",
+    fontWeight: 500,
+    fontSize: "125%",
+  },
+  phoneImg: {
+  },
+  address: {
+    fontSize: "125%",
+    fontWeight: 500,
+    border: "2px blue solid",
+    padding: "5px",
+    margin: "5px"
+  },
   notes: {}
 };
 
@@ -66,3 +99,11 @@ InfoWindowDetail.propTypes = {
 };
 
 export default InfoWindowDetail;
+
+
+// debugger
+/*
+        {phone2 &&      <div>{phone2}</div>}
+        {notes  &&      <div>{notes}</div>}
+
+ */
