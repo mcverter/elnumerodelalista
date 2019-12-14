@@ -1,0 +1,202 @@
+{
+  "placemarks": [
+    {
+      "name": "Enclave Caracol",
+      "type": "food",
+      "coordinates": [-117.036088,32.537013],
+      "address": "Calle Primera 8250, Zona Norte",
+      "phone1": "6643791818",
+      "description": "",
+      "notes": ""
+    },
+    {
+      "name": "Comedor Contra Viento y Marea",
+      "type": "food",
+      "coordinates": [-117.047227,32.535897],
+      "address": "7310-A, Calle Primera Zona Centro",
+      "phone1": "",
+      "description" : "<div>Se sirve comida de 12 -1 pm y 5 - 7pm de lunes a sábado</div><ul><li>Acceso a la computadora en horarios de comida</li><li>Donaciones disponibles: Ropa, Cobija, Kits de Higiene, Juguetes, etc. Lunes - Sábado durante las comidas (preguntar al llegar)</li><li>Selección de donaciones cada Viernes a las 5pm</li>",
+      "notes": ""
+    },
+    {
+      "name": "Espacio Migrante",
+      "type": "shelter",
+      "description" : "<div>Lunes - Viernes de7AM-6PM y Sábado de 9AM-6PM</div> <ul><li>Taller gratuito sobre derechos de los migrantes y cómo presentar quejas</li><li>Acompañamiento legal por los migrantes en sus casos 9am - 5pm</li><li>Clases de idiomas (español e inglés)</li><li>Clases de computación</li><li>Clínica medica / servicios (2do piso, San Diego Border Dreamers) Lunes - viernes 9am- 2pm (provisionalmente se encuentran en Prevencasa)</li>",
+      "coordinates": [-117.0343361,32.538251],
+      "address": "Avenida Miguel Negrete 8350, Zona Norte",
+      "phone1": "664607 3458",
+      "notes": ""
+    },
+    {
+      "name": "Templo Embajadores De Jesús",
+      "type": "shelter",
+      "coordinates": [-117.0797079,32.5078566],
+      "address": "Calle Cañón del Alacrán 4094 Divina Providencia",
+      "phone1": "6641723591 o 664 229 0861",
+      "description" : "",
+      "notes": ""
+    },
+    {
+      "name": "Pro Amore Dei",
+      "type": "shelter",
+      "coordinates": [-117.0588042,32.5200195],
+      "address": "Canon K 5981 Patrimonial Benito Juárez",
+      "phone1": "664 232 3116",
+      "description" : "",
+      "notes": ""
+    },
+    {
+      "name": "Casa Del Deportation Sagrado Corazon",
+      "type": "shelter",
+      "coordinates": [-117.0541606,32.5390823],
+      "address": "Calle Ing. Fernando Sánchez Ayala Zona Norte",
+      "phone1": "6641148046",
+      "description" : "",
+      "notes": ""
+    },
+    {
+      "name": "Movimiento Juventud 2000 Secc. Tijuana AC",
+      "type": "shelter",
+      "coordinates": [-117.0393728,32.5403182],
+      "address": "Avenida Constitución 205 Zona Norte",
+      "phone1": "664 210 0302",
+      "description" : "",
+      "notes": ""
+    },
+    {
+      "name": "Desayunador Salesiano Padre Chava",
+      "type": "shelter",
+      "coordinates": [-117.032126,32.5367559],
+      "address": "Avenida Melchor Ocampo 700 Zona Centro",
+      "phone1": "664 688 2790",
+      "description" : "",
+      "notes": ""
+    },
+    {
+      "name": "Programa YMCA de Desarrollo Comunitario y Asistencia Social, A.C.",
+      "type": "shelter",
+      "coordinates": [-117.0226056,32.5119193],
+      "address": "Blvd. Cuauhtemoc Sur 3170 Madero Sur",
+      "phone1": "6646861359",
+      "description" : "",
+      "notes": ""
+    },
+    {
+      "name": "Ejercito De Salvación",
+      "type": "shelter",
+      "coordinates": [-117.0124358,32.5353128],
+      "address": "Av. Aquiles Serdan 11585 Colonia Libertad, Parte Baja",
+      "phone1": "664683 2694",
+      "description" : "",
+      "notes": ""
+    },
+    {
+      "name": "Ejercito De Salvación Casa Puerta de Esperanza",
+      "type": "shelter",
+      "coordinates": [-117.009651,32.530813],
+      "address": "Calle 17 N°550 ▼ Casa Puerta de Esperanza",
+      "phone1": "",
+      "description" : "",
+      "notes": ""
+    },
+    {
+      "name": "Casa del Migrante",
+      "type": "shelter",
+      "coordinates": [-117.0017001,32.5228819],
+      "address": "Calle Galileo 239 Postal, López Leyva",
+      "phone1": "664682 5180",
+      "description" : "",
+      "notes": ""
+    },
+    {
+      "name": "Instituto Madre Asunta",
+      "type": "shelter",
+      "coordinates": [-117.0013542,32.523395],
+      "address": "Calle Galileo 2305 Buena Vista, López Leyva",
+      "phone1": "664683 0575",
+      "description" : "",
+      "notes": ""
+    },
+    {
+      "name": "Volviendo a la Patria A.C. Centro para Migrantes",
+      "type": "shelter",
+      "coordinates": [-117.0001271,32.5359546],
+      "address": "Calle 20 974, Libertad",
+      "phone1": "664 245 5535",
+      "description" : "",
+      "notes": ""
+    },
+    {
+      "name": "Casa De Oracion Del Migrante A.C.",
+      "type": "shelter",
+      "coordinates": [-116.9980122,32.530414],
+      "address": "Primera Sur 735 Buena Vista, Anexa del Rio",
+      "phone1": "664151 6508",
+      "description" : "",
+      "notes": ""
+    },
+    {
+      "name": "Leakad A.C. Simon Bolívar 12512",
+      "type": "shelter",
+      "coordinates": [-116.9947589,32.5415204],
+      "address": "Simón Bolívar 12512 Aeropuerto, Tijuana, B.C., México",
+      "phone1": "664198 6636",
+      "description" : "",
+      "notes": ""
+    },
+    {
+      "name": "Mision Evangelica Roca de Salvacion A.C.",
+      "type": "shelter",
+      "coordinates": [-116.9047369,32.4701767],
+      "address": "Calle Huajicori 20704 Azteca Cañón 1 de La Raza",
+      "phone1": "664170 0321",
+      "description" : "",
+      "notes": ""
+    },
+    {
+      "name": "Iglesia Cristiana Bautista Camino de Salvacion",
+      "type": "shelter",
+      "coordinates": [-116.8748933,32.5003809],
+      "address": "",
+      "phone1": "",
+      "description" : "",
+      "notes": ""
+    },
+    {
+      "name": "Iglesia Casa de Dios",
+      "type": "shelter",
+      "coordinates": [-116.8617021,32.4729917],
+      "address": "",
+      "phone1": "",
+      "description" : "",
+      "notes": ""
+    },
+    {
+      "name": "Hospital Guadalajara",
+      "type": "medicine",
+      "coordinates": [-117.0466197,32.5343723],
+      "address": "Calle Benito Juárez 2da 1413",
+      "phone1": "664685 8953",
+      "description" : "",
+      "notes": ""
+    },
+    {
+      "name": "Hospital México",
+      "type": "medicine",
+      "coordinates": [-117.028058,32.5385205],
+      "address": "Paseo Tijuana 9077 Col. Empleados Federales",
+      "phone1": "664 683 6363",
+      "description" : "",
+      "notes": ""
+    },
+    {
+      "name": "Centro de Rehabilitacion jardin de las Mariposas, A.C.",
+      "type": "shelter",
+      "coordinates": [-117.032846,32.5198823],
+      "address": "",
+      "phone1": "",
+      "description" : "",
+      "notes": ""
+    }
+  ]
+}
