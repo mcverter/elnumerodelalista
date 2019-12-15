@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ReactHtmlParser from 'react-html-parser';
 import imageMap from "../images";
-
+import GoogleMapsOpener from "./GoogleMapsOpener";
 
 const InfoWindowDetail = ({
                             name,
@@ -10,18 +10,17 @@ const InfoWindowDetail = ({
                             description,
                             phone1,
                             phone2,
+                            coordinates,
                             address,
                             notes
                           }) => {
-  console.log( name,
-    type,
-    description,
-    phone1,
-    phone2,
-    address,
-    notes);
+  console.log( name, type, coordinates, description, phone1,phone2, address, notes);
+
   const renderAddress = () => (
-    <div style={Styles.address}>{address}</div>
+    <div style={Styles.address}>
+      <div>{address}</div>
+      <GoogleMapsOpener coordinates={coordinates} name={name} address={address}/>
+    </div>
   );
 
   const renderName = () => (
@@ -35,7 +34,7 @@ const InfoWindowDetail = ({
     <div style={Styles.phone}>
       <a style={Styles.phoneLink} href={'"tel:' + phone + '"'}>
         <span><img height={"24px"} align="left"  src={imageMap["phone"]}/></span>
-        &nbsp;+52{phone}
+        &nbsp;{phone}
       </a>
     </div>
   )
@@ -88,22 +87,14 @@ const Styles = {
 };
 
 InfoWindowDetail.propTypes = {
-  /* name,
-  type,
-  coordinates,
-  description,
-  phone1,
-  phone2,
-  address,
-  notes */
+  name: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
+  coordinates: PropTypes.array,
+  description: PropTypes.string,
+  phone1: PropTypes.string,
+  phone2: PropTypes.string,
+  address: PropTypes.string,
+  notes: PropTypes.string
 };
 
 export default InfoWindowDetail;
-
-
-// debugger
-/*
-        {phone2 &&      <div>{phone2}</div>}
-        {notes  &&      <div>{notes}</div>}
-
- */

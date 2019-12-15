@@ -27,7 +27,6 @@ function TijuanaMap() {
       defaultOptions={{mapTypeControl: false}}
     >
       {placemarks.map((place, index) => {
-     //   console.log(place);
         return (
         <Marker
           key={index}
@@ -51,14 +50,28 @@ function TijuanaMap() {
           >
             <div>
             <InfoWindowDetail {...selectedPlace} />
-            <div style={{backgroundColor: "red", color: "white", fontWeight: 700, fontSize: "150%", padding: "10px", margin: "5px", border: "1px solid white"}} onClick={()=>setSelectedPlace(null)}>CERRAR</div>
+            <div style={Styles.closeButton} onClick={()=>setSelectedPlace(null)}>CERRAR</div>
             </div>
           </InfoWindow>
-
         )
       }
     </GoogleMap>
   );
 }
+
+const Styles = {
+  closeButton: {
+    backgroundColor: "darkblue",
+    textAlign: "center",
+    color: "white",
+    fontWeight: 700,
+    fontSize: "150%",
+    padding: "10px",
+    margin: "15px auto",
+    border: "1px solid white",
+    borderRadius: "5px",
+    width: "50%"
+  }
+};
 
 export default withScriptjs(withGoogleMap(TijuanaMap));
