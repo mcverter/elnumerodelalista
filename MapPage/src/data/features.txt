@@ -1,0 +1,16 @@
+Familias
+Mujeres
+Ninos/Ninas
+Hombres
+LGBTQ+
+Servicios Legales
+Servicios Medicos
+Comida
+Accesso a Computadores
+Donaciones
+COLORS
+#000000
+LGBT+ 662e91
+Solteros 006ad7
+Familias f47b34
+Mujeres f779da

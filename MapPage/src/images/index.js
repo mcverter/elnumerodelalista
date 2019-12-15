@@ -1,11 +1,20 @@
-import foodIcon from './food2.png';
-import medicineIcon from './medicine2.png';
-import shelterIcon from './shelter2.png';
+import foodIcon from './comida.png';
+import medicineIcon from './medicos.png';
+import shelterFamilasIcon from './familias.png';
+import shelterLGBTQIcon from './lgbtq.png';
+import shelterSolterosIcon from './solteros.png';
+import shelterMujeresIcon from './mujeres.png';
+import shelterMenoresIcon from './menores.png';
+
 import phoneIcon from './phone.png';
 
 export default {
-  food : foodIcon,
-  medicine: medicineIcon,
-  shelter: shelterIcon,
-  phone: phoneIcon
+  "Comida" : foodIcon,
+  "Servicios Medicos": medicineIcon,
+  "Albergue: Familias": shelterFamilasIcon,
+  "Albergue: LGBTQ": shelterLGBTQIcon,
+  "Albergue: Solteros": shelterSolterosIcon,
+  "Albergue: Mujeres": shelterMujeresIcon,
+  "Albergue: Menores de Edad": shelterMenoresIcon,
+  "phone": phoneIcon
 }
