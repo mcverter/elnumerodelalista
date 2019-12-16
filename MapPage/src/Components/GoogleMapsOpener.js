@@ -10,7 +10,7 @@ const GoogleMapsOpener = (place) => {
       if (google_place_id) {
         placeURL += `&query_place_id=${encodeURIComponent(google_place_id)}`;
       }
-      window.location = placeURL;
+      window.open(placeURL, "_blank");
     };
 
     const directionsFromTo = ({fromLat, fromLng}) => {
@@ -19,7 +19,7 @@ const GoogleMapsOpener = (place) => {
         console.log("gpi", google_place_id)
         directionsURL += `&destination_id=${encodeURIComponent(google_place_id)}`;
       }
-      window.location = directionsURL
+      window.open(directionsURL, "_blank")
     };
 
     if (!navigator.geolocation) {
