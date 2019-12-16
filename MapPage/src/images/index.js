@@ -1,10 +1,10 @@
 import foodIcon from './comida.png';
 import medicineIcon from './medicos.png';
-import shelterFamilasIcon from './familias.png';
-import shelterLGBTQIcon from './lgbtq.png';
-import shelterSolterosIcon from './solteros.png';
-import shelterMujeresIcon from './mujeres.png';
-import shelterMenoresIcon from './menores.png';
+import shelterFamilasIcon from './familias.jpg';
+import shelterLGBTQIcon from './lgbtq.jpg';
+import shelterSolterosIcon from './solteros.jpg';
+import shelterMujeresIcon from './mujeres.jpg';
+import shelterMenoresIcon from './menores.jpg';
 
 import phoneIcon from './phone.png';
 
