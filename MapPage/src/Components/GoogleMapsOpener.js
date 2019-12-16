@@ -1,14 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const GoogleMapsOpener = ({coordinates, address, name}) => {
+const GoogleMapsOpener = (place) => {
+  const {coordinates, google_place_id, name, address} = place;
+  console.log("place", place);
   const openGoogleMaps = () => {
     const placeOnly = () => {
-      window.location = `https://www.google.com/maps/search/?api=1&query=${coordinates[1]},${coordinates[0]}&query_place_id=${encodeURIComponent(name)}+${encodeURIComponent(address)}`;
+      let placeURL = `https://www.google.com/maps/search/?api=1&query=${coordinates[1]},${coordinates[0]}`;
+      if (google_place_id) {
+        placeURL += `&query_place_id=${encodeURIComponent(google_place_id)}`;
+      }
+      window.location = placeURL;
     };
-    const directionsFromTo = ({fromLat, fromLng}) => {
 
-      window.location = `https://www.google.com/maps/dir/${fromLat},${fromLng}/${encodeURIComponent(name)}+${encodeURIComponent(address)}/@${coordinates[1]},${coordinates[0]},14z`
+    const directionsFromTo = ({fromLat, fromLng}) => {
+      let directionsURL = `https://www.google.com/maps/dir/?api=1&origin=${fromLat},${fromLng}&destination=${encodeURIComponent(name)}+${encodeURIComponent(address)}`;  //${coordinates[1]},${coordinates[0]}`;
+      if (google_place_id) {
+        console.log("gpi", google_place_id)
+        directionsURL += `&destination_id=${encodeURIComponent(google_place_id)}`;
+      }
+      window.location = directionsURL
     };
 
     if (!navigator.geolocation) {
@@ -18,6 +29,7 @@ const GoogleMapsOpener = ({coordinates, address, name}) => {
       console.log('Locating…');
       navigator.geolocation.getCurrentPosition(success, error);
     }
+
     function success(position) {
       const latitude  = position.coords.latitude;
       const longitude = position.coords.longitude;

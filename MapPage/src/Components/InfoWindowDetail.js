@@ -4,22 +4,24 @@ import ReactHtmlParser from 'react-html-parser';
 import imageMap from "../images";
 import GoogleMapsOpener from "./GoogleMapsOpener";
 
-const InfoWindowDetail = ({
-                            name,
-                            type,
-                            description,
-                            phone1,
-                            phone2,
-                            coordinates,
-                            address,
-                            notes
-                          }) => {
-  console.log( name, type, coordinates, description, phone1,phone2, address, notes);
+const InfoWindowDetail = (place) => {
+  const {
+    name,
+      type,
+      description,
+      phone1,
+      phone2,
+      coordinates,
+      address,
+      notes,
+      google_place_id,
+  } = place;
+  console.log( name, google_place_id, type, coordinates, description, phone1,phone2, address, notes);
 
   const renderAddress = () => (
     <div style={Styles.address}>
       <div>{address}</div>
-      <GoogleMapsOpener coordinates={coordinates} name={name} address={address}/>
+      <GoogleMapsOpener {...place}/>
     </div>
   );
 

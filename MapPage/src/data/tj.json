@@ -3,6 +3,7 @@
   "placemarks": [
     {
       "name": "Enclave Caracol",
+      "google_place_id": "ChIJZ1wZ4gBJ2YARWk0pwqi7jp8",
       "type": "Comida",
       "features": ["Accesso a Computadores", "Servicios Legales"],
       "coordinates": [-117.036088,32.537013],
@@ -14,6 +15,7 @@
     },
     {
       "name": "Comedor Contra Viento y Marea",
+      "google_place_id": "",
       "type": "Comida",
       "features": ["Accesso a Computadores", "Donaciones"],
       "coordinates": [-117.047227,32.535897],
@@ -23,6 +25,7 @@
     },
     {
       "name": "Espacio Migrante",
+      "google_place_id": "ChIJ4fG8sHtJ2YARFrfH8abHp2Q",
       "type": "Albergue: Familias",
       "features": ["Servicios Legales", "Servicios Medicos", "On parle FRANCAIS", "Nou pale KREYOL"],
       "description" : "<div>Lunes - Viernes de7AM-6PM y Sábado de 9AM-6PM</div> <ul><li>Taller gratuito sobre derechos de los migrantes y cómo presentar quejas</li><li>Acompañamiento legal por los migrantes en sus casos 9am - 5pm</li><li>Clases de idiomas (español e inglés)</li><li>Clases de computación</li><li>Clínica medica / servicios (2do piso, San Diego Border Dreamers) Lunes - viernes 9am- 2pm (provisionalmente se encuentran en Prevencasa)</li></ul>",
@@ -36,6 +39,7 @@
     },
     {
       "name": "Templo Embajadores De Jesús",
+      "google_place_id": "ChIJUXSOpiBK2YARCDKVIHgSAeA",
       "type": "Albergue: Familias",
       "coordinates": [-117.0797079,32.5078566],
       "address": "Calle Cañón del Alacrán 4094, Divina Providencia, 22000, Tijuana, MX",
@@ -44,6 +48,7 @@
     },
     {
       "name": "Pro Amore Dei",
+      "google_place_id": "ChIJZYlEJJhJ2YAR_WQMrFzU_B0",
       "type": "Albergue: Familias",
       "coordinates": [-117.0588042,32.5200195],
       "address": "Canon K 2306-2292, Patrimonial Benito Juárez, 22614, Tijuana, MX",
@@ -52,15 +57,17 @@
     },
     {
       "name": "Casa Del Deportation Sagrado Corazon",
+      "google_place_id": "ChIJvbftFg1J2YARijOKRwrfUI8",
       "type": "Albergue: Mujeres",
       "coordinates": [-117.0541606,32.5390823],
       "address": "Calle Ing. Fernando Sánchez Ayala, Zona Norte, Tijuana, MX",
       "phone1": "+52 664 114 8046",
       "websites": ["http://www.facebook.com/Casa-del-Deportado-Sagrado-Corazon-676817535708645",
- "https://www.google.com/maps/d/viewer?mid=1nrt9x8tGdAqiw7vP_YdICSVrQdMTam7j&ll=32.53908229999999%2C-117.05416059999999&z=9"]
+        "https://www.google.com/maps/d/viewer?mid=1nrt9x8tGdAqiw7vP_YdICSVrQdMTam7j&ll=32.53908229999999%2C-117.05416059999999&z=9"]
     },
     {
       "name": "Movimiento Juventud 2000 Secc. Tijuana AC",
+      "google_place_id": "ChIJC633HARJ2YAR6SKYsXauLs0",
       "type": "Albergue: Familias",
       "coordinates": [-117.0393728,32.5403182],
       "address": "Avenida Constitución 205, Zona Norte, 22000, Tijuana, MX",
@@ -70,6 +77,7 @@
     },
     {
       "name": "Desayunador Salesiano Padre Chava",
+      "google_place_id": "ChIJ5SIq3v9I2YARfSni0k-x6oI",
       "type": "Albergue: Solteros",
       "features": ["Comida: Desayuno Gratis"],
       "coordinates": [-117.032126,32.5367559],
@@ -80,15 +88,17 @@
     },
     {
       "name": "Programa YMCA de Desarrollo Comunitario y Asistencia Social, A.C.",
+      "google_place_id": "ChIJLUz6kzBI2YARjDLnHreFHqQ",
       "type": "Albergue: Menores de Edad",
       "coordinates": [-117.0226056,32.5119193],
       "address": "Blvd. Cuauhtemoc Sur 3170, Madero Sur, 22410, Tijuana, MX",
       "phone1": "+52 664 686 1359",
       "websites": ["http://www.ymca.org.mx/",
- "https://www.google.com/maps/d/viewer?mid=1nrt9x8tGdAqiw7vP_YdICSVrQdMTam7j&ll=32.51191930000004%2C-117.02260560000002&z=9"]
+        "https://www.google.com/maps/d/viewer?mid=1nrt9x8tGdAqiw7vP_YdICSVrQdMTam7j&ll=32.51191930000004%2C-117.02260560000002&z=9"]
     },
     {
       "name": "Ejercito De Salvación",
+      "google_place_id": "ChIJKba3hV5I2YAR1iuXz6fCASM",
       "type": "Albergue: Solteros",
       "coordinates": [-117.0124358,32.5353128],
       "address": "Av. Aquiles Serdan 11585, Colonia Libertad, Parte Baja, 22300, Tijuana, MX",
@@ -97,6 +107,7 @@
     },
     {
       "name": "Ejercito De Salvación Casa Puerta de Esperanza",
+      "google_place_id": "ChIJ3fFDU9xJ2YARSeh2Zwn55ow",
       "type": "Albergue: Mujeres",
       "coordinates": [-117.009651,32.530813],
       "address": "Calle 17 N 550, Buena Vista, Libertad, 22400, Tijuana, MX",
@@ -105,6 +116,7 @@
     },
     {
       "name": "Casa del Migrante",
+      "google_place_id": "ChIJdUzFv2xI2YARi8QKUo4bLHY",
       "type": "Albergue: Solteros",
       "coordinates": [-117.0017001,32.5228819],
       "address": "Calle Galileo 239, Postal López Leyva, 22416, Tijuana, MX",
@@ -113,15 +125,17 @@
     },
     {
       "name": "Instituto Madre Asunta",
+      "google_place_id": "ChIJVSjz7GxI2YARl1VyQO3I33A",
       "type": "Albergue: Mujeres",
       "coordinates": [-117.0013542,32.523395],
       "address": "Calle Galileo 2305, Buena Vista, López Leyva, 22416, Tijuana, MX",
       "phone1": "+52 664 683 0575",
       "websites": ["http://www.facebook.com/asuntatijuana",
-      "https://www.google.com/maps/d/viewer?mid=1nrt9x8tGdAqiw7vP_YdICSVrQdMTam7j&ll=32.52339500000002%2C-117.00135419999998&z=9"]
+        "https://www.google.com/maps/d/viewer?mid=1nrt9x8tGdAqiw7vP_YdICSVrQdMTam7j&ll=32.52339500000002%2C-117.00135419999998&z=9"]
     },
     {
       "name": "Volviendo a la Patria A.C. Centro para Migrantes",
+      "google_place_id": "",
       "type": "Albergue: Solteros",
       "coordinates": [-117.0001271,32.5359546],
       "address": "Calle 20 974, Libertad, 22400, Tijuana, MX",
@@ -130,6 +144,7 @@
     },
     {
       "name": "Casa De Oracion Del Migrante A.C.",
+      "google_place_id": "ChIJaZ1ezG9I2YARR_g0bTlezZg",
       "type": "Albergue: Solteros",
       "coordinates": [-116.9980122,32.530414],
       "address": "Esq. de Carlota Sosa y 1ra. Sur, Primera Sur 735, Buena Vista, Anexa del Río, 22405, Tijuana, MX",
@@ -138,6 +153,7 @@
     },
     {
       "name": "Leaked A.C. Simon Bolívar 12512",
+      "google_place_id": "",
       "type": "Albergue: Mujeres",
       "coordinates": [-116.9947589,32.5415204],
       "address": "Simón Bolívar 12512, Colonia Aeropuerto, Tijuana, MX",
@@ -146,6 +162,7 @@
     },
     {
       "name": "Mision Evangelica Roca de Salvacion A.C.",
+      "google_place_id": "",
       "type": "Albergue: Mujeres",
       "coordinates": [-116.9047369,32.4701767],
       "address": "Calle Huajicori 20704, Azteca Cañón 1 de La Raza, 22024, Tijuana, MX",
@@ -154,6 +171,7 @@
     },
     {
       "name": "Iglesia Cristiana Bautista Camino de Salvacion",
+      "google_place_id": "ChIJsQeDojs_2YARXAp9wLBnuLo",
       "type": "Albergue: Familias",
       "coordinates": [-116.8748933,32.5003809],
       "address": "Calle 9, El Pípila, Esquina Blvd. Casa Blanca, 22206, Tijuana, MX",
@@ -162,6 +180,7 @@
     },
     {
       "name": "Iglesia Casa de Dios",
+      "google_place_id": "",
       "type": "Albergue: Mujeres",
       "coordinates": [-116.8617021,32.4729917],
       "address": "Calle Nardo 9801, Florido III, Tijuana, MX",
@@ -170,6 +189,7 @@
     },
     {
       "name": "Hospital Guadalajara",
+      "google_place_id": "ChIJh_u5BwlJ2YAR_7aFpxX2ZsM",
       "type": "Servicios Medicos",
       "coordinates": [-117.0466197,32.5343723],
       "address": "Calle Benito Juárez 2da 1413, Tijuana, MX",
@@ -177,6 +197,7 @@
     },
     {
       "name": "Hospital México",
+      "google_place_id": "ChIJtZFQGP9I2YARxoPUNQ3UlVQ",
       "type": "Servicios Medicos",
       "coordinates": [-117.028058,32.5385205],
       "address": "Paseo Tijuana 9077, Col. Empleados Federales, Tijuana, MX",
@@ -184,6 +205,7 @@
     },
     {
       "name": "Centro de Rehabilitacion Jardin de las Mariposas, A.C.",
+      "google_place_id": "",
       "type": "Albergue: LGBTQ",
       "coordinates": [-117.032846,32.5198823],
       "address": "Av. De la Televisión 2711, Juárez, 22040, Tijuana, MX",
@@ -192,38 +214,43 @@
     },
     {
       "name": "La Roca",
+      "google_place_id": "ChIJGaKh-g5J2YARi4X94hCUBvk",
       "type": "Albergue: Familias",
-      "coordinates": [0,0],
+      "coordinates": [-117.0477621, 32.5390969],
       "address": "González Ortega 271, Zona Norte, Tijuana, BC, Mexico",
       "phone1": "+52 664 688 0190"
     },
     {
       "name": "AGAPE Misión Mundial",
+      "google_place_id": "ChIJGXlBrXkk-xQR_7PjxNvDfmE",
       "type": "Albergue: Familias",
-      "coordinates": [0,0],
+      "coordinates": [-117.0557352, 32.4825534],
       "address": "2da. Arnaiz 6013, Nueva Aurora Sur, 22604, Tijuana, BC, Mexico",
       "phone1": "+52 664 404 6361",
       "websites": ["https://www.google.com/maps/d/viewer?mid=1nrt9x8tGdAqiw7vP_YdICSVrQdMTam7j&ll=32.540318200000044%2C-117.03937280000002&z=10", "https://www.google.com/maps/d/viewer?mid=1nrt9x8tGdAqiw7vP_YdICSVrQdMTam7j&ll=32.422615429097085%2C-116.96524286112182&z=9"]
     },
     {
       "name": "Fundación Centro para Migrantes A.C.",
+      "google_place_id": "",
       "type": "Albergue: Familias",
-      "coordinates": [0,0],
+      "coordinates": [-116.9243474,32.4698196],
       "address": "Brisa 15, Bugambilia, Mariano Matamoros, Tijuana, BC, Mexico",
       "phone1": "+52 664 162 5581",
       "websites": ["https://www.google.com/maps/d/viewer?mid=1nrt9x8tGdAqiw7vP_YdICSVrQdMTam7j&ll=32.48107500000001%2C-116.88919729999998&z=9"]
     },
     {
       "name": "Clinica HFIT",
+      "google_place_id": "ChIJAwn9LgZJ2YARgdk1q_TSucc",
       "type": "Servicios Medicos",
-      "coordinates": [0,0],
-      "address": "Av. Mutualismo 711, Zona Centro, Tijuana, MX",
+      "coordinates": [-117.0457732,32.5358922],
+      "address": "Avenida Mutualismo 711, Zona Centro, Tijuana, MX",
       "phone1": "+52 664 638 4291"
     },
     {
       "name": "Prevencasa",
+      "google_place_id": "ChIJyR5_Qw9J2YARdFOcSejbGxs",
       "type": "Servicios Medicos",
-      "coordinates": [0,0],
+      "coordinates": [-117.0470867,32.538914],
       "address": "Baja California 7580, Zona Centro, Tijuana, MX",
       "phone1": "+52 664 685 3392",
       "description" : "<div>gratis lunes a viernes de 9am a 2pm</div>",
@@ -231,18 +258,20 @@
     },
     {
       "name": "Instituto Nadonal de Migración Oficina en Tijuana Puerta México",
+      "google_place_id": "ChIJIXIKEPxI2YAR4qDacRLGBGE",
       "type": "Official o ONG",
-      "coordinates": [0,0],
+      "coordinates": [-117.0247348,32.5238298],
       "address": "International Border Col. Federal C.P. 22310 Tijuana, B.C.",
-      "phone1": "+526646836101",
-      "phone2": "+526646824947",
+      "phone1": "+52 664 683 6101",
+      "phone2": "+52 664 682 4947",
       "notes": "<div>Email: <a href=\"mailto:bcdrbc@inami.gob.mx\">bcdrbc@inami.gob.mx</a></div>"
     },
     {
       "name": "Asylum Access",
+      "google_place_id": "ChIJkTvPeTZJ2YARYp_-4lhCApA",
       "type": "Official o ONG",
-      "coordinates": [0,0],
-      "address": "Avenida Revoludón No. 1129, Interior 215, Zona Centro, C.P. 22000, Tijuana, B.C.",
+      "coordinates": [-117.0389775,32.531605],
+      "address": "Avenida Revolución No. 1129, Interior 215, Zona Centro, C.P. 22000, Tijuana, B.C.",
       "phone1": "+526648218008",
       "description" : "<div><h2>Solicitando Asilo en México</h2><h5>NOTA: Si recibe el estado de asilo en México, puede afectar negativamente su asilo en E U.</h5><div>Para solicitar asilo, debe entregar una solicitud por escrito (o verbalmente si no puede presentarlo por escrito), y proporcionar su identificación y los motivos para apoyar su solicitud. Puede solicitar la condición de refugiado en la Comisión Mexicana de Ayuda a Refugiados (COMAR) (Ciudad de México), Acayucan (Veracruz),Tenosique (Tabasco),Tapachula (Chiapas) o en las Oficinas Reguladoras de Inmigración del Instituto Nacional de Migración. Debe entregar la solicitud dentro de los 30 días hábiles a partir de la fecha de ingreso al país. Si ha estado en México por más de 30 días, debe explicar por qué no pudo solicitar antes. Si no habla español, se le proporcionará un traductor o intérprete. La solicitud será revisada y resuelta dentro de 45 días hábiles a partir de la fecha de entrego.</div><div><ul> Al recibir el estado de asilo, debe recibir los siguientes derechos:<li>Servicios de salud</li><li>Educación y reconocimiento de tus estudios</li><li>El derecho al trabajo</li><li>Identidad y documentos de viaje emitidos por el Ministerio de Relaciones Exteriores y la capacidad de solicitar la reunificación familiar</li><li>Documento de inmigración que acredite su condición de residente permanente<li></ul></div><h3>Si necesita ayuda o tiene preguntas, comuniqúese con Asylum Access.</h3></div>",
       "websites": ["http://www.asylumaccess.org"]

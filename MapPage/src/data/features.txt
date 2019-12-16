@@ -14,3 +14,91 @@ LGBT+ 662e91
 Solteros 006ad7
 Familias f47b34
 Mujeres f779da
+
+
+
+/usr/local/bin/node /home/mitchell/ComputerScience_UBUNTU/elnumerodelalista/MapPage/src/data/dataUtils.js
+
+ChIJZ1wZ4gBJ2YARWk0pwqi7jp8
+Enclave Caracol, Calle Primera 8250, Zona Norte, Tijuana, MX
+
+None
+Comedor Contra Viento y Marea, 7310-A, Calle Primera, Zona Centro, Tijuana, MX
+
+ChIJ4fG8sHtJ2YARFrfH8abHp2Q
+Espacio Migrante, Avenida Miguel Negrete 8350, Zona Urbana Rio, 22010, Tijuana, MX
+
+ChIJUXSOpiBK2YARCDKVIHgSAeA
+Templo Embajadores De Jesús, Calle Cañón del Alacrán 4094, Divina Providencia, 22000, Tijuana, MX
+
+ChIJZYlEJJhJ2YAR_WQMrFzU_B0
+Pro Amore Dei, Canon K 2306-2292, Patrimonial Benito Juárez, 22614, Tijuana, MX
+
+ChIJvbftFg1J2YARijOKRwrfUI8
+Casa Del Deportation Sagrado Corazon, Calle Ing. Fernando Sánchez Ayala, Zona Norte, Tijuana, MX
+
+ChIJC633HARJ2YAR6SKYsXauLs0
+Movimiento Juventud 2000 Secc. Tijuana AC, Avenida Constitución 205, Zona Norte, 22000, Tijuana, MX
+
+Place ID: ChIJ5SIq3v9I2YARfSni0k-x6oI
+Desayunador Salesiano Padre Chava, Avenida Melchor Ocampo 700, Zona Centro, Zona Urbana Rio, 22000, Tijuana, MX
+
+Place ID: ChIJLUz6kzBI2YARjDLnHreFHqQ
+Programa YMCA de Desarrollo Comunitario y Asistencia Social, A.C., Blvd. Cuauhtemoc Sur 3170, Madero Sur, 22410, Tijuana, MX
+
+Place ID: ChIJKba3hV5I2YAR1iuXz6fCASM
+Ejercito De Salvación, Av. Aquiles Serdan 11585, Colonia Libertad, Parte Baja, 22300, Tijuana, MX
+
+Place ID: ChIJ3fFDU9xJ2YARSeh2Zwn55ow
+Ejercito De Salvación Casa Puerta de Esperanza, Calle 17 N 550, Buena Vista, Libertad, 22400, Tijuana, MX
+
+Place ID: ChIJdUzFv2xI2YARi8QKUo4bLHY
+Casa del Migrante, Calle Galileo 239, Postal López Leyva, 22416, Tijuana, MX
+
+ChIJVSjz7GxI2YARl1VyQO3I33A
+Instituto Madre Asunta, Calle Galileo 2305, Buena Vista, López Leyva, 22416, Tijuana, MX
+
+Volviendo a la Patria A.C. Centro para Migrantes, Calle 20 974, Libertad, 22400, Tijuana, MX
+
+ChIJaZ1ezG9I2YARR_g0bTlezZg
+Casa De Oracion Del Migrante A.C., Esq. de Carlota Sosa y 1ra. Sur, Primera Sur 735, Buena Vista, Anexa del Río, 22405, Tijuana, MX
+
+Leaked A.C. Simon Bolívar 12512, Simón Bolívar 12512, Colonia Aeropuerto, Tijuana, MX
+
+Mision Evangelica Roca de Salvacion A.C., Calle Huajicori 20704, Azteca Cañón 1 de La Raza, 22024, Tijuana, MX
+
+ChIJsQeDojs_2YARXAp9wLBnuLo
+Iglesia Cristiana Bautista Camino de Salvacion, Calle 9, El Pípila, Esquina Blvd. Casa Blanca, 22206, Tijuana, MX
+
+Iglesia Casa de Dios, Calle Nardo 9801, Florido III, Tijuana, MX
+
+ChIJh_u5BwlJ2YAR_7aFpxX2ZsM
+Hospital Guadalajara, Calle Benito Juárez 2da 1413, Tijuana, MX
+
+Place ID: ChIJtZFQGP9I2YARxoPUNQ3UlVQ
+
+Hospital México, Paseo Tijuana 9077, Col. Empleados Federales, Tijuana, MX
+
+Centro de Rehabilitacion Jardin de las Mariposas, A.C., Av. De la Televisión 2711, Juárez, 22040, Tijuana, MX
+
+Place ID: ChIJGaKh-g5J2YARi4X94hCUBvk
+La Roca, González Ortega 271, Zona Norte, Tijuana, BC, Mexico
+
+Place ID: ChIJGXlBrXkk-xQR_7PjxNvDfmE
+
+AGAPE Misión Mundial, 2da. Arnaiz 6013, Nueva Aurora Sur, 22604, Tijuana, BC, Mexico
+
+Fundación Centro para Migrantes A.C., Brisa 15, Bugambilia, Mariano Matamoros, Tijuana, BC, Mexico
+
+Place ID: ChIJAwn9LgZJ2YARgdk1q_TSucc
+Clinica HFIT, Avenida Mutualismo 711, Zona Centro, Tijuana, MX
+
+Place ID: ChIJyR5_Qw9J2YARdFOcSejbGxs
+Prevencasa, Baja California 7580, Zona Centro, Tijuana, MX
+Place ID: ChIJIXIKEPxI2YAR4qDacRLGBGE
+
+Instituto Nadonal de Migración Oficina en Tijuana Puerta México, International Border Col. Federal C.P. 22310 Tijuana, B.C.
+Place ID: ChIJkTvPeTZJ2YARYp_-4lhCApA
+Asylum Access, Avenida Revolución No. 1129, Interior 215, Zona Centro, C.P. 22000, Tijuana, B.C.
+
+Process finished with exit code 0
