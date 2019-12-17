@@ -1,7 +1,7 @@
 import React from 'react';
 import ExampleMap from "./Components/TijuanaMap";
 import './App.css';
-const GOOGLE_API_KEY="AIzaSyCijQaaubdCD5NduDUQBWEH7xJpm9TH6Do"
+import {GOOGLE_API_KEY} from './config';
 
 function App() {
   return (

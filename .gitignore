@@ -7,3 +7,4 @@ otherLanguages/
 node_modules/
 yarn.lock
 *.ini
+config/
