@@ -87,16 +87,6 @@
       "hours": "COMIDA GRATIS:  Desayuno Lunes-Sabado"
     },
     {
-      "name": "Programa YMCA de Desarrollo Comunitario y Asistencia Social, A.C.",
-      "google_place_id": "ChIJLUz6kzBI2YARjDLnHreFHqQ",
-      "type": "Albergue: Menores de Edad",
-      "coordinates": [-117.0226056,32.5119193],
-      "address": "Blvd. Cuauhtemoc Sur 3170, Madero Sur, 22410, Tijuana, MX",
-      "phone1": "+52 664 686 1359",
-      "websites": ["http://www.ymca.org.mx/",
-        "https://www.google.com/maps/d/viewer?mid=1nrt9x8tGdAqiw7vP_YdICSVrQdMTam7j&ll=32.51191930000004%2C-117.02260560000002&z=9"]
-    },
-    {
       "name": "Ejercito De Salvación",
       "google_place_id": "ChIJKba3hV5I2YAR1iuXz6fCASM",
       "type": "Albergue: Solteros",
