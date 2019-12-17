@@ -8,7 +8,6 @@ import {
 } from "react-google-maps";
 import imageMap from "../images";
 import axios from 'axios';
-
 // Should be passed in as prop
 import {placemarks} from "../data/tj";
 import InfoWindowDetail from "./InfoWindowDetail"

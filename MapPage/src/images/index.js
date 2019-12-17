@@ -7,6 +7,7 @@ import shelterMujeresIcon from './mujeres.jpg';
 import shelterMenoresIcon from './menores.jpg';
 import govermentIcon from './government.png';
 import phoneIcon from './phone.png';
+import ngoIcon from './ngo.png';
 
 export default {
   "Comida" : foodIcon,
@@ -18,5 +19,5 @@ export default {
   "Albergue: Menores de Edad": shelterMenoresIcon,
   "phone": phoneIcon,
   "Oficial": govermentIcon,
-  "ONG": govermentIcon
+  "ONG": ngoIcon
 }
