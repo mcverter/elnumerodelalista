@@ -1,5 +1,5 @@
 import React from 'react';
-import ExampleMap from "./Components/TijuanaMap";
+import ExampleMap from "./Components/TijuanaMap/index";
 import './App.css';
 import {GOOGLE_API_KEY} from './config';
 

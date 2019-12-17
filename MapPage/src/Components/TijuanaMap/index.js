@@ -6,11 +6,11 @@ import {
   withGoogleMap,
   withScriptjs
 } from "react-google-maps";
-import imageMap from "../images";
+import imageMap from "../../images/index";
 import axios from 'axios';
 // Should be passed in as prop
-import {placemarks} from "../data/tj";
-import InfoWindowDetail from "./InfoWindowDetail"
+import {placemarks} from "../../data/tj";
+import InfoWindowDetail from "../InfoWindowDetail"
 
 const TJ_ARCH_COORDS = {lat: 32.5364307, lng:-117.037085};
 const DEFAULT_ZOOM = 12;
