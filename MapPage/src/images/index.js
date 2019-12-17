@@ -5,7 +5,7 @@ import shelterLGBTQIcon from './lgbtq.jpg';
 import shelterSolterosIcon from './solteros.jpg';
 import shelterMujeresIcon from './mujeres.jpg';
 import shelterMenoresIcon from './menores.jpg';
-
+import govermentIcon from './government.png';
 import phoneIcon from './phone.png';
 
 export default {
@@ -16,5 +16,7 @@ export default {
   "Albergue: Solteros": shelterSolterosIcon,
   "Albergue: Mujeres": shelterMujeresIcon,
   "Albergue: Menores de Edad": shelterMenoresIcon,
-  "phone": phoneIcon
+  "phone": phoneIcon,
+  "Oficial": govermentIcon,
+  "ONG": govermentIcon
 }

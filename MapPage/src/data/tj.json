@@ -259,7 +259,7 @@
     {
       "name": "Instituto Nadonal de Migración Oficina en Tijuana Puerta México",
       "google_place_id": "ChIJIXIKEPxI2YAR4qDacRLGBGE",
-      "type": "Official o ONG",
+      "type": "Oficial",
       "coordinates": [-117.0247348,32.5238298],
       "address": "International Border Col. Federal C.P. 22310 Tijuana, B.C.",
       "phone1": "+52 664 683 6101",
@@ -269,7 +269,7 @@
     {
       "name": "Asylum Access",
       "google_place_id": "ChIJkTvPeTZJ2YARYp_-4lhCApA",
-      "type": "Official o ONG",
+      "type": "ONG",
       "coordinates": [-117.0389775,32.531605],
       "address": "Avenida Revolución No. 1129, Interior 215, Zona Centro, C.P. 22000, Tijuana, B.C.",
       "phone1": "+526648218008",
