@@ -7,17 +7,18 @@ import GoogleMapsOpener from "./GoogleMapsOpener";
 const InfoWindowDetail = (place) => {
   const {
     name,
-      type,
+    type,
     features,
-      description,
-      phone1,
-      phone2,
-      coordinates,
-      address,
-      notes,
-      google_place_id,
+    description,
+    phone1,
+    phone2,
+    coordinates,
+    address,
+    notes,
+    websites,
+    google_place_id,
   } = place;
-  console.log( name, google_place_id, type, coordinates, description, phone1,phone2, address, notes);
+  console.log( name, websites, google_place_id, type, coordinates, description, phone1,phone2, address, notes);
 
   const renderAddress = () => (
     <div style={Styles.address}>
@@ -40,6 +41,21 @@ const InfoWindowDetail = (place) => {
     </div>
   );
 
+  const renderWebsites = () => {
+    if (!websites || websites.length < 1) {
+      return "";
+    }
+    console.log(websites)
+    return (
+      <div style={Styles.websites}>
+        <h2> Sitios de Web</h2>
+      <ul>
+        {websites.map((w, idx) =>{
+          return (<li key={idx}><a href={w} >{w}</a></li>)})}
+      </ul>
+      </div>
+    )
+  }
   const renderPhone = phone => (
     <div style={Styles.phone}>
       <a style={Styles.phoneLink} href={'"tel:' + phone + '"'}>
@@ -55,6 +71,7 @@ const InfoWindowDetail = (place) => {
       {phone1 &&   renderPhone(phone1)}
       {phone2 &&   renderPhone(phone2)}
       {description && ReactHtmlParser(description)}
+      {websites && renderWebsites()}
       {notes && ReactHtmlParser(notes)}
     </div>
   );
@@ -85,6 +102,11 @@ const Styles = {
     fontSize: "125%",
   },
   phoneImg: {
+  },
+  websites: {
+    border: "2px solid darkred",
+    padding: "10px",
+    margin: "5px"
   },
   address: {
     fontSize: "125%",
