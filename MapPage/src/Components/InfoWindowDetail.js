@@ -8,6 +8,7 @@ const InfoWindowDetail = (place) => {
   const {
     name,
       type,
+    features,
       description,
       phone1,
       phone2,
@@ -25,10 +26,17 @@ const InfoWindowDetail = (place) => {
     </div>
   );
 
+  const listDetails = () => (
+    <ul>
+      <li style={{fontWeight: 600, color: "maroon"}}>{type}</li>
+      {features && features.forEach(f=>(<li>{f}</li>))}
+    </ul>
+  )
   const renderName = () => (
     <div style={Styles.name}>
       <span><img style={Styles.type} align="left" src={imageMap[type]} /></span>&nbsp;
       <span>{name}</span>
+      {listDetails({type, features})}
     </div>
   );
 
