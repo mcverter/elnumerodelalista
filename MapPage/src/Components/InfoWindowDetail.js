@@ -5,10 +5,6 @@ import {plainIcons} from "../images";
 import GoogleMapsOpener from "./GoogleMapsOpener";
 import Collapsible from 'react-collapsible';
 
-const foo = () => (
-  <Collapsible trigger="Start here">
-  </Collapsible>);
-
 const InfoWindowDetail = (place) => {
   const {
     name,
@@ -23,8 +19,7 @@ const InfoWindowDetail = (place) => {
     websites,
     google_place_id,
   } = place;
-//  console.log( name, websites, google_place_id, type, coordinates, description, phone1,phone2, address, notes);
-
+//
   const renderAddress = () => (
     <div className='iw-detail-address' >
       <div>{address}</div>
@@ -33,8 +28,7 @@ const InfoWindowDetail = (place) => {
   );
 
   const listCategories = () => {
-    console.log("list categories", features);
-    return ( <ul className='iw-detail-categories'>
+        return ( <ul className='iw-detail-categories'>
       {features && features.map((f, idx) => (<li key={idx}>{f}</li>))}
     </ul>);
   }
@@ -69,8 +63,7 @@ const InfoWindowDetail = (place) => {
 
 
   const renderRawHTMLInCollapsible = ({trigger, element}) => {
-    console.log("raw html", trigger, element);
-    return (
+        return (
       <div className="iw-detail-description"><Collapsible trigger={trigger}
       >{ReactHtmlParser(element)}</Collapsible></div>
     )
@@ -84,12 +77,13 @@ const InfoWindowDetail = (place) => {
   const renderPhone = phone => {
     function makePhoneCall() {
       window.open(`tel:${phone}`)
+      return false;
     }
 
     return (
-      <div className='iw-detail-phone' onClick={makePhoneCall()}>
-      <span><img align="left" src={plainIcons["phone"]}/></span>
-      &nbsp;{phone}
+      <div className='iw-detail-phone'>
+        <div><span><img align="left" src={plainIcons["phone"]}/></span>{phone}</div>
+        <div className='google-opener' onClick={makePhoneCall}>LLAMAR</div>
     </div>
     )};
 

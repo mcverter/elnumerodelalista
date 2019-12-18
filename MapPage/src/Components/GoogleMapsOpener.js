@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 const GoogleMapsOpener = (place) => {
   const {coordinates, google_place_id, name, address} = place;
-  console.log("place", place);
   const openGoogleMaps = () => {
     const placeOnly = () => {
       let placeURL = `https://www.google.com/maps/search/?api=1&query=${coordinates[1]},${coordinates[0]}`;
@@ -16,8 +15,7 @@ const GoogleMapsOpener = (place) => {
     const directionsFromTo = ({fromLat, fromLng}) => {
       let directionsURL = `https://www.google.com/maps/dir/?api=1&origin=${fromLat},${fromLng}&destination=${encodeURIComponent(name)}+${encodeURIComponent(address)}`;  //${coordinates[1]},${coordinates[0]}`;
       if (google_place_id) {
-        console.log("gpi", google_place_id)
-        directionsURL += `&destination_id=${encodeURIComponent(google_place_id)}`;
+                directionsURL += `&destination_id=${encodeURIComponent(google_place_id)}`;
       }
       window.open(directionsURL, "_blank")
     };

@@ -240,17 +240,19 @@ table {
     color: #09d3ac;
 }
 
-
-// Guttersnipe
+// Leaflet
 .leaflet-popup {
     width: 80vw;
     max-height: 50vh;
 }
 
 .leaflet-popup-content > div {
-    width: 76vw;
+    width: 70vw;
 }
-
+.leaflet-popup-close-button {
+  icon: url("./images/hearts.svg");
+}
+// Guttersnipe
 .google-opener {
     width: 80%;
     margin: 20px auto;
@@ -265,7 +267,7 @@ table {
 }
 
 .iw-detail-container {
-    width: 96%;
+    width: 80%;
     max-height: 50%;
     font-size: 1.5rem;
     overflow: scroll
@@ -330,16 +332,15 @@ table {
 }
 
 .map-popup-close-btn {
-    background-color: darkblue;
+    background-color: red;
     text-align: center;
     color: white;
     font-weight: 700;
-    font-size: 24em;
     padding: 10px;
     margin: 15px auto;
-    border: 1px solid white;
-    border-radius: 5px;
-    width: 50%;
+    border: 5px solid black;
+    border-radius: 50%;
+    max-width: 30%;
 }
 
 
