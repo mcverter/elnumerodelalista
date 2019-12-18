@@ -10,7 +10,7 @@ const LeafletMapCONSTs = () => {
 
   const position = [center.lat, center.lng]
   return (
-    <Map style={{height: "100%", width: "100%"}} center={position} zoom={zoom}>
+    <Map className="map" center={position} zoom={zoom}>
       <TileLayer  attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                   url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
@@ -36,18 +36,4 @@ const LeafletMapCONSTs = () => {
   );
 }
 
-const Styles = {
-  closeButton: {
-    backgroundColor: "darkblue",
-    textAlign: "center",
-    color: "white",
-    fontWeight: 700,
-    fontSize: "150%",
-    padding: "10px",
-    margin: "15px auto",
-    border: "1px solid white",
-    borderRadius: "5px",
-    width: "50%"
-  }
-}
 export default LeafletMapCONSTs;

@@ -17,6 +17,7 @@
   "homepage": "https://github.com/mcverter/elnumerodelalista#readme",
   "dependencies": {
     "leaflet": "^1.6.0",
+    "react-collapsible": "^2.6.2",
     "react-google-maps": "^9.4.5",
     "react-leaflet": "^2.6.1"
   }

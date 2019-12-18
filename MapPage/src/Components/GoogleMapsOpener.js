@@ -43,25 +43,10 @@ const GoogleMapsOpener = (place) => {
   };
 
   return (
-    <div style={Styles.googleOpener} onClick={()=>{openGoogleMaps()}}>
+    <div className="google-opener" onClick={()=>{openGoogleMaps()}}>
       DIRECCIONES
     </div>
   );
-};
-
-const Styles={
-  googleOpener: {
-    width: "80%",
-    margin: "20px auto",
-    backgroundColor: "green",
-    color: "white",
-    fontWeight: 900,
-    fontSize: "115%",
-    padding: "5px",
-    borderRadius: "5px",
-    border: "2px solid yellow",
-    textAlign: "center"
-  }
 };
 
 GoogleMapsOpener.propTypes = {
