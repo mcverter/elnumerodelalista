@@ -32,11 +32,12 @@ const InfoWindowDetail = (place) => {
     </div>
   );
 
-  const listCategories = () => (
-    <ul className='iw-detail-categories'>
-      {features && features.forEach(f=>(<li>{f}</li>))}
-    </ul>
-  )
+  const listCategories = () => {
+    console.log("list categories", features);
+    return ( <ul className='iw-detail-categories'>
+      {features && features.map((f, idx) => (<li key={idx}>{f}</li>))}
+    </ul>);
+  }
 
   const renderType = () => (
     <div className='iw-detail-type'>
@@ -58,7 +59,6 @@ const InfoWindowDetail = (place) => {
     }
     return (
       <Collapsible trigger="Sitios de Web" className='iw-detail-websites'>
-        <h2> Sitios de Web</h2>
         <ul>
           {websites.map((w, idx) =>{
             return (<li key={idx}><a href={w} target={"_blank"}>{w}</a></li>)})}
@@ -71,7 +71,7 @@ const InfoWindowDetail = (place) => {
   const renderRawHTMLInCollapsible = ({trigger, element}) => {
     console.log("raw html", trigger, element);
     return (
-      <div className=".iw-detail-description"><Collapsible trigger={trigger}
+      <div className="iw-detail-description"><Collapsible trigger={trigger}
       >{ReactHtmlParser(element)}</Collapsible></div>
     )
   };
@@ -79,15 +79,19 @@ const InfoWindowDetail = (place) => {
   const renderNotes = () =>  renderRawHTMLInCollapsible({trigger: "Notes", element: notes});
 
   const renderDescription = () => renderRawHTMLInCollapsible({trigger: "Descripcion", element: description});
+//       <a href={}>
 
-  const renderPhone = phone => (
-    <div  className='iw-detail-phone'  >
-      <a href={'"tel:' + phone + '"'}>
-        <span><img align="left"  src={plainIcons["phone"]}/></span>
-        &nbsp;{phone}
-      </a>
+  const renderPhone = phone => {
+    function makePhoneCall() {
+      window.open(`tel:${phone}`)
+    }
+
+    return (
+      <div className='iw-detail-phone' onClick={makePhoneCall()}>
+      <span><img align="left" src={plainIcons["phone"]}/></span>
+      &nbsp;{phone}
     </div>
-  );
+    )};
 
   return (
     <div  className='iw-detail-container'>

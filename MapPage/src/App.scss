@@ -141,6 +141,7 @@ table {
 // The main container element
 .Collapsible {
     background-color: $base;
+  padding: 5px;
 }
 
 
@@ -279,11 +280,12 @@ table {
 .iw-detail-name {
     font-weight: 700;
     border: 2px black solid;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
 .iw-detail-description {
     border: 2px solid olive;
+  padding: 5px;
 }
 
 .iw-detail-type-icon {
@@ -308,7 +310,7 @@ table {
 
 .iw-detail-websites {
     border: 2px solid darkred;
-    padding: 10px;
+    padding: 20px;
     margin: 5px;
     word-wrap: break-word
 }
@@ -341,3 +343,7 @@ table {
 }
 
 
+ul {
+  list-style-image: url(images/hearts.svg);
+  padding-left: 20px;
+}
