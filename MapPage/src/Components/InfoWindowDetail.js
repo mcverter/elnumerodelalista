@@ -79,7 +79,7 @@ const InfoWindowDetail = (place) => {
 
 const Styles = {
   detailsDiv: {
-    fontSize: "150%"
+    fontSize: "x-large"
   },
   name: {
     fontSize: "125%",
