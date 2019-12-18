@@ -51,7 +51,7 @@ const InfoWindowDetail = (place) => {
         <h2> Sitios de Web</h2>
       <ul>
         {websites.map((w, idx) =>{
-          return (<li key={idx}><a href={w} >{w}</a></li>)})}
+          return (<li key={idx}><a href={w} target={"_blank"}>{w}</a></li>)})}
       </ul>
       </div>
     )
@@ -119,8 +119,8 @@ const Styles = {
 };
 
 InfoWindowDetail.propTypes = {
-  name: PropTypes.string.isRequired,
-  type: PropTypes.string.isRequired,
+  name: PropTypes.string,
+  type: PropTypes.string,
   coordinates: PropTypes.array,
   description: PropTypes.string,
   phone1: PropTypes.string,

@@ -8,8 +8,16 @@ import shelterMenoresIcon from './menores.jpg';
 import govermentIcon from './government.png';
 import phoneIcon from './phone.png';
 import ngoIcon from './ngo.png';
+import {Icon} from 'leaflet';
 
-export default {
+const objectMap = (obj, fn) =>
+  Object.fromEntries(
+    Object.entries(obj).map(
+      ([k, v], i) => [k, fn(v, k, i)]
+    )
+  )
+
+const icons = {
   "Comida" : foodIcon,
   "Servicios Medicos": medicineIcon,
   "Albergue: Familias": shelterFamilasIcon,
@@ -20,4 +28,8 @@ export default {
   "phone": phoneIcon,
   "Oficial": govermentIcon,
   "ONG": ngoIcon
-}
+};
+
+const leafletIcons = objectMap(icons, i=> new Icon({iconUrl: i}));
+
+export default leafletIcons;

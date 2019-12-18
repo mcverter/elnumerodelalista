@@ -33,7 +33,6 @@ const GoogleMapsOpener = (place) => {
     function success(position) {
       const latitude  = position.coords.latitude;
       const longitude = position.coords.longitude;
-      console.log("position", latitude, longitude);
       return directionsFromTo({fromLat: latitude, fromLng: longitude});
     }
 
