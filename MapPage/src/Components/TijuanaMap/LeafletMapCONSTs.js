@@ -26,7 +26,7 @@ const LeafletMapCONSTs = () => {
           >
             <Tooltip>{place.name}</Tooltip>
             <Popup>
-              <div>
+              <div id="foobar">
                 <InfoWindowDetail {...selectedPlace} />
               </div>
             </Popup>

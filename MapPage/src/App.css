@@ -24,3 +24,7 @@
 .leaflet-popup {
   width: 80vw;
 }
+
+ .leaflet-popup-content > div {
+  width: 76vw;
+}
