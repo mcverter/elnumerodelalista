@@ -80,7 +80,7 @@ const InfoWindowDetail = (place) => {
 const Styles = {
   detailsDiv: {
     width: "96%",
-    fontSize: "x-large",
+    fontSize: "xx-large",
     overflow: "scroll"
   },
   name: {
