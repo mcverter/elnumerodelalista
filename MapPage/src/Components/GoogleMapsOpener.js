@@ -51,13 +51,13 @@ const GoogleMapsOpener = (place) => {
 
 const Styles={
   googleOpener: {
-    width: "75%",
+    width: "80%",
     margin: "20px auto",
     backgroundColor: "green",
     color: "white",
     fontWeight: 900,
-    fontSize: "125%",
-    padding: "10px",
+    fontSize: "115%",
+    padding: "5px",
     borderRadius: "5px",
     border: "2px solid yellow",
     textAlign: "center"

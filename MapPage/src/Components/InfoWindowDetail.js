@@ -78,9 +78,11 @@ const InfoWindowDetail = (place) => {
 };
 
 const Styles = {
-  detailsDiv: {},
+  detailsDiv: {
+    fontSize: "150%"
+  },
   name: {
-    fontSize: "175%",
+    fontSize: "125%",
     fontWeight: 700,
     border: "2px black solid",
     padding: "5px",
@@ -99,7 +101,7 @@ const Styles = {
     color: "green",
     textDecoration: "none",
     fontWeight: 500,
-    fontSize: "125%",
+//    fontSize: "125%",
   },
   phoneImg: {
   },
@@ -109,7 +111,7 @@ const Styles = {
     margin: "5px"
   },
   address: {
-    fontSize: "125%",
+//    fontSize: "125%",
     fontWeight: 500,
     border: "2px blue solid",
     padding: "5px",

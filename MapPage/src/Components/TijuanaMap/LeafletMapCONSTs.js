@@ -25,7 +25,7 @@ const LeafletMapCONSTs = () => {
             onClick={() => setSelectedPlace(place)}
           >
             <Tooltip>{place.name}</Tooltip>
-            <Popup>
+            <Popup style={{width: "80%"}}>
               <div>
                 <InfoWindowDetail {...selectedPlace} />
               </div>
