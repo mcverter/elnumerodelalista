@@ -89,7 +89,6 @@ const Styles = {
   type: {
     height: "24px"
   },
-  description: {},
   phone: {
     border: "2px solid green",
     padding: "5px",
@@ -101,12 +100,11 @@ const Styles = {
     fontWeight: 500,
     fontSize: "125%",
   },
-  phoneImg: {
-  },
   websites: {
     border: "2px solid darkred",
     padding: "10px",
-    margin: "5px"
+    margin: "5px",
+    wordWrap: "break"
   },
   address: {
     fontSize: "125%",
