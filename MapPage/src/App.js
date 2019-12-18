@@ -1,6 +1,6 @@
 import React from 'react';
 import GuttersnipeMap from "./Components/TijuanaMap/index";
-import './App.css';
+import './App.scss';
 import {GOOGLE_API_KEY} from './config';
 
 function App() {

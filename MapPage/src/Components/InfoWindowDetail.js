@@ -78,10 +78,11 @@ const InfoWindowDetail = (place) => {
       {address &&  renderAddress()}
       {phone1 &&   renderPhone(phone1)}
       {phone2 &&   renderPhone(phone2)}
-      {description && <Collapsible trigger="Descripcion"
->ReactHtmlParser(description)</Collapsible>}
+      {description && <div className=".iw-detail-description"><Collapsible  trigger="Descripcion"
+      >{ReactHtmlParser(description)}</Collapsible></div>}
       {websites && renderWebsites()}
-      {notes && ReactHtmlParser(notes)}
+      {notes && <Collapsible trigger="Notes"
+      >{ReactHtmlParser(notes)}</Collapsible>}
     </div>
   );
 };
