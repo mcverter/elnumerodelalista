@@ -270,14 +270,16 @@ table {
     overflow: scroll
 }
 
-.iw-detail-categories {
+.iw-detail-categories, .iw-detail-type  {
     font-weight: 600;
     color: maroon
 }
 
+
 .iw-detail-name {
     font-weight: 700;
     border: 2px black solid;
+    padding-left: 5px;
 }
 
 .iw-detail-description {
@@ -293,8 +295,10 @@ table {
     padding: 5px;
     margin: 5px
 }
-.iw-detail-phone > img {
-    height: 24px;
+.iw-detail-phone > a > span > img {
+    height: 1.5rem;
+    position: relative;
+    top: 2px;
 }
 .iw-detail-phone > a {
     color: green;

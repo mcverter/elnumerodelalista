@@ -23,7 +23,7 @@ const InfoWindowDetail = (place) => {
     websites,
     google_place_id,
   } = place;
-  console.log( name, websites, google_place_id, type, coordinates, description, phone1,phone2, address, notes);
+//  console.log( name, websites, google_place_id, type, coordinates, description, phone1,phone2, address, notes);
 
   const renderAddress = () => (
     <div className='iw-detail-address' >
@@ -34,17 +34,21 @@ const InfoWindowDetail = (place) => {
 
   const listCategories = () => (
     <ul className='iw-detail-categories'>
-      <li>{type}</li>
       {features && features.forEach(f=>(<li>{f}</li>))}
     </ul>
   )
+
+  const renderType = () => (
+    <div className='iw-detail-type'>
+      <span> <img  className='iw-detail-type-icon' align="left" src={plainIcons[type]} /></span>&nbsp;
+      <span>{type}</span>
+    </div>
+  );
   const renderName = () => (
     <div  className='iw-detail-name'>
-      <span>
-        <img  className='iw-detail-type-icon' align="left" src={plainIcons[type]} />
-      </span>&nbsp;
       <span>{name}</span>
-      {listCategories({type, features})}
+      {renderType()}
+      {listCategories()}
     </div>
   );
 
@@ -53,15 +57,28 @@ const InfoWindowDetail = (place) => {
       return "";
     }
     return (
-        <Collapsible trigger="Sitios de Web" className='iw-detail-websites'>
+      <Collapsible trigger="Sitios de Web" className='iw-detail-websites'>
         <h2> Sitios de Web</h2>
         <ul>
           {websites.map((w, idx) =>{
             return (<li key={idx}><a href={w} target={"_blank"}>{w}</a></li>)})}
         </ul>
-        </Collapsible>
+      </Collapsible>
     )
   };
+
+
+  const renderRawHTMLInCollapsible = ({trigger, element}) => {
+    console.log("raw html", trigger, element);
+    return (
+      <div className=".iw-detail-description"><Collapsible trigger={trigger}
+      >{ReactHtmlParser(element)}</Collapsible></div>
+    )
+  };
+
+  const renderNotes = () =>  renderRawHTMLInCollapsible({trigger: "Notes", element: notes});
+
+  const renderDescription = () => renderRawHTMLInCollapsible({trigger: "Descripcion", element: description});
 
   const renderPhone = phone => (
     <div  className='iw-detail-phone'  >
@@ -78,11 +95,9 @@ const InfoWindowDetail = (place) => {
       {address &&  renderAddress()}
       {phone1 &&   renderPhone(phone1)}
       {phone2 &&   renderPhone(phone2)}
-      {description && <div className=".iw-detail-description"><Collapsible  trigger="Descripcion"
-      >{ReactHtmlParser(description)}</Collapsible></div>}
+      {description && renderDescription(description)}
       {websites && renderWebsites()}
-      {notes && <Collapsible trigger="Notes"
-      >{ReactHtmlParser(notes)}</Collapsible>}
+      {notes && renderNotes(notes)}
     </div>
   );
 };
