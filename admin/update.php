@@ -12,12 +12,14 @@ if ((isset($_SERVER["CONTENT_TYPE"])) && $_SERVER["CONTENT_TYPE"] == "applicatio
     $json = file_get_contents('php://input');
     $data = json_decode($json, true);
     $update_number = $data["update_number"];
+    error_log("UPDATE.PHP Change number: JSON: $json, NUMBER, $update_number, Date " . date("F j, Y, g:i a e O"));
 } 
 elseif ((isset($_POST["update_number"])) && !empty($_POST["update_number"])) {
-   $update_number = $_POST["update_number"];
+    $update_number = $_POST["update_number"];
+    error_log("UPDATE.PHP Change number JSON: $json, NUMBER, $update_number, Date " . date("F j, Y, g:i a e O"));
 }
 if ((isset($update_number)) && !empty($update_number)) {
-   error_log("update.php: Number being updated to {$update_number}");
+   error_log("UPDATE.PHP : Number being updated to {$update_number}, Date " . date("F j, Y, g:i a e O"));
     $query = "INSERT INTO dn (list_date, list_number) VALUES ('{$tj_date}', {$update_number}) ON CONFLICT (list_date) DO NOTHING";
     $result = queryDB($connection, $query);
 }
