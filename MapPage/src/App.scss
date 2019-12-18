@@ -141,7 +141,7 @@ table {
 // The main container element
 .Collapsible {
     background-color: $base;
-  padding: 5px;
+    padding: 5px;
 }
 
 
@@ -241,16 +241,23 @@ table {
 }
 
 // Leaflet
+$leaflet_popup_width: 40vw;
+
 .leaflet-popup {
-    width: 80vw;
+    width: $leaflet_popup_width + 3;
     max-height: 50vh;
 }
 
 .leaflet-popup-content > div {
-    width: 70vw;
+    width: $leaflet_popup_width;
 }
-.leaflet-popup-close-button {
-  icon: url("./images/hearts.svg");
+.leaflet-container a.leaflet-popup-close-button {
+    //  icon: url("./images/hearts.svg");
+    font-size: 300%;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    right: 15px;
 }
 // Guttersnipe
 .google-opener {
@@ -287,7 +294,7 @@ table {
 
 .iw-detail-description {
     border: 2px solid olive;
-  padding: 5px;
+    padding: 5px;
 }
 
 .iw-detail-type-icon {
@@ -336,15 +343,16 @@ table {
     text-align: center;
     color: white;
     font-weight: 700;
+    font-size: 200%;
     padding: 10px;
     margin: 15px auto;
     border: 5px solid black;
-    border-radius: 50%;
-    max-width: 30%;
+    border-radius: 20%;
+    max-width: 50%;
 }
 
 
 ul {
-  list-style-image: url(images/hearts.svg);
-  padding-left: 20px;
+    list-style-image: url(images/hearts.svg);
+    padding-left: 20px;
 }
