@@ -16,6 +16,8 @@
   },
   "homepage": "https://github.com/mcverter/elnumerodelalista#readme",
   "dependencies": {
-    "react-google-maps": "^9.4.5"
+    "leaflet": "^1.6.0",
+    "react-google-maps": "^9.4.5",
+    "react-leaflet": "^2.6.1"
   }
 }
