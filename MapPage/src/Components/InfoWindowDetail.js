@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ReactHtmlParser from 'react-html-parser';
-import imageMap from "../images";
+import {plainIcons} from "../images";
 import GoogleMapsOpener from "./GoogleMapsOpener";
 
 const InfoWindowDetail = (place) => {
@@ -35,7 +35,7 @@ const InfoWindowDetail = (place) => {
   )
   const renderName = () => (
     <div style={Styles.name}>
-      <span><img style={Styles.type} align="left" src={imageMap[type]} /></span>&nbsp;
+      <span><img style={Styles.type} align="left" src={plainIcons[type]} /></span>&nbsp;
       <span>{name}</span>
       {listDetails({type, features})}
     </div>
@@ -59,7 +59,7 @@ const InfoWindowDetail = (place) => {
   const renderPhone = phone => (
     <div style={Styles.phone}>
       <a style={Styles.phoneLink} href={'"tel:' + phone + '"'}>
-        <span><img height={"24px"} align="left"  src={imageMap["phone"]}/></span>
+        <span><img height={"24px"} align="left"  src={plainIcons["phone"]}/></span>
         &nbsp;{phone}
       </a>
     </div>

@@ -17,7 +17,7 @@ const objectMap = (obj, fn) =>
     )
   )
 
-const icons = {
+export const plainIcons = {
   "Comida" : foodIcon,
   "Servicios Medicos": medicineIcon,
   "Albergue: Familias": shelterFamilasIcon,
@@ -30,6 +30,5 @@ const icons = {
   "ONG": ngoIcon
 };
 
-const leafletIcons = objectMap(icons, i=> new Icon({iconUrl: i}));
+export const leafletIcons = objectMap(plainIcons, i=> new Icon({iconUrl: i}));
 
-export default leafletIcons;

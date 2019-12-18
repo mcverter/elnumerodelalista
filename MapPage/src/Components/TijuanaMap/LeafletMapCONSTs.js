@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {Marker, Map, TileLayer, Popup, Tooltip} from 'react-leaflet';
-import images from "../../images/index";
+import {leafletIcons} from "../../images/index";
 import InfoWindowDetail from "../InfoWindowDetail"
 import {shareables, center, zoom} from './constants';
 
@@ -21,7 +21,7 @@ const LeafletMapCONSTs = () => {
             key={index}
             position={markerPosition}
             label={""}
-            icon={images[place.type]}
+            icon={leafletIcons[place.type]}
             onClick={() => setSelectedPlace(place)}
           >
             <Tooltip>{place.name}</Tooltip>
