@@ -5,7 +5,9 @@ import shelterLGBTQIcon from './lgbtq.jpg';
 import shelterSolterosIcon from './solteros.jpg';
 import shelterMujeresIcon from './mujeres.jpg';
 import shelterMenoresIcon from './menores.jpg';
-import govermentIcon from './government.png';
+//import govermentIcon from './government.png';
+//import embassyIcon from './embassy.png';
+import parliamentIcon from './parliament.png'
 import phoneIcon from './phone.png';
 import ngoIcon from './ngo.png';
 import {Icon} from 'leaflet';
@@ -26,7 +28,7 @@ export const plainIcons = {
   "Albergue: Mujeres": shelterMujeresIcon,
   "Albergue: Menores de Edad": shelterMenoresIcon,
   "phone": phoneIcon,
-  "Oficial": govermentIcon,
+  "Oficial": parliamentIcon,
   "ONG": ngoIcon
 };
 
