@@ -241,15 +241,15 @@ table {
 }
 
 // Leaflet
-$leaflet_popup_width: 40vw;
+$leaflet_popup_width: 55vw;
 
 .leaflet-popup {
-    width: $leaflet_popup_width + 3;
+    width: $leaflet_popup_width;
     max-height: 50vh;
 }
 
 .leaflet-popup-content > div {
-    width: $leaflet_popup_width;
+    width: $leaflet_popup_width - 3;
 }
 .leaflet-container a.leaflet-popup-close-button {
     //  icon: url("./images/hearts.svg");
@@ -276,7 +276,7 @@ $leaflet_popup_width: 40vw;
 .iw-detail-container {
     width: 80%;
     max-height: 50%;
-    font-size: 1.5rem;
+    font-size: 2rem;
     overflow: scroll
 }
 
