@@ -44,7 +44,7 @@ $tj_date = (new DateTime("now", new DateTimeZone('America/Tijuana') ))->format('
 */
 error_log("UPDATE called ON" . $tj_date .
     "; REQUEST_METHOD: ". $_SERVER['REQUEST_METHOD'] .
-    "; HTTP REQUEST" . $_SERVER['HTTP_ACCEPT'] .
+    "; HTTP ACCEPT" . $_SERVER['HTTP_ACCEPT'] .
     "; HTTP_USER_AGENT" . $_SERVER['HTTP_USER_AGENT'] .
     "; HTTP_REFERER" . $_SERVER['HTTP_REFERER'] .
     "; REMOTE_ADDR" . $_SERVER['REMOTE_ADDR'] .
