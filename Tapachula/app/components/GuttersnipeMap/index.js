@@ -1,5 +1,6 @@
+import React from 'react';
 import GuttersnipeMap from './GuttersnipeMap';
-import {shareables, center, zoom} from '../../../../../src/Components/TijuanaMap/constants';
+import {shareables, center, zoom} from './constants';
 
 const SpecificMap = () => (
   <GuttersnipeMap shareable={shareables} center={center} zoom={zoom}/>

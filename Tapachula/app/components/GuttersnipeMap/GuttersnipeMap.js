@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {Marker, Map, TileLayer, Popup, Tooltip} from 'react-leaflet';
-import {leafletIcons} from "../../../../images";
-import InfoWindowDetail from "../../../../Components/InfoWindowDetail"
+import {leafletIcons} from "../../../../MapPage/src/images";
+import InfoWindowDetail from "../../../../MapPage/src/Components/InfoWindowDetail"
 const popup = React.createRef();
 
 const GuttersnipeMap = ({height, width, shareables, center, zoom}) => {
@@ -14,7 +14,7 @@ const GuttersnipeMap = ({height, width, shareables, center, zoom}) => {
       <TileLayer  attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                   url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      {shareables.map((place, index) => {
+      {shareables && shareables.map((place, index) => {
         const markerPosition = [place.coordinates[1], place.coordinates[0]];
         function closePopup() {
           popup.current.leafletElement.options.leaflet.map.closePopup();
