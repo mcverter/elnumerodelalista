@@ -1,25 +1,75 @@
 <?php
 require_once(dirname(__FILE__) .  "/../db/database.php");
+$tj_date = (new DateTime("now", new DateTimeZone('America/Tijuana') ))->format('Y-m-d');
+/* $indicesServer = array('PHP_SELF',
+    'argv',
+    'argc',
+    'GATEWAY_INTERFACE',
+    'SERVER_ADDR',
+    'SERVER_NAME',
+    'SERVER_SOFTWARE',
+    'SERVER_PROTOCOL',
+    'REQUEST_METHOD',
+    'REQUEST_TIME',
+    'REQUEST_TIME_FLOAT',
+    'QUERY_STRING',
+    'DOCUMENT_ROOT',
+    'HTTP_ACCEPT',
+    'HTTP_ACCEPT_CHARSET',
+    'HTTP_ACCEPT_ENCODING',
+    'HTTP_ACCEPT_LANGUAGE',
+    'HTTP_CONNECTION',
+    'HTTP_HOST',
+    'HTTP_REFERER',
+    'HTTP_USER_AGENT',
+    'HTTPS',
+    'REMOTE_ADDR',
+    'REMOTE_HOST',
+    'REMOTE_PORT',
+    'REMOTE_USER',
+    'REDIRECT_REMOTE_USER',
+    'SCRIPT_FILENAME',
+    'SERVER_ADMIN',
+    'SERVER_PORT',
+    'SERVER_SIGNATURE',
+    'PATH_TRANSLATED',
+    'SCRIPT_NAME',
+    'REQUEST_URI',
+    'PHP_AUTH_DIGEST',
+    'PHP_AUTH_USER',
+    'PHP_AUTH_PW',
+    'AUTH_TYPE',
+    'PATH_INFO',
+    'ORIG_PATH_INFO') ;
+*/
+error_log("UPDATE called ON" . $tj_date .
+    "; REQUEST_METHOD: ". $_SERVER['REQUEST_METHOD'] .
+    "; HTTP REQUEST" . $_SERVER['HTTP_ACCEPT'] .
+    "; HTTP_USER_AGENT" . $_SERVER['HTTP_USER_AGENT'] .
+    "; HTTP_REFERER" . $_SERVER['HTTP_REFERER'] .
+    "; REMOTE_ADDR" . $_SERVER['REMOTE_ADDR'] .
+    "; REMOTE_HOST" . $_SERVER['REMOTE_HOST'] .
+    "; REQUEST_URI" . $_SERVER['REQUEST_URI']);
+
 $connection = db_connect();
 if (!$connection) {
     die("Site unable to connect to db ");
 }
 
-$tj_date = (new DateTime("now", new DateTimeZone('America/Tijuana') ))->format('Y-m-d');
 
 
 if ((isset($_SERVER["CONTENT_TYPE"])) && $_SERVER["CONTENT_TYPE"] == "application/json") {
     $json = file_get_contents('php://input');
     $data = json_decode($json, true);
     $update_number = $data["update_number"];
-    error_log("UPDATE -- Change number: JSON: $json, NUMBER, $update_number, Date " . date("F j, Y, g:i a e O"));
+    error_log("UPDATE -- Change number: JSON: $json, NUMBER, $update_number, Date " . $tjdate);
 } 
 elseif ((isset($_POST["update_number"])) && !empty($_POST["update_number"])) {
     $update_number = $_POST["update_number"];
-    error_log("UPDATE -- Change number JSON: $json, NUMBER, $update_number, Date " . date("F j, Y, g:i a e O"));
+    error_log("UPDATE -- Change number JSON: $json, NUMBER, $update_number, Date " . $tjdate);
 }
 if ((isset($update_number)) && !empty($update_number)) {
-   error_log("UPDATE -- Number being updated to {$update_number}, Date " . date("F j, Y, g:i a e O"));
+   error_log("UPDATE -- Number being updated to {$update_number}, Date " . $tjdate);
     $query = "INSERT INTO dn (list_date, list_number) VALUES ('{$tj_date}', {$update_number}) ON CONFLICT (list_date) DO NOTHING";
     $result = queryDB($connection, $query);
 }
