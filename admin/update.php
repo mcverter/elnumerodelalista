@@ -86,14 +86,14 @@ if (getContentType($tj_date) ==  "application/json") {
     $json = file_get_contents('php://input');
     $data = json_decode($json, true);
     $update_number = $data["update_number"];
-    error_log("UPDATE -- Change number: JSON: $json, NUMBER, $update_number, Date " . $tjdate);
+    error_log("UPDATE -- Change number: JSON: $json, NUMBER, $update_number, Date " . $tj_date);
 }
 elseif ((isset($_POST["update_number"])) && !empty($_POST["update_number"])) {
     $update_number = $_POST["update_number"];
-    error_log("UPDATE -- Change number JSON: $json, NUMBER, $update_number, Date " . $tjdate);
+    error_log("UPDATE -- PHP POST, NUMBER, $update_number, Date " . $tj_date);
 }
 if ((isset($update_number)) && !empty($update_number)) {
-    error_log("UPDATE -- Number being updated to {$update_number}, Date " . $tjdate);
+    error_log("UPDATE -- Number being updated to {$update_number}, Date " . $tj_date);
     $query = "INSERT INTO dn (list_date, list_number) VALUES ('{$tj_date}', {$update_number}) ON CONFLICT (list_date) DO NOTHING";
     $result = queryDB($connection, $query);
 }
