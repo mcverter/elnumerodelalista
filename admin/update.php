@@ -42,11 +42,37 @@ $tj_date = (new DateTime("now", new DateTimeZone('America/Tijuana') ))->format('
     'PATH_INFO',
     'ORIG_PATH_INFO') ;
 */
-echo("UPDATE called ON" . $tj_date . print_r($_SERVER, true));
+function getContentType($date) {
+    $contentType = null;
+    $headers = apache_request_headers();
+    foreach ($headers as $header => $value) {
+        error_log ("UPDATE. $date Date, $date $header: $value <br />\n");
+    }
+    if (isset($_SERVER["HTTP_CONTENT_TYPE"])) {
+        $contentType = $_SERVER["HTTP_CONTENT_TYPE"];
+        error_log($date . "in update HTTP_CONTENT_TYPE. It is " . $contentType);
+    }
+    if (!$contentType && isset($_SERVER["CONTENT_TYPE"])) {
+        $contentType = $_SERVER["CONTENT_TYPE"];
+        error_log($date . "in update CONTENT_TYPE. It is " . $contentType);
+    }
+    if (!$contentType &&
+        (isset($headers["HTTP_CONTENT_TYPE"]))) {
+        $contentType = $headers["HTTP_CONTENT_TYPE"];
+        error_log($date . "in update headers HTTP_CONTENT_TYPE. It is " . $contentType);
+    }
+    if (!$contentType && isset($headers["CONTENT_TYPE"])) {
+        $contentType = $headers["CONTENT_TYPE"];
+        error_log($date . "in update headers CONTENT_TYPE. It is " . $contentType);
+    }
+    return $contentType;
+}
+
+error_log("UPDATE called ON" . $tj_date . print_r($_SERVER, true));
 if (isset($_SERVER["CONTENT_TYPE"])) {
-    echo("CONTENT_TYPE " . $tj_date . ",  " . $_SERVER["CONTENT_TYPE"]);
+    error_log("CONTENT_TYPE " . $tj_date . ",  " . $_SERVER["CONTENT_TYPE"]);
 } else {
-    echo("CONTENT_TYPE NOT SET" . $tj_date);
+    error_log("CONTENT_TYPE NOT SET" . $tj_date);
 
 }
 $connection = db_connect();
@@ -54,20 +80,20 @@ if (!$connection) {
     die("Site unable to connect to db ");
 }
 
+if (getContentType($tj_date) ==  "application/json") {
 
-
-if ((isset($_SERVER["CONTENT_TYPE"])) && $_SERVER["CONTENT_TYPE"] == "application/json") {
+//if ((isset($_SERVER["CONTENT_TYPE"])) && $_SERVER["CONTENT_TYPE"] == "application/json") {
     $json = file_get_contents('php://input');
     $data = json_decode($json, true);
     $update_number = $data["update_number"];
     error_log("UPDATE -- Change number: JSON: $json, NUMBER, $update_number, Date " . $tjdate);
-} 
+}
 elseif ((isset($_POST["update_number"])) && !empty($_POST["update_number"])) {
     $update_number = $_POST["update_number"];
     error_log("UPDATE -- Change number JSON: $json, NUMBER, $update_number, Date " . $tjdate);
 }
 if ((isset($update_number)) && !empty($update_number)) {
-   error_log("UPDATE -- Number being updated to {$update_number}, Date " . $tjdate);
+    error_log("UPDATE -- Number being updated to {$update_number}, Date " . $tjdate);
     $query = "INSERT INTO dn (list_date, list_number) VALUES ('{$tj_date}', {$update_number}) ON CONFLICT (list_date) DO NOTHING";
     $result = queryDB($connection, $query);
 }
