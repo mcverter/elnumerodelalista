@@ -1,0 +1,22 @@
+// COLLAPSIBLE
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,700italic,400italic);
+
+$yellow:  rgb(248, 159, 0);
+$cyan:    rgb(0, 172, 157);
+$grey:    rgb(51, 51, 51);
+$black:   rgb(38, 38, 38);
+$base:    rgb(255, 255, 255);
+$lightGrey:    rgb(235, 235, 235);
+
+$BASE_FONT_SIZE: 16px;
+
+$breakpointMega: 1600px;
+$breakpointLarge: 990px;
+$breakpointMed: 767px;
+
+@function rem($sizeValue: 1.6) {
+
+    $value: strip-unit($sizeValue / $BASE_FONT_SIZE);
+
+    @return $value + rem;
+}
