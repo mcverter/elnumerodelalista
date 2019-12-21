@@ -1,47 +1,7 @@
 <?php
 require_once(dirname(__FILE__) .  "/../db/database.php");
 $tj_date = (new DateTime("now", new DateTimeZone('America/Tijuana') ))->format('Y-m-d');
-/* $indicesServer = array('PHP_SELF',
-    'argv',
-    'argc',
-    'GATEWAY_INTERFACE',
-    'SERVER_ADDR',
-    'SERVER_NAME',
-    'SERVER_SOFTWARE',
-    'SERVER_PROTOCOL',
-    'REQUEST_METHOD',
-    'REQUEST_TIME',
-    'REQUEST_TIME_FLOAT',
-    'QUERY_STRING',
-    'DOCUMENT_ROOT',
-    'HTTP_ACCEPT',
-    'HTTP_ACCEPT_CHARSET',
-    'HTTP_ACCEPT_ENCODING',
-    'HTTP_ACCEPT_LANGUAGE',
-    'HTTP_CONNECTION',
-    'HTTP_HOST',
-    'HTTP_REFERER',
-    'HTTP_USER_AGENT',
-    'HTTPS',
-    'REMOTE_ADDR',
-    'REMOTE_HOST',
-    'REMOTE_PORT',
-    'REMOTE_USER',
-    'REDIRECT_REMOTE_USER',
-    'SCRIPT_FILENAME',
-    'SERVER_ADMIN',
-    'SERVER_PORT',
-    'SERVER_SIGNATURE',
-    'PATH_TRANSLATED',
-    'SCRIPT_NAME',
-    'REQUEST_URI',
-    'PHP_AUTH_DIGEST',
-    'PHP_AUTH_USER',
-    'PHP_AUTH_PW',
-    'AUTH_TYPE',
-    'PATH_INFO',
-    'ORIG_PATH_INFO') ;
-*/
+
 function getContentType($date) {
     $contentType = null;
     $headers = apache_request_headers();
@@ -49,21 +9,28 @@ function getContentType($date) {
         error_log ("UPDATE. $date Date, $date $header: $value <br />\n");
     }
     if (isset($_SERVER["HTTP_CONTENT_TYPE"])) {
-        $contentType = $_SERVER["HTTP_CONTENT_TYPE"];
+        if(!$contentType) {
+            $contentType = $_SERVER["HTTP_CONTENT_TYPE"];
+        }
         error_log($date . "in update HTTP_CONTENT_TYPE. It is " . $contentType);
     }
-    if (!$contentType && isset($_SERVER["CONTENT_TYPE"])) {
-        $contentType = $_SERVER["CONTENT_TYPE"];
+    if (isset($_SERVER["CONTENT_TYPE"])) {
+        if(!$contentType) {
+            $contentType = $_SERVER["CONTENT_TYPE"];
+        }
         error_log($date . "in update CONTENT_TYPE. It is " . $contentType);
     }
-    if (!$contentType &&
-        (isset($headers["HTTP_CONTENT_TYPE"]))) {
-        $contentType = $headers["HTTP_CONTENT_TYPE"];
-        error_log($date . "in update headers HTTP_CONTENT_TYPE. It is " . $contentType);
+    if ((isset($headers["Http-Content-Type"]))) {
+        if(!$contentType) {
+            $contentType = $headers["Http-Content-Type"];
+        }
+        error_log($date . "in update headers Http-Content-Type. It is " . $contentType);
     }
-    if (!$contentType && isset($headers["CONTENT_TYPE"])) {
-        $contentType = $headers["CONTENT_TYPE"];
-        error_log($date . "in update headers CONTENT_TYPE. It is " . $contentType);
+    if (isset($headers["Content-Type"])) {
+        if(!$contentType) {
+            $contentType = $headers["Content-Type"];
+        }
+        error_log($date . "in update headers Content-Type. It is " . $contentType);
     }
     return $contentType;
 }
