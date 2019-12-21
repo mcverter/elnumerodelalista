@@ -42,15 +42,13 @@ $tj_date = (new DateTime("now", new DateTimeZone('America/Tijuana') ))->format('
     'PATH_INFO',
     'ORIG_PATH_INFO') ;
 */
-error_log("UPDATE called ON" . $tj_date .
-    "; REQUEST_METHOD: ". $_SERVER['REQUEST_METHOD'] .
-    "; HTTP ACCEPT" . $_SERVER['HTTP_ACCEPT'] .
-    "; HTTP_USER_AGENT" . $_SERVER['HTTP_USER_AGENT'] .
-    "; HTTP_REFERER" . $_SERVER['HTTP_REFERER'] .
-    "; REMOTE_ADDR" . $_SERVER['REMOTE_ADDR'] .
-    "; REMOTE_HOST" . $_SERVER['REMOTE_HOST'] .
-    "; REQUEST_URI" . $_SERVER['REQUEST_URI']);
+echo("UPDATE called ON" . $tj_date . print_r($_SERVER, true));
+if (isset($_SERVER["CONTENT_TYPE"])) {
+    echo("CONTENT_TYPE " . $tj_date . ",  " . $_SERVER["CONTENT_TYPE"]);
+} else {
+    echo("CONTENT_TYPE NOT SET" . $tj_date);
 
+}
 $connection = db_connect();
 if (!$connection) {
     die("Site unable to connect to db ");
