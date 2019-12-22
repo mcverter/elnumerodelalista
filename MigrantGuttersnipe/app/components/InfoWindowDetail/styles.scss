@@ -2,14 +2,14 @@
   width: 80%;
   max-height: 50%;
   font-size: 2rem;
-  overflow: scroll
+  overflow: scroll;
 }
 
-.iw-detail-categories, .iw-detail-type  {
+.iw-detail-categories,
+.iw-detail-type {
   font-weight: 600;
-  color: maroon
+  color: maroon;
 }
-
 
 .iw-detail-name {
   font-weight: 700;
@@ -23,13 +23,13 @@
 }
 
 .iw-detail-type-icon {
-  height: 24px
+  height: 24px;
 }
 
 .iw-detail-phone {
   border: 2px solid green;
   padding: 5px;
-  margin: 5px
+  margin: 5px;
 }
 .iw-detail-phone > a > span > img {
   height: 1.5rem;
@@ -46,34 +46,38 @@
   border: 2px solid darkred;
   padding: 20px;
   margin: 5px;
-  word-wrap: break-word
+  word-wrap: break-word;
 }
 
 .iw-detail-address {
   font-weight: 500;
   border: 2px blue solid;
   padding: 5px;
-  margin: 5px
+  margin: 5px;
 }
 
-.iw-detail-notes {}
+.iw-detail-notes {
+}
 
 ul {
   list-style-image: url('../../images/hearts.svg');
   padding-left: 20px;
 }
 
-
-
 // COLLAPSIBLE
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,700italic,400italic);
+@import url(
+  https://fonts.googleapis.com/css?family=Roboto:400,
+  700,
+  700italic,
+  400italic
+);
 
-$yellow:  rgb(248, 159, 0);
-$cyan:    rgb(0, 172, 157);
-$grey:    rgb(51, 51, 51);
-$black:   rgb(38, 38, 38);
-$base:    rgb(255, 255, 255);
-$lightGrey:    rgb(235, 235, 235);
+$yellow: rgb(248, 159, 0);
+$cyan: rgb(0, 172, 157);
+$grey: rgb(51, 51, 51);
+$black: rgb(38, 38, 38);
+$base: rgb(255, 255, 255);
+$lightGrey: rgb(235, 235, 235);
 
 $BASE_FONT_SIZE: 16px;
 
@@ -81,13 +85,11 @@ $breakpointMega: 1600px;
 $breakpointLarge: 990px;
 $breakpointMed: 767px;
 
-
 html {
   font-size: $BASE_FONT_SIZE;
 }
 
 @function rem($sizeValue: 1.6) {
-
   $value: strip-unit($sizeValue / $BASE_FONT_SIZE);
 
   @return $value + rem;
@@ -98,7 +100,6 @@ html {
   background-color: $base;
   padding: 5px;
 }
-
 
 //The content within the collaspable area
 .Collapsible__contentInner {
@@ -129,7 +130,6 @@ html {
   background: $cyan;
   color: white;
 
-
   &:after {
     font-family: 'FontAwesome';
     content: '\f107';
@@ -155,8 +155,6 @@ html {
 .CustomTriggerCSS {
   background-color: lightcoral;
   transition: background-color 200ms ease;
-
-
 }
 
 .CustomTriggerCSS--open {
@@ -166,8 +164,6 @@ html {
 .Collapsible__custom-sibling {
   padding: 5px;
   font-size: 12px;
-  background-color: #CBB700;
+  background-color: #cbb700;
   color: black;
 }
-
-

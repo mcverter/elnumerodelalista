@@ -1,23 +1,29 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const GoogleMapsOpener = (place) => {
+const GoogleMapsOpener = place => {
   const { coordinates, google_place_id, name, address } = place;
   const openGoogleMaps = () => {
     const placeOnly = () => {
-      let placeURL = `https://www.google.com/maps/search/?api=1&query=${coordinates[1]},${coordinates[0]}`;
+      let placeURL = `https://www.google.com/maps/search/?api=1&query=${
+        coordinates[1]
+      },${coordinates[0]}`;
       if (google_place_id) {
         placeURL += `&query_place_id=${encodeURIComponent(google_place_id)}`;
       }
-      window.open(placeURL, "_blank");
+      window.open(placeURL, '_blank');
     };
 
-    const directionsFromTo = ({fromLat, fromLng}) => {
-      let directionsURL = `https://www.google.com/maps/dir/?api=1&origin=${fromLat},${fromLng}&destination=${encodeURIComponent(name)}+${encodeURIComponent(address)}`;  //${coordinates[1]},${coordinates[0]}`;
+    const directionsFromTo = ({ fromLat, fromLng }) => {
+      let directionsURL = `https://www.google.com/maps/dir/?api=1&origin=${fromLat},${fromLng}&destination=${encodeURIComponent(
+        name,
+      )}+${encodeURIComponent(address)}`; //${coordinates[1]},${coordinates[0]}`;
       if (google_place_id) {
-        directionsURL += `&destination_id=${encodeURIComponent(google_place_id)}`;
+        directionsURL += `&destination_id=${encodeURIComponent(
+          google_place_id,
+        )}`;
       }
-      window.open(directionsURL, "_blank")
+      window.open(directionsURL, '_blank');
     };
 
     if (!navigator.geolocation) {
@@ -29,9 +35,9 @@ const GoogleMapsOpener = (place) => {
     }
 
     function success(position) {
-      const latitude  = position.coords.latitude;
+      const latitude = position.coords.latitude;
       const longitude = position.coords.longitude;
-      return directionsFromTo({fromLat: latitude, fromLng: longitude});
+      return directionsFromTo({ fromLat: latitude, fromLng: longitude });
     }
 
     function error() {
@@ -41,18 +47,20 @@ const GoogleMapsOpener = (place) => {
   };
 
   return (
-    <div className="google-opener" onClick={()=>{openGoogleMaps()}}>
+    <div
+      className="google-opener"
+      onClick={() => {
+        openGoogleMaps();
+      }}
+    >
       DIRECCIONES
     </div>
   );
 };
 
-GoogleMapsOpener.propTypes = {
-};
+GoogleMapsOpener.propTypes = {};
 
 export default GoogleMapsOpener;
-
-
 
 /*
 https://www.google.com/maps/place/Desayunador+Salesiano+Padre+Chava/@32.5367559,-117.0343147,17z/data=!3m1!4b1!4m5!3m4!1s0x80d948ffde2a22e5:0x82eab14fd2e2297d!8m2!3d32.5367559!4d-117.032126

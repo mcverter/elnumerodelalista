@@ -9,18 +9,20 @@
 
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-
-import HomePage from 'containers/Tijuana';
+import Tijuana from '../../containers/Tijuana';
+import HomePage from '../../containers/HomePage';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
 import GlobalStyle from '../../global-styles';
-
+console.log('mr app');
 export default function App() {
+  console.log('I am very happy to see you mr app');
+  debugger;
   return (
     <div>
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route component={NotFoundPage} />
+        <Route component={Tijuana} />
       </Switch>
       <GlobalStyle />
     </div>

@@ -38,7 +38,7 @@ import { translationMessages } from './i18n';
 const initialState = {};
 const store = configureStore(initialState, history);
 const MOUNT_NODE = document.getElementById('app');
-
+console.log('hello world from app.js');
 const render = messages => {
   ReactDOM.render(
     <Provider store={store}>
