@@ -12,10 +12,9 @@ module.exports = options => ({
     {
       // Compile into js/build.js
       path: path.resolve(process.cwd(), 'build'),
-      publicPath: './',
-    },
-    options.output,
-  ), // Merge with env dependent settings
+      publicPath: (process.env.NODE_ENV==='development'?'/':'./'),
+    }, options.output),
+  // Merge with env dependent settings
   optimization: options.optimization,
   module: {
     rules: [

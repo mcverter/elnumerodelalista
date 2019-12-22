@@ -23,7 +23,7 @@ module.exports = require('./webpack.base.babel')({
   },
 
   optimization: {
-    minimize: true,
+    minimize: false,
     minimizer: [
       new TerserPlugin({
         terserOptions: {
@@ -142,6 +142,7 @@ module.exports = require('./webpack.base.babel')({
       hashDigestLength: 20,
     }),
   ],
+  devtool: 'eval-source-map',
 
   performance: {
     assetFilter: assetFilename =>
