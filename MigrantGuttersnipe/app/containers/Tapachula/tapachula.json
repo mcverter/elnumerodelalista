@@ -203,122 +203,94 @@
       "description": "",
       "hours": ""
     },{
-      "name": "Colectivo Kaltsilaltik. 963 135 9422
-      ",
+      "name": "Colectivo Kaltsilaltik",
       "google_place_id": "",
       "type": "",
       "features": [],
       "coordinates": [],
       "address": "",
+      "phones": ["963 135 9422"],
+      "description": "",
+      "hours": ""
+    },{
+      "name": "Centro de Atención y Defensoria de los Derechos de las Mujeres en las Migraciones 'La Morada'",
+      "google_place_id": "",
+      "type": "",
+      "features": [],
+      "coordinates": [],
+      "address": "3a Av. Oriente Norte, Barrio La Pila, ",
+      "phones": ["963 632 8400 "],
+      "description": "lamoradacomitan@gmail.com",
+      "hours": ""
+    },{
+      "name": "Voces Mesoamericanas - Acción con Pueblos Migrantes",
+      "google_place_id": "",
+      "type": "",
+      "features": [],
+      "coordinates": [],
+      "address": "Francisco Villa N° 10, Barrio de Fatima",
+      "phones": ["01 967 674 7811"],
+      "description": "",
+      "hours": ""
+    },{
+      "name": "Casa del Migrante San Martín de Porres",
+      "google_place_id": "",
+      "type": "",
+      "features": [],
+      "coordinates": [],
+      "address": "Prolongación Insurgentes N° 87",
+      "phones": ["01 967 678 2776"],
+      "description": "",
+      "hours": ""
+    },{
+      "name": "Formación y Capacitación A.C. Julio M. Corzo",
+
+      "google_place_id": "",
+      "type": "",
+      "features": [],
+      "coordinates": [],
+      "address": "33 Barrio de Santa Lucía.",
+      "phones": ["967 674 5310"],
+      "description": "",
+      "hours": ""
+    },{
+      "name": "Casa del Caminante Jtatic Samuel Ruiz",
+      "google_place_id": "",
+      "type": "",
+      "features": [],
+      "coordinates": [],
+      "address": "Pasa la vía, Xkichan, mano izquierda, 1o A,cuadra a la derecha",
       "phones": [],
       "description": "",
       "hours": ""
     },{
-      "name": "Centro de Atención y Defensoria de los Derechos de las Mujeres en las Migraciones "La Morada" 3a Av. Oriente Norte, Barrio La Pila, 963 632 8400 lamoradacomitan@gmail.com",
+      "name": "Casa del Caminante, ",
       "google_place_id": "",
       "type": "",
       "features": [],
       "coordinates": [],
-      "address": "",
+      "address": "Barrio San Francisco, Col. Pakal-ná",
       "phones": [],
       "description": "",
       "hours": ""
     },{
-      "name": "Voces Mesoamericanas - Acción con Pueblos Migrantes
-      Francisco Villa N° 10, Barrio de Fatima,
-      01 967 674 7811
-      ",
+      "name": "Albergue Hermanos en el Camino A.C.",
       "google_place_id": "",
       "type": "",
       "features": [],
       "coordinates": [],
-      "address": "",
-      "phones": [],
+      "address": "Av. Ferrocarril Pte. N° 60, Barrio de La Soledad",
+      "phones": ["01	971 1034385"],
       "description": "",
       "hours": ""
     },{
-      "name": "Casa del Migrante
-      San Martín de Porres
-      Prolongación Insurgentes N° 87.
-      01 967 678 2776
-      ",
+      "name": "La 72, Hogar Refugio para Personas Migrantes",
       "google_place_id": "",
       "type": "",
       "features": [],
       "coordinates": [],
-      "address": "",
-      "phones": [],
-      "description": "",
-      "hours": ""
-    },{
-      "name": "Formación y Capacitación A.C.
-      Julio M. Corzo
-      33 Barrio de Santa Lucía.
-      967 674 5310
-      ",
-      "google_place_id": "",
-      "type": "",
-      "features": [],
-      "coordinates": [],
-      "address": "",
-      "phones": [],
-      "description": "",
-      "hours": ""
-    },{
-      "name": "Casa del Caminante
-      Jtatic Samuel Ruiz
-      Pasa la vía,
-      Xkichan, mano izquierda, 1o A,
-      cuadra a la derecha,
-      ",
-      "google_place_id": "",
-      "type": "",
-      "features": [],
-      "coordinates": [],
-      "address": "",
-      "phones": [],
-      "description": "",
-      "hours": ""
-    },{
-      "name": "Casa del Caminante,
-      Barrio San Francisco,
-      Col. Pakal-ná.
-      ",
-      "google_place_id": "",
-      "type": "",
-      "features": [],
-      "coordinates": [],
-      "address": "",
-      "phones": [],
-      "description": "",
-      "hours": ""
-    },{
-      "name": "Albergue Hermanos en el Camino A.C.
-      Av. Ferrocarril Pte. N° 60,
-      Barrio de La Soledad.
-      01	971 1034385.
-      ",
-      "google_place_id": "",
-      "type": "",
-      "features": [],
-      "coordinates": [],
-      "address": "",
-      "phones": [],
-      "description": "",
-      "hours": ""
-    },{
-      "name": "La 72,
-      Hogar Refugio para Personas Migrantes.
-      Estación Nueva N° 86901,
-      Tenosique de Pino Suárez.
-      01 934 342 1111
-      ",
-      "google_place_id": "",
-      "type": "",
-      "features": [],
-      "coordinates": [],
-      "address": "",
-      "phones": [],
+      "address": "Estación Nueva N° 86901, Tenosique de Pino Suárez.",
+      "phones": ["01 934 342 1111"],
       "description": "",
       "hours": ""
     },{
