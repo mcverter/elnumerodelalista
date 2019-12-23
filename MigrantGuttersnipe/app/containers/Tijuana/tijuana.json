@@ -71,8 +71,8 @@
       "type": "Albergue: Familias",
       "coordinates": [-117.0393728,32.5403182],
       "address": "Avenida Constitución 205, Zona Norte, 22000, Tijuana, MX",
-      "phones": ["+52 664 210 0302", "+52 664 166 9704]",
-      "websites": ["http://www.facebook.com/MovimientoJuventud2000", "https://www.google.com/maps/d/viewer?mid=1nrt9x8tGdAqiw7vP_YdICSVrQdMTam7j&ll=32.540318200000044%2C-117.03937280000002&z=10"]
+      "phones": ["+52 664 210 0302", "+52 664 166 9704"],
+      "websites":["http://www.facebook.com/MovimientoJuventud2000","https://www.google.com/maps/d/viewer?mid=1nrt9x8tGdAqiw7vP_YdICSVrQdMTam7j&ll=32.540318200000044%2C-117.03937280000002&z=10"]
     },
     {
       "name": "Desayunador Salesiano Padre Chava",
