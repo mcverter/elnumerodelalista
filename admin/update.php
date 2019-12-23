@@ -3,12 +3,12 @@ require_once(dirname(__FILE__) .  "/../db/database.php");
 
 $update_number = null;
 $tj_date = (new DateTime("now", new DateTimeZone('America/Tijuana') ))->format('Y-m-d');
-$phpInput = file_get_contents('php://input');
+# $phpInput = file_get_contents('php://input');
 $headers = apache_request_headers();
 
 error_log ("UPDATE $tj_date  apache_request_headers". ${print_r($headers, true)} );
 error_log("UPDATE " . $tj_date . print_r($_SERVER, true));
-error_log("UPDATE " . $tj_date . ",  php input $phpInput" );
+# error_log("UPDATE " . $tj_date . ",  php input $phpInput" );
 
 function getContentType() {
     global $tj_date;
