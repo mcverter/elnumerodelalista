@@ -1,68 +1,87 @@
 <?php
 require_once(dirname(__FILE__) .  "/../db/database.php");
-$tj_date = (new DateTime("now", new DateTimeZone('America/Tijuana') ))->format('Y-m-d');
 
-function getContentType($date) {
+$update_number = null;
+$tj_date = (new DateTime("now", new DateTimeZone('America/Tijuana') ))->format('Y-m-d');
+$phpInput = file_get_contents('php://input');
+$headers = apache_request_headers();
+
+error_log ("UPDATE $tj_date  apache_request_headers". ${print_r($headers, true)} );
+error_log("UPDATE " . $tj_date . print_r($_SERVER, true));
+error_log("UPDATE " . $tj_date . ",  php input $phpInput" );
+
+function getContentType() {
+    global $tj_date;
+    global $headers;
     $contentType = null;
-    $headers = apache_request_headers();
-    foreach ($headers as $header => $value) {
-        error_log ("UPDATE. $date Date, $date $header: $value <br />\n");
-    }
+
     if (isset($_SERVER["HTTP_CONTENT_TYPE"])) {
         if(!$contentType) {
             $contentType = $_SERVER["HTTP_CONTENT_TYPE"];
         }
-        error_log($date . "in update HTTP_CONTENT_TYPE. It is " . $contentType);
+        error_log($tj_date . "in update HTTP_CONTENT_TYPE. It is " . $contentType);
     }
     if (isset($_SERVER["CONTENT_TYPE"])) {
         if(!$contentType) {
             $contentType = $_SERVER["CONTENT_TYPE"];
         }
-        error_log($date . "in update CONTENT_TYPE. It is " . $contentType);
+        error_log($tj_date . "in update CONTENT_TYPE. It is " . $contentType);
     }
     if ((isset($headers["Http-Content-Type"]))) {
         if(!$contentType) {
             $contentType = $headers["Http-Content-Type"];
         }
-        error_log($date . "in update headers Http-Content-Type. It is " . $contentType);
+        error_log($tj_date . "in update headers Http-Content-Type. It is " . $contentType);
     }
     if (isset($headers["Content-Type"])) {
         if(!$contentType) {
             $contentType = $headers["Content-Type"];
         }
-        error_log($date . "in update headers Content-Type. It is " . $contentType);
+        error_log($tj_date . "in update headers Content-Type. It is " . $contentType);
+    }
+    if (!$contentType) {
+        error_log("UPDATE $tj_date header for Content Type not found");
     }
     return $contentType;
 }
 
-error_log("UPDATE called ON" . $tj_date . print_r($_SERVER, true));
-if (isset($_SERVER["CONTENT_TYPE"])) {
-    error_log("CONTENT_TYPE " . $tj_date . ",  " . $_SERVER["CONTENT_TYPE"]);
-} else {
-    error_log("CONTENT_TYPE NOT SET" . $tj_date);
+function isNodeRequest() {
+    global $headers;
+    global $tj_date;
 
+    $http_user_agent = $_SERVER["HTTP_USER_AGENT"];
+    $user_agent = $headers['user-agent'];
+    error_log("UPDATE $tj_date isNodeRequest.  HTTP_USER_AGENT $http_user_agent. USER_AGENT $user_agent");
+
+    if ($http_user_agent && strpos($http_user_agent, "node-fetch") !== false) {
+        return true;
+    }
+    if ($user_agent && strpos($user_agent, "node-fetch") !== false) {
+        return true;
+    }
+    return false;
 }
+
+
+
 $connection = db_connect();
 if (!$connection) {
     die("Site unable to connect to db ");
 }
 
-$phpInput = file_get_contents('php://input');
-
-error_log("UPDATE " . $tj_date . ",  php input $phpInput" );
-
-
-if (getContentType($tj_date) ==  "application/json") {
-
-//if ((isset($_SERVER["CONTENT_TYPE"])) && $_SERVER["CONTENT_TYPE"] == "application/json") {
+if ((isset($_POST["update_number"])) && !empty($_POST["update_number"])) {
+    $update_number = $_POST["update_number"];
+    error_log("UPDATE -- PHP POST, NUMBER, $update_number, Date " . $tj_date);
+} elseif (getContentType() ==  "application/json") {
     $json = file_get_contents('php://input');
     $data = json_decode($json, true);
     $update_number = $data["update_number"];
     error_log("UPDATE -- Change number: JSON: $json, NUMBER, $update_number, Date " . $tj_date);
-}
-elseif ((isset($_POST["update_number"])) && !empty($_POST["update_number"])) {
-    $update_number = $_POST["update_number"];
-    error_log("UPDATE -- PHP POST, NUMBER, $update_number, Date " . $tj_date);
+} elseif (isNodeRequest()) {
+    $json = file_get_contents('php://input');
+    $data = json_decode($json, true);
+    $update_number = $data["update_number"];
+    error_log("UPDATE -- Is FetchNode Change number: JSON: $json, NUMBER, $update_number, Date " . $tj_date);
 }
 
 if ((isset($update_number)) && !empty($update_number)) {
