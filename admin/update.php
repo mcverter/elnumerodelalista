@@ -47,6 +47,11 @@ if (!$connection) {
     die("Site unable to connect to db ");
 }
 
+$phpInput = file_get_contents('php://input');
+
+error_log("UPDATE " . $tj_date . ",  php input $phpInput" );
+
+
 if (getContentType($tj_date) ==  "application/json") {
 
 //if ((isset($_SERVER["CONTENT_TYPE"])) && $_SERVER["CONTENT_TYPE"] == "application/json") {
@@ -59,6 +64,7 @@ elseif ((isset($_POST["update_number"])) && !empty($_POST["update_number"])) {
     $update_number = $_POST["update_number"];
     error_log("UPDATE -- PHP POST, NUMBER, $update_number, Date " . $tj_date);
 }
+
 if ((isset($update_number)) && !empty($update_number)) {
     error_log("UPDATE -- Number being updated to {$update_number}, Date " . $tj_date);
     $query = "INSERT INTO dn (list_date, list_number) VALUES ('{$tj_date}', {$update_number}) ON CONFLICT (list_date) DO NOTHING";

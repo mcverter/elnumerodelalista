@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Marker, Map, TileLayer, Popup, Tooltip } from 'react-leaflet';
 import { leafletIcons } from '../../images';
 import InfoWindowDetail from '../InfoWindowDetail';
+import './leaflet.css';
 import './styles.scss';
 const popup = React.createRef();
 
@@ -18,7 +19,11 @@ const GuttersnipeMap = ({ shareables, center, zoom }) => {
       />
       {shareables &&
         shareables.map((place, index) => {
-          const markerPosition = [place.coordinates[1], place.coordinates[0]];
+          const {coordinates, type, name} = place;
+          if(!coordinates || ! Array.isArray(coordinates) || coordinates.length !== 2) {
+            return ("");
+          }
+          const markerPosition = [coordinates[1], coordinates[0]];
           function closePopup() {
             popup.current.leafletElement.options.leaflet.map.closePopup();
           }
@@ -27,15 +32,15 @@ const GuttersnipeMap = ({ shareables, center, zoom }) => {
               key={index}
               position={markerPosition}
               label={''}
-              icon={leafletIcons[place.type]}
+              icon={leafletIcons[type]}
               onClick={() => setSelectedPlace(place)}
             >
-              <Tooltip>{place.name}</Tooltip>
+              <Tooltip>{name}</Tooltip>
               <Popup ref={popup}>
                 <InfoWindowDetail {...selectedPlace} />
                 <div
                   className="map-popup-close-btn"
-                  onClick={() => closePopup(currentPopup)}
+                  onClick={closePopup}
                 >
                   CERRAR
                 </div>

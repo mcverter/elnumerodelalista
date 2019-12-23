@@ -4,7 +4,23 @@
   font-size: 2rem;
   overflow: scroll;
 }
+.phone-caller {
+  width: 80%;
+  margin: 20px auto;
+  background-color: green;
+  color: white;
+  font-weight: 900;
+  font-size: 115%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid yellow;
+  text-align: center
+}
 
+.iw-detail-hours {
+  color: blue;
+  border: 2px blue solid;
+}
 .iw-detail-categories,
 .iw-detail-type {
   font-weight: 600;
@@ -66,11 +82,11 @@ ul {
 
 // COLLAPSIBLE
 @import url(
-  https://fonts.googleapis.com/css?family=Roboto:400,
+  ('https://fonts.googleapis.com/css?family=Roboto:400',
   700,
   700italic,
   400italic
-);
+  ));
 
 $yellow: rgb(248, 159, 0);
 $cyan: rgb(0, 172, 157);

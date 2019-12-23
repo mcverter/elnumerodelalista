@@ -7,7 +7,7 @@
 import React from 'react';
 import GuttersnipeMap  from '../../components/GuttersnipeMap';
 import PropTypes from 'prop-types';
-import {placemarks as shareables} from './tijuana.json';
+import {placemarks as shareables} from './tapachula.json';
 
 export default function Tijuana() {
   const center = { lat: 32.5364307, lng: -117.037085 };

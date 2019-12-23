@@ -12,15 +12,20 @@ const InfoWindowDetail = place => {
     type,
     features,
     description,
-    phone1,
-    phone2,
+    phones,
     coordinates,
     address,
     notes,
     websites,
     google_place_id,
+    hours
   } = place;
-  //
+
+  const renderHours = () => (
+    <div className="iw-detail-hours">
+      <div>{hours}</div>
+    </div>
+  )
   const renderAddress = () => (
     <div className="iw-detail-address">
       <div>{address}</div>
@@ -97,6 +102,13 @@ const InfoWindowDetail = place => {
     });
   //       <a href={}>
 
+  const renderPhones = phones => {
+    return (!phones || !Array.isArray(phones)|| phones.length < 1) ? "" :(
+      <div>
+        {phones.map(p=>renderPhone(p))}
+      </div>)
+  }
+
   const renderPhone = phone => {
     function makePhoneCall() {
       window.open(`tel:${phone}`);
@@ -111,7 +123,7 @@ const InfoWindowDetail = place => {
           </span>
           {phone}
         </div>
-        <div className="google-opener" onClick={makePhoneCall}>
+        <div className="phone-caller" onClick={makePhoneCall}>
           LLAMAR
         </div>
       </div>
@@ -122,10 +134,10 @@ const InfoWindowDetail = place => {
     <div className="iw-detail-container">
       {name && renderName()}
       {address && renderAddress()}
-      {phone1 && renderPhone(phone1)}
-      {phone2 && renderPhone(phone2)}
+      {phones && renderPhones(phones)}
       {description && renderDescription(description)}
       {websites && renderWebsites()}
+      {hours && renderHours()}
       {notes && renderNotes(notes)}
     </div>
   );

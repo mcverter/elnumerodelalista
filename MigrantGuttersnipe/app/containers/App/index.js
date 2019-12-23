@@ -14,15 +14,14 @@ import HomePage from '../../containers/HomePage';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
 import GlobalStyle from '../../global-styles';
-console.log('mr app');
 export default function App() {
-  console.log('I am very happy to see you mr app');
-  debugger;
   return (
     <div>
       <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route component={Tijuana} />
+        <Route path={"/Tijuana"} component={Tijuana}/>
+        <Route path={"/Tapachula"} component={NotFoundPage}/>
+        <Route path={"/"} component={HomePage}/>
+        <Route component={HomePage} />
       </Switch>
       <GlobalStyle />
     </div>

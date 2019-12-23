@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './styles.scss';
 
 const GoogleMapsOpener = place => {
   const { coordinates, google_place_id, name, address } = place;
@@ -35,8 +36,7 @@ const GoogleMapsOpener = place => {
     }
 
     function success(position) {
-      const latitude = position.coords.latitude;
-      const longitude = position.coords.longitude;
+      const { latitude, longitude } = position.coords;
       return directionsFromTo({ fromLat: latitude, fromLng: longitude });
     }
 
