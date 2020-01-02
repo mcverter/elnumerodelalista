@@ -1,93 +1,38 @@
 <?php
 require_once(dirname(__FILE__) .  "/../db/database.php");
-
-$update_number = null;
-$tj_date = (new DateTime("now", new DateTimeZone('America/Tijuana') ))->format('Y-m-d');
-# $phpInput = file_get_contents('php://input');
-$headers = apache_request_headers();
-
-error_log ("UPDATE $tj_date  apache_request_headers". ${print_r($headers, true)} );
-error_log("UPDATE " . $tj_date . print_r($_SERVER, true));
-# error_log("UPDATE " . $tj_date . ",  php input $phpInput" );
-
-function getContentType() {
-    global $tj_date;
-    global $headers;
-    $contentType = null;
-
-    if (isset($_SERVER["HTTP_CONTENT_TYPE"])) {
-        if(!$contentType) {
-            $contentType = $_SERVER["HTTP_CONTENT_TYPE"];
-        }
-        error_log($tj_date . "in update HTTP_CONTENT_TYPE. It is " . $contentType);
-    }
-    if (isset($_SERVER["CONTENT_TYPE"])) {
-        if(!$contentType) {
-            $contentType = $_SERVER["CONTENT_TYPE"];
-        }
-        error_log($tj_date . "in update CONTENT_TYPE. It is " . $contentType);
-    }
-    if ((isset($headers["Http-Content-Type"]))) {
-        if(!$contentType) {
-            $contentType = $headers["Http-Content-Type"];
-        }
-        error_log($tj_date . "in update headers Http-Content-Type. It is " . $contentType);
-    }
-    if (isset($headers["Content-Type"])) {
-        if(!$contentType) {
-            $contentType = $headers["Content-Type"];
-        }
-        error_log($tj_date . "in update headers Content-Type. It is " . $contentType);
-    }
-    if (!$contentType) {
-        error_log("UPDATE $tj_date header for Content Type not found");
-    }
-    return $contentType;
-}
-
-function isNodeRequest() {
-    global $headers;
-    global $tj_date;
-
-    $http_user_agent = $_SERVER["HTTP_USER_AGENT"];
-    $user_agent = $headers['user-agent'];
-    error_log("UPDATE $tj_date isNodeRequest.  HTTP_USER_AGENT $http_user_agent. USER_AGENT $user_agent");
-
-    if ($http_user_agent && strpos($http_user_agent, "node-fetch") !== false) {
-        return true;
-    }
-    if ($user_agent && strpos($user_agent, "node-fetch") !== false) {
-        return true;
-    }
-    return false;
-}
-
-
-
 $connection = db_connect();
 if (!$connection) {
     die("Site unable to connect to db ");
 }
 
+$email_message = "";
+$email_subject = "";
+$update_number = null;
+$tj_date = (new DateTime("now", new DateTimeZone('America/Tijuana') ))->format('Y-m-d');
+
+function isJSONNodeRequest() {
+    return ((isset($_SERVER["CONTENT_TYPE"]) && $_SERVER["CONTENT_TYPE"]=== "application/json") ||
+        (isset($_SERVER["HTTP_USER_AGENT"]) && (strpos($_SERVER["HTTP_USER_AGENT"], "node-fetch") !== false)));
+}
+
 if ((isset($_POST["update_number"])) && !empty($_POST["update_number"])) {
     $update_number = $_POST["update_number"];
-    error_log("UPDATE -- PHP POST, NUMBER, $update_number, Date " . $tj_date);
-} elseif (getContentType() ==  "application/json") {
+    error_log("UPDATE  -- PHP POST, NEW NUMBER, $update_number, Date " . $tj_date);
+    $email_subject .= "UPDATE endll POST";
+} elseif (isJSONNodeRequest()) {
     $json = file_get_contents('php://input');
     $data = json_decode($json, true);
     $update_number = $data["update_number"];
-    error_log("UPDATE -- Change number: JSON: $json, NUMBER, $update_number, Date " . $tj_date);
-} elseif (isNodeRequest()) {
-    $json = file_get_contents('php://input');
-    $data = json_decode($json, true);
-    $update_number = $data["update_number"];
-    error_log("UPDATE -- Is FetchNode Change number: JSON: $json, NUMBER, $update_number, Date " . $tj_date);
+    error_log("UPDATE -- isJSONNodeRequest: NEW NUMBER, $update_number, Date " . $tj_date);
+    $email_subject .= "UPDATE endll NODE";
 }
 
 if ((isset($update_number)) && !empty($update_number)) {
-    error_log("UPDATE -- Number being updated to {$update_number}, Date " . $tj_date);
+    error_log("UPDATE -- Number being updated to {$update_number}, Date  $tj_date");
+    $email_message .= "UPDATE -- Number being updated to {$update_number} on $tj_date";
     $query = "INSERT INTO dn (list_date, list_number) VALUES ('{$tj_date}', {$update_number}) ON CONFLICT (list_date) DO NOTHING";
     $result = queryDB($connection, $query);
+//    mail("avenagratis@gmail.com", $email_subject, $email_message);
 }
 
 $query = "SELECT * FROM dn ORDER BY list_date DESC LIMIT 1";
@@ -96,19 +41,8 @@ $result = queryDB($connection, $query);
 $arr = pg_fetch_all($result);
 $list_date = $arr[0]["list_date"];
 $list_number = $arr[0]["list_number"];
-// $list_date = "2019-11-01";
 
-/*
-$spanishfmt = new IntlDateFormatter(
-    'es_MX',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Tijuana',
-    IntlDateFormatter::GREGORIAN
-);
-*/
 $english_list_date = date_format(date_create($list_date), "l, F j Y");
-// $spanish_list_date = $spanishfmt->format($list_date);
 
 echo <<<HTML
 <!DOCTYPE html>
