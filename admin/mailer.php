@@ -8,7 +8,7 @@ require 'vendor/autoload.php';
 
 function sendUpdateEmail($subject, $message)
 {
-    $config = parse_ini_file('../config/config.ini');
+    $config = parse_ini_file(__DIR__ . '/../config/config.ini');
     $gmailuser = $config['gmailuser'];
     $gmailpass = $config['gmailpass'];
 

@@ -2,8 +2,6 @@
 require_once(dirname(__FILE__) .  "/../db/database.php");
 require_once(dirname(__FILE__) .  "/mailer.php");
 
-
-
 $connection = db_connect();
 if (!$connection) {
     die("Site unable to connect to db ");
