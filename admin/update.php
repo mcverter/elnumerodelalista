@@ -1,5 +1,9 @@
 <?php
 require_once(dirname(__FILE__) .  "/../db/database.php");
+require_once(dirname(__FILE__) .  "/mailer.php");
+
+
+
 $connection = db_connect();
 if (!$connection) {
     die("Site unable to connect to db ");
@@ -9,6 +13,7 @@ $email_message = "";
 $email_subject = "";
 $update_number = null;
 $tj_date = (new DateTime("now", new DateTimeZone('America/Tijuana') ))->format('Y-m-d');
+
 
 function isJSONNodeRequest() {
     return ((isset($_SERVER["CONTENT_TYPE"]) && $_SERVER["CONTENT_TYPE"]=== "application/json") ||
@@ -32,7 +37,7 @@ if ((isset($update_number)) && !empty($update_number)) {
     $email_message .= "UPDATE -- Number being updated to {$update_number} on $tj_date";
     $query = "INSERT INTO dn (list_date, list_number) VALUES ('{$tj_date}', {$update_number}) ON CONFLICT (list_date) DO NOTHING";
     $result = queryDB($connection, $query);
-//    mail("avenagratis@gmail.com", $email_subject, $email_message);
+    sendUpdateEmail($email_subject, $email_message);
 }
 
 $query = "SELECT * FROM dn ORDER BY list_date DESC LIMIT 1";

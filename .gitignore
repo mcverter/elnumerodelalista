@@ -5,7 +5,8 @@
 done/
 otherLanguages/
 node_modules/
-yarn.lock
+*.lock
+vendor/
 package-lock.json
 *.ini
 config/
