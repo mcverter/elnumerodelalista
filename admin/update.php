@@ -12,6 +12,7 @@ $email_subject = "";
 $update_number = null;
 $tj_date = (new DateTime("now", new DateTimeZone('America/Tijuana') ))->format('Y-m-d');
 
+error_log("UPDATE PAGE SERVER VARIABLES" . $tj_date . print_r($_SERVER, true));
 
 function isJSONNodeRequest() {
     return ((isset($_SERVER["CONTENT_TYPE"]) && $_SERVER["CONTENT_TYPE"]=== "application/json") ||
