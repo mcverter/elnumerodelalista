@@ -34,7 +34,7 @@ const questions_to_translate = [
 //  "qMyContact",
   "qLeviticus",
   "qRFM",
-//  "qBusquedas",
+  "qBusquedas2",
   "q589",
   "qAntifascist",
   "qMutualAid"
