@@ -5,7 +5,7 @@ const {
   DIVS_TO_INTERNATIONAL,
   QUESTIONS_TO_INTERNATIONAL,
   QUESTION_DEFAULTS
-} = require("../translations.js");
+} = require("./index.js");
 
 const languageToPath = language => `${language}.json`;
 
