@@ -1,0 +1,91 @@
+{
+  "mas-informacion": "MAS INFORMACION",
+  "sobre": "SOBRE",
+  "el-numero-es": "EL NUMERO ES",
+  "el-numero-de-la-lista": "EL NUMERO DE LA LISTA",
+  "language-picker-label": "CAMBIA EL IDIOMA &nbsp;",
+  "map-label": "Mapa de Recursos Humanitarios (Albergues, Comedores, Servicios Medicos)",
+  "credits": "Hecha por EL LIBRO LIBRE",
+  "disclaimer": "<H3> AVISO LEGAL </ H3> No estoy afiliado con cualquier gobierno. <BR/> No estoy afiliado con cualquier ONG tampoco. <BR/> Este es un proyecto independiente y el creador toma toda la responsabilidad por ello. <BR/>",
+  "dont-bug-me": "Por favor, no llamame. Solo mandame mensajes de texto.",
+  "qWhySoSlow": [
+    "¿Por qué la lista se está moviendo tan lenta ahora?",
+    "No lo sé. Al final, el movimiento de la lista está determinado por el gobierno de los Estados Unidos. Ellos determinan cuántas personas pueden ingresar al Puerto de Entrada cada día. Supongo que hay algún problema allí: son incapaces de asimilar a las personas. Tal vez Trump hizo algo? Tal vez el fiscal general hizo algo? Tal vez los centros de detención están demasiado llenos? ¿Quizás las protestas contra las horribles condiciones están ralentizando las cosas? <br /> Esto es lo que me escribió una periodista el 10 de julio de 2019: <blockquote> La Patrulla Fronteriza dijo que debido a que la detención de ICE se ha quedado sin espacio y sin fondos, los adultos solteros pasan 300 horas en custodia antes de ser transferidos. Eso es más de 12 días. No hablaba de las instalaciones de CBP, pero se transfirieron a los mismos lugares / agencia. (Debido a que la libertad condicional de adultos solteros básicamente se detuvo en enero de 2017 por orden ejecutiva). </blockquote>"
+  ],
+  "qWhatList": [
+    "¿Que es la lista?",
+    "La lista es un sistema inmoral y racista que los Estados Unidos utilizan para limitar el numero de personas que pueden ingresar al pais."
+  ],
+  "qHowList": [
+    "¿Cómo funciona la lista?",
+    "Usted va a Chaparral desde las 7 de la mañana hasta las 9 de la mañana para obtener un número <BR/>Esperas tu numero <BR/>Cuando se llama su número, puede ir al otro lado"
+  ],
+  "qWaitTime": [
+    "¿Cuánto tiempo tendré que esperar?",
+    "Mucho ¿Un mes? ¿Dos meses? ¿Tres?"
+  ],
+  "qQuantity": [
+    "¿Cuántos números se llaman cada día?",
+    "Es diferente cada día. Algunos días mucho. Algunos días un poco. Algunos dias ninguno"
+  ],
+  "qCrossing": [
+    "¿Qué pasará después de que cruce al otro lado?",
+    "Las autoridades estadounidenses lo interrogarán sobre su caso de asilo. Esto se llama 'La entrevista de miedo creíble' <BR/>Es posible que te pongan en un centro de detención"
+  ],
+  "qWhatAsylum": [
+    "Que es asilo?",
+    "El Derecho de asilo es un derecho internacional de los derechos humanos, que puede disfrutar cualquier persona fuera de su pais de origen en caso de persecucion (<A href='https://es.wikipedia.org/wiki/Derecho_de_asilo'>Wikipedia</A>)"
+  ],
+  "qCFI": [
+    "¿Qué es la 'Entrevista de miedo creíble?'",
+    "Las autoridades estadounidenses le preguntarán:' Bueno, señor, ¿por qué quiere ingresar a la¿Estados Unidos? ¿Por qué no puedes quedarte en tu propio país? ¿Cuál es tu miedo? <BR/> En esta entrevista, debe explicar que tiene miedo de regresar a su país. Este miedo es real. Este miedo es creíble."
+  ],
+  "qMano": [
+    "¿Cuáles son las partes importantes de la entrevista?",
+    "¿QUE pasó? <BR/>¿QUIEN lo hizo? <BR/>¿POR QUE lo hizo? <BR/>¿Fuiste a la POLICIA? <BR/>¿Hay OTRA PARTE de tu país donde puedas vivir?"
+  ],
+  "qPostCFI": [
+    "¿Qué pasará si todo va bien con mi entrevista?",
+    "Hay varias posibilidades <BR/>Todos entran en la detención de <EM> Aduanas y Patrulla Fronteriza de los Estados Unidos </EM>. Esto se llama <STRONG> laenfriador </STRONG> <BR/>Después de eso hay dos posibilidades en la mayoría de los casos.<UL><LI> En la mayoría de los casos, las familias con hijos menores de edad son liberadas </LI><LI> En la mayoría de los casos, los demás están detenidos por <EM> Inmigración y aduanas de EE. UU.Cumplimiento </EM> </LI></UL>"
+  ],
+  "qWhatHielera": [
+    "Que es <STRONG>la hielera</STRONG> de <EM>US Customs and Border Patrol?</EM>",
+    "La hielera es muy feo. <BR/> Es un carcel. <BR/> Una descripcion:<BLOCKQUOTE> Es un lugar frio en el que no puedes dormir porque la luz esta encendida 24 horas durante el tiempo que estes en dentencion perderas la nocion del tiempo, hay una habitacion que en teoria es donde las personas reciben la comida, la comida es horrible, esta fria. <BR/> Duermes (intentas dormir) en el suelo o en las bancas metalicas donde dificilmente alguien puede dormir.<BR/> Debes beber agua reciclada de los sanitarios que es perjudicial para el estomago.<BR/> Cuando utilizas los banos tienes que hacerlo frente a los demas. <BR/> Ademas en cada celda tienen alrededor de 10 a 15 personas como maximo. Eso en un espacio pequeno como en 4 metros de largo por 3 metros de hancho.</BLOCKQUOTE>"
+  ],
+  "qWhatDetencion": [
+    "Que es la detencion de <EM>US Immigration and Customs Enforcement</EM>",
+    "Es una prision. Es muy feo. Estoy consiguiendo descripciones ..."
+  ],
+  "qDetencionPrep": [
+    "¿Cómo me puedo preparar para el refrigerador y la detención?",
+    "Escribir los números de teléfono y las direcciones y todas las cosas importantes acerca de su brazo <BR/> Escríbelo con un rotulador. Es muy fácil de lavar un bolígrafo normal de su cuerpo. "
+  ],
+  "qMyContact": [
+    "No tengo ningún número ni dirección. ¿A quién puedo llamar o escribir para pedir ayuda cuando estoy detenido?",
+    "<h2> Yo </h2> <BR/>Mitchell Verter <BR/>+1 646 705 7784 <BR/><Address>Mitchell Verter <BR/>654 East San Ysidro Blvd <BR/>PMB 187 <BR/>San Ysidro, CA 92173</address><BR/>Escríbelo con un bolígrafo SHARPIE. Es muy fácil lavar una pluma normal de tu cuerpo."
+  ],
+  "qLeviticus": [
+    "¿Qué piensa la Biblia sobre este proceso?",
+    "<BLOCKQUOTE> Cuando un extranjero vive contigo en tu tierra, no debes oprimirlo. <BR/> Debe considerar al extranjero que vive con usted como el nativo entre ustedes. Debes amarlo como a ti mismo, porque eras extranjero en la tierra de Egipto. </BLOCKQUOTE> <cite> Leviticus 19: 33-34 </cite>"
+  ],
+  "qRFM": [
+    "Que piensan los anarquistas sobre todo esta proceso?",
+    "<BLOCKQUOTE> Esto es ya mas que suficiente para una revolucion social de caracter economico y antiautoritario; pero hay mas. En Mexico viven unos cuatro millones de indios, que hasta hace veinte o veinticinco anos vivian en comunidades, poseyendo en comun las tierras, las aguas y los bosques. El apoyo mutuo era la regla en esas comunidades, en las que la Autoridad solo era sentida cuando el agente de la recaudacion de rentas hacia su aparicion periodica o cuando los rurales llegaban en busca de varones para hacerlos ingresar por la fuerza al Ejercito. En estas comunidades no habia jueces, ni alcaldes, ni carceleros, ni ninguna polilla de esa clase. Todos tenian derecho a la tierra, al agua para los regadios, al bosque para la lena y a la madera para construir los jacales. Los arados andaban de mano en mano, asi como las yuntas de bueyes. Cada familia labraba la extension de terreno que calculaba ser suficiente para producir lo necesario, y el trabajo de escarda y de levantar las cosechas se hacia en comun, reuniendose toda la comunidad, hoy, para levantar la cosecha de Pedro, manana para levantar la de Juan y asi sucesivamente. Para fabricar un jacal, ponian manos a la obra todos los miembros de la comunidad. </BLOCKQUOTE> <cite><A href='http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/'> Ricardo Flores Magon, <EM>El pueblo mexicano es apto para el anarchocomunismo</EM> <BR/> Regeneracion, num. 53, septiembre 2, 1911.</A> </cite>"
+  ],
+  "qAntifascist": [
+    "Que piensan l@s Antifascist@s?",
+    "<blockquote> <p> Está mal y está bien. Es hora de actuar contra las fuerzas del mal. <br> El mal dice que una vida vale menos que otra. El mal dice que el flujo del comercio es nuestro propósito aquí. Evil dice que son necesarios campos de concentración para personas consideradas menores. La sierva del mal dice que los campos de concentración deberían ser más humanos. Cuidado con el centrista. <br> Tengo el corazón roto de un padre Tengo un cuerpo descompuesto Y tengo un odio inquebrantable por la injusticia Eso es lo que me trae aquí. Esta es mi clara oportunidad de tratar de marcar la diferencia. Sería un ingrato esperar una invitación más obvia. <br> Sigo a tres maestros: Don Pritts, mi guía espiritual. 'Amor sin acción es solo una palabra'. John Brown, mi guía moral. '¡Lo que se necesita es acción!' Emma Goldman, mi guía política. 'Si no puedo bailar, no quiero estar en tu revolución'. <br> Soy un soñador cabeza en las nubes, creo en el amor y la redención. Creo que vamos a ganar. Soy alegremente revolucionario. (Todos deberíamos haber estado leyendo Emma Goldman en la escuela en lugar del jingo tonto que nos alimentaron, pero estoy divagando). (Todos deberíamos estar mirando las fotos de los héroes de YPG si vacilamos y pensamos que nuestros sueños son imposibles, pero yo doble divagación. Lucha conmigo.) <br> En estos días de hooligans fascistas que se aprovechan de personas vulnerables en nuestras calles, en nombre del estado o apoyados y defendidos por el estado, <br> En estos días de campos de concentración / detención altamente rentables y una batalla por la semántica, <br> En estos días de desesperanza, búsqueda vacía y anhelo vacío, <br> Estamos viviendo en un ascendente fascismo visible. (Digo visible, porque aquellos que le prestaron atención lo vieron sobrevivir y prosperar bajo la protección del estado durante décadas. [Ver Howard Zinn, A People's History of the United States.] Ahora sigue descaradamente su agenda con la cooperación abierta y plena del gobierno. De gobiernos de todo el mundo. <br> El fascismo satisface las necesidades del estado y las necesidades de los negocios y a su cargo. ¿Quién se beneficia? Jeff Bezos, Warren Buffet, Elon Musk, Tim Cook, Bill Gates, Betsy de Vos, George Soros, Donald Trump, y ¿necesito continuar? Permítanme decirlo de nuevo: los ricos (que piensan que en realidad no son tan buenos), realmente cavan al gobierno (todos los gobiernos en todas partes, incluidos los gobiernos 'comunistas'), porque hacen que las reglas que enriquecen a los ricos. Sencillo. No lo pienses demasiado. <br> (¿Están patriotas en la parte posterior prestando atención?) <br> Cuando era niño, en la Holanda de la posguerra, más tarde en Francia, mi cabeza estaba llena de historias sobre el surgimiento del fascismo en los años 30. Me prometí a mí mismo que no sería uno de los que se mantendrían al margen cuando los vecinos sean arrancados de sus hogares y encarcelados por ser percibidos de alguna manera como menores. No tienes que quemar al hijo de puta, ¿pero vas a quedarte quieto? <br> Esta es la prueba de nuestra creencia fundamental en la libertad real y nuestra responsabilidad mutua. Esta es una llamada a los patriotas, también, para oponerse a esta parodia contra todo lo que consideren sagrado. Te conozco. Sé que en tus corazones, ves el deshonor en estos campamentos. Es hora de que tú también te enfrentes al dinero tirando de los hilos de cada maldita marioneta que finge representarnos. <br> Soy un hombre que los ama a todos y esta bola giratoria tanto que voy a cumplir mi promesa de infancia de ser noble. <br> Aquí está, en estos campos de concentración corporativos con fines de lucro. Aquí está, en Brown y en las personas no conformes que temen mostrar sus rostros por temor a la policía / migra / Proud Boys / el jefe / beckies ... Aquí está, un planeta casi agotado por la avaricia del mercado. <br> Soy un pensador blanco y negro. Los campos de detención son una abominación. No estoy esperando. Realmente no debería tener que decir nada más que esto. <br> Dejé a un lado mi corazón roto y sane de la única manera que sé, siendo útil. Compartimento eficientemente mi dolor ... Y con alegría hago este trabajo. (Para aquellos cargados con los restos de mis acciones, espero que hagan el mejor uso de esa carga). <br> A mis camaradas: Lamento haber extrañado el resto de la revolución. Gracias por el honor de tenerme entre ustedes. <br> Darme espacio para ser útil, para sentir que estaba cumpliendo mis ideales, ha sido el pináculo espiritual de mi vida. <br> Hacer lo que pueda para ayudar a defender a mi gente preciosa y maravillosa es una experiencia demasiado rica para describirla. <br> Mis camaradas trans me han transformado, solidificando mi convicción de que los más marginados de nosotros hoy nos guiarán a un futuro soñado. Lo he soñado tan claramente que no me arrepiento de no ver cómo resulta. Gracias por llevarme tan lejos. <br> Soy antifa. Estoy con camaradas de todo el mundo que actúan desde el amor a la vida en cada permutación. Camaradas que entienden que la libertad significa libertad real para todos y una vida que vale la pena vivir. <br> ¡Mantén la fe! Todo el poder para la gente! Bella ciao. <br> No dejes que tus tontas agencias gubernamentales gasten dinero 'investigando' este. Me radicalicé en la clase de educación cívica a los 13 años cuando nos enseñaron sobre el colegio electoral. Fue en ese momento que decidí que el status quo podría ser un castillo de naipes. Lecturas adicionales confirmadas en positivo. ¡Recomiendo leer! <br> No estoy afiliado a ninguna organización, me he desafiliado de cualquier organización que no esté de acuerdo con mi elección de tácticas. <br> El arma semiautomática que utilicé fue un AR-15 'fantasma' barato, construido en casa y no registrado, tenía seis revistas. Animo encarecidamente a los camaradas y camaradas entrantes a armarse. Ahora somos responsables de defender a las personas del estado depredador. Ignora la ley de armarte si tienes el lujo, lo hice. </p></blockquote>"
+  ],
+  "q589": [
+    "Mi número fue llamado. Entré en los Estados Unidos. Tal vez regresé a Tijuana o tal vez ahora estoy en los Estados Unidos. ¿Qué pasa después?",
+    "<div> <p> Usted irá a la corte de inmigración en los Estados Unidos. Si fue devuelto a Tijuana, tendrá que presentarse al chaparral en la mañana para ir a la corte en San Diego <br> El fiscal en el tribunal intentará presentar un caso para que sea deportado. <br> En su defensa, debe enviar el FORMULARIO 'I-589, Solicitud de asilo y de retención de deportación' <br> Puede descargarlo en el oficial sitio web: <a href='https://www.uscis.gov/i-589'>https://www.uscis.gov/i-589</a> <br> O aquí </p><ul> <li> <a href='./589/i-589.pdf' download> inglés </a></li> <li> <a href='./589/i-589_spanish.pdf' download> español (no se puede usar en la corte) </a> </li> </ul> </div>"
+  ],
+  "qBusquedas2": [
+    "Mi amigo o familiar que ya cruzaron a los Estados Unidos. ¿Dónde está ella ahora?",
+    "Posiblemente, se encuentra detenido en Estados Unidos <BR/> Justo después de que una persona cruza la frontera que entren en la sala de hielo. se quedan allí durante tanto tiempo como dos semanas no hay manera de obtener información sobre ellos <br /> Después de esto, que podría entrar en la detención de ICE <BR/> Aquí está la página oficial de búsqueda de los mismos:.. <BR /> <A href='https://locator.ice.gov/odls'> línea Sistema Localizador de Detenidos -.. ICE </A> <BR/> es muy difícil de usar hielo es un racista, organización fascista hacen no se preocupan por los seres humanos <BR/> estoy tratando de buscar gente también, pero es muy difícil <BR> "
+  ],
+  "qMutualAid": [
+    "¿Por qué hago este sitio web?",
+    "Porque soy un anarquista, que cree en <A href='https://es.wikipedia.org/wiki/Apoyo_mutuo' target='_blank'> apoyo mutuo </A>"
+  ]
+}

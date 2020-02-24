@@ -5,7 +5,7 @@
  <meta name="keywords"
        content="immigration, asylum, immigrant, refugee, immigration list, chaparral, asylum seeker, el numero de la lista, el numero de lista, elnumerodelalista, tijuana numero, tijuana lista, asilo, inmigracion tijuana"/>
 
- <link type="text/css" rel="stylesheet" href="endll.css"/>
+ <link type="text/css" rel="stylesheet" href="css/endll.css"/>
 
  <!-- GOOGLE STUFF -->
  <script>(adsbygoogle = window.adsbygoogle || []).push({
@@ -50,8 +50,8 @@
  <h1 style="text-align: center" id="mas-informacion"> MAS INFORMACION</h1>
  <form name="language-form" id="language-form">
   <label for="language-picker" id="language-picker-label">CAMBIA EL IDIOMA &nbsp;</label>
-  <select id="language-picker" name="language-picker" onchange="translateAllContent(this.value)">
-   <option value="">SELECCIONAR</option>
+  <select id="language-picker" name="language-picker" onchange="this.blur(); translateAllContent(this.value)">
+   <option value="" id="select-label">SELECCIONAR</option>
    <option value="es">Español</option>
    <option value="ht">Kreyòl Ayisyen</option>
    <option value="fr">Français</option>
@@ -72,55 +72,11 @@
 
 
  <div id="guia-migrante">
-  <h3>Mapa de Recursos Humanitarios (Albergues, Comedores, Servicios Medicos)</h3>
+  <h3 id="map-label">Mapa de Recursos Humanitarios (Albergues, Comedores, Servicios Medicos)</h3>
   <a href="http://www.larutadelmigrante.com/Tijuana" target="_gs_map">
   <img align="center" src="./images/larutadelmigrantedemo.jpg"/>
   </a>
  </div>
-  <!--
-  <h2>GUIA MIGRANTE</h2>
-  <div>
-   <a href="guia/guia%20migrante_espanol_web-1.gif">
-    <img src="guia/1_GuiaEspanolv3guia%20migrante_espanol_v3.jpg" />
-   </a>
-  </div>
-  <div>
-   <a href="guia/guia%20migrante_espanol_web-2.gif">
-    <img src="guia/2_GuiaEspanolv3guia%20migrante_espanol_v3.jpg" />
-   </a>
-  </div>
-  <div>
-   <a href="guia/guia%20migrante_espanol_web-3.gif">
-    <img src="guia/3_GuiaEspanolv3guia%20migrante_espanol_v3.jpg">
-   </a>
-  </div>
-  <div>
-   <a href="guia/guia%20migrante_espanol_web-4.gif">
-    <img src="guia/4_GuiaEspanolv3guia%20migrante_espanol_v3.jpg">
-   </a>
-  </div>
-  <div>
-   <ul>
-    <li>
-     <a href="guia/guia%20migrante_espanol_v3.pdf" download >
-      DESCARGAR EN ESPAÑOL
-     </a>
-    </li>
-    <li>
-     <a href="guia/guia%20migrante_french_v2.pdf" download >
-      TELECHARGEZ EN FRANCAIS
-     </a>
-    </li>
-    <li>
-     <a href="guia/guia%20migrante_english_v3.pdf" download >
-      DOWNLOAD IN ENGLISH
-     </a>
-    </li>
-   </ul>
-  </div>
- </div>
--->
-
  <dl id="q589">
   <dt>
    Mi número fue llamado. Entré en los Estados Unidos. Tal vez regresé a Tijuana o tal vez ahora estoy en los Estados
@@ -261,35 +217,6 @@
    Escribelo con una pluma SHARPIE. Es muy facil de lavar una pluma normal de su cuerpo.
   </dd>
  </dl>
-
- <!-- dl id="qMyContact" name="qMyContact">
-  <dt>No tengo ningun numero o direccion. Quien puedo llamar o escribir por ayuda cuando estoy detenido?</dt>
-  <dd>Mio<br/>
-   Mitchell Verter<br/>
-   +1 646 705 7784<br/>
-
-   <address>
-    Mitchell Verter <br/>
-    654 East San Ysidro Blvd <br/>
-    PMB 187 <br/>
-    San Ysidro, CA 92173
-   </address>
-   <br/>
-   Escribelo con una pluma SHARPIE. Es muy facil de lavar una pluma normal de su cuerpo.
-  </dd>
- </dl -->
-
- <!-- dl id="qBusquedas" name="qBusquedas">
-  <dt>
-   Mi Amiga o familiar ya pasa al otro lado. Donde esta ahorita?
-  </dt>
-  <dd>
-   Posiblemente, es detenido en los estados unidos<br/>
-
-   Por favor, utilzas esta pagina para empezar una busqueda:<br/>
-   <strong><a href="detention.html">PAGINA DE BUSQUEDAS</a></strong></dd>
- </dl -->
-
  <dl id="qBusquedas2" name="qBusquedas2">
   <dt>
    Mi Amiga o familiar ya pasa al otro lado. Donde esta ahorita?
@@ -440,14 +367,14 @@
  </dl>
 </div>
 
-<script type="text/javascript" src="./date-fns_v1.3.0.js"></script>
-<script src="endll.js"></script>
+<script type="text/javascript" src="js/date-fns_v1.3.0.js"></script>
+<script src="js/endll.js"></script>
 <script>
 
     /* Main */
     window.onload = function () {
         load_daily_number();
-        translateAllContent(language);
+        translateAllContent(globalLanguage);
     };
 </script>
 
@@ -462,28 +389,8 @@
 
 <div style="text-align:center">
  <div>
-  <h3> Hecho por EL LIBRO LIBRE </h3>
+  <h3 id="credits"> Hecha por EL LIBRO LIBRE </h3>
  </div>
- <!-- div>
-  <div>ESCRIBIME</div>
-  <div>
-   <div>
-    <a href="mailto:AvenaGratis@gmail.com">
-     <img src="./ANUNCIOavenagratis.jpg" height="50%" width="50%"/>
-    </a>
-   </div>
-   <div>
-    <a href="mailto:AvenaGratis@gmail.com">
-     AvenaGratis@gmail.com
-    </a>
-   </div>
-   <div>
-    <a href="tel:16467057784">+1 646 705 7784
-    </a>
-    <p id="dont-bug-me"> Por favor, no llamame. Solo mandame mensajes de texto.</p>
-   </div>
-  </div>
- </div -->
  <div>
   <hr>
   <div id="disclaimer">

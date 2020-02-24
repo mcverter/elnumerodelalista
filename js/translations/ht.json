@@ -1,0 +1,93 @@
+{
+  "mas-informacion": "PLIS ENFOMASYON",
+  "sobre": "SOU",
+  "el-numero-es": "NIMEWO A SE",
+  "el-numero-de-la-lista": "NIMEWO LIS LA",
+  "language-picker-label": "CHANJE LANG",
+  "select-label": "chwazi",
+  "map-label": "Map nan Resous Imanitè (Abri, Kwizin, Sèvis Medikal)",
+  "credits": "Fèt pa EL liv LIBRE",
+  "disclaimer": "<H3> LEGAL AVI </ H3> Mwen pa afilye ak nenpòt gouvènman an. <br/> Mwen pa afilye ak nenpòt ONG swa. <br/> Sa a se yon pwojè endepandan ak kreyatè a pran tout responsablite pou sa. <br/>",
+
+  "dont-bug-me": "Tanpri, pa rele m '. Se sèlman voye m 'mesaj tèks",
+  "qWhySoSlow": [
+    "Poukisa lis la ap deplase tèlman dousman kounye a?",
+    "M pa konnen. Nan fen a, se mouvman an nan lis la detèmine pa gouvènman ameriken an. Yo detèmine konbyen moun ki ka antre nan Pò a nan antre chak jou. Mwen ta devine ke gen kèk pwoblèm la: yo kapab pran nan moun. Petèt Trump te fè yon bagay? Petèt Pwokirè Jeneral la fè yon bagay? Petèt sant detansyon yo twò plen? Petèt manifestasyon yo kont kondisyon terib yo ralanti bagay sa yo desann?<br> Se sa yon jounalis te ekri pou mwen sou 10 jiyè 2019:<blockquote> Patwouy Border te di ke paske detansyon ICE a soti nan espas ak finansman, granmoun sèl ap depanse 300 èdtan nan prizon anvan transfè. Sa se plis pase 12 jou. Li pa t 'pale sou enstalasyon CBP men yo transfere nan kote yo menm / ajans. (Paske libète pwovizwa granmoun nan yon sèl fondamantalman sispann nan mwa janvye 2017 pou chak lòd egzekitif la.)</blockquote>"
+  ],
+  "qWhatList": [
+    "Ki sa ki lis la?",
+    "Lis la se yon sistèm imoral ak rasis ke Etazini sèvi ak limite kantite moun ki ka antre nan peyi a."
+  ],
+  "qHowList": [
+    "Kijan lis la travay?",
+    "Ou ale nan chaparral depi 7 a nan maten jiska 9 nan maten pou jwenn yon nimewo <BR/> Ou rete tann pou nimewo ou <BR/> Lè yo rele nimewo ou, ou ka ale nan lòt bò a"
+  ],
+  "qWaitTime": [
+    "Konbyen tan m ap oblije tann?",
+    "Anpil. Yon mwa? De mwa? Twa?"
+  ],
+  "qQuantity": [
+    "Konbyen nimewo yo rele chak jou?",
+    "Li diferan chak jou. Kèk jou anpil. Kèk jou yon ti kras. Kèk jou pèsonn"
+  ],
+  "qCrossing": [
+    "Kisa ki pral rive apre mwen fin travèse lòt bò lanmè a?",
+    "Otorite Ameriken yo pral entèwoje ou sou ka azil ou an. Yo rele sa a 'Entèvyou pè kredib' <BR/>Li posib ke ou pral mete nan yon sant detansyon"
+  ],
+  "qWhatAsylum": [
+    "Kisa azil la ye?",
+    "Dwa azil la se yon dwa entènasyonal sou dwa moun, ki ka jwi nenpòt ki moun ki pa nan peyi orijin li nan ka ta gen pèsekisyon (<A href='https://es.wikipedia.org/wiki/Derecho_de_asilo'>Wikipedia</A>)"
+  ],
+  "qCFI": [
+    "Ki sa ki se 'Entèvyou pou moun ki te pè nan kredib?'",
+    "Otorite Ameriken yo pral mande ou: 'Oke, mesye, poukisa ou vle antre nan laEtazini? Poukisa ou pa ka rete nan pwòp peyi ou? Ki sa ki gen krentif pou ou a? <BR/> Nan entèvyou sa a, ou dwe eksplike ke ou pè retounen nan peyi ou. Sa a pè se reyèl. Sa a pè se kredib"
+  ],
+  "qMano": [
+    "Ki pati enpòtan nan entèvyou a?",
+    "KISA te rive? <BR/>KI MOUN KI te fè? <BR/>POUKISA li te fè li? <BR/>Eske ou te ale nan POLIS la? <BR/>Èske gen yon LOT PATI nan peyi ou kote ou ka viv?"
+  ],
+  "qPostCFI": [
+    "Kisa ki pral rive si tout bagay mache byen ak entèvyou mwen an?",
+    "Gen plizyè posiblite <BR/>Tout moun ale nan detansyon <EM> US Ladwàn ak Patwouy Border </EM>. Se sa yo rele <STRONG> lapi fre </STRONG> <BR/>Apre sa, gen de posibilite nan pifò ka yo<UL><LI> Nan pifò ka yo, fanmi ki gen timoun ki minè yo lage </LI><LI> Nan pifò ka yo, lòt moun yo nan yon detansyon nan <EM> Imigrasyon US ak LadwànRanfòsman </EM> </LI></UL>"
+  ],
+  "qWhatHielera": [
+    "Ki sa ki <STRONG> pi fre </STRONG> nan <EM> US Ladwàn ak Patwouy Border? </EM>",
+    "Pi fre a se trè lèd. <BR/>Se yon prizon. <BR/>Yon deskripsyon:<BLOCKQUOTE>Li se yon kote ki frèt kote ou pa ka dòmi paske limyè a se sou 24 èdtan pandan tan anEntansyonèlman, ou pral pèdi nosyon de tan, gen yon chanm ki nan teyori se kotemoun resevwa manje, manje se terib, li frèt. <BR/>Ou dòmi (eseye dòmi) sou planche a oswa sou bank metal yo kote diman nenpòt moun ka dòmi. <BR/>Ou dwe bwè dlo resikle nan twalèt ki danjere nan vant ou. <BR/>Lè ou itilize twalèt yo ou dwe fè l devan lòt moun. <BR/>Epitou nan chak selil yo gen alantou 10 a 15 moun nan pi. Sa nan yon ti espas tankou nan4 mèt nan 3 mèt longè.</BLOCKQUOTE>"
+  ],
+  "qWhatDetencion": [
+    "Ki sa ki se detansyon an nan <EM> US Imigrasyon ak Ladwàn Ranfòsman </EM>",
+    "Se yon prizon. Li trè lèd. Mwen resevwa deskripsyon ..."
+  ],
+  "qDetencionPrep": [
+    "Kouman mwen ka prepare pou pi fre a ak detansyon an?",
+    "Ekri nimewo telefòn yo ak adrès yo ak tout bagay sa yo enpòtan sou bra ou <BR/> Ekri l ak yon plim SHARPIE. Li trè fasil pou lave yon plim nòmal nan kò w"
+  ],
+  "qMyContact": [
+    "Mwen pa gen okenn nimewo oswa adrès. Ki moun mwen ka rele oswa ekri pou èd lè mwen arete?",
+    "<h1> Mwen </h1> <BR/>Mitchell Verter <BR/>+1 646 705 7784 <BR/><Address>Mitchell Vast <BR/>654 East San Ysidro Blvd <BR/>PMB 187 <BR/>San Ysidro, CA 92173</address><BR/>Ekri l ak yon plim SHARPIE. Li trè fasil pou lave yon plim nòmal nan kò w."
+  ],
+  "qLeviticus": [
+    "Kisa Bib la panse sou pwosesis sa a?",
+    "<BLOCKQUOTE>Si yon moun lòt nasyon rete ak nou nan peyi nou an, nou p'ap gen pitye pou li. <BR/>Se pou nou konsidere moun lòt nasyon yo tou ki ta viv lakay nou, menm jan ak nou. Se pou ou renmen l 'tankou ou menm, paske ou te etranje nan peyi Lejip la.</BLOCKQUOTE><cite> Levitik 19: 33-34 </cite>"
+  ],
+  "qRFM": [
+    "Ki sa anarchis yo panse sou pwosesis sa a?",
+    "<BLOCKQUOTE> Sa a se deja plis pase ase pou yon revolisyon sosyal nan yon nati ekonomik ak anti-otoritè; men Gen plis. Nan Meksik ap viv sou kat milyon Endyen, ki moun ki jiska ven oswa ven-senk ane de sa te viv nan kominote yo, posede an komen tè ​​yo, dlo yo ak forè yo. Sipòte mityèl te règ la nan kominote sa yo, nan ki Otorite a te sèlman te santi lè ajan an nan koleksyon an nan pri lwaye nan direksyon pou aparans peryodik li yo oswa lè moun ki nan zòn riral yo te rive nan rechèch nan moun fè yo antre nan pa fòs nan lame a. Nan kominote sa yo pa te gen okenn jij, oswa majistra, oswa prizonye, ​​oswa nenpòt ki manman nan klas sa. Tout moun te gen dwa pou fè tè, dlo pou irigasyon, pou forè a bwa dife ak bwa yo bati kabin yo. Chaje yo soti nan men nan men, menm jan tou jouk yo nan bèf. Chak fanmi te travay pou ekstansyon peyi ki te kalkile ase pou pwodwi nesesè, ak travay la nan sarkle ak ogmante rekòt yo te fè an komen, ranmase tout la kominote a, jodi a, ogmante rekòt Pedro a, demen ogmante a Juan la, ak sou sa. Pou fè yon joupa, tout manm kominote a te travay. </BLOCKQUOTE> <cite><A href='http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/'> Ricardo Flores Magon, <EM> Moun Meksiken yo jis pou anarcho-kominis </EM> <BR/> Rejenerasyon, Num. 53 septanm 2, 1911.</A> </cite>"
+  ],
+  "q589": [
+    "Nimewo mwen te rele. Mwen te antre nan Etazini. Petèt mwen te retounen nan Tijuana oswa petèt mwen kounye a nan Etazini yo. Kisa k ap pase pwochen?",
+    "<div> <p> Ou pral ale nan Tribinal Imigrasyon nan Etazini yo. Si ou te retounen nan Tijuana, ou pral gen pou montre jiska chaparral nan maten pou ale nan tribinal nan San Diego <br> Pwokirè a nan tribinal la pral eseye fè yon ka ke ou ta dwe depòte. <br> Nan defans ou, ou bezwen soumèt fòm lan 'I-589, Aplikasyon pou Azil ak pou kenbe nan Retire' <br> Ou ka telechaje li nan sit entènèt sa a: <a href='https://www.uscis.gov/i-589'>https://www.uscis.gov/i-589</a> <br> Oswa isit la <br><ul> <li> <a href='589/i-589.pdf'> angle </a> </a> <li> <a href='589/i-589_spanish.pdf'> Panyòl (pa kapab itilize nan tribinal) </a> </li> </ul> </div>"
+  ],
+  "qBusquedas2": [
+    "Zanmi osinon pou yon relatif deja janbe lòt nan Etazini yo. Li Ki kote se kounye a?",
+    "Li posib, li se ke yo te arete nan Etazini <br/> Dwa a apre yon moun kwaze fwontyè a yo ale nan sal la glas. yo rete la pou osi lontan ke de semèn pa gen okenn fason yo ka resevwa enfòmasyon sou yo <br /> Apre sa, yo ta ka ale nan ICE detansyon <br/> Isit la se paj la ofisyèl pou rechèch pou yo.:. <BR /> <a href='https://locator.ice.gov/odls'> Online prizonye Lokalizatè Sistèm -.. ICE </A> <br/> Li trè difisil yo sèvi ak ICE se yon rasis, fachis òganizasyon Yo fè pa pran swen sou èt imen <br/> mwen ap eseye rechèch pou moun ki tou, men li se trè difisil <br> "
+  ],
+  "qAntifascist": [
+    "Kisa Antifasisis yo panse?",
+    "<blockquote> <p> Gen yon move ak gen dwa. Li lè yo pran aksyon kont fòs yo nan sa ki mal. </p> <p> Move di yon sèl lavi vo mwens pase yon lòt. Sa ki mal la di koule nan komès se bi nou an isit la. Sa ki mal la di kan konsantrasyon pou moun jije pi piti yo nesesè. Sèvant mal la di kan yo konsantrasyon yo ta dwe plis imen. Pran prekosyon nou santis la. </p> <p> Mwen gen kè kase yon papa Mwen gen yon kò kraze Epi mwen gen yon odisyon inebranlab pou enjistis Se sa ki pote m 'isit la. Sa a se opòtinite klè mwen pou eseye fè yon diferans, mwen ta dwe yon ingrats yo dwe ap tann pou yon envitasyon pi evidan. </p> <p> Mwen swiv twa pwofesè: Don Pritts, gid espirityèl mwen an. 'Renmen san aksyon se jis yon mo.' John Brown, gid moral mwen. 'Ki sa ki nesesè se aksyon!' Emma Goldman, gid politik mwen an. 'Si mwen pa ka danse, mwen pa vle nan revolisyon ou.' <p> Mwen se yon tèt nan renmen fè rèv nan nwaj yo, mwen kwè nan renmen ak delivre. Mwen kwè ke nou pral genyen. Mwen byen revolisyonè. (Nou tout ta dwe te li Emma Goldman nan lekòl olye de driv yo jingo nou te manje, men mwen digress.) (Nou ta dwe tout ap gade foto yo nan ewo yo YPG ta dwe nou ezitasyon ak panse rèv nou yo se enposib, men mwen ... double digress. Goumen m '.) </p> <p> Nan jou sa yo nan vandè fachis viktim sou moun ki vilnerab nan lari nou yo, nan non eta a oswa sipòte ak defann pa eta a, </p> <p> Nan jou sa yo nan detansyon trè pwofitab / kan konsantrasyon ak yon batay sou semantik a, </p> <p> Nan jou sa yo nan dezespwa, pouswit vid ak anvi vid, </p> <p> Nou ap viv nan asistan ase fasism vizib. (Mwen di vizib, paske moun ki peye atansyon veye li siviv ak boujonnen anba pwoteksyon an nan eta a pou dè dekad. [Gade Howard Zinn, Istwa Yon Pèp la nan peyi Etazini.] Koulye a, li unabashedly swiv ajanda li yo ak koperasyon louvri ak plen soti nan la. gouvènman an, nan men gouvènman atravè mond lan. <br> Fachism sèvi bezwen yo nan eta a sèvi bezwen yo nan biznis ak sou kont ou. Ki moun ki benefis yo? Jeff Bezos, Warren kafeterya, Elon, Musk, Tim Cook, Bill Gates, Betsy de Vos, George Soros, Donald Trump, ak bezwen mwen ale sou? Kite m 'di l' ankò: mesye rich (ki panse ou pa reyèlman tout sa ki bon), reyèlman fouye gouvènman an (chak gouvènman toupatou, ki gen ladan 'kominis' gouvènman yo), paske yo fè règleman yo ki fè mesye rich rich. Senp. Pa overthink li. </p> <p> (Èske ou patriyòt nan do a peye atansyon?) </p> <p> Lè m 'te yon ti gason, nan post-lagè Holland, pita Lafrans, te tèt mwen plen ak istwa nan ogmantasyon nan fachis nan' 30 yo. Mwen te pwomèt tèt mwen ke mwen pa ta dwe youn nan moun ki kanpe pa kòm vwazen yo chire soti nan kay yo ak nan prizon pou yon jan kanmenm ke yo te santi yo pi piti. Ou pa oblije boule manman an, men èske w ap jis kanpe la a? </p> <p> Sa a se tès la nan kwayans fondamantal nou an libète reyèl ak responsablite nou yo youn ak lòt. Sa a se yon apèl patriyòt, tou, kanpe kont parody sa a kont tout sa ou kenbe sakre. Mwen konnen ou. Mwen konnen nan kè ou, ou wè wont nan kan sa yo. Li lè pou ou, tou, kenbe tèt ak lajan yo rale strings yo nan tout mannken goddamn pretann reprezante nou. <p> Mwen se yon moun ki renmen ou tout ak sa a boul k ap vire tèlman bagay ke mwen pral satisfè pwomès anfans mwen an tèt mwen yo dwe nòb. </p> <p> Men li se, nan sa yo antrepriz pou kan konsantrasyon pwofi. Isit la li ye, nan Brown ak ki pa konfòme jan gen krentif pou montre figi yo pou yo te pè polis la / migra / fyète gason / bòs nan travay / beckies ... Isit la li se, yon planèt prèske itilize moute nan Evaris mache a. </p> <p> Mwen se yon pansè nwa e blan. Kan detansyon yo se yon abominasyon. Mwen pa kanpe pa. Mwen vrèman pa ta dwe di plis pase sa. </p> <p> Mwen mete sou kote kè kase mwen an e mwen geri sèl fason mwen konnen kijan — lè mwen te itil. Mwen avèk efikasite konparteman doulè mwen ... Apre sa, mwen kontan ale sou travay sa a. (Pou moun ki chaje ak aneantisman ki soti nan aksyon mwen, mwen espere ke ou pral fè pi bon itilizasyon chay sa a.) </p> <p> Kamarad mwen yo: Mwen regrèt ke mwen pral manke rès la nan revolisyon an. Mèsi pou onè ki gen m 'nan mitan ou <p> Bay m 'espas yo dwe itil, yo santi ke mwen te ranpli ideyal mwen, ki te pwomnad espirityèl la nan lavi m' yo. </p> <p> Fè sa mwen kapab ede defann koute chè ak bèl bagay moun mwen se yon eksperyans twò rich yo dekri <p> Kamarad trans mwen yo te transfòme m ', solidifikasyon konviksyon mwen ke nou pral gide nan yon rèv-nan tan kap vini pa moun ki pi eskli nan mitan nou jodi a. Mwen reve li tèlman klè ke mwen pa gen okenn regrè pou pa wè ki jan li vire soti. Mèsi pou pote m 'twò lwen ansanm. </p> <p> Mwen antifa. Mwen kanpe ak kamarad atravè mond lan ki aji soti nan renmen nan lavi nan tout pèmitasyon. Kamarad ki konprann ke libète vle di reyèl libète pou tout moun ak yon lavi ki vo viv ... </p> <p> Kenbe lafwa a! Tout pouvwa pou pèp la! Bella Ciao. </p> <p> Pa kite ajans gouvènman komik ou yo ap depanse lajan “envestige” sa a. Mwen te radikalize nan klas sivik nan 13 lè nou te anseye sou kolèj elektoral la. Li te nan pwen sa a ke mwen deside ke jan bagay sa yo ta ka yon kay kat. Pli lwen lekti konfime nan pozitif la. Mwen rekòmande anpil pou li lekti! </p> <p> Mwen pa afilye avèk okenn òganizasyon, mwen te afekte ak okenn òganizasyon ki pa dakò avèk chwa taktik mwen. </p> <p> Zam la semi-otomatik mwen itilize se te yon bon mache, kay-bati anrejistre 'fantom' AR-15, li te gen sis magazin. Mwen ankouraje kamarad yo ak fèk ap rantre kamarad yo pouse tèt yo. Nou kounye a se responsab pou defann moun ki sòti nan eta a predatè. Ignore lalwa nan armeman tèt ou si ou gen liksye a, mwen te fè sa. </p></blockquote>"
+  ],
+  "qMutualAid": [
+    "Poukisa mwen fè sit entènèt sa a?",
+    "Paske mwen se yon anarchist, ki moun ki mete konfyans yo nan <A href='https://es.wikipedia.org/wiki/Apoyo_mutuo' target='_blank'> sipò mityèl </A><BR/><h2>MEN ANPIL CHAY PA LOU</h2>"
+  ]
+}
