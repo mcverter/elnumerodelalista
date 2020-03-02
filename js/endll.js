@@ -4,8 +4,6 @@ let globalLanguage;
 let translations = {};
 let defaultLanguage = "es";
 loadLanguageJson(defaultLanguage);
-// list_date
-// list_number
 
 const supportedLanguages = [
     "am",
