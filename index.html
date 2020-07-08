@@ -1,413 +1,526 @@
-<html><head>
- <meta charset="UTF-8">
- <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
- <meta name="description" content="Daily number for Tijuana immigration list"/>
- <meta name="keywords"
-       content="immigration, asylum, immigrant, refugee, immigration list, chaparral, asylum seeker, el numero de la lista, el numero de lista, elnumerodelalista, tijuana numero, tijuana lista, asilo, inmigracion tijuana"/>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta
+      name="description"
+      content="Daily number for Tijuana immigration list"
+    />
+    <meta
+      name="keywords"
+      content="immigration, asylum, immigrant, refugee, immigration list, chaparral, asylum seeker, el numero de la lista, el numero de lista, elnumerodelalista, tijuana numero, tijuana lista, asilo, inmigracion tijuana"
+    />
 
- <link type="text/css" rel="stylesheet" href="css/endll.css"/>
+    <link type="text/css" rel="stylesheet" href="css/endll.css" />
 
- <!-- GOOGLE STUFF -->
- <script>(adsbygoogle = window.adsbygoogle || []).push({
-     google_ad_client: "ca-pub-8571249216921327",
-     enable_page_level_ads: true
- });</script>
- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139213214-1"></script>
- <script>window.dataLayer = window.dataLayer || [];
+    <!-- GOOGLE STUFF -->
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-8571249216921327",
+        enable_page_level_ads: true,
+      });
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-139213214-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
- function gtag() {
-     dataLayer.push(arguments);
- }
+      function gtag() {
+        dataLayer.push(arguments);
+      }
 
- gtag('js', new Date());
- gtag('config', 'UA-139213214-1');</script>
- <!-- END GOOGLE STUFF -->
+      gtag("js", new Date());
+      gtag("config", "UA-139213214-1");
+    </script>
+    <!-- END GOOGLE STUFF -->
+  </head>
+  <body>
+    <h1 style="text-align: center;" id="el-numero-de-la-lista">
+      EL NUMERO DE LA LISTA
+    </h1>
+    <div id="main-container">
+      NO HAY NUMEROS AHORA. YA NO SE CUANDO VA REINICIAR
+    </div>
 
-</head>
-<body>
-<h1 style="text-align:center" id="el-numero-de-la-lista"> EL NUMERO DE LA LISTA </h1>
-<div id="main-container">
- <div class="interstitial" id="sobre"> SOBRE</div>
- <div id="date-div">
-  <div id="list-day"></div>
-  <div id="days-ago"></div>
- </div>
- <div class="interstitial" id="el-numero-es">EL NUMERO ES</div>
- <div id="list-number"></div>
- <div id="not-current-warning">
-  <div>
-   <div id="not-current-message">
-    NUMBER IS NOT CURRENT
-   </div>
-   <div id="reload-button" onclick="reloadSite()">
-    RELOAD
-   </div>
-  </div>
- </div>
-</div>
+    <div>
+      <h1 style="text-align: center;" id="mas-informacion">MAS INFORMACION</h1>
+      <form name="language-form" id="language-form">
+        <label for="language-picker" id="language-picker-label"
+          >CAMBIA EL IDIOMA &nbsp;</label
+        >
+        <select
+          id="language-picker"
+          name="language-picker"
+          onchange="this.blur(); translateAllContent(this.value)"
+        >
+          <option value="" id="select-label">SELECCIONAR</option>
+          <option value="es">Español</option>
+          <option value="ht">Kreyòl Ayisyen</option>
+          <option value="fr">Français</option>
+          <option value="en">English</option>
+          <option value="ru">русский</option>
+          <option value="ar">عربى</option>
+          <option value="am">አማርኛ</option>
+          <option value="bn">বাঙালি</option>
+          <option value="pt">Português</option>
+          <option value="zh">中文</option>
+          <option value="ha">Hausa</option>
+          <option value="sw">Swahili</option>
+          <option value="fa">فارسی</option>
+          <option value="tr">Türk</option>
+          <option value="uk">українська</option>
+        </select>
+      </form>
 
-<div>
- <h1 style="text-align: center" id="mas-informacion"> MAS INFORMACION</h1>
- <form name="language-form" id="language-form">
-  <label for="language-picker" id="language-picker-label">CAMBIA EL IDIOMA &nbsp;</label>
-  <select id="language-picker" name="language-picker" onchange="this.blur(); translateAllContent(this.value)">
-   <option value="" id="select-label">SELECCIONAR</option>
-   <option value="es">Español</option>
-   <option value="ht">Kreyòl Ayisyen</option>
-   <option value="fr">Français</option>
-   <option value="en">English</option>
-   <option value="ru">русский</option>
-   <option value="ar">عربى</option>
-   <option value="am">አማርኛ</option>
-   <option value="bn">বাঙালি</option>
-   <option value="pt">Português</option>
-   <option value="zh">中文</option>
-   <option value="ha">Hausa</option>
-   <option value="sw">Swahili</option>
-   <option value="fa">فارسی</option>
-   <option value="tr">Türk</option>
-   <option value="uk">українська</option>
-  </select>
- </form>
+      <div id="guia-migrante">
+        <h3 id="map-label">
+          Mapa de Recursos Humanitarios (Albergues, Comedores, Servicios
+          Medicos)
+        </h3>
+        <a href="http://www.larutadelmigrante.com/Tijuana" target="_gs_map">
+          <img align="center" src="./images/larutadelmigrantedemo.jpg" />
+        </a>
+      </div>
 
+      <dl id="qPostCovid">
+        <dt>
+          Donde estan los numeros?
+        </dt>
 
- <div id="guia-migrante">
-  <h3 id="map-label">Mapa de Recursos Humanitarios (Albergues, Comedores, Servicios Medicos)</h3>
-  <a href="http://www.larutadelmigrante.com/Tijuana" target="_gs_map">
-  <img align="center" src="./images/larutadelmigrantedemo.jpg"/>
-  </a>
- </div>
- <dl id="q589">
-  <dt>
-   Mi número fue llamado. Entré en los Estados Unidos. Tal vez regresé a Tijuana o tal vez ahora estoy en los Estados
-   Unidos. ¿Qué pasa después?
-  </dt>
-  <dd>
-   <div>
-    <p> Usted irá a la corte de inmigración en los Estados Unidos. Si fue devuelto a Tijuana, tendrá que presentarse al
-     chaparral en la mañana para ir a la corte en San Diego
-     <br> El fiscal en el tribunal intentará presentar un caso para que sea deportado.
-     <br> En su defensa, debe enviar el FORMULARIO
-     "I-589, Solicitud de asilo y de retención de deportación"
-     <br> Puede descargarlo en el oficial sitio web: <a
-             href="https://www.uscis.gov/i-589">https://www.uscis.gov/i-589</a>
-     <br> O aquí </p>
-    <ul>
-     <li><a href="./589/i-589.pdf" download> inglés </a></li>
-     <li><a href="./589/i-589_spanish.pdf" download> español (no se puede usar en la corte) </a></li>
-    </ul>
-   </div>
-  </dd>
- </dl>
- <dl id="qWhySoSlow">
-  <dt>¿Por qué la lista se está moviendo tan lenta ahora?</dt>
-  <dd>No lo sé. Al final, el movimiento de la lista está determinado por el gobierno de los Estados Unidos. Ellos
-   determinan cuántas personas pueden ingresar al Puerto de Entrada cada día. Supongo que hay algún problema allí: son
-   incapaces de asimilar a las personas. Tal vez Trump hizo algo? Tal vez el fiscal general hizo algo? Tal vez los
-   centros de detención están demasiado llenos? ¿Quizás las protestas contra las horribles condiciones están
-   ralentizando las cosas?<br/>
-   Esto es lo que me escribió una periodista el 10 de julio de 2019:
-   <blockquote>
-    La Patrulla Fronteriza dijo que debido a que la detención de ICE se ha quedado sin espacio y sin fondos, los adultos
-    solteros pasan 300 horas en custodia antes de ser transferidos. Eso es más de 12 días. No hablaba de las
-    instalaciones de CBP, pero se transfirieron a los mismos lugares / agencia. (Debido a que la libertad condicional de
-    adultos solteros básicamente se detuvo en enero de 2017 por orden ejecutiva).
-   </blockquote>
-  </dd>
- </dl>
- <dl id="qWhatList" name="qWhatList">
-  <dt>Que es la lista?</dt>
-  <dd>La lista es un sistema inmoral y racista que los Estados Unidos utilizan para limitar el numero de personas
-   que pueden ingresar al pais.
-  </dd>
- </dl>
+        <dd>
+          ¡Tenga en cuenta! El borde está cerrado y no se llaman números. No
+          sabemos cuándo cambiará esto. Lo actualizaremos tan pronto como
+          tengamos más información o algo cambie.
+        </dd>
+      </dl>
+      <dl id="q589">
+        <dt>
+          Mi número fue llamado. Entré en los Estados Unidos. Tal vez regresé a
+          Tijuana o tal vez ahora estoy en los Estados Unidos. ¿Qué pasa
+          después?
+        </dt>
+        <dd>
+          <div>
+            <p>
+              Usted irá a la corte de inmigración en los Estados Unidos. Si fue
+              devuelto a Tijuana, tendrá que presentarse al chaparral en la
+              mañana para ir a la corte en San Diego <br />
+              El fiscal en el tribunal intentará presentar un caso para que sea
+              deportado. <br />
+              En su defensa, debe enviar el FORMULARIO "I-589, Solicitud de
+              asilo y de retención de deportación" <br />
+              Puede descargarlo en el oficial sitio web:
+              <a href="https://www.uscis.gov/i-589"
+                >https://www.uscis.gov/i-589</a
+              >
+              <br />
+              O aquí
+            </p>
+            <ul>
+              <li><a href="./589/i-589.pdf" download> inglés </a></li>
+              <li>
+                <a href="./589/i-589_spanish.pdf" download>
+                  español (no se puede usar en la corte)
+                </a>
+              </li>
+            </ul>
+          </div>
+        </dd>
+      </dl>
+      <dl id="qWhySoSlow">
+        <dt>¿Por qué la lista se está moviendo tan lenta ahora?</dt>
+        <dd>
+          No lo sé. Al final, el movimiento de la lista está determinado por el
+          gobierno de los Estados Unidos. Ellos determinan cuántas personas
+          pueden ingresar al Puerto de Entrada cada día. Supongo que hay algún
+          problema allí: son incapaces de asimilar a las personas. Tal vez Trump
+          hizo algo? Tal vez el fiscal general hizo algo? Tal vez los centros de
+          detención están demasiado llenos? ¿Quizás las protestas contra las
+          horribles condiciones están ralentizando las cosas?<br />
+          Esto es lo que me escribió una periodista el 10 de julio de 2019:
+          <blockquote>
+            La Patrulla Fronteriza dijo que debido a que la detención de ICE se
+            ha quedado sin espacio y sin fondos, los adultos solteros pasan 300
+            horas en custodia antes de ser transferidos. Eso es más de 12 días.
+            No hablaba de las instalaciones de CBP, pero se transfirieron a los
+            mismos lugares / agencia. (Debido a que la libertad condicional de
+            adultos solteros básicamente se detuvo en enero de 2017 por orden
+            ejecutiva).
+          </blockquote>
+        </dd>
+      </dl>
+      <dl id="qWhatList" name="qWhatList">
+        <dt>Que es la lista?</dt>
+        <dd>
+          La lista es un sistema inmoral y racista que los Estados Unidos
+          utilizan para limitar el numero de personas que pueden ingresar al
+          pais.
+        </dd>
+      </dl>
 
- <dl id="qHowList" name="qHowList">
-  <dt>Como funcciona la lista</dt>
-  <dd>Vas por chaparral de 7 en la manana hasta 9 o 10 en la manana para sacar una ficha<br/>
-   Esperas por tu ficha<br/>
-   Cuando se llaman tu numero, puedas pasar al otro lado
-  </dd>
- </dl>
+      <dl id="qHowList" name="qHowList">
+        <dt>Como funcciona la lista</dt>
+        <dd>
+          Vas por chaparral de 7 en la manana hasta 9 o 10 en la manana para
+          sacar una ficha<br />
+          Esperas por tu ficha<br />
+          Cuando se llaman tu numero, puedas pasar al otro lado
+        </dd>
+      </dl>
 
- <dl id="qWaitTime" name="qWaitTime">
-  <dt>Cuanto tiempo debo esperar?</dt>
-  <dd>Mucho. Un mes? Dos meses? Tres?</dd>
- </dl>
+      <dl id="qWaitTime" name="qWaitTime">
+        <dt>Cuanto tiempo debo esperar?</dt>
+        <dd>Mucho. Un mes? Dos meses? Tres?</dd>
+      </dl>
 
- <dl id="qQuantity" name="qQuantity">
-  <dt>Cuantos numeros se llaman cada dia?</dt>
-  <dd>Es diferente cada dia</dd>
- </dl>
+      <dl id="qQuantity" name="qQuantity">
+        <dt>Cuantos numeros se llaman cada dia?</dt>
+        <dd>Es diferente cada dia</dd>
+      </dl>
 
- <dl id="qCrossing" name="qCrossing">
-  <dt>Que va pasar cuando paso por al otro lado?</dt>
-  <dd>Las autoridades Americanos van a cuestionar usted sobre su caso de asilo. Asi se llama "La Entrevista de
-   Meido Credible"<br/>
-   Es posible que vas por una detencion
-  </dd>
- </dl>
+      <dl id="qCrossing" name="qCrossing">
+        <dt>Que va pasar cuando paso por al otro lado?</dt>
+        <dd>
+          Las autoridades Americanos van a cuestionar usted sobre su caso de
+          asilo. Asi se llama "La Entrevista de Meido Credible"<br />
+          Es posible que vas por una detencion
+        </dd>
+      </dl>
 
- <dl id="qWhatAsylum" name="qWhatAsylum">
-  <dt>Que es asilo?</dt>
-  <dd>El Derecho de asilo es un derecho internacional de los derechos humanos, que puede disfrutar cualquier
-   persona fuera de su pais de origen en caso de persecucion (Wikipedia)
-  </dd>
- </dl>
+      <dl id="qWhatAsylum" name="qWhatAsylum">
+        <dt>Que es asilo?</dt>
+        <dd>
+          El Derecho de asilo es un derecho internacional de los derechos
+          humanos, que puede disfrutar cualquier persona fuera de su pais de
+          origen en caso de persecucion (Wikipedia)
+        </dd>
+      </dl>
 
- <dl id="qCFI" name="qCFI">
-  <dt>Que es "La Entrevista de Meido Credible"</dt>
-  <dd>Las autoridades americanos van preguntar a usted: "Entonces senor. Porque queires entrar a los estados
-   unidos. Porque no puedas quedarse en tu proprio pais. Cual es tu miedo"<br/>
-   En este entrevista, debes explicar que tienes un miedo de regresar a tu pais. Este meido es real. Este miedo
-   es credible
-  </dd>
- </dl>
+      <dl id="qCFI" name="qCFI">
+        <dt>Que es "La Entrevista de Meido Credible"</dt>
+        <dd>
+          Las autoridades americanos van preguntar a usted: "Entonces senor.
+          Porque queires entrar a los estados unidos. Porque no puedas quedarse
+          en tu proprio pais. Cual es tu miedo"<br />
+          En este entrevista, debes explicar que tienes un miedo de regresar a
+          tu pais. Este meido es real. Este miedo es credible
+        </dd>
+      </dl>
 
- <dl id="qMano" name="qMano">
-  <dt>Cuales son los partes importantes</dt>
-  <dd>QUE pasa?<br/>
-   QUIEN lo hizo?<br/>
-   PORQUE lo hizo?<br/>
-   Vas por la POLICIA?<br/>
-   Hay OTRA PARTE de tu pais donde puedas vivir?
-  </dd>
- </dl>
+      <dl id="qMano" name="qMano">
+        <dt>Cuales son los partes importantes</dt>
+        <dd>
+          QUE pasa?<br />
+          QUIEN lo hizo?<br />
+          PORQUE lo hizo?<br />
+          Vas por la POLICIA?<br />
+          Hay OTRA PARTE de tu pais donde puedas vivir?
+        </dd>
+      </dl>
 
- <dl id="qPostCFI" name="qPostCFI">
-  <dt>Que va pasar si todo va bien con mi entrevista?</dt>
-  <dd>Hay varias posibilidades<br/>
-   Todos pasan por la detencion de <em>US Customs and Border Patrol</em>. Asi se llama <strong>la
-    hielera</strong><br/>
-   Despues de eso hay dos posibilidades en la mayoria de casos
-   <ul>
-    <li>En la mayoria de casos, las familias con ninos que estan menores de edad se dejan libre</li>
-    <li>En la mayoria de casos, los otros van por una detencion de <em>US Immigration and Customs
-     Enforcement</em></li>
-   </ul>
-  </dd>
- </dl>
+      <dl id="qPostCFI" name="qPostCFI">
+        <dt>Que va pasar si todo va bien con mi entrevista?</dt>
+        <dd>
+          Hay varias posibilidades<br />
+          Todos pasan por la detencion de <em>US Customs and Border Patrol</em>.
+          Asi se llama <strong>la hielera</strong><br />
+          Despues de eso hay dos posibilidades en la mayoria de casos
+          <ul>
+            <li>
+              En la mayoria de casos, las familias con ninos que estan menores
+              de edad se dejan libre
+            </li>
+            <li>
+              En la mayoria de casos, los otros van por una detencion de
+              <em>US Immigration and Customs Enforcement</em>
+            </li>
+          </ul>
+        </dd>
+      </dl>
 
- <dl id="qWhatHielera" name="qWhatHielera">
-  <dt>Que es <strong>la hielera</strong> de <em>US Customs and Border Patrol?</em></dt>
-  <dd>La hielera es muy feo. <br/>
-   Es un carcel. <br/>
-   Una descripcion:
-   <blockquote>
-    Es un lugar frio en el que no puedes dormir porque la luz esta encendida 24 horas durante el tiempo que
-    estes en dentencion perderas la nocion del tiempo, hay una habitacion que en teoria es donde las
-    personas reciben la comida, la comida es horrible, esta fria. <br/>
-    Duermes (intentas dormir) en el suelo o en las bancas metalicas donde dificilmente alguien puede dormir.<br/>
-    Debes beber agua reciclada de los sanitarios que es perjudicial para el estomago.<br/>
-    Cuando utilizas los banos tienes que hacerlo frente a los demas. <br/>
-    Ademas en cada celda tienen alrededor de 10 a 15 personas como maximo. Eso en un espacio pequeno como en
-    4 metros de largo por 3 metros de hancho.
-   </blockquote>
-  </dd>
- </dl>
+      <dl id="qWhatHielera" name="qWhatHielera">
+        <dt>
+          Que es <strong>la hielera</strong> de
+          <em>US Customs and Border Patrol?</em>
+        </dt>
+        <dd>
+          La hielera es muy feo. <br />
+          Es un carcel. <br />
+          Una descripcion:
+          <blockquote>
+            Es un lugar frio en el que no puedes dormir porque la luz esta
+            encendida 24 horas durante el tiempo que estes en dentencion
+            perderas la nocion del tiempo, hay una habitacion que en teoria es
+            donde las personas reciben la comida, la comida es horrible, esta
+            fria. <br />
+            Duermes (intentas dormir) en el suelo o en las bancas metalicas
+            donde dificilmente alguien puede dormir.<br />
+            Debes beber agua reciclada de los sanitarios que es perjudicial para
+            el estomago.<br />
+            Cuando utilizas los banos tienes que hacerlo frente a los demas.
+            <br />
+            Ademas en cada celda tienen alrededor de 10 a 15 personas como
+            maximo. Eso en un espacio pequeno como en 4 metros de largo por 3
+            metros de hancho.
+          </blockquote>
+        </dd>
+      </dl>
 
- <dl id="qWhatDetencion" name="qWhatDetencion">
-  <dt>Que es la detencion de <em>US Immigration and Customs Enforcement</em></dt>
-  <dd>Es una prision. Es muy feo. Estoy consiguiendo descripciones ...</dd>
- </dl>
+      <dl id="qWhatDetencion" name="qWhatDetencion">
+        <dt>
+          Que es la detencion de <em>US Immigration and Customs Enforcement</em>
+        </dt>
+        <dd>
+          Es una prision. Es muy feo. Estoy consiguiendo descripciones ...
+        </dd>
+      </dl>
 
- <dl id="qDetencionPrep" name="qDetencionPrep">
-  <dt>Como puedo preparar por la hielera y la detencion?</dt>
-  <dd>Escribe los numeros de telefon y los direcciones y todos los cosas importantes sobre tus brazon<br/>
-   Escribelo con una pluma SHARPIE. Es muy facil de lavar una pluma normal de su cuerpo.
-  </dd>
- </dl>
- <dl id="qBusquedas2" name="qBusquedas2">
-  <dt>
-   Mi Amiga o familiar ya pasa al otro lado. Donde esta ahorita?
-  </dt>
-  <dd>
-   Posiblemente, es detenido en los estados unidos<br/>
+      <dl id="qDetencionPrep" name="qDetencionPrep">
+        <dt>Como puedo preparar por la hielera y la detencion?</dt>
+        <dd>
+          Escribe los numeros de telefon y los direcciones y todos los cosas
+          importantes sobre tus brazon<br />
+          Escribelo con una pluma SHARPIE. Es muy facil de lavar una pluma
+          normal de su cuerpo.
+        </dd>
+      </dl>
+      <dl id="qBusquedas2" name="qBusquedas2">
+        <dt>
+          Mi Amiga o familiar ya pasa al otro lado. Donde esta ahorita?
+        </dt>
+        <dd>
+          Posiblemente, es detenido en los estados unidos<br />
 
-   Por favor, utilzas esta pagina para empezar una busqueda:<br/>
-   <strong><a href="https://locator.ice.gov/odls/#/index" target="_blank">PAGINA OFICIAL DE BUSQUEDAS</a></strong></dd>
- </dl>
+          Por favor, utilzas esta pagina para empezar una busqueda:<br />
+          <strong
+            ><a href="https://locator.ice.gov/odls/#/index" target="_blank"
+              >PAGINA OFICIAL DE BUSQUEDAS</a
+            ></strong
+          >
+        </dd>
+      </dl>
 
+      <dl id="qLeviticus" name="qLeviticus">
+        <dt>Que piensan el biblio sobre todo esta proceso?</dt>
+        <dd>
+          <blockquote>
+            Cuando algun extranjero se establezca en el pais de ustedes, no lo
+            traten mal. <br />
+            Al contrario, tratenlo como si fuera uno de ustedes. Amenlo como a
+            ustedes mismos, porque tambien ustedes fueron extranjeros en Egipto.
+          </blockquote>
+          <cite>Levitico 19:33-34</cite>
+        </dd>
+      </dl>
 
+      <dl id="qRFM" name="qRFM">
+        <dt>Que piensan los anarquistas sobre todo esta proceso?</dt>
+        <dd>
+          <blockquote>
+            Esto es ya mas que suficiente para una revolucion social de caracter
+            economico y antiautoritario; pero hay mas. En Mexico viven unos
+            cuatro millones de indios, que hasta hace veinte o veinticinco anos
+            vivian en comunidades, poseyendo en comun las tierras, las aguas y
+            los bosques. El apoyo mutuo era la regla en esas comunidades, en las
+            que la Autoridad solo era sentida cuando el agente de la recaudacion
+            de rentas hacia su aparicion periodica o cuando los rurales llegaban
+            en busca de varones para hacerlos ingresar por la fuerza al
+            Ejercito. En estas comunidades no habia jueces, ni alcaldes, ni
+            carceleros, ni ninguna polilla de esa clase. Todos tenian derecho a
+            la tierra, al agua para los regadios, al bosque para la lena y a la
+            madera para construir los jacales. Los arados andaban de mano en
+            mano, asi como las yuntas de bueyes. Cada familia labraba la
+            extension de terreno que calculaba ser suficiente para producir lo
+            necesario, y el trabajo de escarda y de levantar las cosechas se
+            hacia en comun, reuniendose toda la comunidad, hoy, para levantar la
+            cosecha de Pedro, manana para levantar la de Juan y asi
+            sucesivamente. Para fabricar un jacal, ponian manos a la obra todos
+            los miembros de la comunidad.
+          </blockquote>
+          <cite
+            ><a
+              href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/"
+            >
+              Ricardo Flores Magon,
+              <em>El pueblo mexicano es apto para el anarchocomunismo</em>
+              <br />
+              Regeneracion, num. 53, septiembre 2, 1911.
+            </a></cite
+          >
+        </dd>
+      </dl>
 
- <dl id="qLeviticus" name="qLeviticus">
-  <dt>Que piensan el biblio sobre todo esta proceso?</dt>
-  <dd>
-   <blockquote>
-    Cuando algun extranjero se establezca en el pais de ustedes, no lo traten mal. <br/>
-    Al contrario, tratenlo como si fuera uno de ustedes. Amenlo como a ustedes mismos, porque tambien
-    ustedes fueron extranjeros en Egipto.
-   </blockquote>
-   <cite>Levitico 19:33-34</cite>
-  </dd>
- </dl>
+      <dl id="qAntifascist" name="qAntifascist">
+        <dt>Que piensan l@s Antifascist@s?</dt>
+        <dd>
+          <blockquote>
+            <p>
+              Está mal y está bien. Es hora de actuar contra las fuerzas del
+              mal.
+              <br />
+              El mal dice que una vida vale menos que otra. El mal dice que el
+              flujo del comercio es nuestro propósito aquí. Evil dice que son
+              necesarios campos de concentración para personas consideradas
+              menores. La sierva del mal dice que los campos de concentración
+              deberían ser más humanos. Cuidado con el centrista. <br />
+              Tengo el corazón roto de un padre Tengo un cuerpo descompuesto Y
+              tengo un odio inquebrantable por la injusticia Eso es lo que me
+              trae aquí. Esta es mi clara oportunidad de tratar de marcar la
+              diferencia. Sería un ingrato esperar una invitación más obvia.
+              <br />
+              Sigo a tres maestros: Don Pritts, mi guía espiritual. "Amor sin
+              acción es solo una palabra". John Brown, mi guía moral. "¡Lo que
+              se necesita es acción!" Emma Goldman, mi guía política. "Si no
+              puedo bailar, no quiero estar en tu revolución". <br />
+              Soy un soñador cabeza en las nubes, creo en el amor y la
+              redención. Creo que vamos a ganar. Soy alegremente revolucionario.
+              (Todos deberíamos haber estado leyendo Emma Goldman en la escuela
+              en lugar del jingo tonto que nos alimentaron, pero estoy
+              divagando). (Todos deberíamos estar mirando las fotos de los
+              héroes de YPG si vacilamos y pensamos que nuestros sueños son
+              imposibles, pero yo doble divagación. Lucha conmigo.) <br />
+              En estos días de hooligans fascistas que se aprovechan de personas
+              vulnerables en nuestras calles, en nombre del estado o apoyados y
+              defendidos por el estado, <br />
+              En estos días de campos de concentración / detención altamente
+              rentables y una batalla por la semántica, <br />
+              En estos días de desesperanza, búsqueda vacía y anhelo vacío,
+              <br />
+              Estamos viviendo en un ascendente fascismo visible. (Digo visible,
+              porque aquellos que le prestaron atención lo vieron sobrevivir y
+              prosperar bajo la protección del estado durante décadas. [Ver
+              Howard Zinn, A People's History of the United States.] Ahora sigue
+              descaradamente su agenda con la cooperación abierta y plena del
+              gobierno. De gobiernos de todo el mundo. <br />
+              El fascismo satisface las necesidades del estado y las necesidades
+              de los negocios y a su cargo. ¿Quién se beneficia? Jeff Bezos,
+              Warren Buffet, Elon Musk, Tim Cook, Bill Gates, Betsy de Vos,
+              George Soros, Donald Trump, y ¿necesito continuar? Permítanme
+              decirlo de nuevo: los ricos (que piensan que en realidad no son
+              tan buenos), realmente cavan al gobierno (todos los gobiernos en
+              todas partes, incluidos los gobiernos "comunistas"), porque hacen
+              que las reglas que enriquecen a los ricos. Sencillo. No lo pienses
+              demasiado. <br />
+              (¿Están patriotas en la parte posterior prestando atención?)
+              <br />
+              Cuando era niño, en la Holanda de la posguerra, más tarde en
+              Francia, mi cabeza estaba llena de historias sobre el surgimiento
+              del fascismo en los años 30. Me prometí a mí mismo que no sería
+              uno de los que se mantendrían al margen cuando los vecinos sean
+              arrancados de sus hogares y encarcelados por ser percibidos de
+              alguna manera como menores. No tienes que quemar al hijo de puta,
+              ¿pero vas a quedarte quieto? <br />
+              Esta es la prueba de nuestra creencia fundamental en la libertad
+              real y nuestra responsabilidad mutua. Esta es una llamada a los
+              patriotas, también, para oponerse a esta parodia contra todo lo
+              que consideren sagrado. Te conozco. Sé que en tus corazones, ves
+              el deshonor en estos campamentos. Es hora de que tú también te
+              enfrentes al dinero tirando de los hilos de cada maldita marioneta
+              que finge representarnos. <br />
+              Soy un hombre que los ama a todos y esta bola giratoria tanto que
+              voy a cumplir mi promesa de infancia de ser noble. <br />
+              Aquí está, en estos campos de concentración corporativos con fines
+              de lucro. Aquí está, en Brown y en las personas no conformes que
+              temen mostrar sus rostros por temor a la policía / migra / Proud
+              Boys / el jefe / beckies ... Aquí está, un planeta casi agotado
+              por la avaricia del mercado. <br />
+              Soy un pensador blanco y negro. Los campos de detención son una
+              abominación. No estoy esperando. Realmente no debería tener que
+              decir nada más que esto. <br />
+              Dejé a un lado mi corazón roto y sane de la única manera que sé,
+              siendo útil. Compartimento eficientemente mi dolor ... Y con
+              alegría hago este trabajo. (Para aquellos cargados con los restos
+              de mis acciones, espero que hagan el mejor uso de esa carga).
+              <br />
+              A mis camaradas: Lamento haber extrañado el resto de la
+              revolución. Gracias por el honor de tenerme entre ustedes. <br />
+              Darme espacio para ser útil, para sentir que estaba cumpliendo mis
+              ideales, ha sido el pináculo espiritual de mi vida. <br />
+              Hacer lo que pueda para ayudar a defender a mi gente preciosa y
+              maravillosa es una experiencia demasiado rica para describirla.
+              <br />
+              Mis camaradas trans me han transformado, solidificando mi
+              convicción de que los más marginados de nosotros hoy nos guiarán a
+              un futuro soñado. Lo he soñado tan claramente que no me arrepiento
+              de no ver cómo resulta. Gracias por llevarme tan lejos. <br />
+              Soy antifa. Estoy con camaradas de todo el mundo que actúan desde
+              el amor a la vida en cada permutación. Camaradas que entienden que
+              la libertad significa libertad real para todos y una vida que vale
+              la pena vivir. <br />
+              ¡Mantén la fe! Todo el poder para la gente! Bella ciao. <br />
+              No dejes que tus tontas agencias gubernamentales gasten dinero
+              "investigando" este. Me radicalicé en la clase de educación cívica
+              a los 13 años cuando nos enseñaron sobre el colegio electoral. Fue
+              en ese momento que decidí que el status quo podría ser un castillo
+              de naipes. Lecturas adicionales confirmadas en positivo.
+              ¡Recomiendo leer! <br />
+              No estoy afiliado a ninguna organización, me he desafiliado de
+              cualquier organización que no esté de acuerdo con mi elección de
+              tácticas. <br />
+              El arma semiautomática que utilicé fue un AR-15 "fantasma" barato,
+              construido en casa y no registrado, tenía seis revistas. Animo
+              encarecidamente a los camaradas y camaradas entrantes a armarse.
+              Ahora somos responsables de defender a las personas del estado
+              depredador. Ignora la ley de armarte si tienes el lujo, lo hice.
+            </p>
+          </blockquote>
+        </dd>
+      </dl>
 
- <dl id="qRFM" name="qRFM">
-  <dt>Que piensan los anarquistas sobre todo esta proceso?</dt>
-  <dd>
-   <blockquote>
-    Esto es ya mas que suficiente para una revolucion social de caracter economico y antiautoritario; pero
-    hay mas. En Mexico viven unos cuatro millones de indios, que hasta hace veinte o veinticinco anos vivian
-    en comunidades, poseyendo en comun las tierras, las aguas y los bosques. El apoyo mutuo era la regla en
-    esas comunidades, en las que la Autoridad solo era sentida cuando el agente de la recaudacion de rentas
-    hacia su aparicion periodica o cuando los rurales llegaban en busca de varones para hacerlos ingresar
-    por la fuerza al Ejercito. En estas comunidades no habia jueces, ni alcaldes, ni carceleros, ni ninguna
-    polilla de esa clase. Todos tenian derecho a la tierra, al agua para los regadios, al bosque para la
-    lena y a la madera para construir los jacales. Los arados andaban de mano en mano, asi como las yuntas
-    de bueyes. Cada familia labraba la extension de terreno que calculaba ser suficiente para producir lo
-    necesario, y el trabajo de escarda y de levantar las cosechas se hacia en comun, reuniendose toda la
-    comunidad, hoy, para levantar la cosecha de Pedro, manana para levantar la de Juan y asi sucesivamente.
-    Para fabricar un jacal, ponian manos a la obra todos los miembros de la comunidad.
-   </blockquote>
-   <cite><a href="http://archivomagon.net/obras-completas/art-periodisticos-1900-1918/1911/1911-130/">
-    Ricardo Flores Magon, <em>El pueblo mexicano es apto para el anarchocomunismo</em> <br/>
-    Regeneracion, num. 53, septiembre 2, 1911.
-   </a></cite>
-  </dd>
- </dl>
+      <dl id="qMutualAid" name="qMutualAid">
+        <dt>Porque hago este sitio de web?</dt>
+        <dd>
+          Porque estoy anarquist@, que cree en
+          <a href="https://es.wikipedia.org/wiki/Apoyo_mutuo" target="_blank"
+            >apoyo mutuo</a
+          >
+        </dd>
+      </dl>
+    </div>
 
- <dl id="qAntifascist" name="qAntifascist">
-  <dt>Que piensan l@s Antifascist@s?</dt>
-  <dd>
-   <blockquote>
-    <p>
-     Está mal y está bien.
-     Es hora de actuar contra las fuerzas del mal.
-     <br> El mal dice que una vida vale menos que otra.
-     El mal dice que el flujo del comercio es nuestro propósito aquí.
-     Evil dice que son necesarios campos de concentración para personas consideradas menores.
-     La sierva del mal dice que los campos de concentración deberían ser más humanos.
-     Cuidado con el centrista.
-     <br> Tengo el corazón roto de un padre
-     Tengo un cuerpo descompuesto
-     Y tengo un odio inquebrantable por la injusticia
-     Eso es lo que me trae aquí.
-     Esta es mi clara oportunidad de tratar de marcar la diferencia. Sería un ingrato esperar una invitación más obvia.
-     <br> Sigo a tres maestros:
-     Don Pritts, mi guía espiritual. "Amor sin acción es solo una palabra".
-     John Brown, mi guía moral. "¡Lo que se necesita es acción!"
-     Emma Goldman, mi guía política. "Si no puedo bailar, no quiero estar en tu revolución".
-     <br> Soy un soñador cabeza en las nubes, creo en el amor y la redención.
-     Creo que vamos a ganar.
-     Soy alegremente revolucionario. (Todos deberíamos haber estado leyendo Emma Goldman en la escuela en lugar del
-     jingo tonto que nos alimentaron, pero estoy divagando). (Todos deberíamos estar mirando las fotos de los héroes de
-     YPG si vacilamos y pensamos que nuestros sueños son imposibles, pero yo doble divagación. Lucha conmigo.)
-     <br> En estos días de hooligans fascistas que se aprovechan de personas vulnerables en nuestras calles, en nombre
-     del estado o apoyados y defendidos por el estado,
-     <br> En estos días de campos de concentración / detención altamente rentables y una batalla por la semántica,
-     <br> En estos días de desesperanza, búsqueda vacía y anhelo vacío,
-     <br> Estamos viviendo en un ascendente fascismo visible. (Digo visible, porque aquellos que le prestaron atención
-     lo vieron sobrevivir y prosperar bajo la protección del estado durante décadas. [Ver Howard Zinn, A People's
-     History of the United States.] Ahora sigue descaradamente su agenda con la cooperación abierta y plena del
-     gobierno. De gobiernos de todo el mundo.
-     <br> El fascismo satisface las necesidades del estado y las necesidades de los negocios y a su cargo. ¿Quién se
-     beneficia? Jeff Bezos, Warren Buffet, Elon Musk, Tim Cook, Bill Gates, Betsy de Vos, George Soros, Donald Trump, y
-     ¿necesito continuar? Permítanme decirlo de nuevo: los ricos (que piensan que en realidad no son tan buenos),
-     realmente cavan al gobierno (todos los gobiernos en todas partes, incluidos los gobiernos "comunistas"), porque
-     hacen que las reglas que enriquecen a los ricos.
-     Sencillo.
-     No lo pienses demasiado.
-     <br> (¿Están patriotas en la parte posterior prestando atención?)
-     <br> Cuando era niño, en la Holanda de la posguerra, más tarde en Francia, mi cabeza estaba llena de historias
-     sobre el surgimiento del fascismo en los años 30. Me prometí a mí mismo que no sería uno de los que se mantendrían
-     al margen cuando los vecinos sean arrancados de sus hogares y encarcelados por ser percibidos de alguna manera como
-     menores.
-     No tienes que quemar al hijo de puta, ¿pero vas a quedarte quieto?
-     <br> Esta es la prueba de nuestra creencia fundamental en la libertad real y nuestra responsabilidad mutua.
-     Esta es una llamada a los patriotas, también, para oponerse a esta parodia contra todo lo que consideren sagrado.
-     Te conozco. Sé que en tus corazones, ves el deshonor en estos campamentos. Es hora de que tú también te enfrentes
-     al dinero tirando de los hilos de cada maldita marioneta que finge representarnos.
-     <br> Soy un hombre que los ama a todos y esta bola giratoria tanto que voy a cumplir mi promesa de infancia de ser
-     noble.
-     <br> Aquí está, en estos campos de concentración corporativos con fines de lucro.
-     Aquí está, en Brown y en las personas no conformes que temen mostrar sus rostros por temor a la policía / migra /
-     Proud Boys / el jefe / beckies ...
-     Aquí está, un planeta casi agotado por la avaricia del mercado.
-     <br> Soy un pensador blanco y negro.
-     Los campos de detención son una abominación.
-     No estoy esperando.
-     Realmente no debería tener que decir nada más que esto.
-     <br> Dejé a un lado mi corazón roto y sane de la única manera que sé, siendo útil.
-     Compartimento eficientemente mi dolor ...
-     Y con alegría hago este trabajo.
-     (Para aquellos cargados con los restos de mis acciones, espero que hagan el mejor uso de esa carga).
-     <br> A mis camaradas:
-     Lamento haber extrañado el resto de la revolución.
-     Gracias por el honor de tenerme entre ustedes.
-     <br> Darme espacio para ser útil, para sentir que estaba cumpliendo mis ideales, ha sido el pináculo espiritual de
-     mi vida.
-     <br> Hacer lo que pueda para ayudar a defender a mi gente preciosa y maravillosa es una experiencia demasiado rica
-     para describirla.
-     <br> Mis camaradas trans me han transformado, solidificando mi convicción de que los más marginados de nosotros hoy
-     nos guiarán a un futuro soñado. Lo he soñado tan claramente que no me arrepiento de no ver cómo resulta. Gracias
-     por llevarme tan lejos.
-     <br> Soy antifa. Estoy con camaradas de todo el mundo que actúan desde el amor a la vida en cada permutación.
-     Camaradas que entienden que la libertad significa libertad real para todos y una vida que vale la pena vivir.
-     <br> ¡Mantén la fe!
-     Todo el poder para la gente!
-     Bella ciao.
-     <br> No dejes que tus tontas agencias gubernamentales gasten dinero "investigando" este. Me radicalicé en la clase
-     de educación cívica a los 13 años cuando nos enseñaron sobre el colegio electoral. Fue en ese momento que decidí
-     que el status quo podría ser un castillo de naipes. Lecturas adicionales confirmadas en positivo. ¡Recomiendo leer!
-     <br> No estoy afiliado a ninguna organización, me he desafiliado de cualquier organización que no esté de acuerdo
-     con mi elección de tácticas.
-     <br> El arma semiautomática que utilicé fue un AR-15 "fantasma" barato, construido en casa y no registrado, tenía
-     seis revistas. Animo encarecidamente a los camaradas y camaradas entrantes a armarse. Ahora somos responsables de
-     defender a las personas del estado depredador. Ignora la ley de armarte si tienes el lujo, lo hice.
-    </p>
-   </blockquote>
-
-  </dd>
- </dl>
-
- <dl id="qMutualAid" name="qMutualAid">
-  <dt>Porque hago este sitio de web?</dt>
-  <dd>Porque estoy anarquist@, que cree en <a href="https://es.wikipedia.org/wiki/Apoyo_mutuo" target="_blank">apoyo
-   mutuo</a></dd>
- </dl>
-</div>
-
-<script type="text/javascript" src="js/date-fns_v1.3.0.js"></script>
-<script src="js/endll.js"></script>
-<script>
-
-    /* Main */
-    window.onload = function () {
+    <script type="text/javascript" src="js/date-fns_v1.3.0.js"></script>
+    <script src="js/endll.js"></script>
+    <script>
+      /* Main */
+      window.onload = function () {
         load_daily_number();
         translateAllContent(globalLanguage);
-    };
-</script>
+      };
+    </script>
 
-
-<div id="bellaciaoContainer">
-
-</div>
-<!-- div id="bellaciaoContainer">
+    <div id="bellaciaoContainer"></div>
+    <!-- div id="bellaciaoContainer">
  <iframe id="bellaciaoVideo" align="middle" src="https://www.youtube.com/embed/n_pWpW4JlrM" frameborder="0"
          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div -->
 
-<div style="text-align:center">
- <div>
-  <h3 id="credits"> Hecha por EL LIBRO LIBRE </h3>
- </div>
- <div>
-  <hr>
-  <div id="disclaimer">
-   <h3> NOTICIA LEGAL </H3>
-   No estoy afiliado con ningun gobierno.<br/>
-   No estoy afiliado con ningun ONG tampoco. <br/>
-   Asi es un proyecto independiente y el creador tomo toda responsabilidad por eso.
-   <br/>
-  </div>
-  <hr/>
-  <div style="text-align: center; font-weight: bolder; font-style: oblique" id="rights">
-   All wrongs righted. All rites reversed.
-  </div>
- </div>
- <div>
-  <h1> F.U.L.G.</h1>
- </div>
-</div>
-</body>
+    <div style="text-align: center;">
+      <div>
+        <h3 id="credits">Hecha por EL LIBRO LIBRE</h3>
+      </div>
+      <div>
+        <hr />
+        <div id="disclaimer">
+          <h3>NOTICIA LEGAL</h3>
+          No estoy afiliado con ningun gobierno.<br />
+          No estoy afiliado con ningun ONG tampoco. <br />
+          Asi es un proyecto independiente y el creador tomo toda
+          responsabilidad por eso.
+          <br />
+        </div>
+        <hr />
+        <div
+          style="text-align: center; font-weight: bolder; font-style: oblique;"
+          id="rights"
+        >
+          All wrongs righted. All rites reversed.
+        </div>
+      </div>
+      <div>
+        <h1>F.U.L.G.</h1>
+      </div>
+    </div>
+  </body>
 </html>
